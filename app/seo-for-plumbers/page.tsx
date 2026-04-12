@@ -1,0 +1,115 @@
+import Link from 'next/link';
+import SchemaScript from '@/components/SchemaScript';
+
+export const metadata = {
+  title: { absolute: 'SEO for Plumbers UK | Local SEO for Plumbing Businesses' },
+  description: 'Local SEO services for UK plumbers. Get found when customers search for plumbers in your area. Google Business Profile management and citation building included.',
+  alternates: { canonical: 'https://plumberwebdesign.co.uk/seo-for-plumbers/' },
+};
+
+export default function SeoPage() {
+  const schema = {
+    "@context": "https://schema.org",
+    "@type": "ProfessionalService",
+    "name": "PlumberWebDesign.co.uk — SEO for Plumbers",
+    "url": "https://plumberwebdesign.co.uk/seo-for-plumbers/",
+    "logo": "https://plumberwebdesign.co.uk/images/logo.png",
+    "telephone": "03333356750",
+    "email": "hello@plumberwebdesign.co.uk",
+    "description": "Local SEO services for UK plumbers. Google Business Profile management, citation building, review strategy, and on-page optimisation.",
+    "address": { "@type": "PostalAddress", "addressCountry": "GB" },
+    "areaServed": { "@type": "Country", "name": "United Kingdom" },
+    "priceRange": "££",
+    "openingHoursSpecification": [{
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+      "opens": "09:00", "closes": "17:30"
+    }]
+  };
+
+  return (
+    <div className="bg-light-gray min-h-screen">
+      <SchemaScript schema={schema} />
+       <div className="py-24 bg-navy-dark text-white border-b border-slate-blue/20">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+          <div className="inline-block bg-amber/20 text-amber px-4 py-1.5 rounded-full text-sm font-bold tracking-wider uppercase mb-6 border border-amber/30">Grow Your Traffic</div>
+          <h1 className="text-4xl md:text-5xl font-display font-bold mb-6">Local SEO for UK Plumbers</h1>
+          <p className="text-xl text-light-gray/80 leading-relaxed max-w-2xl mx-auto">
+            Get found when the people in your local area need you the most. We optimize your website and Google Business Profile to capture "near me" emergency searches.
+          </p>
+        </div>
+      </div>
+
+      <div className="py-24">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+          
+          <div className="prose prose-lg prose-slate max-w-none">
+            <h2 className="text-3xl font-display font-bold text-navy-dark mb-6">Why Local SEO matters for plumbers</h2>
+            <p className="text-slate-blue mb-8">
+              When a pipe bursts or a boiler stops firing in the middle of winter, people don't ask their neighbors for a recommendation anymore. They pull out their phones and search for "plumber near me" or "emergency plumber [City]".
+            </p>
+            <p className="text-slate-blue mb-12">
+              If your business isn't showing up in the top 3 spots of the Google Map Pack, or on the first page of organic results, you are invisble to your most urgent, high-paying customers. Local SEO is the process of proving to Google that you are the most relevant, reliable, and closest solution to the customer's problem.
+            </p>
+
+            <div className="bg-white p-8 rounded-2xl shadow-xl border border-slate-blue/10 mb-12">
+              <h2 className="text-2xl font-display font-bold text-navy-dark mb-6">What is included in our SEO services?</h2>
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div>
+                  <h3 className="font-bold text-navy-dark mb-2 flex items-center gap-2">
+                    <span className="w-2 h-2 rounded-full bg-amber pb-1"></span> On-Page Optimisation
+                  </h3>
+                  <p className="text-sm text-slate-blue">We build perfect location and service landing pages with correct H1s, metadata, and local JSON-LD schema markup so Google understands exactly what you do and where you do it.</p>
+                </div>
+                <div>
+                  <h3 className="font-bold text-navy-dark mb-2 flex items-center gap-2">
+                    <span className="w-2 h-2 rounded-full bg-amber pb-1"></span> Citation Building
+                  </h3>
+                  <p className="text-sm text-slate-blue">We ensure your Name, Address, and Phone number (NAP) are exactly consistent across directories like Yell, Checkatrade, and local business hubs.</p>
+                </div>
+                <div>
+                  <h3 className="font-bold text-navy-dark mb-2 flex items-center gap-2">
+                    <span className="w-2 h-2 rounded-full bg-amber pb-1"></span> GBP Management
+                  </h3>
+                  <p className="text-sm text-slate-blue">We fully optimize your Google Business Profile, uploading photos, answering Q&As, and utilizing weekly GBP posts to signal high activity to Google's local algorithm.</p>
+                </div>
+                <div>
+                  <h3 className="font-bold text-navy-dark mb-2 flex items-center gap-2">
+                    <span className="w-2 h-2 rounded-full bg-amber pb-1"></span> Review Handling
+                  </h3>
+                  <p className="text-sm text-slate-blue">Reviews are a massive ranking factor. We help you implement a seamless review generation strategy to consistently pull in 5-star ratings from happy clients.</p>
+                </div>
+              </div>
+            </div>
+
+            <h2 className="text-3xl font-display font-bold text-navy-dark mb-6">Organic SEO vs Paid Ads</h2>
+            <p className="text-slate-blue mb-8">
+              Paid ads (Google Ads/LSA) are excellent for immediate short-term calls, but you pay for every single click. As soon as your budget runs out, your phone stops ringing. Organic SEO is an investment. It takes time to build, but once you rank at the top, those clicks and calls are completely free, providing a massively higher ROI over a 12-to-24 month window.
+            </p>
+
+            <div className="flex gap-4 items-center bg-navy-card text-white p-6 rounded-xl border border-amber/30 mb-12">
+              <div className="bg-amber/20 p-3 rounded-full flex-shrink-0">
+                <svg className="w-8 h-8 text-amber" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" /></svg>
+              </div>
+              <div>
+                <h3 className="font-bold text-xl mb-1">UK Only, No Black-Hat Trash</h3>
+                <p className="text-sm text-white/70">We only serve UK trades. We don't use spammy private blog networks or black-hat tactics that will get your domain penalized. 100% white-hat, sustainable growth.</p>
+              </div>
+            </div>
+
+            <div className="bg-amber p-8 rounded-2xl shadow-lg border border-amber/50 text-center">
+              <h2 className="text-2xl font-display font-bold text-navy-dark mb-4">Want SEO built-in?</h2>
+              <p className="text-navy-dark/80 mb-6">
+                Our <strong>Journeyman</strong> and <strong>Master</strong> website packages include our advanced local SEO setups right out of the box, combining your high-converting website build with the sustained traffic generation you need to grow.
+              </p>
+              <Link href="/plumber-website-design-packages/" className="inline-block bg-navy-dark text-white font-bold text-lg px-8 py-4 rounded-xl shadow hover:bg-navy-card transition-all">
+                View Packages with SEO
+              </Link>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  );
+}
