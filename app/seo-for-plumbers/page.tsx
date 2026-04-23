@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import SchemaScript from '@/components/SchemaScript';
+import Breadcrumbs from '@/components/Breadcrumbs';
 
 export const metadata = {
   title: { absolute: 'SEO for Plumbers UK | Local SEO for Plumbing Businesses' },
@@ -30,6 +31,7 @@ export default function SeoPage() {
   return (
     <div className="bg-light-gray min-h-screen">
       <SchemaScript schema={schema} />
+      <Breadcrumbs items={[{ label: 'SEO for Plumbers', href: '/seo-for-plumbers/' }]} />
        <div className="py-24 bg-navy-dark text-white border-b border-slate-blue/20">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <div className="inline-block bg-amber/20 text-amber px-4 py-1.5 rounded-full text-sm font-bold tracking-wider uppercase mb-6 border border-amber/30">Grow Your Traffic</div>

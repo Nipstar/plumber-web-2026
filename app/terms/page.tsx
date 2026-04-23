@@ -1,3 +1,5 @@
+import Breadcrumbs from '@/components/Breadcrumbs';
+
 export const metadata = {
   title: { absolute: 'Terms of Business | PlumberWebDesign.co.uk' },
   description: 'Terms of business for PlumberWebDesign.co.uk. Outlines our service agreement, payment terms, intellectual property, and cancellation policy.',
@@ -7,6 +9,7 @@ export const metadata = {
 export default function TermsPage() {
   return (
     <div className="bg-light-gray min-h-screen">
+      <Breadcrumbs items={[{ label: 'Terms of Business', href: '/terms/' }]} />
       <div className="py-24 bg-navy-dark text-white border-b border-slate-blue/20">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h1 className="text-4xl md:text-5xl font-display font-bold mb-6">Terms of Business</h1>

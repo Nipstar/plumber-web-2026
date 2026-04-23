@@ -2,6 +2,7 @@ import Link from 'next/link';
 import PricingCard from '@/components/PricingCard';
 import FaqAccordion from '@/components/FaqAccordion';
 import SchemaScript from '@/components/SchemaScript';
+import Breadcrumbs from '@/components/Breadcrumbs';
 
 export const metadata = {
   title: { absolute: 'Gas Engineer Website Design | Websites for Gas Engineers' },
@@ -65,6 +66,16 @@ const gasFaqs = [
 ];
 
 export default function GasEngineerPage() {
+  const faqSchema = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": gasFaqs.map(item => ({
+      "@type": "Question",
+      "name": item.question,
+      "acceptedAnswer": { "@type": "Answer", "text": item.answer }
+    }))
+  };
+
   const schema = {
     "@context": "https://schema.org",
     "@type": "ProfessionalService",
@@ -96,6 +107,8 @@ export default function GasEngineerPage() {
   return (
     <div className="bg-light-gray min-h-screen">
       <SchemaScript schema={schema} />
+      <SchemaScript schema={faqSchema} />
+      <Breadcrumbs items={[{ label: 'Gas Engineer Website Design', href: '/gas-engineer-website-design/' }]} />
        <div className="py-24 bg-navy-dark text-white border-b border-slate-blue/20">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <div className="inline-block bg-amber/20 text-amber px-4 py-1.5 rounded-full text-sm font-bold tracking-wider uppercase mb-6 border border-amber/30">Trade Speciality</div>

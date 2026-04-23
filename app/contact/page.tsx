@@ -1,5 +1,6 @@
 import ContactForm from '@/components/ContactForm';
 import SchemaScript from '@/components/SchemaScript';
+import Breadcrumbs from '@/components/Breadcrumbs';
 
 export const metadata = {
   title: { absolute: 'Get a Free Quote for Your Plumber Website | PlumberWebDesign' },
@@ -20,8 +21,10 @@ const schema = {
 
 export default function ContactPage() {
   return (
-    <div className="bg-light-gray min-h-screen py-24 border-b border-slate-blue/20">
+    <>
       <SchemaScript schema={schema} />
+      <Breadcrumbs items={[{ label: 'Contact', href: '/contact/' }]} />
+      <div className="bg-light-gray min-h-screen py-24 border-b border-slate-blue/20">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="max-w-3xl mb-16">
           <h1 className="text-4xl md:text-5xl font-display font-bold text-navy-dark mb-6">Get a Free Quote</h1>
@@ -95,5 +98,6 @@ export default function ContactPage() {
         </div>
       </div>
     </div>
+    </>
   );
 }

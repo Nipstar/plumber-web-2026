@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import SchemaScript from '@/components/SchemaScript';
+import Breadcrumbs from '@/components/Breadcrumbs';
 
 export const metadata = {
   title: { absolute: "Why Your Plumber Website Isn't Ranking | PlumberWebDesign" },
@@ -23,6 +24,10 @@ export default function BlogPost() {
   return (
     <div className="bg-light-gray min-h-screen">
       <SchemaScript schema={schema} />
+      <Breadcrumbs items={[
+        { label: 'Blog', href: '/blog/' },
+        { label: "Why Your Plumber Website Isn't Ranking", href: '/blog/plumber-website-not-ranking-google/' }
+      ]} />
       <div className="py-24 bg-navy-dark text-white border-b border-slate-blue/20">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <Link href="/blog/" className="text-amber text-sm font-bold uppercase tracking-wider hover:underline mb-4 inline-block">Blog</Link>

@@ -27,7 +27,6 @@ export default function Nav() {
             </div>
 
             <Link href="/plumber-website-design-packages/" className="text-sm font-medium hover:text-amber transition-colors duration-150">Pricing</Link>
-            <Link href="/portfolio/" className="text-sm font-medium hover:text-amber transition-colors duration-150">Portfolio</Link>
             <Link href="/blog/" className="text-sm font-medium hover:text-amber transition-colors duration-150">Blog</Link>
             <Link href="/contact/" className="text-sm font-medium hover:text-amber transition-colors duration-150">Contact</Link>
           </div>
@@ -67,7 +66,6 @@ export default function Nav() {
                   <Link href="/seo-for-plumbers/">SEO for Plumbers</Link>
                 </div>
                 <Link href="/plumber-website-design-packages/">Pricing</Link>
-                <Link href="/portfolio/">Portfolio</Link>
                 <Link href="/blog/">Blog</Link>
                 <Link href="/contact/">Contact</Link>
                 <a href="tel:03333356750" className="inline-block bg-amber text-navy-dark px-6 py-3 rounded-full font-semibold uppercase tracking-wide text-sm text-center mt-8">

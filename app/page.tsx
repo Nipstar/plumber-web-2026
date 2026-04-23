@@ -1,6 +1,7 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import PricingCard from '@/components/PricingCard';
+import TrustBar from '@/components/TrustBar';
 import FaqAccordion from '@/components/FaqAccordion';
 import SchemaScript from '@/components/SchemaScript';
 
@@ -72,7 +73,7 @@ const faqItems = [
   { question: 'Is SEO included?', answer: 'Yes. Local SEO setup in every package.' },
   { question: 'Do you work with gas and heating engineers?', answer: 'Yes. See our specialist pages.' },
   { question: 'What happens after the first year?', answer: 'Annual hosting renewal. We notify you in advance.' },
-  { question: 'Can I see examples?', answer: 'Yes. Visit our portfolio page to see live examples.' }
+  { question: 'Can I see examples?', answer: 'Yes. Once you enquire, we can share live client examples relevant to your trade and location.' }
 ];
 
 export default function Home() {
@@ -137,10 +138,80 @@ export default function Home() {
     }))
   };
 
+  const organizationSchema = {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "PlumberWebDesign.co.uk",
+    "url": "https://plumberwebdesign.co.uk",
+    "logo": "https://plumberwebdesign.co.uk/images/logo.png",
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "telephone": "+443333356750",
+      "contactType": "customer service",
+      "areaServed": "GB",
+      "availableLanguage": "English"
+    }
+  };
+
+  const websiteSchema = {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "PlumberWebDesign.co.uk",
+    "url": "https://plumberwebdesign.co.uk",
+    "publisher": { "@type": "Organization", "name": "PlumberWebDesign.co.uk" },
+    "inLanguage": "en-GB"
+  };
+
+  const aggregateOfferSchema = {
+    "@context": "https://schema.org",
+    "@type": "AggregateOffer",
+    "name": "Plumber Website Packages",
+    "url": "https://plumberwebdesign.co.uk/",
+    "priceCurrency": "GBP",
+    "lowPrice": "99",
+    "highPrice": "249",
+    "offerCount": "3"
+  };
+
+  const serviceSchemas = pricingPackages.map(pkg => ({
+    "@context": "https://schema.org",
+    "@type": "Service",
+    "name": `${pkg.name} Plumber Website Package`,
+    "provider": { "@type": "Organization", "name": "PlumberWebDesign.co.uk", "url": "https://plumberwebdesign.co.uk" },
+    "areaServed": { "@type": "Country", "name": "United Kingdom" },
+    "description": pkg.tagline,
+    "offers": {
+      "@type": "Offer",
+      "price": pkg.price.replace('£', ''),
+      "priceCurrency": "GBP",
+      "priceSpecification": {
+        "@type": "UnitPriceSpecification",
+        "price": pkg.price.replace('£', ''),
+        "priceCurrency": "GBP",
+        "unitCode": "MON"
+      }
+    }
+  }));
+
+  const breadcrumbSchema = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://plumberwebdesign.co.uk/" }
+    ]
+  };
+
   return (
     <>
       <SchemaScript schema={schema} />
       <SchemaScript schema={faqSchema} />
+      <SchemaScript schema={organizationSchema} />
+      <SchemaScript schema={websiteSchema} />
+      <SchemaScript schema={aggregateOfferSchema} />
+      <SchemaScript schema={breadcrumbSchema} />
+      {serviceSchemas.map((s, i) => (
+        <SchemaScript key={`service-${i}`} schema={s} />
+      ))}
 
       {/* Hero Section */}
       <section className="relative bg-navy-dark text-white overflow-hidden py-24 lg:py-32 border-b border-slate-blue/20">
@@ -161,9 +232,15 @@ export default function Home() {
               <h1 className="text-5xl lg:text-7xl font-display font-extrabold tracking-tight mb-6 leading-tight">
                 Web Design for Plumbers That <span className="text-transparent bg-clip-text bg-gradient-to-r from-amber to-amber/80">Wins Jobs</span>
               </h1>
-              <p className="text-xl text-light-gray/90 font-medium mb-10 max-w-xl leading-relaxed">
+              <p className="text-xl text-light-gray/90 font-medium mb-6 max-w-xl leading-relaxed">
                 We build websites exclusively for UK plumbers and heating engineers. Fast. Local SEO-ready. Built to generate calls.
               </p>
+              <div className="bg-navy-card/60 border border-amber/30 rounded-xl p-5 mb-10 max-w-xl">
+                <p className="text-sm text-amber font-bold uppercase tracking-wider mb-2">What is web design for plumbers?</p>
+                <p className="text-base text-white/80 leading-relaxed">
+                  Plumber web design is specialist website design for UK plumbing businesses. A proper plumber website is mobile-first, optimised for local Google searches, has click-to-call and emergency booking, and integrates with Google Business Profile. Prices start from £99 per month.
+                </p>
+              </div>
               
               <div className="flex flex-col sm:flex-row gap-4 mb-12">
                 <Link href="/contact/" className="bg-amber text-navy-dark font-bold px-8 py-4 rounded-full text-center hover:bg-white transition-all shadow-lg hover:shadow-xl hover:-translate-y-0.5">
@@ -217,6 +294,8 @@ export default function Home() {
           </div>
         </div>
       </section>
+
+      <TrustBar variant="home" />
 
       {/* Problem Block */}
       <section className="py-24 bg-white">

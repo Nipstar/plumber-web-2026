@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import SchemaScript from '@/components/SchemaScript';
+import Breadcrumbs from '@/components/Breadcrumbs';
 
 export const metadata = {
   title: { absolute: 'Heating Engineer Website Design | PlumberWebDesign.co.uk' },
@@ -39,6 +40,7 @@ export default function HeatingEngineerPage() {
   return (
     <div className="bg-light-gray min-h-screen">
       <SchemaScript schema={schema} />
+      <Breadcrumbs items={[{ label: 'Heating Engineer Website Design', href: '/heating-engineer-website-design/' }]} />
        <div className="py-24 bg-navy-dark text-white border-b border-slate-blue/20">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <div className="inline-block bg-amber/20 text-amber px-4 py-1.5 rounded-full text-sm font-bold tracking-wider uppercase mb-6 border border-amber/30">Trade Speciality</div>

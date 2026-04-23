@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import Image from 'next/image';
+import Breadcrumbs from '@/components/Breadcrumbs';
 
 export const metadata = {
   title: { absolute: 'Plumber Web Design Blog | SEO Tips for UK Plumbers' },
@@ -8,6 +9,13 @@ export const metadata = {
 };
 
 const posts = [
+  {
+    title: "Do Plumbers Need Websites in 2026?",
+    slug: 'do-plumbers-need-websites',
+    excerpt: "Short answer: yes. Over 70% of plumbing searches happen on mobile and Google prioritises businesses with both a GBP listing and a proper website. A Google Business Profile alone is not enough.",
+    date: '23 Apr 2026',
+    image: '/images/blog_seo_ranking.png'
+  },
   {
     title: "Why Your Plumber Website Isn't Ranking on Google (And How to Fix It)",
     slug: 'plumber-website-not-ranking-google',
@@ -34,6 +42,7 @@ const posts = [
 export default function BlogPage() {
   return (
     <div className="bg-light-gray min-h-screen">
+      <Breadcrumbs items={[{ label: 'Blog', href: '/blog/' }]} />
        <div className="py-24 bg-navy-dark text-white border-b border-slate-blue/20">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h1 className="text-4xl md:text-5xl font-display font-bold mb-6">Plumber Web Design Blog</h1>

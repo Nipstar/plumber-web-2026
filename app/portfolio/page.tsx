@@ -1,12 +1,16 @@
+import Breadcrumbs from '@/components/Breadcrumbs';
+
 export const metadata = {
   title: { absolute: 'Plumber Website Portfolio | Examples of Our Work' },
   description: 'See examples of plumber websites we have designed and built across the UK. Real sites generating real leads for plumbing and heating businesses nationwide.',
   alternates: { canonical: 'https://plumberwebdesign.co.uk/portfolio/' },
+  robots: { index: false, follow: false },
 };
 
 export default function PortfolioPage() {
   return (
     <div className="bg-light-gray min-h-screen">
+      <Breadcrumbs items={[{ label: 'Portfolio', href: '/portfolio/' }]} />
        <div className="py-24 bg-navy-dark text-white border-b border-slate-blue/20">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h1 className="text-4xl md:text-5xl font-display font-bold mb-6">Our Plumber Website Portfolio</h1>

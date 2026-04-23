@@ -1,3 +1,5 @@
+import Breadcrumbs from '@/components/Breadcrumbs';
+
 export const metadata = {
   title: { absolute: 'Privacy Policy | PlumberWebDesign.co.uk' },
   description: 'Privacy policy for PlumberWebDesign.co.uk. How we collect, use, and protect your personal data when you use our website and services.',
@@ -7,6 +9,7 @@ export const metadata = {
 export default function PrivacyPolicyPage() {
   return (
     <div className="bg-light-gray min-h-screen">
+      <Breadcrumbs items={[{ label: 'Privacy Policy', href: '/privacy-policy/' }]} />
       <div className="py-24 bg-navy-dark text-white border-b border-slate-blue/20">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h1 className="text-4xl md:text-5xl font-display font-bold mb-6">Privacy Policy</h1>

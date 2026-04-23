@@ -34,6 +34,7 @@ export default function Footer() {
           <div>
             <h3 className="font-display font-bold text-xl mb-6 text-white">Blog</h3>
             <ul className="space-y-4 text-sm text-white/70 hover:*:text-amber">
+              <li><Link href="/blog/do-plumbers-need-websites/" className="transition-colors duration-150">Do Plumbers Need Websites?</Link></li>
               <li><Link href="/blog/plumber-website-not-ranking-google/" className="transition-colors duration-150">Why Your Site Isn't Ranking</Link></li>
               <li><Link href="/blog/what-should-plumber-website-include/" className="transition-colors duration-150">What to Include in 2026</Link></li>
               <li><Link href="/blog/google-business-profile-plumbers-guide/" className="transition-colors duration-150">GBP Setup Guide</Link></li>

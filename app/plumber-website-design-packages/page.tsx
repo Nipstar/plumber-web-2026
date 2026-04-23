@@ -1,6 +1,7 @@
 import PricingCard from '@/components/PricingCard';
 import AddOnCard from '@/components/AddOnCard';
 import SchemaScript from '@/components/SchemaScript';
+import Breadcrumbs from '@/components/Breadcrumbs';
 
 export const metadata = {
   title: { absolute: 'Plumber Website Design Packages | Pricing from £99/month' },
@@ -64,7 +65,26 @@ const pricingPackages = [
   }
 ];
 
+const packageFaqs = [
+  { q: 'Are there setup fees?', a: 'No setup fee on our website packages. AI Add-ons have a one-off setup fee to cover the bespoke training.' },
+  { q: 'Can I upgrade my package?', a: 'Yes, at any time. We can seamlessly scale you out of Apprentice into Journeyman or Master as you grow.' },
+  { q: 'What happens after year one?', a: 'Annual hosting renewal applies. We notify you well in advance.' },
+  { q: 'What if I want to cancel?', a: 'Just give us 30 days notice. No long ugly tie-ins.' },
+  { q: 'Do you offer one-off builds?', a: 'Not currently. We partner long-term via our packages to ensure your site is maintained, secure, and ranking for the long haul.' },
+  { q: 'What are the AI add-ons?', a: 'The AI Chatbot and AI Voice Agent are managed services. We train AI on your specific business rules to capture leads and book appointments automatically.' },
+];
+
 export default function PackagesPage() {
+  const faqSchema = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": packageFaqs.map(item => ({
+      "@type": "Question",
+      "name": item.q,
+      "acceptedAnswer": { "@type": "Answer", "text": item.a }
+    }))
+  };
+
   const schema = {
     "@context": "https://schema.org",
     "@type": "Service",
@@ -92,6 +112,8 @@ export default function PackagesPage() {
   return (
     <div className="bg-light-gray min-h-screen">
       <SchemaScript schema={schema} />
+      <SchemaScript schema={faqSchema} />
+      <Breadcrumbs items={[{ label: 'Packages', href: '/plumber-website-design-packages/' }]} />
       <div className="py-24 border-b border-slate-blue/10">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center max-w-3xl mx-auto mb-16">

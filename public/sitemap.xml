@@ -20,12 +20,7 @@
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
-  <url>
-    <loc>https://plumberwebdesign.co.uk/portfolio/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
+<url>
     <loc>https://plumberwebdesign.co.uk/blog/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -79,6 +74,16 @@
     <loc>https://plumberwebdesign.co.uk/web-design-plumbers-andover/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://plumberwebdesign.co.uk/plumber-website-cost/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://plumberwebdesign.co.uk/blog/do-plumbers-need-websites/</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://plumberwebdesign.co.uk/blog/plumber-website-not-ranking-google/</loc>
