@@ -15,7 +15,7 @@ export default function BlogPost() {
     "headline": "Why Your Plumber Website Isn't Ranking on Google (And How to Fix It)",
     "description": "Not seeing your plumbing website on page one? Learn the most common local SEO mistakes plumbers make and the quick wins you can implement today.",
     "author": { "@type": "Organization", "name": "PlumberWebDesign.co.uk", "url": "https://plumberwebdesign.co.uk" },
-    "publisher": { "@type": "Organization", "name": "PlumberWebDesign.co.uk", "logo": { "@type": "ImageObject", "url": "https://plumberwebdesign.co.uk/images/logo.png" } },
+    "publisher": { "@type": "Organization", "name": "PlumberWebDesign.co.uk", "logo": { "@type": "ImageObject", "url": "https://plumberwebdesign.co.uk/images/logo.webp" } },
     "datePublished": "2026-03-15",
     "dateModified": "2026-04-12",
     "mainEntityOfPage": "https://plumberwebdesign.co.uk/blog/plumber-website-not-ranking-google/"

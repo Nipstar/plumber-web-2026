@@ -14,7 +14,7 @@ export default function BathroomFitterPage() {
     "@type": "ProfessionalService",
     "name": "PlumberWebDesign.co.uk — Bathroom Fitter Web Design",
     "url": "https://plumberwebdesign.co.uk/bathroom-fitter-website-design/",
-    "logo": "https://plumberwebdesign.co.uk/images/logo.png",
+    "logo": "https://plumberwebdesign.co.uk/images/logo.webp",
     "telephone": "03333356750",
     "email": "hello@plumberwebdesign.co.uk",
     "description": "Professional website design for bathroom fitters across the UK. Before-and-after galleries, project case studies, and local SEO.",

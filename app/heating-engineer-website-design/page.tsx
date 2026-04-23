@@ -14,7 +14,7 @@ export default function HeatingEngineerPage() {
     "@type": "ProfessionalService",
     "name": "PlumberWebDesign.co.uk — Heating Engineer Web Design",
     "url": "https://plumberwebdesign.co.uk/heating-engineer-website-design/",
-    "logo": "https://plumberwebdesign.co.uk/images/logo.png",
+    "logo": "https://plumberwebdesign.co.uk/images/logo.webp",
     "telephone": "03333356750",
     "email": "hello@plumberwebdesign.co.uk",
     "description": "Website design for UK heating engineers. Boiler installations, heat pump landing pages, and underfloor heating portfolios with local SEO.",

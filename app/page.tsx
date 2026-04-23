@@ -82,8 +82,8 @@ export default function Home() {
     "@type": "LocalBusiness",
     "name": "PlumberWebDesign.co.uk",
     "url": "https://plumberwebdesign.co.uk",
-    "logo": "https://plumberwebdesign.co.uk/images/logo.png",
-    "image": "https://plumberwebdesign.co.uk/images/logo.png",
+    "logo": "https://plumberwebdesign.co.uk/images/logo.webp",
+    "image": "https://plumberwebdesign.co.uk/images/logo.webp",
     "telephone": "03333356750",
     "email": "hello@plumberwebdesign.co.uk",
     "address": {
@@ -143,7 +143,7 @@ export default function Home() {
     "@type": "Organization",
     "name": "PlumberWebDesign.co.uk",
     "url": "https://plumberwebdesign.co.uk",
-    "logo": "https://plumberwebdesign.co.uk/images/logo.png",
+    "logo": "https://plumberwebdesign.co.uk/images/logo.webp",
     "contactPoint": {
       "@type": "ContactPoint",
       "telephone": "+443333356750",
@@ -217,7 +217,7 @@ export default function Home() {
       <section className="relative bg-navy-dark text-white overflow-hidden py-24 lg:py-32 border-b border-slate-blue/20">
         <div className="absolute inset-0 z-0">
           <Image 
-            src="/images/hero_blueprint_dark.png" 
+            src="/images/hero_blueprint_dark.webp" 
             alt="Technical schematic background" 
             fill
             className="object-cover opacity-[0.15]"
@@ -331,10 +331,10 @@ export default function Home() {
           
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
             {[
-              { title: 'Plumbers', link: '/', img: '/images/trade_plumber.png' },
-              { title: 'Gas Engineers', link: '/gas-engineer-website-design/', img: '/images/trade_gas.png' },
-              { title: 'Heating Engineers', link: '/heating-engineer-website-design/', img: '/images/trade_heating.png' },
-              { title: 'Bathroom Fitters', link: '/bathroom-fitter-website-design/', img: '/images/trade_bathroom.png' },
+              { title: 'Plumbers', link: '/', img: '/images/trade_plumber.webp' },
+              { title: 'Gas Engineers', link: '/gas-engineer-website-design/', img: '/images/trade_gas.webp' },
+              { title: 'Heating Engineers', link: '/heating-engineer-website-design/', img: '/images/trade_heating.webp' },
+              { title: 'Bathroom Fitters', link: '/bathroom-fitter-website-design/', img: '/images/trade_bathroom.webp' },
             ].map(trade => (
               <Link href={trade.link} key={trade.title} className="group relative rounded-2xl overflow-hidden aspect-[4/5] shadow-lg">
                 <Image src={trade.img} alt={trade.title} fill className="object-cover transition-transform duration-700 group-hover:scale-110" />
@@ -391,7 +391,7 @@ export default function Home() {
             <div className="relative mx-auto mt-12 lg:mt-0 max-w-sm w-full perspective-1000">
               <div className="relative shadow-2xl rounded-[2.5rem] border-8 border-navy-dark overflow-hidden transform rotate-y-[-10deg] rotate-x-[5deg] bg-black">
                 <Image 
-                  src="/images/app_mockup.png" 
+                  src="/images/app_mockup.webp" 
                   alt="AI Chatbot booking interface on mobile"
                   width={400}
                   height={800}
@@ -441,7 +441,7 @@ export default function Home() {
 
       {/* CTA Bottom */}
       <section className="py-24 bg-amber relative overflow-hidden">
-        <div className="absolute inset-0 bg-[url('/images/hero_blueprint_dark.png')] opacity-[0.05] bg-cover mix-blend-multiply"></div>
+        <div className="absolute inset-0 bg-[url('/images/hero_blueprint_dark.webp')] opacity-[0.05] bg-cover mix-blend-multiply"></div>
         <div className="relative z-10 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-4xl md:text-5xl font-display font-extrabold text-navy-dark mb-6">Ready to get more calls?</h2>
           <p className="text-xl text-navy-dark/80 font-medium mb-10 max-w-2xl mx-auto">

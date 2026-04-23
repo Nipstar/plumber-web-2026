@@ -83,7 +83,7 @@ export default function LocationPage() {
     "@type": "LocalBusiness",
     "name": "PlumberWebDesign.co.uk — Liverpool",
     "url": "https://plumberwebdesign.co.uk/web-design-plumbers-liverpool/",
-    "logo": "https://plumberwebdesign.co.uk/images/logo.png",
+    "logo": "https://plumberwebdesign.co.uk/images/logo.webp",
     "telephone": "03333356750",
     "email": "hello@plumberwebdesign.co.uk",
     "description": "Specialist web design for plumbers in Liverpool, Merseyside. Local SEO-optimised websites from £99/month.",

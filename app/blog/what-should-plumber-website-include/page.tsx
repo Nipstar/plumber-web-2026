@@ -15,7 +15,7 @@ export default function BlogPost() {
     "headline": "What Should a Plumber Website Include in 2026?",
     "description": "Having a contact form is no longer enough. Discover the features that turn standard plumber websites into lead-generation machines.",
     "author": { "@type": "Organization", "name": "PlumberWebDesign.co.uk", "url": "https://plumberwebdesign.co.uk" },
-    "publisher": { "@type": "Organization", "name": "PlumberWebDesign.co.uk", "logo": { "@type": "ImageObject", "url": "https://plumberwebdesign.co.uk/images/logo.png" } },
+    "publisher": { "@type": "Organization", "name": "PlumberWebDesign.co.uk", "logo": { "@type": "ImageObject", "url": "https://plumberwebdesign.co.uk/images/logo.webp" } },
     "datePublished": "2026-03-22",
     "dateModified": "2026-04-12",
     "mainEntityOfPage": "https://plumberwebdesign.co.uk/blog/what-should-plumber-website-include/"

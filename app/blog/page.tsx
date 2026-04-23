@@ -14,28 +14,28 @@ const posts = [
     slug: 'do-plumbers-need-websites',
     excerpt: "Short answer: yes. Over 70% of plumbing searches happen on mobile and Google prioritises businesses with both a GBP listing and a proper website. A Google Business Profile alone is not enough.",
     date: '23 Apr 2026',
-    image: '/images/blog_seo_ranking.png'
+    image: '/images/blog_seo_ranking.webp'
   },
   {
     title: "Why Your Plumber Website Isn't Ranking on Google (And How to Fix It)",
     slug: 'plumber-website-not-ranking-google',
     excerpt: "Not seeing your website on page one? Learn the most common local SEO mistakes plumbers make — and the quick wins you can implement today to start generating organic traffic.",
     date: '15 Mar 2026',
-    image: '/images/blog_seo_ranking.png'
+    image: '/images/blog_seo_ranking.webp'
   },
   {
     title: "What Should a Plumber Website Include in 2026?",
     slug: 'what-should-plumber-website-include',
     excerpt: "Having a contact form is no longer enough. From AI voice agents to Gas Safe verification loops, discover the features that turn standard websites into lead-generation machines.",
     date: '22 Mar 2026',
-    image: '/images/blog_website_features.png'
+    image: '/images/blog_website_features.webp'
   },
   {
     title: "Google Business Profile for Plumbers: A Complete Setup Guide",
     slug: 'google-business-profile-plumbers-guide',
     excerpt: "Your GBP is arguably more important than your website for local map pack rankings. Follow our comprehensive tutorial to establish your profile correctly and dominate local search.",
     date: '1 Apr 2026',
-    image: '/images/blog_gbp_guide.png'
+    image: '/images/blog_gbp_guide.webp'
   }
 ];
 

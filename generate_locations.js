@@ -204,7 +204,7 @@ export default function LocationPage() {
     "@type": "LocalBusiness",
     "name": "PlumberWebDesign.co.uk — ${loc.city}",
     "url": "https://plumberwebdesign.co.uk/web-design-plumbers-${loc.slug}/",
-    "logo": "https://plumberwebdesign.co.uk/images/logo.png",
+    "logo": "https://plumberwebdesign.co.uk/images/logo.webp",
     "telephone": "03333356750",
     "email": "hello@plumberwebdesign.co.uk",
     "description": "Specialist web design for plumbers in ${loc.city}, ${loc.region}. Local SEO-optimised websites from £99/month.",

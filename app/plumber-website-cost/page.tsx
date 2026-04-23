@@ -74,7 +74,7 @@ export default function CostPage() {
     "headline": "How Much Does a Plumber Website Cost in the UK? (2026)",
     "description": "Complete guide to plumber website costs in the UK. Monthly packages vs one-off builds, hidden costs to avoid, and transparent pricing from £99/month.",
     "author": { "@type": "Organization", "name": "PlumberWebDesign.co.uk", "url": "https://plumberwebdesign.co.uk" },
-    "publisher": { "@type": "Organization", "name": "PlumberWebDesign.co.uk", "logo": { "@type": "ImageObject", "url": "https://plumberwebdesign.co.uk/images/logo.png" } },
+    "publisher": { "@type": "Organization", "name": "PlumberWebDesign.co.uk", "logo": { "@type": "ImageObject", "url": "https://plumberwebdesign.co.uk/images/logo.webp" } },
     "datePublished": "2026-04-12",
     "dateModified": "2026-04-23",
     "mainEntityOfPage": "https://plumberwebdesign.co.uk/plumber-website-cost/"

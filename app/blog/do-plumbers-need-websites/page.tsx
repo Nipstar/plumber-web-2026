@@ -15,7 +15,7 @@ export default function BlogPost() {
     "headline": "Do Plumbers Need Websites in 2026?",
     "description": "Why every UK plumber needs a website, backed by search data. Google Business Profile alone is not enough.",
     "author": { "@type": "Organization", "name": "PlumberWebDesign.co.uk", "url": "https://plumberwebdesign.co.uk" },
-    "publisher": { "@type": "Organization", "name": "PlumberWebDesign.co.uk", "logo": { "@type": "ImageObject", "url": "https://plumberwebdesign.co.uk/images/logo.png" } },
+    "publisher": { "@type": "Organization", "name": "PlumberWebDesign.co.uk", "logo": { "@type": "ImageObject", "url": "https://plumberwebdesign.co.uk/images/logo.webp" } },
     "datePublished": "2026-04-23",
     "dateModified": "2026-04-23",
     "mainEntityOfPage": "https://plumberwebdesign.co.uk/blog/do-plumbers-need-websites/"

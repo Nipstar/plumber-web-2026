@@ -81,7 +81,7 @@ export default function GasEngineerPage() {
     "@type": "ProfessionalService",
     "name": "PlumberWebDesign.co.uk — Gas Engineer Web Design",
     "url": "https://plumberwebdesign.co.uk/gas-engineer-website-design/",
-    "logo": "https://plumberwebdesign.co.uk/images/logo.png",
+    "logo": "https://plumberwebdesign.co.uk/images/logo.webp",
     "telephone": "03333356750",
     "email": "hello@plumberwebdesign.co.uk",
     "description": "Specialist website design for Gas Safe registered engineers across the UK. Prominent Gas Safe display, emergency booking forms, and local SEO.",
@@ -147,7 +147,7 @@ export default function GasEngineerPage() {
               </Link>
             </div>
             <div className="bg-navy-card rounded-2xl p-10 shadow-2xl border border-slate-blue/20 relative overflow-hidden">
-               <div className="absolute inset-0 bg-[url('/images/hero_blueprint_dark.png')] opacity-10 mix-blend-overlay"></div>
+               <div className="absolute inset-0 bg-[url('/images/hero_blueprint_dark.webp')] opacity-10 mix-blend-overlay"></div>
                <div className="relative z-10 text-center">
                  <div className="w-20 h-20 bg-amber rounded-full mx-auto mb-6 flex items-center justify-center">
                    {/* Simplified flame icon */}

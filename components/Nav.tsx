@@ -8,7 +8,7 @@ export default function Nav() {
         <div className="flex justify-between items-center h-20">
           <div className="flex-shrink-0 flex items-center">
             <Link href="/" className="hover:opacity-90 transition-opacity duration-150">
-              <Image src="/images/logo.png" alt="PlumberWebDesign.co.uk" width={200} height={48} className="h-12 w-auto" />
+              <Image src="/images/logo.webp" alt="PlumberWebDesign.co.uk" width={200} height={48} className="h-12 w-auto" />
             </Link>
           </div>
           <div className="hidden md:flex items-center space-x-8">

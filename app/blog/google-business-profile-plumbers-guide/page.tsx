@@ -15,7 +15,7 @@ export default function BlogPost() {
     "headline": "Google Business Profile for Plumbers: A Complete Setup Guide",
     "description": "Your GBP is arguably more important than your website for local map pack rankings. Follow our comprehensive guide to set it up correctly.",
     "author": { "@type": "Organization", "name": "PlumberWebDesign.co.uk", "url": "https://plumberwebdesign.co.uk" },
-    "publisher": { "@type": "Organization", "name": "PlumberWebDesign.co.uk", "logo": { "@type": "ImageObject", "url": "https://plumberwebdesign.co.uk/images/logo.png" } },
+    "publisher": { "@type": "Organization", "name": "PlumberWebDesign.co.uk", "logo": { "@type": "ImageObject", "url": "https://plumberwebdesign.co.uk/images/logo.webp" } },
     "datePublished": "2026-04-01",
     "dateModified": "2026-04-12",
     "mainEntityOfPage": "https://plumberwebdesign.co.uk/blog/google-business-profile-plumbers-guide/"

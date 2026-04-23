@@ -26,7 +26,7 @@ export default function PortfolioPage() {
           {[1, 2, 3, 4, 5, 6].map((item) => (
             <div key={item} className="bg-white rounded-2xl shadow-lg border border-slate-blue/10 overflow-hidden flex flex-col">
               <div className="h-48 bg-navy-card/5 flex items-center justify-center border-b border-slate-blue/10 relative overflow-hidden">
-                <div className="absolute inset-0 bg-[url('/images/hero_blueprint_dark.png')] opacity-5 mix-blend-overlay"></div>
+                <div className="absolute inset-0 bg-[url('/images/hero_blueprint_dark.webp')] opacity-5 mix-blend-overlay"></div>
                 <span className="text-slate-blue font-medium">Screenshot coming soon</span>
               </div>
               <div className="p-6 flex-1 flex flex-col">

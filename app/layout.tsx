@@ -30,7 +30,7 @@ export const metadata: Metadata = {
     siteName: 'PlumberWebDesign.co.uk',
     title: 'Plumber Web Design | Websites for Plumbers from £99/month',
     description: 'Specialist web design for plumbers across the UK. Mobile-first, SEO-optimised websites built to generate calls and win jobs.',
-    images: [{ url: '/images/logo.png', width: 400, height: 400, alt: 'PlumberWebDesign.co.uk' }],
+    images: [{ url: '/images/logo.webp', width: 400, height: 400, alt: 'PlumberWebDesign.co.uk' }],
   },
   twitter: {
     card: 'summary',
