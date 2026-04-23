@@ -95,5 +95,4 @@ LocalBusiness/ProfessionalService schemas include `address`, `openingHoursSpecif
 
 ## Key References
 
-- `plumberwebdesign-build-prompt.md` — original build specification
 - `AGENTS.md` — Next.js 16 breaking-changes warning

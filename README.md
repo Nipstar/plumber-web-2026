@@ -56,4 +56,3 @@ Cloudflare Pages. Build command `npm run build`, output directory `out/`. Set en
 
 - [CLAUDE.md](CLAUDE.md) — guidance for AI coding assistants
 - [AGENTS.md](AGENTS.md) — Next.js 16 version warning (breaking changes from older Next versions)
-- `plumberwebdesign-build-prompt.md` — original build specification
