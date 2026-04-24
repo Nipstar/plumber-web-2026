@@ -27,6 +27,11 @@ export default function Footer() {
               <li><Link href="/web-design-plumbers-liverpool/" className="transition-colors duration-150">Liverpool</Link></li>
               <li><Link href="/web-design-plumbers-portsmouth/" className="transition-colors duration-150">Portsmouth</Link></li>
               <li><Link href="/web-design-plumbers-andover/" className="transition-colors duration-150">Andover</Link></li>
+              <li><Link href="/web-design-plumbers-southampton/" className="transition-colors duration-150">Southampton</Link></li>
+              <li><Link href="/web-design-plumbers-reading/" className="transition-colors duration-150">Reading</Link></li>
+              <li><Link href="/web-design-plumbers-guildford/" className="transition-colors duration-150">Guildford</Link></li>
+              <li><Link href="/web-design-plumbers-oxford/" className="transition-colors duration-150">Oxford</Link></li>
+              <li><Link href="/web-design-plumbers-winchester/" className="transition-colors duration-150">Winchester</Link></li>
             </ul>
           </div>
 
