@@ -1,43 +1,92 @@
 # PlumberWebDesign.co.uk
 
-> Specialist web design agency for UK plumbers, gas engineers, and heating engineers. We build mobile-first, SEO-optimised websites that generate calls and win jobs. Packages from £99/month.
+> Specialist web design and local SEO agency for UK plumbers, gas engineers, heating engineers, and bathroom fitters. Mobile-first, SEO-optimised websites built to rank on Google and generate calls. Transparent monthly pricing from £99/month with no setup fees on website packages. Based in Andover, Hampshire; serving clients UK-wide.
+
+## Key Facts
+
+- Business name: PlumberWebDesign.co.uk
+- Location: Andover, Hampshire, United Kingdom
+- Phone: 0333 335 6750
+- Email: hello@plumberwebdesign.co.uk
+- Hours: Monday–Friday, 09:00–17:30 UK
+- Market served: United Kingdom only
+- Specialisms: Plumber websites, gas engineer websites, heating engineer websites, bathroom fitter websites, local SEO for trades, AI chatbots, AI voice agents
+- Minimum term: 6 months from launch; ownership transfers to client after minimum term
+- Cancellation: 30 days written notice after the 6-month minimum
+- Setup fees: None on website packages; one-off setup fee on AI add-ons only
+
+## Pricing
+
+Three transparent monthly packages (GBP, inclusive of hosting, SSL, and domain):
+
+- **Apprentice — £99/month.** 5-page responsive website. Mobile-optimised. Free domain (if needed). Fast hosting + SSL. Basic local SEO setup. Contact forms. Google Analytics + Search Console. Google Business Profile setup.
+- **Journeyman — £169/month (most popular).** 10-page custom website with service and location pages. Advanced local SEO. Hosting + SSL + domain included. Google Business Profile management with monthly posts. Google Review management.
+- **Master — £249/month.** 20+ page custom website. Advanced local SEO. Hosting + SSL + domain included. 2 monthly blog posts. Full Google Business Profile optimisation and monthly posting. Optional link building service.
+
+AI add-ons (combine with any package):
+
+- **AI Chatbot — from £49/month + £299 one-off setup.** 24/7 website chatbot that qualifies leads and captures contact details.
+- **AI Voice Agent — from £97/month + £497 one-off setup.** UK-voiced AI receptionist that answers inbound calls, qualifies jobs, and books appointments.
+
+## Why UK plumbers choose a specialist agency
+
+- Trade-specific websites that rank for "plumber near me", "boiler repair [city]", and "emergency plumber [city]" searches.
+- Gas Safe registration display, emergency booking buttons, click-to-call on every page.
+- Local SEO baked in: JSON-LD schema, postcode-specific landing pages, Google Business Profile integration.
+- UK-only agency; no black-hat tactics, no overseas labour.
+- Transparent monthly pricing with no setup fees on website packages — rare in the UK plumber website market.
 
 ## Core Pages
 
-- [Home](https://plumberwebdesign.co.uk/): Overview of our specialist web design services for UK tradespeople
-- [Contact](https://plumberwebdesign.co.uk/contact/): Get a free quote for your plumber website
-- [Pricing Packages](https://plumberwebdesign.co.uk/plumber-website-design-packages/): Three tiers — Apprentice (£99/mo), Journeyman (£169/mo), Master (£249/mo)
-- [About the Agency](https://plumberwebdesign.co.uk/plumber-web-design-agency/): Who we are and why we specialise in the trades
-- [Blog](https://plumberwebdesign.co.uk/blog/): Web design and SEO advice for plumbers
+- [Home](https://plumberwebdesign.co.uk/): Web design for plumbers from £99/month. Direct-answer explanation of plumber web design, packages overview, trade specialisms.
+- [Plumber Website Cost Guide](https://plumberwebdesign.co.uk/plumber-website-cost/): Complete UK pricing guide. Monthly packages vs one-off builds. Hidden costs to watch for. 24-month total cost comparison.
+- [Packages and Pricing](https://plumberwebdesign.co.uk/plumber-website-design-packages/): Apprentice £99, Journeyman £169, Master £249. Feature comparison table. AI add-on details.
+- [About the Agency](https://plumberwebdesign.co.uk/plumber-web-design-agency/): UK plumber web design agency. Specialist positioning, service stack, 4-step process.
+- [Contact](https://plumberwebdesign.co.uk/contact/): Free quote form. Service area, package interest, AI add-on interest.
+- [Blog](https://plumberwebdesign.co.uk/blog/): SEO, GBP, and marketing advice for UK tradespeople.
 
 ## Service Pages
 
-- [Gas Engineer Web Design](https://plumberwebdesign.co.uk/gas-engineer-website-design/): Websites for Gas Safe registered engineers
-- [Heating Engineer Web Design](https://plumberwebdesign.co.uk/heating-engineer-website-design/): Websites for heating and boiler engineers
-- [Bathroom Fitter Web Design](https://plumberwebdesign.co.uk/bathroom-fitter-website-design/): Websites for bathroom installation specialists
-- [SEO for Plumbers](https://plumberwebdesign.co.uk/seo-for-plumbers/): Local SEO services for plumbing businesses
+- [Gas Engineer Web Design](https://plumberwebdesign.co.uk/gas-engineer-website-design/): Websites for Gas Safe registered engineers. Gas Safe display, CP12 booking flows, emergency call-out buttons.
+- [Heating Engineer Web Design](https://plumberwebdesign.co.uk/heating-engineer-website-design/): Websites for heating and boiler engineers. Heat pump landing pages, boiler installation, annual service contracts.
+- [Bathroom Fitter Web Design](https://plumberwebdesign.co.uk/bathroom-fitter-website-design/): Portfolio-led sites for bathroom installation specialists. Before-and-after galleries, project case studies.
+- [SEO for Plumbers](https://plumberwebdesign.co.uk/seo-for-plumbers/): Local SEO services. GBP management, citation building, on-page optimisation, review strategy.
 
 ## Location Pages
 
-- [London](https://plumberwebdesign.co.uk/web-design-plumbers-london/): Web design for plumbers in London
-- [Manchester](https://plumberwebdesign.co.uk/web-design-plumbers-manchester/): Web design for plumbers in Manchester
-- [Birmingham](https://plumberwebdesign.co.uk/web-design-plumbers-birmingham/): Web design for plumbers in Birmingham
-- [Liverpool](https://plumberwebdesign.co.uk/web-design-plumbers-liverpool/): Web design for plumbers in Liverpool
-- [Portsmouth](https://plumberwebdesign.co.uk/web-design-plumbers-portsmouth/): Web design for plumbers in Portsmouth
-- [Andover](https://plumberwebdesign.co.uk/web-design-plumbers-andover/): Web design for plumbers in Andover
+Each city page includes unique market analysis, postcode coverage, neighbourhood-specific landing page planning, local competitive insights, and city-specific FAQs.
 
-## Guides
-
-- [How Much Does a Plumber Website Cost in the UK?](https://plumberwebdesign.co.uk/plumber-website-cost/): Complete pricing guide — £99-£249/month packages vs one-off builds
+- [London](https://plumberwebdesign.co.uk/web-design-plumbers-london/): 32-borough coverage across E, EC, N, NW, SE, SW, W, WC postcodes.
+- [Manchester](https://plumberwebdesign.co.uk/web-design-plumbers-manchester/): All 10 Greater Manchester boroughs — Salford, Stockport, Trafford, Bolton, Bury, Oldham, Rochdale, Tameside, Wigan.
+- [Birmingham](https://plumberwebdesign.co.uk/web-design-plumbers-birmingham/): West Midlands-wide — Solihull, Sutton Coldfield, Edgbaston, Wolverhampton, Walsall, Dudley.
+- [Liverpool](https://plumberwebdesign.co.uk/web-design-plumbers-liverpool/): Merseyside-wide including the Wirral peninsula and Southport.
+- [Portsmouth](https://plumberwebdesign.co.uk/web-design-plumbers-portsmouth/): South coast Hampshire including Gosport, Fareham, Havant, Emsworth, Hayling Island.
+- [Andover](https://plumberwebdesign.co.uk/web-design-plumbers-andover/): Test Valley and north Hampshire including Whitchurch, Stockbridge, Tidworth, Ludgershall.
 
 ## Blog Posts
 
-- [Do Plumbers Need Websites in 2026?](https://plumberwebdesign.co.uk/blog/do-plumbers-need-websites/): Why every UK plumber needs a website in 2026, backed by search data
-- [Why Your Plumber Website Isn't Ranking on Google](https://plumberwebdesign.co.uk/blog/plumber-website-not-ranking-google/): Common local SEO mistakes and quick fixes
-- [What Should a Plumber Website Include in 2026?](https://plumberwebdesign.co.uk/blog/what-should-plumber-website-include/): Essential features for a modern plumber website
-- [Google Business Profile for Plumbers: A Complete Setup Guide](https://plumberwebdesign.co.uk/blog/google-business-profile-plumbers-guide/): Step-by-step GBP setup for local rankings
+- [Do Plumbers Need Websites in 2026?](https://plumberwebdesign.co.uk/blog/do-plumbers-need-websites/): Why UK plumbers need a website in 2026. Backed by search data. GBP alone is not enough.
+- [Why Your Plumber Website Isn't Ranking on Google](https://plumberwebdesign.co.uk/blog/plumber-website-not-ranking-google/): Six common local SEO mistakes and quick-win fixes.
+- [What Should a Plumber Website Include in 2026?](https://plumberwebdesign.co.uk/blog/what-should-plumber-website-include/): Essential features — click-to-call, service pages, location pages, AI chatbots, Gas Safe trust signals.
+- [Google Business Profile for Plumbers: Complete Setup Guide](https://plumberwebdesign.co.uk/blog/google-business-profile-plumbers-guide/): Eight-step GBP setup covering categories, photos, service areas, reviews, Q&A, weekly posts.
+
+## Common Questions (Quick Answers)
+
+- **How much does a plumber website cost in the UK?** £99–£249 per month on a managed plan, or £1,500–£5,000+ as a one-off custom build. Monthly plans include hosting, SSL, and local SEO; one-off builds typically do not.
+- **Do plumbers need a website in 2026?** Yes. Over 70% of plumbing searches happen on mobile. A Google Business Profile alone cannot rank for service-specific or location-specific queries.
+- **How long does it take to build?** 2–3 weeks from sign-off.
+- **Do I own the website?** Yes, after a minimum six-month subscription. Fully transferable with no lock-in after the minimum term.
+- **How long until I rank on Google?** 3–6 months for neighbourhood rankings, 9–18 months for competitive city-wide terms. Faster in smaller markets like Andover or Portsmouth.
+- **Is local SEO included?** Yes, in every package. Journeyman and Master add ongoing GBP management and content.
+- **Can I cancel?** Yes, with 30 days written notice after the six-month minimum.
 
 ## Legal
 
-- [Privacy Policy](https://plumberwebdesign.co.uk/privacy-policy/): How we handle your data
-- [Terms of Business](https://plumberwebdesign.co.uk/terms/): Service agreement and payment terms
+- [Privacy Policy](https://plumberwebdesign.co.uk/privacy-policy/): UK GDPR data handling.
+- [Terms of Business](https://plumberwebdesign.co.uk/terms/): Six-month minimum term, ownership transfer rules, cancellation policy, limitation of liability.
+
+## Technical / Crawlers
+
+- Sitemap: https://plumberwebdesign.co.uk/sitemap.xml
+- Robots policy: all AI/LLM crawlers allowed (GPTBot, ClaudeBot, Claude-Web, anthropic-ai, PerplexityBot, Google-Extended, Applebot-Extended, CCBot, Meta-ExternalAgent, Bytespider, and others). See /robots.txt.
+- Portfolio page excluded from indexing (pending real client content).
