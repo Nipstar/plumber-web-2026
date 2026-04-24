@@ -6,7 +6,7 @@ import Breadcrumbs from '@/components/Breadcrumbs';
 export const metadata = {
   title: { absolute: 'Web Design for Plumbers in Manchester | PlumberWebDesign.co.uk' },
   description: 'Web design for plumbers in Manchester. Landing pages for all 10 Greater Manchester boroughs from Didsbury to Salford, GBP management. From £99/month.',
-  alternates: { canonical: 'https://plumberwebdesign.co.uk/web-design-plumbers-manchester/' }
+  alternates: { canonical: 'https://www.plumberwebdesign.co.uk/web-design-plumbers-manchester/' }
 };
 
 const pricingPackages = [
@@ -82,8 +82,8 @@ export default function LocationPage() {
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
     "name": "PlumberWebDesign.co.uk — Manchester",
-    "url": "https://plumberwebdesign.co.uk/web-design-plumbers-manchester/",
-    "logo": "https://plumberwebdesign.co.uk/images/logo.webp",
+    "url": "https://www.plumberwebdesign.co.uk/web-design-plumbers-manchester/",
+    "logo": "https://www.plumberwebdesign.co.uk/images/logo.webp",
     "telephone": "03333356750",
     "email": "hello@plumberwebdesign.co.uk",
     "description": "Specialist web design for plumbers in Manchester, Greater Manchester. Local SEO-optimised websites from £99/month.",

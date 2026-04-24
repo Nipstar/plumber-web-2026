@@ -5,7 +5,7 @@ import Breadcrumbs from '@/components/Breadcrumbs';
 export const metadata = {
   title: { absolute: 'SEO for Plumbers UK | Local SEO for Plumbing Businesses' },
   description: 'Local SEO for UK plumbers. Get found when customers search "plumber near me". Google Business Profile management, citations, and on-page optimisation included.',
-  alternates: { canonical: 'https://plumberwebdesign.co.uk/seo-for-plumbers/' },
+  alternates: { canonical: 'https://www.plumberwebdesign.co.uk/seo-for-plumbers/' },
 };
 
 export default function SeoPage() {
@@ -13,8 +13,8 @@ export default function SeoPage() {
     "@context": "https://schema.org",
     "@type": "ProfessionalService",
     "name": "PlumberWebDesign.co.uk — SEO for Plumbers",
-    "url": "https://plumberwebdesign.co.uk/seo-for-plumbers/",
-    "logo": "https://plumberwebdesign.co.uk/images/logo.webp",
+    "url": "https://www.plumberwebdesign.co.uk/seo-for-plumbers/",
+    "logo": "https://www.plumberwebdesign.co.uk/images/logo.webp",
     "telephone": "03333356750",
     "email": "hello@plumberwebdesign.co.uk",
     "description": "Local SEO services for UK plumbers. Google Business Profile management, citation building, review strategy, and on-page optimisation.",

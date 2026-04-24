@@ -5,7 +5,7 @@ import Breadcrumbs from '@/components/Breadcrumbs';
 export const metadata = {
   title: { absolute: 'Plumber Web Design Blog | SEO Tips for UK Plumbers' },
   description: 'Web design and local SEO advice for UK plumbers, gas engineers, and heating engineers. Practical tips to rank on Google and win more jobs from organic search.',
-  alternates: { canonical: 'https://plumberwebdesign.co.uk/blog/' },
+  alternates: { canonical: 'https://www.plumberwebdesign.co.uk/blog/' },
 };
 
 const posts = [

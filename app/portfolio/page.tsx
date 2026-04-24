@@ -3,7 +3,7 @@ import Breadcrumbs from '@/components/Breadcrumbs';
 export const metadata = {
   title: { absolute: 'Plumber Website Portfolio | Examples of Our Work' },
   description: 'See examples of plumber websites we have designed and built across the UK. Real sites generating real leads for plumbing and heating businesses nationwide.',
-  alternates: { canonical: 'https://plumberwebdesign.co.uk/portfolio/' },
+  alternates: { canonical: 'https://www.plumberwebdesign.co.uk/portfolio/' },
   robots: { index: false, follow: false },
 };
 

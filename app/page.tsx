@@ -8,7 +8,7 @@ import SchemaScript from '@/components/SchemaScript';
 export const metadata = {
   title: { absolute: 'Plumber Web Design | Websites for Plumbers from £99/month' },
   description: 'Specialist web design for plumbers across the UK. Mobile-first, SEO-optimised websites built to generate calls and win jobs. Packages from £99/month.',
-  alternates: { canonical: 'https://plumberwebdesign.co.uk/' }
+  alternates: { canonical: 'https://www.plumberwebdesign.co.uk/' }
 };
 
 const pricingPackages = [
@@ -83,9 +83,9 @@ export default function Home() {
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
     "name": "PlumberWebDesign.co.uk",
-    "url": "https://plumberwebdesign.co.uk",
-    "logo": "https://plumberwebdesign.co.uk/images/logo.webp",
-    "image": "https://plumberwebdesign.co.uk/images/logo.webp",
+    "url": "https://www.plumberwebdesign.co.uk",
+    "logo": "https://www.plumberwebdesign.co.uk/images/logo.webp",
+    "image": "https://www.plumberwebdesign.co.uk/images/logo.webp",
     "telephone": "03333356750",
     "email": "hello@plumberwebdesign.co.uk",
     "address": {
@@ -144,8 +144,8 @@ export default function Home() {
     "@context": "https://schema.org",
     "@type": "Organization",
     "name": "PlumberWebDesign.co.uk",
-    "url": "https://plumberwebdesign.co.uk",
-    "logo": "https://plumberwebdesign.co.uk/images/logo.webp",
+    "url": "https://www.plumberwebdesign.co.uk",
+    "logo": "https://www.plumberwebdesign.co.uk/images/logo.webp",
     "contactPoint": {
       "@type": "ContactPoint",
       "telephone": "+443333356750",
@@ -159,7 +159,7 @@ export default function Home() {
     "@context": "https://schema.org",
     "@type": "WebSite",
     "name": "PlumberWebDesign.co.uk",
-    "url": "https://plumberwebdesign.co.uk",
+    "url": "https://www.plumberwebdesign.co.uk",
     "publisher": { "@type": "Organization", "name": "PlumberWebDesign.co.uk" },
     "inLanguage": "en-GB"
   };
@@ -168,7 +168,7 @@ export default function Home() {
     "@context": "https://schema.org",
     "@type": "AggregateOffer",
     "name": "Plumber Website Packages",
-    "url": "https://plumberwebdesign.co.uk/",
+    "url": "https://www.plumberwebdesign.co.uk/",
     "priceCurrency": "GBP",
     "lowPrice": "99",
     "highPrice": "249",
@@ -179,7 +179,7 @@ export default function Home() {
     "@context": "https://schema.org",
     "@type": "Service",
     "name": `${pkg.name} Plumber Website Package`,
-    "provider": { "@type": "Organization", "name": "PlumberWebDesign.co.uk", "url": "https://plumberwebdesign.co.uk" },
+    "provider": { "@type": "Organization", "name": "PlumberWebDesign.co.uk", "url": "https://www.plumberwebdesign.co.uk" },
     "areaServed": { "@type": "Country", "name": "United Kingdom" },
     "description": pkg.tagline,
     "offers": {
@@ -199,7 +199,7 @@ export default function Home() {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
     "itemListElement": [
-      { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://plumberwebdesign.co.uk/" }
+      { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.plumberwebdesign.co.uk/" }
     ]
   };
 

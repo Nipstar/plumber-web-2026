@@ -6,7 +6,7 @@ import Breadcrumbs from '@/components/Breadcrumbs';
 export const metadata = {
   title: { absolute: 'Web Design for Plumbers in Guildford | PlumberWebDesign.co.uk' },
   description: 'Web design for plumbers in Guildford. Affluent Surrey coverage including Godalming, Cranleigh, and Woking. Premium-market local SEO. From £99/month.',
-  alternates: { canonical: 'https://plumberwebdesign.co.uk/web-design-plumbers-guildford/' }
+  alternates: { canonical: 'https://www.plumberwebdesign.co.uk/web-design-plumbers-guildford/' }
 };
 
 const pricingPackages = [
@@ -82,8 +82,8 @@ export default function LocationPage() {
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
     "name": "PlumberWebDesign.co.uk — Guildford",
-    "url": "https://plumberwebdesign.co.uk/web-design-plumbers-guildford/",
-    "logo": "https://plumberwebdesign.co.uk/images/logo.webp",
+    "url": "https://www.plumberwebdesign.co.uk/web-design-plumbers-guildford/",
+    "logo": "https://www.plumberwebdesign.co.uk/images/logo.webp",
     "telephone": "03333356750",
     "email": "hello@plumberwebdesign.co.uk",
     "description": "Specialist web design for plumbers in Guildford, Surrey. Local SEO-optimised websites from £99/month.",

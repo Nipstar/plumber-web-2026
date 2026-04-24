@@ -6,7 +6,7 @@ import Breadcrumbs from '@/components/Breadcrumbs';
 export const metadata = {
   title: { absolute: 'Web Design for Plumbers in Birmingham | PlumberWebDesign.co.uk' },
   description: 'Web design for plumbers in Birmingham. West Midlands-wide coverage including Solihull, Sutton Coldfield, and the Black Country. Local SEO built in. From £99/month.',
-  alternates: { canonical: 'https://plumberwebdesign.co.uk/web-design-plumbers-birmingham/' }
+  alternates: { canonical: 'https://www.plumberwebdesign.co.uk/web-design-plumbers-birmingham/' }
 };
 
 const pricingPackages = [
@@ -82,8 +82,8 @@ export default function LocationPage() {
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
     "name": "PlumberWebDesign.co.uk — Birmingham",
-    "url": "https://plumberwebdesign.co.uk/web-design-plumbers-birmingham/",
-    "logo": "https://plumberwebdesign.co.uk/images/logo.webp",
+    "url": "https://www.plumberwebdesign.co.uk/web-design-plumbers-birmingham/",
+    "logo": "https://www.plumberwebdesign.co.uk/images/logo.webp",
     "telephone": "03333356750",
     "email": "hello@plumberwebdesign.co.uk",
     "description": "Specialist web design for plumbers in Birmingham, West Midlands. Local SEO-optimised websites from £99/month.",

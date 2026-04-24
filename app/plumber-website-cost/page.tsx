@@ -6,7 +6,7 @@ import Breadcrumbs from '@/components/Breadcrumbs';
 export const metadata = {
   title: { absolute: 'How Much Does a Plumber Website Cost in the UK? (2026)' },
   description: 'Plumber website cost explained. Transparent UK pricing: £99, £169, or £249 per month. No hidden setup fees. Compare packages and pick what fits.',
-  alternates: { canonical: 'https://plumberwebdesign.co.uk/plumber-website-cost/' },
+  alternates: { canonical: 'https://www.plumberwebdesign.co.uk/plumber-website-cost/' },
 };
 
 const pricingPackages = [
@@ -73,11 +73,11 @@ export default function CostPage() {
     "@type": "Article",
     "headline": "How Much Does a Plumber Website Cost in the UK? (2026)",
     "description": "Complete guide to plumber website costs in the UK. Monthly packages vs one-off builds, hidden costs to avoid, and transparent pricing from £99/month.",
-    "author": { "@type": "Organization", "name": "PlumberWebDesign.co.uk", "url": "https://plumberwebdesign.co.uk" },
-    "publisher": { "@type": "Organization", "name": "PlumberWebDesign.co.uk", "logo": { "@type": "ImageObject", "url": "https://plumberwebdesign.co.uk/images/logo.webp" } },
+    "author": { "@type": "Organization", "name": "PlumberWebDesign.co.uk", "url": "https://www.plumberwebdesign.co.uk" },
+    "publisher": { "@type": "Organization", "name": "PlumberWebDesign.co.uk", "logo": { "@type": "ImageObject", "url": "https://www.plumberwebdesign.co.uk/images/logo.webp" } },
     "datePublished": "2026-04-12",
     "dateModified": "2026-04-23",
-    "mainEntityOfPage": "https://plumberwebdesign.co.uk/plumber-website-cost/"
+    "mainEntityOfPage": "https://www.plumberwebdesign.co.uk/plumber-website-cost/"
   };
 
   const faqSchema = {
@@ -94,7 +94,7 @@ export default function CostPage() {
     "@context": "https://schema.org",
     "@type": "AggregateOffer",
     "name": "Plumber Website Packages",
-    "url": "https://plumberwebdesign.co.uk/plumber-website-cost/",
+    "url": "https://www.plumberwebdesign.co.uk/plumber-website-cost/",
     "priceCurrency": "GBP",
     "lowPrice": "99",
     "highPrice": "249",
@@ -110,8 +110,8 @@ export default function CostPage() {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
     "itemListElement": [
-      { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://plumberwebdesign.co.uk/" },
-      { "@type": "ListItem", "position": 2, "name": "Plumber Website Cost", "item": "https://plumberwebdesign.co.uk/plumber-website-cost/" }
+      { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.plumberwebdesign.co.uk/" },
+      { "@type": "ListItem", "position": 2, "name": "Plumber Website Cost", "item": "https://www.plumberwebdesign.co.uk/plumber-website-cost/" }
     ]
   };
 

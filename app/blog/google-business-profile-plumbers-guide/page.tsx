@@ -5,7 +5,7 @@ import Breadcrumbs from '@/components/Breadcrumbs';
 export const metadata = {
   title: { absolute: 'Google Business Profile for Plumbers: Complete Setup Guide' },
   description: "Your Google Business Profile matters more than your website for local map pack rankings. Step-by-step guide to set it up correctly and dominate local search.",
-  alternates: { canonical: 'https://plumberwebdesign.co.uk/blog/google-business-profile-plumbers-guide/' },
+  alternates: { canonical: 'https://www.plumberwebdesign.co.uk/blog/google-business-profile-plumbers-guide/' },
 };
 
 export default function BlogPost() {
@@ -14,11 +14,11 @@ export default function BlogPost() {
     "@type": "Article",
     "headline": "Google Business Profile for Plumbers: A Complete Setup Guide",
     "description": "Your GBP is arguably more important than your website for local map pack rankings. Follow our comprehensive guide to set it up correctly.",
-    "author": { "@type": "Organization", "name": "PlumberWebDesign.co.uk", "url": "https://plumberwebdesign.co.uk" },
-    "publisher": { "@type": "Organization", "name": "PlumberWebDesign.co.uk", "logo": { "@type": "ImageObject", "url": "https://plumberwebdesign.co.uk/images/logo.webp" } },
+    "author": { "@type": "Organization", "name": "PlumberWebDesign.co.uk", "url": "https://www.plumberwebdesign.co.uk" },
+    "publisher": { "@type": "Organization", "name": "PlumberWebDesign.co.uk", "logo": { "@type": "ImageObject", "url": "https://www.plumberwebdesign.co.uk/images/logo.webp" } },
     "datePublished": "2026-04-01",
     "dateModified": "2026-04-12",
-    "mainEntityOfPage": "https://plumberwebdesign.co.uk/blog/google-business-profile-plumbers-guide/"
+    "mainEntityOfPage": "https://www.plumberwebdesign.co.uk/blog/google-business-profile-plumbers-guide/"
   };
 
   return (

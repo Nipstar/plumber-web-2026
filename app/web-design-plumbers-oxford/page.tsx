@@ -6,7 +6,7 @@ import Breadcrumbs from '@/components/Breadcrumbs';
 export const metadata = {
   title: { absolute: 'Web Design for Plumbers in Oxford | PlumberWebDesign.co.uk' },
   description: 'Web design for plumbers in Oxford. Oxfordshire coverage including Cowley, Headington, Summertown, and Abingdon. Student HMO + listed-property market. From £99/month.',
-  alternates: { canonical: 'https://plumberwebdesign.co.uk/web-design-plumbers-oxford/' }
+  alternates: { canonical: 'https://www.plumberwebdesign.co.uk/web-design-plumbers-oxford/' }
 };
 
 const pricingPackages = [
@@ -82,8 +82,8 @@ export default function LocationPage() {
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
     "name": "PlumberWebDesign.co.uk — Oxford",
-    "url": "https://plumberwebdesign.co.uk/web-design-plumbers-oxford/",
-    "logo": "https://plumberwebdesign.co.uk/images/logo.webp",
+    "url": "https://www.plumberwebdesign.co.uk/web-design-plumbers-oxford/",
+    "logo": "https://www.plumberwebdesign.co.uk/images/logo.webp",
     "telephone": "03333356750",
     "email": "hello@plumberwebdesign.co.uk",
     "description": "Specialist web design for plumbers in Oxford, Oxfordshire. Local SEO-optimised websites from £99/month.",

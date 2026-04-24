@@ -5,7 +5,7 @@ import Breadcrumbs from '@/components/Breadcrumbs';
 export const metadata = {
   title: { absolute: 'Bathroom Fitter Website Design | Portfolio-Led UK Sites' },
   description: 'Website design for UK bathroom fitters. Before-and-after galleries, project case studies, and local SEO to win high-ticket refit work. From £99/month.',
-  alternates: { canonical: 'https://plumberwebdesign.co.uk/bathroom-fitter-website-design/' },
+  alternates: { canonical: 'https://www.plumberwebdesign.co.uk/bathroom-fitter-website-design/' },
 };
 
 export default function BathroomFitterPage() {
@@ -13,8 +13,8 @@ export default function BathroomFitterPage() {
     "@context": "https://schema.org",
     "@type": "ProfessionalService",
     "name": "PlumberWebDesign.co.uk — Bathroom Fitter Web Design",
-    "url": "https://plumberwebdesign.co.uk/bathroom-fitter-website-design/",
-    "logo": "https://plumberwebdesign.co.uk/images/logo.webp",
+    "url": "https://www.plumberwebdesign.co.uk/bathroom-fitter-website-design/",
+    "logo": "https://www.plumberwebdesign.co.uk/images/logo.webp",
     "telephone": "03333356750",
     "email": "hello@plumberwebdesign.co.uk",
     "description": "Professional website design for bathroom fitters across the UK. Before-and-after galleries, project case studies, and local SEO.",

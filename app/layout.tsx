@@ -18,7 +18,7 @@ const outfit = Outfit({
 })
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://plumberwebdesign.co.uk'),
+  metadataBase: new URL('https://www.plumberwebdesign.co.uk'),
   title: {
     default: 'Plumber Web Design | Websites for Plumbers from £99/month',
     template: '%s | PlumberWebDesign.co.uk'

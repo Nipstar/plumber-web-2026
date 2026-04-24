@@ -107,4 +107,4 @@ Allow: /
 User-agent: PhindBot
 Allow: /
 
-Sitemap: https://plumberwebdesign.co.uk/sitemap.xml
+Sitemap: https://www.plumberwebdesign.co.uk/sitemap.xml

@@ -6,7 +6,7 @@ import Breadcrumbs from '@/components/Breadcrumbs';
 export const metadata = {
   title: { absolute: 'Web Design for Plumbers in Portsmouth | PlumberWebDesign.co.uk' },
   description: 'Web design for plumbers in Portsmouth. South coast Hampshire coverage including Gosport, Fareham, Havant, and Southsea. Local SEO and GBP management. From £99/month.',
-  alternates: { canonical: 'https://plumberwebdesign.co.uk/web-design-plumbers-portsmouth/' }
+  alternates: { canonical: 'https://www.plumberwebdesign.co.uk/web-design-plumbers-portsmouth/' }
 };
 
 const pricingPackages = [
@@ -82,8 +82,8 @@ export default function LocationPage() {
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
     "name": "PlumberWebDesign.co.uk — Portsmouth",
-    "url": "https://plumberwebdesign.co.uk/web-design-plumbers-portsmouth/",
-    "logo": "https://plumberwebdesign.co.uk/images/logo.webp",
+    "url": "https://www.plumberwebdesign.co.uk/web-design-plumbers-portsmouth/",
+    "logo": "https://www.plumberwebdesign.co.uk/images/logo.webp",
     "telephone": "03333356750",
     "email": "hello@plumberwebdesign.co.uk",
     "description": "Specialist web design for plumbers in Portsmouth, Hampshire. Local SEO-optimised websites from £99/month.",

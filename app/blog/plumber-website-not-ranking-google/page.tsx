@@ -5,7 +5,7 @@ import Breadcrumbs from '@/components/Breadcrumbs';
 export const metadata = {
   title: { absolute: "Why Your Plumber Website Isn't Ranking | PlumberWebDesign" },
   description: "Not seeing your plumber website on page one? Six common local SEO mistakes plumbers make and the quick wins you can implement today to start ranking on Google.",
-  alternates: { canonical: 'https://plumberwebdesign.co.uk/blog/plumber-website-not-ranking-google/' },
+  alternates: { canonical: 'https://www.plumberwebdesign.co.uk/blog/plumber-website-not-ranking-google/' },
 };
 
 export default function BlogPost() {
@@ -14,11 +14,11 @@ export default function BlogPost() {
     "@type": "Article",
     "headline": "Why Your Plumber Website Isn't Ranking on Google (And How to Fix It)",
     "description": "Not seeing your plumbing website on page one? Learn the most common local SEO mistakes plumbers make and the quick wins you can implement today.",
-    "author": { "@type": "Organization", "name": "PlumberWebDesign.co.uk", "url": "https://plumberwebdesign.co.uk" },
-    "publisher": { "@type": "Organization", "name": "PlumberWebDesign.co.uk", "logo": { "@type": "ImageObject", "url": "https://plumberwebdesign.co.uk/images/logo.webp" } },
+    "author": { "@type": "Organization", "name": "PlumberWebDesign.co.uk", "url": "https://www.plumberwebdesign.co.uk" },
+    "publisher": { "@type": "Organization", "name": "PlumberWebDesign.co.uk", "logo": { "@type": "ImageObject", "url": "https://www.plumberwebdesign.co.uk/images/logo.webp" } },
     "datePublished": "2026-03-15",
     "dateModified": "2026-04-12",
-    "mainEntityOfPage": "https://plumberwebdesign.co.uk/blog/plumber-website-not-ranking-google/"
+    "mainEntityOfPage": "https://www.plumberwebdesign.co.uk/blog/plumber-website-not-ranking-google/"
   };
 
   return (

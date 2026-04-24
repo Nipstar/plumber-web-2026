@@ -5,7 +5,7 @@ import Breadcrumbs from '@/components/Breadcrumbs';
 export const metadata = {
   title: { absolute: 'What Should a Plumber Website Include in 2026?' },
   description: "A contact form is no longer enough. Discover the essential features that turn a plumber website into a lead-generation machine — AI chatbots, Gas Safe trust loops, more.",
-  alternates: { canonical: 'https://plumberwebdesign.co.uk/blog/what-should-plumber-website-include/' },
+  alternates: { canonical: 'https://www.plumberwebdesign.co.uk/blog/what-should-plumber-website-include/' },
 };
 
 export default function BlogPost() {
@@ -14,11 +14,11 @@ export default function BlogPost() {
     "@type": "Article",
     "headline": "What Should a Plumber Website Include in 2026?",
     "description": "Having a contact form is no longer enough. Discover the features that turn standard plumber websites into lead-generation machines.",
-    "author": { "@type": "Organization", "name": "PlumberWebDesign.co.uk", "url": "https://plumberwebdesign.co.uk" },
-    "publisher": { "@type": "Organization", "name": "PlumberWebDesign.co.uk", "logo": { "@type": "ImageObject", "url": "https://plumberwebdesign.co.uk/images/logo.webp" } },
+    "author": { "@type": "Organization", "name": "PlumberWebDesign.co.uk", "url": "https://www.plumberwebdesign.co.uk" },
+    "publisher": { "@type": "Organization", "name": "PlumberWebDesign.co.uk", "logo": { "@type": "ImageObject", "url": "https://www.plumberwebdesign.co.uk/images/logo.webp" } },
     "datePublished": "2026-03-22",
     "dateModified": "2026-04-12",
-    "mainEntityOfPage": "https://plumberwebdesign.co.uk/blog/what-should-plumber-website-include/"
+    "mainEntityOfPage": "https://www.plumberwebdesign.co.uk/blog/what-should-plumber-website-include/"
   };
 
   return (

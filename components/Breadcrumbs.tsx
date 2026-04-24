@@ -6,7 +6,7 @@ export interface BreadcrumbItem {
   href: string;
 }
 
-const BASE_URL = 'https://plumberwebdesign.co.uk';
+const BASE_URL = 'https://www.plumberwebdesign.co.uk';
 
 export default function Breadcrumbs({ items }: { items: BreadcrumbItem[] }) {
   const full: BreadcrumbItem[] = [{ label: 'Home', href: '/' }, ...items];

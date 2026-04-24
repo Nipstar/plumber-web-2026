@@ -6,7 +6,7 @@ import Breadcrumbs from '@/components/Breadcrumbs';
 export const metadata = {
   title: { absolute: 'Plumber Website Design Packages | Pricing from £99/month' },
   description: 'Transparent plumber website design pricing. Three packages from £99, £169, or £249 per month. No setup fees. Free domain, hosting, SSL, and local SEO included.',
-  alternates: { canonical: 'https://plumberwebdesign.co.uk/plumber-website-design-packages/' },
+  alternates: { canonical: 'https://www.plumberwebdesign.co.uk/plumber-website-design-packages/' },
 };
 
 const pricingPackages = [
@@ -91,11 +91,11 @@ export default function PackagesPage() {
     "provider": {
       "@type": "ProfessionalService",
       "name": "PlumberWebDesign.co.uk",
-      "url": "https://plumberwebdesign.co.uk/",
+      "url": "https://www.plumberwebdesign.co.uk/",
       "telephone": "03333356750"
     },
     "name": "Plumber Website Design Packages",
-    "url": "https://plumberwebdesign.co.uk/plumber-website-design-packages/",
+    "url": "https://www.plumberwebdesign.co.uk/plumber-website-design-packages/",
     "description": "Transparent plumber website design pricing with three tiers from £99/month.",
     "areaServed": { "@type": "Country", "name": "GB" },
     "hasOfferCatalog": {

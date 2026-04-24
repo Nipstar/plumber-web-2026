@@ -3,7 +3,7 @@ import Breadcrumbs from '@/components/Breadcrumbs';
 export const metadata = {
   title: { absolute: 'Privacy Policy | PlumberWebDesign.co.uk' },
   description: 'Privacy policy for PlumberWebDesign.co.uk. How we collect, use, and protect your personal data when you use our website and services.',
-  alternates: { canonical: 'https://plumberwebdesign.co.uk/privacy-policy/' },
+  alternates: { canonical: 'https://www.plumberwebdesign.co.uk/privacy-policy/' },
 };
 
 export default function PrivacyPolicyPage() {

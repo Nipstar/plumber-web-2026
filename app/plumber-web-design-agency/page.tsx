@@ -5,14 +5,14 @@ import Breadcrumbs from '@/components/Breadcrumbs';
 export const metadata = {
   title: { absolute: 'Plumber Web Design Agency | Specialist for UK Trades' },
   description: 'Looking for a plumber web design agency? We build exclusively for UK plumbers and heating engineers. Trade-specific websites, local SEO, and ongoing support.',
-  alternates: { canonical: 'https://plumberwebdesign.co.uk/plumber-web-design-agency/' },
+  alternates: { canonical: 'https://www.plumberwebdesign.co.uk/plumber-web-design-agency/' },
 };
 
 const schema = {
   "@context": "https://schema.org",
   "@type": "ProfessionalService",
   "name": "PlumberWebDesign.co.uk",
-  "url": "https://plumberwebdesign.co.uk/",
+  "url": "https://www.plumberwebdesign.co.uk/",
   "telephone": "03333356750",
   "email": "hello@plumberwebdesign.co.uk",
   "description": "Specialist web design agency for UK plumbers, gas engineers, and heating engineers.",

@@ -5,14 +5,14 @@ import Breadcrumbs from '@/components/Breadcrumbs';
 export const metadata = {
   title: { absolute: 'Get a Free Quote for Your Plumber Website | PlumberWebDesign' },
   description: 'Get a free quote for your plumber website. Tell us about your business and we will come back to you within one working day. No hard sell, no hidden costs.',
-  alternates: { canonical: 'https://plumberwebdesign.co.uk/contact/' },
+  alternates: { canonical: 'https://www.plumberwebdesign.co.uk/contact/' },
 };
 
 const schema = {
   "@context": "https://schema.org",
   "@type": "LocalBusiness",
   "name": "PlumberWebDesign.co.uk",
-  "url": "https://plumberwebdesign.co.uk/",
+  "url": "https://www.plumberwebdesign.co.uk/",
   "telephone": "03333356750",
   "email": "hello@plumberwebdesign.co.uk",
   "areaServed": { "@type": "Country", "name": "GB" },

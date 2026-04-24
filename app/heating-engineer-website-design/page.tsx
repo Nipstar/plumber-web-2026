@@ -5,7 +5,7 @@ import Breadcrumbs from '@/components/Breadcrumbs';
 export const metadata = {
   title: { absolute: 'Heating Engineer Website Design | Boiler & Heat Pump Sites' },
   description: 'Website design for UK heating engineers. Boiler installation and heat pump landing pages, built-in local SEO, and annual service booking. From £99/month.',
-  alternates: { canonical: 'https://plumberwebdesign.co.uk/heating-engineer-website-design/' },
+  alternates: { canonical: 'https://www.plumberwebdesign.co.uk/heating-engineer-website-design/' },
 };
 
 export default function HeatingEngineerPage() {
@@ -13,8 +13,8 @@ export default function HeatingEngineerPage() {
     "@context": "https://schema.org",
     "@type": "ProfessionalService",
     "name": "PlumberWebDesign.co.uk — Heating Engineer Web Design",
-    "url": "https://plumberwebdesign.co.uk/heating-engineer-website-design/",
-    "logo": "https://plumberwebdesign.co.uk/images/logo.webp",
+    "url": "https://www.plumberwebdesign.co.uk/heating-engineer-website-design/",
+    "logo": "https://www.plumberwebdesign.co.uk/images/logo.webp",
     "telephone": "03333356750",
     "email": "hello@plumberwebdesign.co.uk",
     "description": "Website design for UK heating engineers. Boiler installations, heat pump landing pages, and underfloor heating portfolios with local SEO.",

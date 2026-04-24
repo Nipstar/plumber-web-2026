@@ -3,7 +3,7 @@ import Breadcrumbs from '@/components/Breadcrumbs';
 export const metadata = {
   title: { absolute: 'Terms of Business | PlumberWebDesign.co.uk' },
   description: 'Terms of business for PlumberWebDesign.co.uk. Outlines our service agreement, payment terms, intellectual property, and cancellation policy.',
-  alternates: { canonical: 'https://plumberwebdesign.co.uk/terms/' },
+  alternates: { canonical: 'https://www.plumberwebdesign.co.uk/terms/' },
 };
 
 export default function TermsPage() {

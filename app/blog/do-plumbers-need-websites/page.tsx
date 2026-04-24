@@ -5,7 +5,7 @@ import Breadcrumbs from '@/components/Breadcrumbs';
 export const metadata = {
   title: { absolute: 'Do Plumbers Need Websites in 2026? | PlumberWebDesign' },
   description: 'Do plumbers need websites in 2026? Yes — 70% of plumbing searches happen on mobile, and Google Business Profile alone is not enough. Here is why, with data.',
-  alternates: { canonical: 'https://plumberwebdesign.co.uk/blog/do-plumbers-need-websites/' },
+  alternates: { canonical: 'https://www.plumberwebdesign.co.uk/blog/do-plumbers-need-websites/' },
 };
 
 export default function BlogPost() {
@@ -14,11 +14,11 @@ export default function BlogPost() {
     "@type": "Article",
     "headline": "Do Plumbers Need Websites in 2026?",
     "description": "Why every UK plumber needs a website, backed by search data. Google Business Profile alone is not enough.",
-    "author": { "@type": "Organization", "name": "PlumberWebDesign.co.uk", "url": "https://plumberwebdesign.co.uk" },
-    "publisher": { "@type": "Organization", "name": "PlumberWebDesign.co.uk", "logo": { "@type": "ImageObject", "url": "https://plumberwebdesign.co.uk/images/logo.webp" } },
+    "author": { "@type": "Organization", "name": "PlumberWebDesign.co.uk", "url": "https://www.plumberwebdesign.co.uk" },
+    "publisher": { "@type": "Organization", "name": "PlumberWebDesign.co.uk", "logo": { "@type": "ImageObject", "url": "https://www.plumberwebdesign.co.uk/images/logo.webp" } },
     "datePublished": "2026-04-23",
     "dateModified": "2026-04-23",
-    "mainEntityOfPage": "https://plumberwebdesign.co.uk/blog/do-plumbers-need-websites/"
+    "mainEntityOfPage": "https://www.plumberwebdesign.co.uk/blog/do-plumbers-need-websites/"
   };
 
   const faqSchema = {
