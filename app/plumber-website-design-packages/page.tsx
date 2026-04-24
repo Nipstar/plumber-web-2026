@@ -68,8 +68,8 @@ const pricingPackages = [
 const packageFaqs = [
   { q: 'Are there setup fees?', a: 'No setup fee on our website packages. AI Add-ons have a one-off setup fee to cover the bespoke training.' },
   { q: 'Can I upgrade my package?', a: 'Yes, at any time. We can seamlessly scale you out of Apprentice into Journeyman or Master as you grow.' },
-  { q: 'What happens after year one?', a: 'Annual hosting renewal applies. We notify you well in advance.' },
-  { q: 'What if I want to cancel?', a: 'Just give us 30 days notice. No long ugly tie-ins.' },
+  { q: 'Is there a minimum term?', a: 'Yes, six months from launch. This covers our build costs and gives your local SEO time to start ranking. After six months you own the site and can cancel any time with 30 days notice.' },
+  { q: 'What if I want to cancel?', a: 'Minimum term is six months. After that, give us 30 days written notice and we hand over the full website, domain, and files. No long tie-ins beyond the initial six-month period.' },
   { q: 'Do you offer one-off builds?', a: 'Not currently. We partner long-term via our packages to ensure your site is maintained, secure, and ranking for the long haul.' },
   { q: 'What are the AI add-ons?', a: 'The AI Chatbot and AI Voice Agent are managed services. We train AI on your specific business rules to capture leads and book appointments automatically.' },
 ];
@@ -220,8 +220,8 @@ export default function PackagesPage() {
             {[
               { q: 'Are there setup fees?', a: 'No setup fee on our website packages. AI Add-ons have a one-off setup fee to cover the bespoke training.' },
               { q: 'Can I upgrade my package?', a: 'Yes, at any time. We can seamlessly scale you out of Apprentice into Journeyman or Master as you grow.' },
-              { q: 'What happens after year one?', a: 'Annual hosting renewal applies. We notify you well in advance.' },
-              { q: 'What if I want to cancel?', a: 'Just give us 30 days notice. No long ugly tie-ins.' },
+              { q: 'Is there a minimum term?', a: 'Yes, six months from launch. This covers our build costs and gives your local SEO time to start ranking. After six months you own the site and can cancel any time with 30 days notice.' },
+              { q: 'What if I want to cancel?', a: 'Minimum term is six months. After that, give us 30 days written notice and we hand over the full website, domain, and files. No long tie-ins beyond the initial six-month period.' },
               { q: 'Do you offer one-off builds?', a: 'Not currently. We partner long-term via our packages to ensure your site is maintained, secure, and ranking for the long haul.' },
               { q: 'What are the AI add-ons?', a: 'The AI Chatbot and AI Voice Agent are managed services. We train AI on your specific business rules to capture leads and book appointments automatically.' },
             ].map((faq, i) => (

@@ -66,22 +66,24 @@ export default function TermsPage() {
           <section>
             <h2 className="text-2xl font-display font-bold text-navy-dark mb-4">6. Intellectual Property</h2>
             <p className="text-slate-blue leading-relaxed">
-              Upon full payment, you own the website design and content we create for you. The website is fully transferable with no lock-in. We retain the right to display the work in our portfolio unless you request otherwise in writing. Third-party assets (stock images, fonts, plugins) remain subject to their respective licences.
+              After completion of the minimum six-month subscription term, you own the website design and content we create for you, fully transferable to any hosting provider with no lock-in. Before the six-month minimum, the website remains hosted and managed by us. We retain the right to display the work in our portfolio unless you request otherwise in writing. Third-party assets (stock images, fonts, plugins) remain subject to their respective licences.
             </p>
           </section>
 
           <section>
             <h2 className="text-2xl font-display font-bold text-navy-dark mb-4">7. Hosting and Maintenance</h2>
             <p className="text-slate-blue leading-relaxed">
-              All packages include hosting and SSL for the duration of your subscription. Hosting renews annually after the first year. We perform routine maintenance and security updates. We are not liable for downtime caused by third-party hosting infrastructure or force majeure events.
+              All packages include hosting and SSL for the duration of your subscription. We perform routine maintenance, security updates, and platform upgrades as part of the monthly fee. We are not liable for downtime caused by third-party hosting infrastructure or force majeure events.
             </p>
           </section>
 
           <section>
-            <h2 className="text-2xl font-display font-bold text-navy-dark mb-4">8. Cancellation</h2>
+            <h2 className="text-2xl font-display font-bold text-navy-dark mb-4">8. Minimum Term and Cancellation</h2>
             <ul className="list-disc pl-6 space-y-2 text-slate-blue">
-              <li>You may cancel your subscription at any time with 30 days' written notice.</li>
-              <li>Upon cancellation, we will provide all website files and assist with migration if requested.</li>
+              <li>All website packages have a minimum six-month subscription term from the date of launch.</li>
+              <li>After the six-month minimum, you may cancel with 30 days' written notice at any time.</li>
+              <li>Upon cancellation after the minimum term, ownership transfers to you and we provide all website files, domain, and assist with migration if requested.</li>
+              <li>Cancellation during the first six months ends the service but ownership does not transfer; the site and domain remain with us.</li>
               <li>No refunds are given for partial months or unused services.</li>
               <li>AI add-on setup fees are non-refundable once the service has been configured.</li>
             </ul>

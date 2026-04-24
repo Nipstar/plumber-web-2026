@@ -68,12 +68,14 @@ const pricingPackages = [
 ];
 
 const faqItems = [
-  { question: 'How long does it take?', answer: '2–3 weeks from sign-off.' },
-  { question: 'Do I own the website?', answer: 'Yes. Fully transferable. No lock-in.' },
-  { question: 'Is SEO included?', answer: 'Yes. Local SEO setup in every package.' },
-  { question: 'Do you work with gas and heating engineers?', answer: 'Yes. See our specialist pages.' },
-  { question: 'What happens after the first year?', answer: 'Annual hosting renewal. We notify you in advance.' },
-  { question: 'Can I see examples?', answer: 'Yes. Once you enquire, we can share live client examples relevant to your trade and location.' }
+  { question: 'How much does a plumber website cost in the UK?', answer: 'Our plumber websites cost £99, £169, or £249 per month depending on the package. Each includes hosting, SSL, a free domain, and local SEO. No setup fees on website packages. One-off custom builds from other agencies typically cost £1,500–£5,000 with hosting and SEO billed separately on top.' },
+  { question: 'Do plumbers need a website in 2026?', answer: 'Yes. Over 70% of plumbing searches happen on mobile, and Google ranks businesses with a proper website above those relying on Google Business Profile alone. Without a website you cannot rank for service-specific searches like "boiler repair Manchester" or capture jobs worth over £3,000.' },
+  { question: 'How long does it take to build a plumber website?', answer: 'Two to three weeks from sign-off. That includes design, content, local SEO setup, Google Business Profile integration, and domain configuration. You review a staging site before we go live — nothing gets published until you approve it.' },
+  { question: 'Do I own the website?', answer: 'Yes, after a minimum six-month subscription you fully own the website and it is transferable to any host. We hand over all files, domain, and content. Before six months, the site remains hosted and managed by us to ensure we recoup build costs.' },
+  { question: 'Is local SEO included in every package?', answer: 'Yes. Every package includes local SEO setup: on-page optimisation, schema markup, Google Business Profile integration, and citation building. The Journeyman and Master packages add ongoing GBP posting, review management, and for Master, monthly blog content and optional link building.' },
+  { question: 'How long until my plumber website ranks on Google?', answer: 'Local rankings for specific neighbourhoods or towns typically take 3–6 months. Competitive city-wide terms like "plumber London" take 9–18 months. Smaller markets like Andover or Portsmouth rank faster due to lower competition. Ranking work is ongoing in Journeyman and Master packages.' },
+  { question: 'Can I cancel my plumber website subscription?', answer: 'Yes. Give 30 days written notice after the minimum six-month term. We release all files, assist with migration, and transfer ownership. No long tie-ins after the six-month minimum. Cancelling within the first six months ends the service but ownership does not transfer.' },
+  { question: 'Do you work with gas engineers, heating engineers, and bathroom fitters?', answer: 'Yes. We have dedicated service pages for each trade. Gas engineers get prominent Gas Safe display and emergency booking; heating engineers get heat pump and boiler landing pages; bathroom fitters get before-and-after galleries. All include trade-specific local SEO.' }
 ];
 
 export default function Home() {
