@@ -6,7 +6,7 @@ import Breadcrumbs from '@/components/Breadcrumbs';
 
 export const metadata = {
   title: { absolute: 'Gas Engineer Website Design | Websites for Gas Engineers' },
-  description: 'Specialist website design for Gas Safe registered engineers across the UK. Prominent Gas Safe display, emergency booking forms, and local SEO built in. From £99/month.',
+  description: 'Specialist website design for Gas Safe registered engineers in the UK. Prominent Gas Safe display, emergency booking forms, and local SEO. From £99/month.',
   alternates: { canonical: 'https://plumberwebdesign.co.uk/gas-engineer-website-design/' },
 };
 

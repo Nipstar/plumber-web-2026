@@ -7,6 +7,7 @@ const locations = [
     slug: 'london',
     region: 'Greater London',
     postcodes: ['E', 'EC', 'N', 'NW', 'SE', 'SW', 'W', 'WC'],
+    metaDesc: 'Web design for plumbers in London. Borough-level landing pages across all 32 London boroughs, M25-wide local SEO, GBP management. From £99/month.',
     intro: 'Standing out in the capital requires more than just a template. In a fiercely competitive market like London, your plumbing business needs a superior digital presence built specifically to convert traffic into booked jobs.',
     marketStats: 'London is the most competitive plumbing market in the UK, with over 12,000 registered plumbers across the Greater London area competing for emergency call-outs, boiler installations, bathroom refits, and landlord gas safety certificates. Search volume for "plumber near me" inside the M25 is the highest in the country — and so is the cost-per-click on paid ads. The plumbers winning this market are ranking organically in the Google Map Pack and the top three blue links. Everyone else pays through the nose for Google Ads or goes without work.',
     searchBehaviour: 'London homeowners expect instant results. When a boiler fails in a Clapham flat at 10pm on a Sunday, they are not scrolling past the first three results. They call the first plumber with a professional website, strong reviews, and a prominent click-to-call button. Your website needs to load in under two seconds, display your Gas Safe credentials prominently, list the boroughs and postcodes you cover, and make booking trivially easy.',
@@ -27,6 +28,7 @@ const locations = [
     slug: 'manchester',
     region: 'Greater Manchester',
     postcodes: ['M', 'BL', 'OL', 'SK', 'WN', 'WA'],
+    metaDesc: 'Web design for plumbers in Manchester. Landing pages for all 10 Greater Manchester boroughs from Didsbury to Salford, GBP management. From £99/month.',
     intro: 'The Manchester market is bustling, but with so many plumbers competing for attention, your website needs to instantly communicate trust and authority.',
     marketStats: 'Manchester is one of the fastest-growing cities in the UK, with a booming property market driving constant demand for plumbing and heating services. The Greater Manchester conurbation covers 10 metropolitan boroughs and over 2.8 million residents, stretching from the city centre through Salford, Stockport, Trafford, Bolton, Bury, Oldham, Rochdale, Tameside, and Wigan. From new-build developments in Salford Quays and NOMA to Victorian terrace conversions in Didsbury, Chorlton, and Heaton, homeowners and landlords need reliable plumbing and heating contractors.',
     searchBehaviour: 'Manchester search volume for "plumber near me" is concentrated across dozens of distinct neighbourhoods, each with its own microclimate of demand. A homeowner in Altrincham will see completely different local results to someone in Rochdale — and each expects you to know their area. Without dedicated pages targeting each sub-region you cover, you are invisible to the majority of your potential customers even if you service the whole patch.',
@@ -47,6 +49,7 @@ const locations = [
     slug: 'birmingham',
     region: 'West Midlands',
     postcodes: ['B', 'DY', 'WS', 'WV', 'CV'],
+    metaDesc: 'Web design for plumbers in Birmingham. West Midlands-wide coverage including Solihull, Sutton Coldfield, and the Black Country. Local SEO built in. From £99/month.',
     intro: 'Operating in the heart of the Midlands? We build high-conversion websites for Birmingham plumbers looking to lock down local search rankings and capture more emergency call-outs.',
     marketStats: 'Birmingham is the UK\'s second city and the largest local authority by population with over 1.15 million residents. The West Midlands conurbation extends through Solihull, Wolverhampton, Walsall, Dudley, and Sandwell — creating a massive catchment area of nearly 3 million people. Competition is fierce but less saturated than London, meaning a properly optimised website can deliver Page 1 rankings faster.',
     searchBehaviour: 'The Birmingham property market mixes everything from inner-city flats in the Jewellery Quarter and Digbeth to large detached homes in Sutton Coldfield, Edgbaston, Harborne, and Solihull. Each property type brings different plumbing needs. An Edgbaston homeowner searching for a plumber is often looking for heritage-property-competent specialists; a Digbeth apartment tenant needs emergency response. Your website needs to speak to each audience with targeted service pages and local modifiers.',
@@ -67,6 +70,7 @@ const locations = [
     slug: 'liverpool',
     region: 'Merseyside',
     postcodes: ['L', 'CH', 'WA', 'PR'],
+    metaDesc: 'Web design for plumbers in Liverpool. Merseyside-wide coverage across both sides of the Mersey including the Wirral and Southport. Local SEO built in. From £99/month.',
     intro: 'Whether you cover the city centre or the surrounding Merseyside areas, a specialist plumbing website ensures you are the first call a Liverpool homeowner makes when their boiler breaks.',
     marketStats: 'Liverpool and the wider Merseyside region offer strong demand for plumbing services, driven by a mix of period properties, student lettings, and ongoing regeneration projects. The L1-L40 postcode area covers nearly 1.4 million residents across the city itself plus Sefton, Knowsley, St Helens, and the Wirral. Recent years have seen major investment in new housing developments around the Baltic Triangle, Royal Albert Dock, and Liverpool Waters — each requiring plumbing and heating contractors.',
     searchBehaviour: 'Merseyside covers a large geographic area from Southport in the north to the Wirral peninsula across the water. Many Liverpool plumbers serve the full region but only rank for their home postcode. Customers search "plumber near me" from Birkenhead, Bootle, or Crosby — all technically Merseyside, all technically your catchment — and you miss them because your site does not have a dedicated page for those areas.',
@@ -87,6 +91,7 @@ const locations = [
     slug: 'portsmouth',
     region: 'Hampshire',
     postcodes: ['PO1', 'PO2', 'PO3', 'PO4', 'PO5', 'PO6', 'PO7', 'PO8', 'PO9', 'PO11', 'PO12', 'PO13', 'PO14', 'PO15', 'PO16'],
+    metaDesc: 'Web design for plumbers in Portsmouth. South coast Hampshire coverage including Gosport, Fareham, Havant, and Southsea. Local SEO and GBP management. From £99/month.',
     intro: 'As a key south coast hub, Portsmouth presents a massive opportunity for local tradesmen. Take the lion\'s share of the local market with a site built exclusively for lead generation.',
     marketStats: 'Portsmouth and the surrounding Hampshire coast — Gosport, Fareham, Havant, Emsworth, and Waterlooville — form a densely populated area with strong demand for domestic plumbing and heating services. The city itself has over 200,000 residents, with another 400,000 across the wider south-east Hampshire conurbation. The mix of naval housing in Eastney and Hilsea, period terraces in Old Portsmouth and Southsea, and modern developments around Gunwharf Quays creates diverse plumbing needs across every price point.',
     searchBehaviour: 'The south coast market is tight-knit. Homeowners trust local tradespeople and often search specifically for "plumber in Portsmouth" or "boiler engineer Gosport" rather than broader terms. Your website needs to rank for these exact phrases. We ensure every page targets the specific towns and postcodes you serve along the Hampshire coast — competition is moderate compared to larger cities, meaning there is genuine opportunity to dominate local search with the right website.',
@@ -107,6 +112,7 @@ const locations = [
     slug: 'andover',
     region: 'North Hampshire',
     postcodes: ['SP10', 'SP11', 'SP9', 'SO20', 'SO21', 'RG28'],
+    metaDesc: 'Web design for plumbers in Andover. North Hampshire + Test Valley coverage including Whitchurch, Stockbridge, and Tidworth. Low competition, fast ranking. From £99/month.',
     intro: 'Serving the local Andover community? We build tailored, mobile-first websites that establish your reputation and capture high-value local plumbing jobs right on your doorstep.',
     marketStats: 'Andover is a growing market town in north Hampshire with a strong community focus and a population of around 50,000, rising to 120,000 including the surrounding Test Valley district and nearby villages. The area benefits from significant MOD presence — Tidworth Garrison, Thruxton airfield, and various military housing estates — plus a growing commuter population working in Winchester, Basingstoke, and even London. Plumbing demand is steady year-round with strong spikes during winter freeze periods.',
     searchBehaviour: 'In smaller towns like Andover, there are fewer plumbers competing online — which means ranking on page one is achievable significantly faster than in a major city. But you still need a website built for local SEO. Andover residents search specifically for "plumber Andover" or "boiler repair Andover" rather than broader terms, and they expect the result to feel genuinely local. A website that lists the specific villages and surrounding areas — Whitchurch, Hurstbourne Tarrant, Stockbridge — immediately signals trust.',
@@ -143,7 +149,7 @@ import Breadcrumbs from '@/components/Breadcrumbs';
 
 export const metadata = {
   title: { absolute: 'Web Design for Plumbers in ${loc.city} | PlumberWebDesign.co.uk' },
-  description: 'Specialist web design for plumbers in ${loc.city}. Local SEO-optimised websites that rank when ${loc.city} customers search for plumbers nearby. From £99/month.',
+  description: '${loc.metaDesc}',
   alternates: { canonical: 'https://plumberwebdesign.co.uk/web-design-plumbers-${loc.slug}/' }
 };
 

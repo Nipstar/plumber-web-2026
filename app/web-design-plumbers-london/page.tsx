@@ -5,7 +5,7 @@ import Breadcrumbs from '@/components/Breadcrumbs';
 
 export const metadata = {
   title: { absolute: 'Web Design for Plumbers in London | PlumberWebDesign.co.uk' },
-  description: 'Specialist web design for plumbers in London. Local SEO-optimised websites that rank when London customers search for plumbers nearby. From £99/month.',
+  description: 'Web design for plumbers in London. Borough-level landing pages across all 32 London boroughs, M25-wide local SEO, GBP management. From £99/month.',
   alternates: { canonical: 'https://plumberwebdesign.co.uk/web-design-plumbers-london/' }
 };
 

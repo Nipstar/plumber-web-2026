@@ -4,7 +4,7 @@ import Breadcrumbs from '@/components/Breadcrumbs';
 
 export const metadata = {
   title: { absolute: "Why Your Plumber Website Isn't Ranking | PlumberWebDesign" },
-  description: "Not seeing your plumbing website on page one? Learn the most common local SEO mistakes plumbers make and the quick wins you can implement today to start ranking.",
+  description: "Not seeing your plumber website on page one? Six common local SEO mistakes plumbers make and the quick wins you can implement today to start ranking on Google.",
   alternates: { canonical: 'https://plumberwebdesign.co.uk/blog/plumber-website-not-ranking-google/' },
 };
 

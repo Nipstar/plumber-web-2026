@@ -5,7 +5,7 @@ import Breadcrumbs from '@/components/Breadcrumbs';
 
 export const metadata = {
   title: { absolute: 'Web Design for Plumbers in Birmingham | PlumberWebDesign.co.uk' },
-  description: 'Specialist web design for plumbers in Birmingham. Local SEO-optimised websites that rank when Birmingham customers search for plumbers nearby. From £99/month.',
+  description: 'Web design for plumbers in Birmingham. West Midlands-wide coverage including Solihull, Sutton Coldfield, and the Black Country. Local SEO built in. From £99/month.',
   alternates: { canonical: 'https://plumberwebdesign.co.uk/web-design-plumbers-birmingham/' }
 };
 

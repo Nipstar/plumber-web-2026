@@ -5,7 +5,7 @@ import Breadcrumbs from '@/components/Breadcrumbs';
 
 export const metadata = {
   title: { absolute: 'Web Design for Plumbers in Portsmouth | PlumberWebDesign.co.uk' },
-  description: 'Specialist web design for plumbers in Portsmouth. Local SEO-optimised websites that rank when Portsmouth customers search for plumbers nearby. From £99/month.',
+  description: 'Web design for plumbers in Portsmouth. South coast Hampshire coverage including Gosport, Fareham, Havant, and Southsea. Local SEO and GBP management. From £99/month.',
   alternates: { canonical: 'https://plumberwebdesign.co.uk/web-design-plumbers-portsmouth/' }
 };
 

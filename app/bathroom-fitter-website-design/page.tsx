@@ -3,8 +3,8 @@ import SchemaScript from '@/components/SchemaScript';
 import Breadcrumbs from '@/components/Breadcrumbs';
 
 export const metadata = {
-  title: { absolute: 'Bathroom Fitter Website Design | PlumberWebDesign.co.uk' },
-  description: 'Professional website design for bathroom fitters across the UK. Showcase your work with before-and-after galleries and generate local enquiries. From £99/month.',
+  title: { absolute: 'Bathroom Fitter Website Design | Portfolio-Led UK Sites' },
+  description: 'Website design for UK bathroom fitters. Before-and-after galleries, project case studies, and local SEO to win high-ticket refit work. From £99/month.',
   alternates: { canonical: 'https://plumberwebdesign.co.uk/bathroom-fitter-website-design/' },
 };
 

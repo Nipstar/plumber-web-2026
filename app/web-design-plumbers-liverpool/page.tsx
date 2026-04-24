@@ -5,7 +5,7 @@ import Breadcrumbs from '@/components/Breadcrumbs';
 
 export const metadata = {
   title: { absolute: 'Web Design for Plumbers in Liverpool | PlumberWebDesign.co.uk' },
-  description: 'Specialist web design for plumbers in Liverpool. Local SEO-optimised websites that rank when Liverpool customers search for plumbers nearby. From £99/month.',
+  description: 'Web design for plumbers in Liverpool. Merseyside-wide coverage across both sides of the Mersey including the Wirral and Southport. Local SEO built in. From £99/month.',
   alternates: { canonical: 'https://plumberwebdesign.co.uk/web-design-plumbers-liverpool/' }
 };
 

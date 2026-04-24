@@ -5,7 +5,7 @@ import Breadcrumbs from '@/components/Breadcrumbs';
 
 export const metadata = {
   title: { absolute: 'Plumber Website Design Packages | Pricing from £99/month' },
-  description: 'Transparent plumber website design pricing. Three packages: Apprentice £99/mo, Journeyman £169/mo, Master £249/mo. No setup fees. Free domain and hosting included.',
+  description: 'Transparent plumber website design pricing. Three packages from £99, £169, or £249 per month. No setup fees. Free domain, hosting, SSL, and local SEO included.',
   alternates: { canonical: 'https://plumberwebdesign.co.uk/plumber-website-design-packages/' },
 };
 

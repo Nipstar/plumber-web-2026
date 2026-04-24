@@ -5,7 +5,7 @@ import Breadcrumbs from '@/components/Breadcrumbs';
 
 export const metadata = {
   title: { absolute: 'Web Design for Plumbers in Andover | PlumberWebDesign.co.uk' },
-  description: 'Specialist web design for plumbers in Andover. Local SEO-optimised websites that rank when Andover customers search for plumbers nearby. From £99/month.',
+  description: 'Web design for plumbers in Andover. North Hampshire + Test Valley coverage including Whitchurch, Stockbridge, and Tidworth. Low competition, fast ranking. From £99/month.',
   alternates: { canonical: 'https://plumberwebdesign.co.uk/web-design-plumbers-andover/' }
 };
 

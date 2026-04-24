@@ -4,7 +4,7 @@ import Breadcrumbs from '@/components/Breadcrumbs';
 
 export const metadata = {
   title: { absolute: 'SEO for Plumbers UK | Local SEO for Plumbing Businesses' },
-  description: 'Local SEO services for UK plumbers. Get found when customers search for plumbers in your area. Google Business Profile management and citation building included.',
+  description: 'Local SEO for UK plumbers. Get found when customers search "plumber near me". Google Business Profile management, citations, and on-page optimisation included.',
   alternates: { canonical: 'https://plumberwebdesign.co.uk/seo-for-plumbers/' },
 };
 

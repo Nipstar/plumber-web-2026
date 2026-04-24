@@ -3,8 +3,8 @@ import SchemaScript from '@/components/SchemaScript';
 import Breadcrumbs from '@/components/Breadcrumbs';
 
 export const metadata = {
-  title: { absolute: 'Heating Engineer Website Design | PlumberWebDesign.co.uk' },
-  description: 'Website design for UK heating engineers. Showcase qualifications, win boiler installation and heat pump jobs, and rank locally with built-in SEO. From £99/month.',
+  title: { absolute: 'Heating Engineer Website Design | Boiler & Heat Pump Sites' },
+  description: 'Website design for UK heating engineers. Boiler installation and heat pump landing pages, built-in local SEO, and annual service booking. From £99/month.',
   alternates: { canonical: 'https://plumberwebdesign.co.uk/heating-engineer-website-design/' },
 };
 

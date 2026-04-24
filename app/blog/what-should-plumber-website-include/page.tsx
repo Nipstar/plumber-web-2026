@@ -3,8 +3,8 @@ import SchemaScript from '@/components/SchemaScript';
 import Breadcrumbs from '@/components/Breadcrumbs';
 
 export const metadata = {
-  title: { absolute: 'What Should a Plumber Website Include in 2026? | PlumberWebDesign' },
-  description: "Having a contact form is no longer enough. Discover the features that turn standard plumber websites into lead-generation machines, from AI chatbots to Gas Safe loops.",
+  title: { absolute: 'What Should a Plumber Website Include in 2026?' },
+  description: "A contact form is no longer enough. Discover the essential features that turn a plumber website into a lead-generation machine — AI chatbots, Gas Safe trust loops, more.",
   alternates: { canonical: 'https://plumberwebdesign.co.uk/blog/what-should-plumber-website-include/' },
 };
 

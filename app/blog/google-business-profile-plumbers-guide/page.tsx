@@ -3,8 +3,8 @@ import SchemaScript from '@/components/SchemaScript';
 import Breadcrumbs from '@/components/Breadcrumbs';
 
 export const metadata = {
-  title: { absolute: 'Google Business Profile for Plumbers: Setup Guide | PlumberWebDesign' },
-  description: "Your GBP is arguably more important than your website for local map pack rankings. Follow our comprehensive guide to set it up correctly and dominate local search.",
+  title: { absolute: 'Google Business Profile for Plumbers: Complete Setup Guide' },
+  description: "Your Google Business Profile matters more than your website for local map pack rankings. Step-by-step guide to set it up correctly and dominate local search.",
   alternates: { canonical: 'https://plumberwebdesign.co.uk/blog/google-business-profile-plumbers-guide/' },
 };
 

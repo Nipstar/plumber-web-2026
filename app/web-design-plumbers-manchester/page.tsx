@@ -5,7 +5,7 @@ import Breadcrumbs from '@/components/Breadcrumbs';
 
 export const metadata = {
   title: { absolute: 'Web Design for Plumbers in Manchester | PlumberWebDesign.co.uk' },
-  description: 'Specialist web design for plumbers in Manchester. Local SEO-optimised websites that rank when Manchester customers search for plumbers nearby. From £99/month.',
+  description: 'Web design for plumbers in Manchester. Landing pages for all 10 Greater Manchester boroughs from Didsbury to Salford, GBP management. From £99/month.',
   alternates: { canonical: 'https://plumberwebdesign.co.uk/web-design-plumbers-manchester/' }
 };
 
