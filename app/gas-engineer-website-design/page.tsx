@@ -3,10 +3,11 @@ import PricingCard from '@/components/PricingCard';
 import FaqAccordion from '@/components/FaqAccordion';
 import SchemaScript from '@/components/SchemaScript';
 import Breadcrumbs from '@/components/Breadcrumbs';
+import RelatedLinks from '@/components/RelatedLinks';
 
 export const metadata = {
   title: { absolute: 'Gas Engineer Website Design | Websites for Gas Engineers' },
-  description: 'Specialist website design for Gas Safe registered engineers in the UK. Prominent Gas Safe display, emergency booking forms, and local SEO. From £99/month.',
+  description: 'Gas engineer website design from £99/month. Built for Gas Safe registered engineers — emergency call-out booking, postcode landing pages, GBP optimisation.',
   alternates: { canonical: 'https://www.plumberwebdesign.co.uk/gas-engineer-website-design/' },
 };
 
@@ -173,6 +174,10 @@ export default function GasEngineerPage() {
           <div className="max-w-3xl mx-auto">
             <h2 className="text-2xl font-display font-bold text-navy-dark mb-8 text-center">Gas Engineer FAQs</h2>
             <FaqAccordion items={gasFaqs} />
+          </div>
+
+          <div className="max-w-4xl mx-auto">
+            <RelatedLinks keys={['home', 'packages', 'cost', 'heating', 'seo', 'blogGBP']} />
           </div>
 
         </div>

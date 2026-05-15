@@ -2,10 +2,11 @@ import PricingCard from '@/components/PricingCard';
 import AddOnCard from '@/components/AddOnCard';
 import SchemaScript from '@/components/SchemaScript';
 import Breadcrumbs from '@/components/Breadcrumbs';
+import RelatedLinks from '@/components/RelatedLinks';
 
 export const metadata = {
   title: { absolute: 'Plumber Website Design Packages | Pricing from £99/month' },
-  description: 'Transparent plumber website design pricing. Three packages from £99, £169, or £249 per month. No setup fees. Free domain, hosting, SSL, and local SEO included.',
+  description: 'Plumber website packages from £99/month. Apprentice 5-page, Journeyman 10-page, Master 20+ page. Hosting, SSL, domain and local SEO included. No setup fees.',
   alternates: { canonical: 'https://www.plumberwebdesign.co.uk/plumber-website-design-packages/' },
 };
 
@@ -231,6 +232,8 @@ export default function PackagesPage() {
               </div>
             ))}
           </div>
+
+          <RelatedLinks keys={['home', 'cost', 'agency', 'seo', 'gas', 'heating']} />
         </div>
       </div>
     </div>

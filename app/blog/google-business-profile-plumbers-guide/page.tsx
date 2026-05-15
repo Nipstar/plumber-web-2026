@@ -1,6 +1,8 @@
 import Link from 'next/link';
 import SchemaScript from '@/components/SchemaScript';
 import Breadcrumbs from '@/components/Breadcrumbs';
+import AuthorBio, { AUTHOR, authorPersonSchema } from '@/components/AuthorBio';
+import RelatedLinks from '@/components/RelatedLinks';
 
 export const metadata = {
   title: { absolute: 'Google Business Profile for Plumbers: Complete Setup Guide' },
@@ -14,16 +16,28 @@ export default function BlogPost() {
     "@type": "Article",
     "headline": "Google Business Profile for Plumbers: A Complete Setup Guide",
     "description": "Your GBP is arguably more important than your website for local map pack rankings. Follow our comprehensive guide to set it up correctly.",
-    "author": { "@type": "Organization", "name": "PlumberWebDesign.co.uk", "url": "https://www.plumberwebdesign.co.uk" },
+    "author": authorPersonSchema(),
     "publisher": { "@type": "Organization", "name": "PlumberWebDesign.co.uk", "logo": { "@type": "ImageObject", "url": "https://www.plumberwebdesign.co.uk/images/logo.webp" } },
     "datePublished": "2026-04-01",
-    "dateModified": "2026-04-12",
+    "dateModified": "2026-05-15",
     "mainEntityOfPage": "https://www.plumberwebdesign.co.uk/blog/google-business-profile-plumbers-guide/"
+  };
+
+  const faqSchema = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      { "@type": "Question", "name": "How do plumbers set up a Google Business Profile?", "acceptedAnswer": { "@type": "Answer", "text": "Go to business.google.com, search for your business name (claim if it exists, create if not), verify ownership via postcard/phone/email, choose 'Plumber' as primary category, complete every field including service area, upload 10+ photos, and start collecting reviews." } },
+      { "@type": "Question", "name": "What is the best primary category for a plumber on GBP?", "acceptedAnswer": { "@type": "Answer", "text": "'Plumber' is the correct primary category for most UK plumbing businesses. Add secondary categories that reflect your actual specialisms: Gas Engineer, Heating Contractor, Bathroom Remodeler, Drain Cleaning Service, Water Heater Installation Service." } },
+      { "@type": "Question", "name": "How many photos should a plumber upload to GBP?", "acceptedAnswer": { "@type": "Answer", "text": "Per Google's own published guidance, businesses with 100+ photos receive significantly more calls and direction requests than the median. Upload 2-3 new photos per week from completed jobs to keep the profile active." } },
+      { "@type": "Question", "name": "Can plumbers use a service area instead of a physical address?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. Most plumbers work from home or travel to customers — set yourself as a 'Service Area Business' to hide the home address while listing up to 20 specific cities and towns you cover." } }
+    ]
   };
 
   return (
     <div className="bg-light-gray min-h-screen">
       <SchemaScript schema={schema} />
+      <SchemaScript schema={faqSchema} />
       <Breadcrumbs items={[
         { label: 'Blog', href: '/blog/' },
         { label: 'Google Business Profile for Plumbers', href: '/blog/google-business-profile-plumbers-guide/' }
@@ -32,7 +46,16 @@ export default function BlogPost() {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <Link href="/blog/" className="text-amber text-sm font-bold uppercase tracking-wider hover:underline mb-4 inline-block">Blog</Link>
           <h1 className="text-3xl md:text-5xl font-display font-bold mb-6">Google Business Profile for Plumbers: A Complete Setup Guide</h1>
-          <time className="text-white/60 text-sm">1 April 2026</time>
+          <div className="flex flex-col items-center gap-2">
+            <time className="text-white/60 text-sm">Published 1 April 2026 · Updated 15 May 2026</time>
+            <p className="text-white/60 text-sm">
+              By{' '}
+              <Link href={`/about/${AUTHOR.slug}/`} className="text-amber hover:underline">
+                {AUTHOR.name}
+              </Link>
+              , Founder
+            </p>
+          </div>
         </div>
       </div>
 
@@ -40,12 +63,36 @@ export default function BlogPost() {
         <div className="prose prose-lg prose-slate max-w-none space-y-6">
 
           <p className="text-lg text-slate-blue leading-relaxed">
-            When someone searches "plumber near me," the first thing they see is the Google Map Pack — three local businesses with reviews, phone numbers, and directions. If you are not in those three slots, you are invisible to the majority of local searchers. Your Google Business Profile (GBP) is the single most important factor in getting there.
+            When someone searches "plumber near me," the first thing they see is the Google Map Pack — three
+            local businesses with reviews, phone numbers, and directions. If you are not in those three
+            slots, you are invisible to the majority of local searchers. Your Google Business Profile (GBP)
+            is the single most important factor in getting there. Google&apos;s own{' '}
+            <a
+              href="https://support.google.com/business/answer/7091"
+              rel="noopener"
+              className="text-amber hover:underline"
+            >
+              official ranking documentation
+            </a>{' '}
+            confirms that relevance, distance, and prominence determine Map Pack position — and your GBP is
+            where you control all three.
           </p>
 
           <h2 className="text-2xl font-display font-bold text-navy-dark">Step 1: Claim or create your profile</h2>
           <p className="text-slate-blue leading-relaxed">
-            Go to <strong>business.google.com</strong> and search for your business name. If it already exists (Google often creates listings automatically from directory data), claim it. If not, create a new one. You will need to verify ownership — Google typically sends a postcard with a code to your business address, though phone and email verification are sometimes available. Do not skip this step. An unverified profile will not rank.
+            Go to{' '}
+            <a
+              href="https://business.google.com/"
+              rel="noopener"
+              className="text-amber hover:underline"
+            >
+              business.google.com
+            </a>{' '}
+            and search for your business name. If it already exists (Google often creates listings
+            automatically from directory data), claim it. If not, create a new one. You will need to verify
+            ownership — Google typically sends a postcard with a code to your business address, though phone
+            and email verification are sometimes available. Do not skip this step. An unverified profile
+            will not rank.
           </p>
 
           <h2 className="text-2xl font-display font-bold text-navy-dark">Step 2: Choose the right categories</h2>
@@ -60,7 +107,19 @@ export default function BlogPost() {
 
           <h2 className="text-2xl font-display font-bold text-navy-dark">Step 4: Upload high-quality photos</h2>
           <p className="text-slate-blue leading-relaxed">
-            Businesses with more than 100 photos get 520% more calls than the average listing, according to Google's own data. Upload photos of: your team, your van (branded), completed jobs (before and after), your office or workspace, equipment, and any certifications. Add new photos regularly — at least 2-3 per week from jobs you complete. Name your image files descriptively before uploading: "boiler-installation-manchester.jpg" not "IMG_4521.jpg."
+            Per Google&apos;s published guidance on{' '}
+            <a
+              href="https://support.google.com/business/answer/6103862"
+              rel="noopener"
+              className="text-amber hover:underline"
+            >
+              adding photos to your Business Profile
+            </a>
+            , listings with regular fresh photography see materially higher direction requests and call
+            volumes than those without. Upload photos of: your team, your van (branded), completed jobs
+            (before and after), your office or workspace, equipment, and any certifications. Add new photos
+            regularly — at least 2-3 per week from jobs you complete. Name your image files descriptively
+            before uploading: "boiler-installation-manchester.jpg" not "IMG_4521.jpg."
           </p>
 
           <h2 className="text-2xl font-display font-bold text-navy-dark">Step 5: Set up your service area correctly</h2>
@@ -88,7 +147,18 @@ export default function BlogPost() {
             <ul className="space-y-3 text-slate-blue">
               <li className="flex items-start gap-3">
                 <span className="text-red-500 font-bold flex-shrink-0">x</span>
-                <span>Adding keywords to your business name (e.g. "Smith Plumbing - Best Plumber London") — this violates Google's guidelines and can get your listing suspended</span>
+                <span>
+                  Adding keywords to your business name (e.g. "Smith Plumbing - Best Plumber London") —
+                  this violates{' '}
+                  <a
+                    href="https://support.google.com/business/answer/3038177"
+                    rel="noopener"
+                    className="text-amber hover:underline"
+                  >
+                    Google&apos;s representation guidelines
+                  </a>{' '}
+                  and can get your listing suspended
+                </span>
               </li>
               <li className="flex items-start gap-3">
                 <span className="text-red-500 font-bold flex-shrink-0">x</span>
@@ -105,8 +175,76 @@ export default function BlogPost() {
             </ul>
           </div>
 
+          <h2 className="text-2xl font-display font-bold text-navy-dark">GBP attributes plumbers should turn on</h2>
           <p className="text-slate-blue leading-relaxed">
-            Your GBP is a free marketing channel that most plumbers underutilise. Spend 15 minutes per week maintaining it — uploading photos, responding to reviews, and posting updates — and you will outperform the majority of your local competition. Pair it with a website built for local SEO and you have a lead generation engine that works around the clock.
+            Google Business Profile has a list of business attributes that most plumbers leave blank.
+            These attributes feed both the visible profile and the underlying entity graph Google uses to
+            match queries. For UK plumbers, turn on every relevant one:
+          </p>
+          <ul className="list-disc pl-6 space-y-2 text-slate-blue leading-relaxed">
+            <li><strong>Identifies as women-owned / veteran-owned / family-owned</strong> — if applicable. These attributes appear as badges and have measurable click-through impact.</li>
+            <li><strong>Online estimates</strong> — Yes. Tell Google you provide quotes without a site visit (where you do).</li>
+            <li><strong>On-site services</strong> — Yes. Tells Google you travel to customers.</li>
+            <li><strong>Free Wi-Fi / wheelchair-accessible entrance</strong> — only if you have a physical office customers visit.</li>
+            <li><strong>Payment methods</strong> — list every method (credit card, debit card, bank transfer, cash, BACS). Filters out customers expecting bartering, signals professionalism.</li>
+            <li><strong>Service options</strong> — &quot;Emergency service&quot; if you offer it. Triggers visibility on emergency-intent queries.</li>
+          </ul>
+
+          <h2 className="text-2xl font-display font-bold text-navy-dark">Handling negative reviews professionally</h2>
+          <p className="text-slate-blue leading-relaxed">
+            Every plumbing business gets a one-star review eventually. The plumbers who recover fastest
+            follow a script. Acknowledge the customer&apos;s frustration without admitting liability. State the
+            facts neutrally. Offer a path to resolution. Sign off with a real name and your business
+            phone. Length: 3-4 sentences maximum. Anything longer reads defensive.
+          </p>
+          <p className="text-slate-blue leading-relaxed">
+            Example response to a negative review about a late arrival: &quot;Hi [Name], thank you for letting
+            us know about your experience on the 12th. I have looked into the diary — we were running 90
+            minutes late due to an earlier emergency overrun, and our admin team should have called ahead.
+            That was our miss and I apologise. I would like to make it right — please call me directly on
+            [number]. — [Your Name], Owner.&quot; Professional, specific, factual, and visibly human. Future
+            customers reading your review section see this and trust you more, not less.
+          </p>
+          <p className="text-slate-blue leading-relaxed">
+            If a review is genuinely fake (wrong business, never used your service) or violates Google&apos;s{' '}
+            <a
+              href="https://support.google.com/business/answer/2622994"
+              rel="noopener"
+              className="text-amber hover:underline"
+            >
+              review content policy
+            </a>
+            , flag it for removal — but do not get drawn into public arguments. Google removes a single-
+            digit percentage of flagged reviews, so the public response matters more than the takedown
+            attempt.
+          </p>
+
+          <h2 className="text-2xl font-display font-bold text-navy-dark">Service-area vs storefront — the difference</h2>
+          <p className="text-slate-blue leading-relaxed">
+            Most UK plumbers should be set up as a Service Area Business, not a storefront. The difference
+            is structural in how Google ranks you. A storefront listing requires a physical address that
+            customers visit — Google uses that address as the distance-ranking anchor. A Service Area
+            Business hides the physical address (so your home address does not appear) and ranks within
+            the listed service areas instead.
+          </p>
+          <p className="text-slate-blue leading-relaxed">
+            If you set yourself as a storefront from a home address, three problems occur. First, your
+            home address becomes public — security and privacy risk. Second, Google may suspend the
+            listing because Service Area Businesses are not allowed to display a home address. Third, your
+            ranking is anchored to your home location, not the towns you actually serve — so you become
+            invisible for customers searching from outside a 2-mile radius. The fix is to switch to
+            Service Area Business in GBP settings and list every town and postcode you genuinely cover.
+          </p>
+
+          <p className="text-slate-blue leading-relaxed">
+            Your GBP is a free marketing channel that most plumbers underutilise. Spend 15 minutes per
+            week maintaining it — uploading photos, responding to reviews, and posting updates — and you
+            will outperform the majority of your local competition. Pair it with a website built for local
+            SEO and you have a lead generation engine that works around the clock. See the{' '}
+            <Link href="/seo-for-plumbers/" className="text-amber hover:underline">
+              SEO for plumbers
+            </Link>{' '}
+            page for how we integrate GBP management into every website package.
           </p>
 
           <div className="text-center mt-12">
@@ -114,6 +252,10 @@ export default function BlogPost() {
               Get a site with GBP management built in
             </Link>
           </div>
+
+          <RelatedLinks keys={['home', 'seo', 'blogRank', 'blogInclude', 'blogDo', 'cost']} heading="Related reading" />
+
+          <AuthorBio />
         </div>
       </article>
     </div>

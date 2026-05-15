@@ -6,7 +6,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project
 
-Marketing website for PlumberWebDesign.co.uk — a UK web design agency for plumbers, gas engineers, and heating engineers. Static site deployed to Cloudflare Pages.
+Marketing website for PlumberWebDesign.co.uk — a UK web design agency for plumbers, gas engineers, and heating engineers. Static site deployed to Vercel.
 
 ## Stack
 
@@ -15,6 +15,8 @@ Marketing website for PlumberWebDesign.co.uk — a UK web design agency for plum
 - **Tailwind CSS v4** via `@tailwindcss/postcss` — uses `@theme` directive in `app/globals.css`, not a traditional `tailwind.config.ts`
 - **Fonts**: Inter (`--font-sans`, body) + Outfit (`--font-display`, headings) via `next/font/google`
 - **GA4**: Conditionally injected via `NEXT_PUBLIC_GA4_ID` env var
+- **Deploy**: Vercel (env vars: Project → Settings → Environment Variables; scope Production + Preview)
+- **Env vars in use**: `NEXT_PUBLIC_GA4_ID`, `NEXT_PUBLIC_PHONE`, `NEXT_PUBLIC_EMAIL`, `NEXT_PUBLIC_SOCIAL_FB`, `NEXT_PUBLIC_ICO_NUMBER`
 
 ## Commands
 

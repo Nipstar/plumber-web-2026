@@ -10,6 +10,7 @@ export default function Footer() {
             <h3 className="font-display font-bold text-xl mb-6 text-white">Services</h3>
             <ul className="space-y-4 text-sm text-white/70 hover:*:text-amber">
               <li><Link href="/" className="transition-colors duration-150">Web Design for Plumbers</Link></li>
+              <li><Link href="/websites-for-plumbers/" className="transition-colors duration-150">Websites for Plumbers</Link></li>
               <li><Link href="/gas-engineer-website-design/" className="transition-colors duration-150">Gas Engineer Web Design</Link></li>
               <li><Link href="/heating-engineer-website-design/" className="transition-colors duration-150">Heating Engineer Web Design</Link></li>
               <li><Link href="/bathroom-fitter-website-design/" className="transition-colors duration-150">Bathroom Fitter Web Design</Link></li>
@@ -39,9 +40,11 @@ export default function Footer() {
           <div>
             <h3 className="font-display font-bold text-xl mb-6 text-white">Blog</h3>
             <ul className="space-y-4 text-sm text-white/70 hover:*:text-amber">
-              <li><Link href="/blog/do-plumbers-need-websites/" className="transition-colors duration-150">Do Plumbers Need Websites?</Link></li>
-              <li><Link href="/blog/plumber-website-not-ranking-google/" className="transition-colors duration-150">Why Your Site Isn't Ranking</Link></li>
-              <li><Link href="/blog/what-should-plumber-website-include/" className="transition-colors duration-150">What to Include in 2026</Link></li>
+              <li><Link href="/blog/plumber-seo-checklist-2026/" className="transition-colors duration-150">2026 Plumber SEO Checklist</Link></li>
+              <li><Link href="/blog/what-is-local-seo-plumber-guide/" className="transition-colors duration-150">What is Local SEO?</Link></li>
+              <li><Link href="/blog/how-much-should-plumber-spend-on-marketing/" className="transition-colors duration-150">Marketing Spend Benchmarks</Link></li>
+              <li><Link href="/blog/google-ads-for-plumbers-uk/" className="transition-colors duration-150">Google Ads for Plumbers</Link></li>
+              <li><Link href="/blog/best-website-builder-for-plumbers-uk/" className="transition-colors duration-150">Best Website Builder</Link></li>
               <li><Link href="/blog/google-business-profile-plumbers-guide/" className="transition-colors duration-150">GBP Setup Guide</Link></li>
               <li><Link href="/blog/" className="transition-colors duration-150 text-amber">View all posts →</Link></li>
             </ul>
@@ -75,9 +78,18 @@ export default function Footer() {
           </div>
         </div>
 
-        <div className="border-t border-slate-blue/20 pt-8 flex flex-col md:flex-row justify-between items-center gap-4 text-xs text-white/50">
-          <p>© 2026 PlumberWebDesign.co.uk</p>
+        <div className="border-t border-slate-blue/20 pt-8 flex flex-col md:flex-row justify-between items-start gap-4 text-xs text-white/50">
+          <div className="space-y-1">
+            <p>© 2026 PlumberWebDesign.co.uk</p>
+            {process.env.NEXT_PUBLIC_ICO_NUMBER && (
+              <p>Registered with the UK Information Commissioner&apos;s Office — ICO Reg. {process.env.NEXT_PUBLIC_ICO_NUMBER}.</p>
+            )}
+            <p>
+              Edited by <Link href="/about/andrew-norman/" className="text-white/70 hover:text-amber transition-colors">Andrew Norman</Link>, Founder.
+            </p>
+          </div>
           <div className="flex gap-4">
+            <Link href="/about/andrew-norman/" className="hover:text-amber transition-colors">About</Link>
             <Link href="/privacy-policy/" className="hover:text-amber transition-colors">Privacy Policy</Link>
             <Link href="/terms/" className="hover:text-amber transition-colors">Terms of Business</Link>
           </div>

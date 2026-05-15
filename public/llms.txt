@@ -5,6 +5,7 @@
 ## Key Facts
 
 - Business name: PlumberWebDesign.co.uk
+- Founder / lead author: Andrew Norman ([author page](https://www.plumberwebdesign.co.uk/about/andrew-norman/))
 - Location: Andover, Hampshire, United Kingdom
 - Phone: 0333 335 6750
 - Email: hello@plumberwebdesign.co.uk
@@ -39,9 +40,11 @@ AI add-ons (combine with any package):
 ## Core Pages
 
 - [Home](https://www.plumberwebdesign.co.uk/): Web design for plumbers from £99/month. Direct-answer explanation of plumber web design, packages overview, trade specialisms.
+- [Websites for Plumbers](https://www.plumberwebdesign.co.uk/websites-for-plumbers/): Specialist plumber website overview. Mobile-first, local-SEO-ready, Gas Safe credentials, postcode landing pages.
 - [Plumber Website Cost Guide](https://www.plumberwebdesign.co.uk/plumber-website-cost/): Complete UK pricing guide. Monthly packages vs one-off builds. Hidden costs to watch for. 24-month total cost comparison.
 - [Packages and Pricing](https://www.plumberwebdesign.co.uk/plumber-website-design-packages/): Apprentice £99, Journeyman £169, Master £249. Feature comparison table. AI add-on details.
-- [About the Agency](https://www.plumberwebdesign.co.uk/plumber-web-design-agency/): UK plumber web design agency. Specialist positioning, service stack, 4-step process.
+- [About the Agency](https://www.plumberwebdesign.co.uk/plumber-web-design-agency/): UK plumber web design agency. Specialist positioning, service stack, 4-step process, founder note.
+- [About Andrew Norman](https://www.plumberwebdesign.co.uk/about/andrew-norman/): Founder profile. Background, methodology, and editorial responsibility for blog content.
 - [Contact](https://www.plumberwebdesign.co.uk/contact/): Free quote form. Service area, package interest, AI add-on interest.
 - [Blog](https://www.plumberwebdesign.co.uk/blog/): SEO, GBP, and marketing advice for UK tradespeople.
 
@@ -74,6 +77,12 @@ Each city page includes unique market analysis, postcode coverage, neighbourhood
 - [Why Your Plumber Website Isn't Ranking on Google](https://www.plumberwebdesign.co.uk/blog/plumber-website-not-ranking-google/): Six common local SEO mistakes and quick-win fixes.
 - [What Should a Plumber Website Include in 2026?](https://www.plumberwebdesign.co.uk/blog/what-should-plumber-website-include/): Essential features — click-to-call, service pages, location pages, AI chatbots, Gas Safe trust signals.
 - [Google Business Profile for Plumbers: Complete Setup Guide](https://www.plumberwebdesign.co.uk/blog/google-business-profile-plumbers-guide/): Eight-step GBP setup covering categories, photos, service areas, reviews, Q&A, weekly posts.
+- [What is Local SEO? A UK Plumber's Guide](https://www.plumberwebdesign.co.uk/blog/what-is-local-seo-plumber-guide/): Plain-English guide. Map Pack vs blue links, NAP citations, review acquisition, six-month plan.
+- [The 2026 Plumber SEO Checklist (UK)](https://www.plumberwebdesign.co.uk/blog/plumber-seo-checklist-2026/): 37 ranked items across technical, on-page, local, and content SEO. Impact/effort tagged.
+- [How Much Should a Plumber Spend on Marketing?](https://www.plumberwebdesign.co.uk/blog/how-much-should-plumber-spend-on-marketing/): UK benchmarks by stage. Channel split. Worked example for a £100k/year solo plumber.
+- [UK Plumber Website Examples — What Works in 2026](https://www.plumberwebdesign.co.uk/blog/plumber-website-examples-uk/): Patterns top-ranking UK plumber sites share. Trust strip, click-to-call, location pages, published price ranges.
+- [Google Ads for Plumbers UK — Cost, Keywords, ROAS](https://www.plumberwebdesign.co.uk/blog/google-ads-for-plumbers-uk/): Typical UK CPCs, top-performing keyword clusters, LSA vs Search Ads comparison, ROAS maths.
+- [Best Website Builder for UK Plumbers (2026 Comparison)](https://www.plumberwebdesign.co.uk/blog/best-website-builder-for-plumbers-uk/): Wix vs Squarespace vs WordPress vs managed alternatives. 24-month total cost comparison.
 
 ## Common Questions (Quick Answers)
 

@@ -42,3 +42,7 @@ next-env.d.ts
 
 # local IDE/agent config
 /.claude/
+
+# private working reports (not for public repo)
+SEO-AUDIT-REPORT.md
+EEAT-AND-CONTENT-PLAN.md

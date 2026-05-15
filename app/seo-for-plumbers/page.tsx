@@ -1,10 +1,11 @@
 import Link from 'next/link';
 import SchemaScript from '@/components/SchemaScript';
 import Breadcrumbs from '@/components/Breadcrumbs';
+import RelatedLinks from '@/components/RelatedLinks';
 
 export const metadata = {
   title: { absolute: 'SEO for Plumbers UK | Local SEO for Plumbing Businesses' },
-  description: 'Local SEO for UK plumbers. Get found when customers search "plumber near me". Google Business Profile management, citations, and on-page optimisation included.',
+  description: 'SEO for plumbers — local SEO, Google Business Profile management, postcode pages, and citation building. Designed exclusively for UK plumbing businesses.',
   alternates: { canonical: 'https://www.plumberwebdesign.co.uk/seo-for-plumbers/' },
 };
 
@@ -28,9 +29,22 @@ export default function SeoPage() {
     }]
   };
 
+  const faqSchema = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      { "@type": "Question", "name": "What is SEO for plumbers?", "acceptedAnswer": { "@type": "Answer", "text": "SEO for plumbers is local search engine optimisation tailored to UK plumbing businesses. It combines on-page optimisation of location and service pages, Google Business Profile management, NAP citation building across UK trade directories, review acquisition, and schema markup. The goal is to rank in the Google Map Pack and organic results for 'plumber near me' and 'boiler repair [city]' queries." } },
+      { "@type": "Question", "name": "How long does plumber SEO take to work?", "acceptedAnswer": { "@type": "Answer", "text": "Local rankings for smaller towns and specific neighbourhoods typically take 3-6 months. Competitive city-wide queries like 'plumber London' take 9-18 months. Long-tail service-plus-location queries (boiler repair Stockport, emergency plumber Cosham) usually rank faster than broad terms because they have lower competition." } },
+      { "@type": "Question", "name": "Do I need SEO if I already have Google Business Profile?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. GBP rules the Map Pack but cannot rank for service-specific or commercial queries below the map. Combining a well-optimised GBP with website SEO captures both Map Pack and organic blue-link traffic — typically 2-3x the lead volume of GBP alone." } },
+      { "@type": "Question", "name": "What is included in your plumber SEO service?", "acceptedAnswer": { "@type": "Answer", "text": "On-page optimisation of location and service landing pages with LocalBusiness JSON-LD schema, NAP citation building across UK directories (Yell, Checkatrade, FreeIndex, TrustATrader, local council directories), full Google Business Profile setup and weekly posting, review acquisition strategy, and ongoing technical SEO monitoring." } },
+      { "@type": "Question", "name": "Is SEO better than Google Ads for plumbers?", "acceptedAnswer": { "@type": "Answer", "text": "Different jobs. Google Ads and Local Services Ads deliver calls immediately but stop the moment budget runs out. SEO takes 3-6 months to ramp but each ranked page generates free clicks indefinitely. Most growing plumbers run both — paid for immediate fill, organic for compounding ROI over 12-24 months." } }
+    ]
+  };
+
   return (
     <div className="bg-light-gray min-h-screen">
       <SchemaScript schema={schema} />
+      <SchemaScript schema={faqSchema} />
       <Breadcrumbs items={[{ label: 'SEO for Plumbers', href: '/seo-for-plumbers/' }]} />
        <div className="py-24 bg-navy-dark text-white border-b border-slate-blue/20">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
@@ -108,6 +122,8 @@ export default function SeoPage() {
                 View Packages with SEO
               </Link>
             </div>
+
+            <RelatedLinks keys={['home', 'packages', 'cost', 'blogGBP', 'blogRank', 'gas']} />
           </div>
 
         </div>

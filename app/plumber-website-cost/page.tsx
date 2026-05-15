@@ -2,10 +2,11 @@ import Link from 'next/link';
 import SchemaScript from '@/components/SchemaScript';
 import PricingCard from '@/components/PricingCard';
 import Breadcrumbs from '@/components/Breadcrumbs';
+import RelatedLinks from '@/components/RelatedLinks';
 
 export const metadata = {
   title: { absolute: 'How Much Does a Plumber Website Cost in the UK? (2026)' },
-  description: 'Plumber website cost explained. Transparent UK pricing: £99, £169, or £249 per month. No hidden setup fees. Compare packages and pick what fits.',
+  description: 'How much does a plumber website cost in the UK in 2026? Monthly packages £99–£249 or one-off £1,500–£5,000. Full breakdown plus 5 hidden costs to watch for.',
   alternates: { canonical: 'https://www.plumberwebdesign.co.uk/plumber-website-cost/' },
 };
 
@@ -213,6 +214,69 @@ export default function CostPage() {
           </table>
         </div>
 
+        <h2 className="text-3xl font-display font-bold text-navy-dark mb-6">Managed package vs DIY website builder (Wix, Squarespace, GoDaddy)</h2>
+        <p className="text-lg text-slate-blue mb-6 leading-relaxed">
+          DIY drag-and-drop builders look cheaper on the sticker price. Once you factor in the time you
+          spend building, the SEO work nobody does for you, and the ongoing maintenance, the gap narrows
+          considerably — and often reverses.
+        </p>
+        <div className="overflow-x-auto rounded-2xl shadow-lg border border-slate-blue/10 mb-8">
+          <table className="w-full text-left bg-white">
+            <thead className="bg-navy-card text-white">
+              <tr>
+                <th className="p-4">Factor</th>
+                <th className="p-4 text-center">Managed (£99-£249/mo)</th>
+                <th className="p-4 text-center">DIY Wix / Squarespace / GoDaddy</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr className="bg-white">
+                <td className="p-4 border-b border-slate-blue/10 font-medium">Monthly software cost</td>
+                <td className="p-4 border-b border-slate-blue/10 text-center">£99-£249</td>
+                <td className="p-4 border-b border-slate-blue/10 text-center">£8-£40</td>
+              </tr>
+              <tr className="bg-light-gray/50">
+                <td className="p-4 border-b border-slate-blue/10 font-medium">Plumber-specific design</td>
+                <td className="p-4 border-b border-slate-blue/10 text-center text-amber font-bold">✓</td>
+                <td className="p-4 border-b border-slate-blue/10 text-center">Generic template</td>
+              </tr>
+              <tr className="bg-white">
+                <td className="p-4 border-b border-slate-blue/10 font-medium">Local SEO setup</td>
+                <td className="p-4 border-b border-slate-blue/10 text-center text-amber font-bold">Included</td>
+                <td className="p-4 border-b border-slate-blue/10 text-center">You do it / extra cost</td>
+              </tr>
+              <tr className="bg-light-gray/50">
+                <td className="p-4 border-b border-slate-blue/10 font-medium">Schema markup (LocalBusiness, FAQ)</td>
+                <td className="p-4 border-b border-slate-blue/10 text-center text-amber font-bold">Full</td>
+                <td className="p-4 border-b border-slate-blue/10 text-center">Basic / none</td>
+              </tr>
+              <tr className="bg-white">
+                <td className="p-4 border-b border-slate-blue/10 font-medium">Google Business Profile setup</td>
+                <td className="p-4 border-b border-slate-blue/10 text-center text-amber font-bold">Included</td>
+                <td className="p-4 border-b border-slate-blue/10 text-center">You do it</td>
+              </tr>
+              <tr className="bg-light-gray/50">
+                <td className="p-4 border-b border-slate-blue/10 font-medium">Your time per month</td>
+                <td className="p-4 border-b border-slate-blue/10 text-center">0-2 hours</td>
+                <td className="p-4 border-b border-slate-blue/10 text-center">8-15 hours</td>
+              </tr>
+              <tr className="bg-white">
+                <td className="p-4 border-b border-slate-blue/10 font-medium">Typical Google ranking outcome</td>
+                <td className="p-4 border-b border-slate-blue/10 text-center text-amber font-bold">Page 1 in 6-12 months</td>
+                <td className="p-4 border-b border-slate-blue/10 text-center">Page 4-5 usually</td>
+              </tr>
+              <tr className="bg-light-gray/50">
+                <td className="p-4 font-medium">24-month total (incl. your time at £50/hr)</td>
+                <td className="p-4 text-center font-bold">£2,376-£5,976</td>
+                <td className="p-4 text-center font-bold">£9,600-£18,960</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <p className="text-sm text-slate-blue/70 mb-8">
+          Full comparison: <Link href="/blog/best-website-builder-for-plumbers-uk/" className="text-amber hover:underline">Best website builder for UK plumbers — Wix vs Squarespace vs managed</Link>.
+        </p>
+
         <h2 className="text-3xl font-display font-bold text-navy-dark mb-6">Hidden costs to watch for</h2>
         <p className="text-lg text-slate-blue mb-8 leading-relaxed">
           Every UK plumber who has been burned by a web agency can list the same culprits. Before signing any contract, ask:
@@ -280,6 +344,8 @@ export default function CostPage() {
             Get a free quote →
           </Link>
         </div>
+
+        <RelatedLinks keys={['home', 'packages', 'agency', 'seo', 'blogInclude', 'blogDo']} />
 
       </article>
     </div>

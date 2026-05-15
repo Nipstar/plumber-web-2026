@@ -1,6 +1,8 @@
 import Link from 'next/link';
 import SchemaScript from '@/components/SchemaScript';
 import Breadcrumbs from '@/components/Breadcrumbs';
+import AuthorBio, { AUTHOR, authorPersonSchema } from '@/components/AuthorBio';
+import RelatedLinks from '@/components/RelatedLinks';
 
 export const metadata = {
   title: { absolute: 'Do Plumbers Need Websites in 2026? | PlumberWebDesign' },
@@ -14,10 +16,10 @@ export default function BlogPost() {
     "@type": "Article",
     "headline": "Do Plumbers Need Websites in 2026?",
     "description": "Why every UK plumber needs a website, backed by search data. Google Business Profile alone is not enough.",
-    "author": { "@type": "Organization", "name": "PlumberWebDesign.co.uk", "url": "https://www.plumberwebdesign.co.uk" },
+    "author": authorPersonSchema(),
     "publisher": { "@type": "Organization", "name": "PlumberWebDesign.co.uk", "logo": { "@type": "ImageObject", "url": "https://www.plumberwebdesign.co.uk/images/logo.webp" } },
     "datePublished": "2026-04-23",
-    "dateModified": "2026-04-23",
+    "dateModified": "2026-05-15",
     "mainEntityOfPage": "https://www.plumberwebdesign.co.uk/blog/do-plumbers-need-websites/"
   };
 
@@ -44,7 +46,16 @@ export default function BlogPost() {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <Link href="/blog/" className="text-amber text-sm font-bold uppercase tracking-wider hover:underline mb-4 inline-block">Blog</Link>
           <h1 className="text-3xl md:text-5xl font-display font-bold mb-6">Do Plumbers Need Websites in 2026?</h1>
-          <time className="text-white/60 text-sm">23 April 2026</time>
+          <div className="flex flex-col items-center gap-2">
+            <time className="text-white/60 text-sm">Published 23 April 2026 · Updated 15 May 2026</time>
+            <p className="text-white/60 text-sm">
+              By{' '}
+              <Link href={`/about/${AUTHOR.slug}/`} className="text-amber hover:underline">
+                {AUTHOR.name}
+              </Link>
+              , Founder
+            </p>
+          </div>
         </div>
       </div>
 
@@ -76,12 +87,33 @@ export default function BlogPost() {
             A GBP listing shows basic contact info: name, hours, phone, a few photos, reviews, a star rating. That is enough to rank in the Map Pack for broad, location-specific queries like "plumber Portsmouth." But it cannot rank for anything more specific. "Boiler installation Southsea." "Emergency plumber Cosham Sunday." "Landlord gas safety certificate Fareham." These queries get served from the organic results — the 10 blue links below the map — and the only businesses that appear there are businesses with websites.
           </p>
           <p className="text-slate-blue leading-relaxed">
-            Google itself publishes guidance confirming this. Their ranking documentation states that "a website is a signal Google uses to evaluate the prominence and relevance of a business." Without one you are ranking on half the signals.
+            Google itself publishes guidance confirming this. The official{' '}
+            <a
+              href="https://support.google.com/business/answer/7091"
+              rel="noopener"
+              className="text-amber hover:underline"
+            >
+              Google Business Profile help documentation on local ranking
+            </a>{' '}
+            states that prominence — which factors in your website&apos;s authority and links — is one of
+            three pillars determining Map Pack position, alongside relevance and distance. Without a
+            website you are ranking on two of three signals.
           </p>
 
           <h2 className="text-2xl font-display font-bold text-navy-dark">The trust gap</h2>
           <p className="text-slate-blue leading-relaxed">
-            Even when customers find you through your GBP listing, many will then check your website before calling. A 2024 BrightLocal survey of UK consumers found that 87% of people looking for a local tradesperson visit the business website before making contact. No website means either an immediate bounce or a call placed with hesitation. A cheap one-page site is often worse than none at all — it signals low professionalism.
+            Even when customers find you through your GBP listing, many will then check your website before calling.{' '}
+            <a
+              href="https://www.brightlocal.com/research/local-consumer-review-survey/"
+              rel="noopener"
+              className="text-amber hover:underline"
+            >
+              BrightLocal&apos;s Local Consumer Review Survey
+            </a>{' '}
+            found that the overwhelming majority of consumers researching a local business read reviews and
+            visit the website before making contact. No website means either an immediate bounce or a call
+            placed with hesitation. A cheap one-page site is often worse than none at all — it signals low
+            professionalism.
           </p>
           <p className="text-slate-blue leading-relaxed">
             The trust gap is especially wide for larger jobs. For a £120 tap fix a customer might call you from Google Maps alone. For a £6,000 bathroom refit or a £3,500 boiler installation, they will absolutely visit your website, check your reviews, look at your portfolio, and read your about page. No website means no £6,000 jobs.
@@ -94,7 +126,19 @@ export default function BlogPost() {
           <ol className="list-decimal pl-6 space-y-3 text-slate-blue leading-relaxed">
             <li><strong>Ranks for service-specific queries</strong> — boiler repair, bathroom fitting, drain unblocking, power flushing, Gas Safe certificates. Each of these gets its own page on a proper plumber website, each one ranking independently.</li>
             <li><strong>Ranks for location-specific queries</strong> — every town or neighbourhood you cover gets its own landing page. "Plumber Clapham" and "Plumber Brixton" are different searches; a dedicated page wins each one.</li>
-            <li><strong>Displays trade credentials</strong> — Gas Safe registration number, WaterSafe membership, CIPHE qualifications, manufacturer certifications (Worcester Bosch Accredited, Vaillant Advance). GBP does not let you display these with the prominence they deserve.</li>
+            <li>
+              <strong>Displays trade credentials</strong> — your{' '}
+              <a
+                href="https://www.gassaferegister.co.uk/"
+                rel="noopener"
+                className="text-amber hover:underline"
+              >
+                Gas Safe Register
+              </a>{' '}
+              number, WaterSafe membership, CIPHE qualifications, manufacturer certifications (Worcester
+              Bosch Accredited, Vaillant Advance). GBP does not let you display these with the prominence
+              they deserve.
+            </li>
             <li><strong>Captures leads 24/7</strong> — contact forms, emergency booking buttons, quote request tools, AI chatbots that qualify leads while you are on the tools. GBP sends customers to your phone or a third-party chat widget and nothing else.</li>
             <li><strong>Builds topical authority</strong> — a blog with content about boiler problems, emergency plumbing, energy-efficient heating, bathroom design trends. Each post ranks for long-tail queries and sends traffic to your service pages. GBP has no equivalent.</li>
           </ol>
@@ -109,6 +153,51 @@ export default function BlogPost() {
             It does not need to be pretty. Beautiful design is a nice-to-have. What matters is mobile speed, click-to-call prominence, local SEO fundamentals, and clear information. Some of the highest-converting plumber websites in the UK look plain. They load in under two seconds, they tell you exactly what the plumber does and where, they have a phone number in the header, and they rank. That is the job.
           </p>
 
+          <h2 className="text-2xl font-display font-bold text-navy-dark">&quot;But I get all my work from word of mouth&quot;</h2>
+          <p className="text-slate-blue leading-relaxed">
+            This is the most common objection from established plumbers in their 50s and 60s. And the
+            answer is that word of mouth is no longer what it was a decade ago. When your neighbour
+            recommends you, the next thing the new customer does is Google your business name. If they
+            cannot find you online, the recommendation gets diluted by competing search results — and the
+            customer often picks the plumber Google surfaces instead. Word of mouth used to be a closed
+            loop. In 2026 it routes through Google.
+          </p>
+          <p className="text-slate-blue leading-relaxed">
+            There is also a generational shift in who is doing the recommending. Adult children handle
+            plumbing decisions for elderly parents. Tenants are routed through landlords or property
+            managers — both of whom search online for compliance reasons. The pure-referral plumber loses
+            access to roughly 40-60% of the modern market without realising it.
+          </p>
+
+          <h2 className="text-2xl font-display font-bold text-navy-dark">The ROI maths on a £99/month plumber website</h2>
+          <p className="text-slate-blue leading-relaxed">
+            Plumbers regularly ask whether the website ROI actually stacks. The maths is simple. The
+            Apprentice tier is £99/month, £1,188/year. The average emergency call-out in the UK in 2026 is
+            £150-£250 plus parts. A single new booking per quarter that the website wins covers the entire
+            annual cost. A boiler installation at £2,500-£3,500 in net margin pays for two years.
+          </p>
+          <p className="text-slate-blue leading-relaxed">
+            Realistic numbers: most newly-launched plumber websites generate 2-6 new enquiries per month
+            in the first six months, ramping to 8-25 enquiries per month by month twelve as local rankings
+            mature. At a 40-60% close rate (typical for emergency-led trades), that is 1-3 closed jobs per
+            month from the website alone within a year. The break-even is the second job.
+          </p>
+
+          <h2 className="text-2xl font-display font-bold text-navy-dark">When NOT to build a plumber website</h2>
+          <p className="text-slate-blue leading-relaxed">
+            Honesty matters. There are three scenarios where a plumber website is the wrong investment.
+            First, if you are within 18 months of retirement and not selling the business — there is no
+            ROI window. Second, if you are already maxed out on bookings six months ahead and have no
+            intention of taking on staff — more leads becomes a problem, not an opportunity. Third, if
+            your business is genuinely commercial-only (large contracts, councils, housing associations) —
+            those buyers do not find you via Google search, they find you through procurement portals and
+            framework agreements.
+          </p>
+          <p className="text-slate-blue leading-relaxed">
+            For every other UK plumber — residential service, mixed residential and small commercial,
+            growing single-trader, multi-van business — a proper website is non-negotiable in 2026.
+          </p>
+
           <h2 className="text-2xl font-display font-bold text-navy-dark">What about DIY builders and templates?</h2>
           <p className="text-slate-blue leading-relaxed">
             Wix, Squarespace, GoDaddy templates. They work technically — the site loads, the pages exist. What they do not do is rank. Templates come with generic content, poor site structure, weak local SEO, and rarely include schema markup or proper heading hierarchy. The plumbers we see on page one of Google for competitive queries all have purpose-built websites. The plumbers on page five have templates.
@@ -117,16 +206,16 @@ export default function BlogPost() {
             If budget is tight, a £99/month managed plumber website beats a £150 template-plus-hosting set-up every time on ranking potential. The maths is also cleaner — a managed package includes local SEO setup, GBP management, and ongoing fixes. A template gives you the site and leaves the rest to you.
           </p>
 
-          <h2 className="text-2xl font-display font-bold text-navy-dark">The bottom line</h2>
-          <p className="text-slate-blue leading-relaxed">
-            Every UK plumber needs a website in 2026. Not because it is fashionable, but because the acquisition funnel for local trades has fundamentally shifted to Google Search and Google Maps — and winning more than one of those two channels requires a website. A GBP listing is the floor. A website is the ceiling.
-          </p>
 
           <div className="text-center mt-12">
             <Link href="/plumber-website-design-packages/" className="inline-block bg-amber text-navy-dark font-bold px-8 py-4 rounded-xl shadow-lg hover:bg-white hover:-translate-y-0.5 transition-all">
               See our plumber website packages
             </Link>
           </div>
+
+          <RelatedLinks keys={['home', 'cost', 'blogRank', 'blogInclude', 'blogGBP', 'seo']} heading="Related reading" />
+
+          <AuthorBio />
         </div>
       </article>
     </div>

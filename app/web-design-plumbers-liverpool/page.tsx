@@ -4,7 +4,7 @@ import SchemaScript from '@/components/SchemaScript';
 import Breadcrumbs from '@/components/Breadcrumbs';
 
 export const metadata = {
-  title: { absolute: 'Web Design for Plumbers in Liverpool | PlumberWebDesign.co.uk' },
+  title: { absolute: 'Plumber Web Design Liverpool | From £99/mo' },
   description: 'Web design for plumbers in Liverpool. Merseyside-wide coverage across both sides of the Mersey including the Wirral and Southport. Local SEO built in. From £99/month.',
   alternates: { canonical: 'https://www.plumberwebdesign.co.uk/web-design-plumbers-liverpool/' }
 };
@@ -264,7 +264,7 @@ export default function LocationPage() {
           </div>
         </div>
 
-        <div className="bg-amber p-10 rounded-2xl shadow-lg text-center">
+        <div className="bg-amber p-10 rounded-2xl shadow-lg text-center mb-12">
           <h2 className="text-3xl font-display font-bold text-navy-dark mb-4">Ready to dominate Liverpool plumbing search?</h2>
           <p className="text-lg text-navy-dark/80 mb-6 max-w-2xl mx-auto">
             Tell us about your Liverpool plumbing business and we'll send a free quote and SEO strategy within one working day.
@@ -273,6 +273,18 @@ export default function LocationPage() {
             Get a quote for your Liverpool plumbing website →
           </Link>
         </div>
+
+        <nav aria-label="Related pages" className="bg-white border border-slate-blue/10 rounded-2xl p-8">
+          <h2 className="text-xl font-display font-bold text-navy-dark mb-4">Explore further</h2>
+          <ul className="grid grid-cols-1 md:grid-cols-2 gap-3 text-slate-blue">
+            <li>→ <Link href="/" className="text-amber hover:underline">Web design for plumbers</Link> — main UK service overview</li>
+            <li>→ <Link href="/plumber-website-design-packages/" className="text-amber hover:underline">Plumber website packages</Link> — pricing from £99/month</li>
+            <li>→ <Link href="/plumber-website-cost/" className="text-amber hover:underline">Plumber website cost guide</Link> — full UK breakdown</li>
+            <li>→ <Link href="/seo-for-plumbers/" className="text-amber hover:underline">SEO for plumbers</Link> — local search optimisation</li>
+            <li>→ <Link href="/gas-engineer-website-design/" className="text-amber hover:underline">Gas engineer websites</Link> — for Gas Safe registered engineers</li>
+            <li>→ <Link href="/heating-engineer-website-design/" className="text-amber hover:underline">Heating engineer websites</Link> — boiler and heat pump landing pages</li>
+          </ul>
+        </nav>
 
       </div>
     </div>

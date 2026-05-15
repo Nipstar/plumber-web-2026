@@ -7,7 +7,7 @@ import SchemaScript from '@/components/SchemaScript';
 
 export const metadata = {
   title: { absolute: 'Plumber Web Design | Websites for Plumbers from £99/month' },
-  description: 'Specialist web design for plumbers across the UK. Mobile-first, SEO-optimised websites built to generate calls and win jobs. Packages from £99/month.',
+  description: 'UK web design for plumbers from £99/month — no setup fees, Gas Safe aware, mobile-first websites built to rank locally and generate calls. Free quote.',
   alternates: { canonical: 'https://www.plumberwebdesign.co.uk/' }
 };
 
@@ -68,6 +68,7 @@ const pricingPackages = [
 ];
 
 const faqItems = [
+  { question: 'What is web design for plumbers?', answer: 'Web design for plumbers is specialist website design built around the way UK plumbing customers actually search and convert. A proper plumber website is mobile-first, optimised for local Google searches like "boiler repair Manchester" and "emergency plumber near me", carries click-to-call on every page, displays Gas Safe credentials prominently, and integrates with Google Business Profile for Map Pack visibility. UK packages start from £99 per month including hosting, SSL, and local SEO.' },
   { question: 'How much does a plumber website cost in the UK?', answer: 'Our plumber websites cost £99, £169, or £249 per month depending on the package. Each includes hosting, SSL, a free domain, and local SEO. No setup fees on website packages. One-off custom builds from other agencies typically cost £1,500–£5,000 with hosting and SEO billed separately on top.' },
   { question: 'Do plumbers need a website in 2026?', answer: 'Yes. Over 70% of plumbing searches happen on mobile, and Google ranks businesses with a proper website above those relying on Google Business Profile alone. Without a website you cannot rank for service-specific searches like "boiler repair Manchester" or capture jobs worth over £3,000.' },
   { question: 'How long does it take to build a plumber website?', answer: 'Two to three weeks from sign-off. That includes design, content, local SEO setup, Google Business Profile integration, and domain configuration. You review a staging site before we go live — nothing gets published until you approve it.' },
