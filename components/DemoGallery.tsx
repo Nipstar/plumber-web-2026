@@ -39,6 +39,9 @@ const DEMOS: Demo[] = [
 export default function DemoGallery() {
   const track = (heading: string) => {
     window.dataLayer?.push({ event: 'demo_click', demo_name: heading });
+    if (typeof window.gtag === 'function') {
+      window.gtag('event', 'demo_click', { demo_name: heading });
+    }
   };
 
   return (

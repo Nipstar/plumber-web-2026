@@ -139,17 +139,18 @@ export default function RootLayout({
             };
             var AW_ID = 'AW-17947994704';
 
-            // Global tel: click listener — pushes dataLayer event
+            // Global tel: click listener — pushes dataLayer event + fires GA4 gtag event
             document.addEventListener('click', function(e){
               var t = e.target;
               var a = t && t.closest && t.closest('a[href^="tel:"]');
               if (a) {
+                var num = a.getAttribute('href').replace('tel:','');
+                var loc = window.location.pathname;
                 window.dataLayer = window.dataLayer || [];
-                window.dataLayer.push({
-                  event: 'tel_click',
-                  tel_number: a.getAttribute('href').replace('tel:',''),
-                  location: window.location.pathname
-                });
+                window.dataLayer.push({ event: 'tel_click', tel_number: num, location: loc });
+                if (typeof window.gtag === 'function') {
+                  window.gtag('event', 'tel_click', { tel_number: num, location: loc });
+                }
               }
             });
 

@@ -74,6 +74,12 @@ export default function AuditForm() {
         form_name: 'audit',
         trade_type: formData.tradeType,
       });
+      if (typeof window.gtag === 'function') {
+        window.gtag('event', 'lead_form_submit', {
+          form_name: 'audit',
+          trade_type: formData.tradeType,
+        });
+      }
       router.push('/thank-you/?type=audit');
     } catch (err: unknown) {
       setStatus('error');

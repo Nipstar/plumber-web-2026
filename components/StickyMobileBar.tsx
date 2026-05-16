@@ -15,12 +15,21 @@ export default function StickyMobileBar() {
 
   const trackCall = () => {
     window.dataLayer?.push({ event: 'call_click_sticky' });
+    if (typeof window.gtag === 'function') {
+      window.gtag('event', 'call_click_sticky');
+    }
   };
   const trackAudit = () => {
     window.dataLayer?.push({ event: 'audit_click_sticky' });
+    if (typeof window.gtag === 'function') {
+      window.gtag('event', 'audit_click_sticky');
+    }
   };
   const trackQuote = () => {
     window.dataLayer?.push({ event: 'quote_click_sticky' });
+    if (typeof window.gtag === 'function') {
+      window.gtag('event', 'quote_click_sticky');
+    }
   };
 
   return (

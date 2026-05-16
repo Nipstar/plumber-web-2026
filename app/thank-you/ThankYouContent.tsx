@@ -27,6 +27,9 @@ export default function ThankYouContent() {
 
   useEffect(() => {
     window.dataLayer?.push({ event: 'lead_thank_you_view', form_type: type });
+    if (typeof window.gtag === 'function') {
+      window.gtag('event', 'lead_thank_you_view', { form_type: type });
+    }
   }, [type]);
 
   const heading = type === 'audit' ? 'Audit booked — Loom coming within 48 hours' : 'Thanks — we’ve got your details';

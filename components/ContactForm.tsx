@@ -74,6 +74,13 @@ export default function ContactForm() {
         trade_type: formData.tradeType,
         business_name: formData.businessName,
       });
+      if (typeof window.gtag === 'function') {
+        window.gtag('event', 'lead_form_submit', {
+          form_name: 'quote',
+          trade_type: formData.tradeType,
+          business_name: formData.businessName,
+        });
+      }
       router.push('/thank-you/?type=quote');
     } catch (err: unknown) {
       setStatus('error');

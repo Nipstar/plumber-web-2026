@@ -28,6 +28,9 @@ export default function LaunchPricingStrip() {
 
   const handleClick = () => {
     window.dataLayer?.push({ event: 'launch_strip_click' });
+    if (typeof window.gtag === 'function') {
+      window.gtag('event', 'launch_strip_click');
+    }
   };
 
   const dismiss = () => {
