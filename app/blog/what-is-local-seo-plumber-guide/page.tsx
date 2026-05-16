@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Image from 'next/image';
 import SchemaScript from '@/components/SchemaScript';
 import Breadcrumbs from '@/components/Breadcrumbs';
 import AuthorBio, { AUTHOR, authorPersonSchema } from '@/components/AuthorBio';
@@ -71,6 +72,17 @@ export default function BlogPost() {
 
       <article className="py-16 max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="prose prose-lg prose-slate max-w-none space-y-6">
+
+          <div className="relative w-full h-[400px] sm:h-[500px] mb-8 rounded-2xl overflow-hidden shadow-lg border border-slate-blue/10">
+            <Image
+              src="/images/blog/local_seo.webp"
+              alt="A glowing location pin on a digital map with plumbing tools"
+              fill
+              className="object-cover"
+              priority
+              sizes="(max-width: 768px) 100vw, 800px"
+            />
+          </div>
 
           <div className="bg-amber/10 border border-amber/30 rounded-2xl p-6 mb-4">
             <p className="text-sm uppercase tracking-wider text-amber font-bold mb-2">Quick answer</p>

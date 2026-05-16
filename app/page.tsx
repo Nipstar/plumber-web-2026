@@ -4,16 +4,19 @@ import PricingCard from '@/components/PricingCard';
 import TrustBar from '@/components/TrustBar';
 import FaqAccordion from '@/components/FaqAccordion';
 import SchemaScript from '@/components/SchemaScript';
+import FounderPanel from '@/components/FounderPanel';
+import DemoGallery from '@/components/DemoGallery';
+import WhyNewStudio from '@/components/WhyNewStudio';
 
 export const metadata = {
-  title: { absolute: 'Plumber Web Design | Websites for Plumbers from £99/month' },
-  description: 'UK web design for plumbers from £99/month — no setup fees, Gas Safe aware, mobile-first websites built to rank locally and generate calls. Free quote.',
+  title: { absolute: 'UK Plumber Websites · Launch Pricing £79/mo Locked-In' },
+  description: 'Mobile-first plumber websites built in 1–2 weeks. Launch pricing £79/mo locked in until 30 November 2026. UK only. Founder-led from Andover.',
   alternates: { canonical: 'https://www.plumberwebdesign.co.uk/' }
 };
 
 const pricingPackages = [
   {
-    name: 'Apprentice',
+    name: 'Apprentice', launchPrice: '£79',
     price: '£99',
     period: '/month',
     tagline: 'Perfect for getting started.',
@@ -31,7 +34,7 @@ const pricingPackages = [
     ]
   },
   {
-    name: 'Journeyman',
+    name: 'Journeyman', launchPrice: '£129',
     price: '£169',
     period: '/month',
     tagline: 'Our most popular trades package.',
@@ -49,7 +52,7 @@ const pricingPackages = [
     ]
   },
   {
-    name: 'Master',
+    name: 'Master', launchPrice: '£199',
     price: '£249',
     period: '/month',
     tagline: 'Dominate your local area.',
@@ -71,7 +74,7 @@ const faqItems = [
   { question: 'What is web design for plumbers?', answer: 'Web design for plumbers is specialist website design built around the way UK plumbing customers actually search and convert. A proper plumber website is mobile-first, optimised for local Google searches like "boiler repair Manchester" and "emergency plumber near me", carries click-to-call on every page, displays Gas Safe credentials prominently, and integrates with Google Business Profile for Map Pack visibility. UK packages start from £99 per month including hosting, SSL, and local SEO.' },
   { question: 'How much does a plumber website cost in the UK?', answer: 'Our plumber websites cost £99, £169, or £249 per month depending on the package. Each includes hosting, SSL, a free domain, and local SEO. No setup fees on website packages. One-off custom builds from other agencies typically cost £1,500–£5,000 with hosting and SEO billed separately on top.' },
   { question: 'Do plumbers need a website in 2026?', answer: 'Yes. Over 70% of plumbing searches happen on mobile, and Google ranks businesses with a proper website above those relying on Google Business Profile alone. Without a website you cannot rank for service-specific searches like "boiler repair Manchester" or capture jobs worth over £3,000.' },
-  { question: 'How long does it take to build a plumber website?', answer: 'Two to three weeks from sign-off. That includes design, content, local SEO setup, Google Business Profile integration, and domain configuration. You review a staging site before we go live — nothing gets published until you approve it.' },
+  { question: 'How long does it take to build a plumber website?', answer: 'One to two weeks from sign-off. That includes design, content, local SEO setup, Google Business Profile integration, and domain configuration. You review a staging site before we go live — nothing gets published until you approve it.' },
   { question: 'Do I own the website?', answer: 'Yes, after a minimum six-month subscription you fully own the website and it is transferable to any host. We hand over all files, domain, and content. Before six months, the site remains hosted and managed by us to ensure we recoup build costs.' },
   { question: 'Is local SEO included in every package?', answer: 'Yes. Every package includes local SEO setup: on-page optimisation, schema markup, Google Business Profile integration, and citation building. The Journeyman and Master packages add ongoing GBP posting, review management, and for Master, monthly blog content and optional link building.' },
   { question: 'How long until my plumber website ranks on Google?', answer: 'Local rankings for specific neighbourhoods or towns typically take 3–6 months. Competitive city-wide terms like "plumber London" take 9–18 months. Smaller markets like Andover or Portsmouth rank faster due to lower competition. Ranking work is ongoing in Journeyman and Master packages.' },
@@ -219,12 +222,14 @@ export default function Home() {
       {/* Hero Section */}
       <section className="relative bg-navy-dark text-white overflow-hidden py-24 lg:py-32 border-b border-slate-blue/20">
         <div className="absolute inset-0 z-0">
-          <Image 
-            src="/images/hero_blueprint_dark.webp" 
-            alt="Technical schematic background" 
+          <Image
+            src="/images/hero_blueprint_dark.webp"
+            alt="Technical schematic background"
             fill
+            sizes="100vw"
             className="object-cover opacity-[0.15]"
             priority
+            fetchPriority="high"
           />
           <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-amber/10 via-navy-dark/80 to-navy-dark/100" />
         </div>
@@ -233,7 +238,7 @@ export default function Home() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
             <div>
               <h1 className="text-5xl lg:text-7xl font-display font-extrabold tracking-tight mb-6 leading-tight">
-                Web Design for Plumbers That <span className="text-transparent bg-clip-text bg-gradient-to-r from-amber to-amber/80">Wins Jobs</span>
+                Web Design for Plumbers That <span className="text-transparent bg-clip-text bg-gradient-to-r from-amber to-amber/80">Win Jobs</span>
               </h1>
               <p className="text-xl text-light-gray/90 font-medium mb-6 max-w-xl leading-relaxed">
                 We build websites exclusively for UK plumbers and heating engineers. Fast. Local SEO-ready. Built to generate calls.
@@ -245,14 +250,17 @@ export default function Home() {
                 </p>
               </div>
               
-              <div className="flex flex-col sm:flex-row gap-4 mb-12">
+              <div className="flex flex-col sm:flex-row gap-4 mb-4">
                 <Link href="/contact/" className="bg-amber text-navy-dark font-bold px-8 py-4 rounded-full text-center hover:bg-white transition-all shadow-lg hover:shadow-xl hover:-translate-y-0.5">
                   Get a Free Quote →
                 </Link>
-                <Link href="/plumber-website-design-packages/" className="bg-transparent border-2 border-slate-blue hover:border-white text-white font-bold px-8 py-4 rounded-full text-center transition-all hover:bg-white/5">
-                  View Pricing
+                <Link href="/free-audit/" className="bg-transparent border-2 border-amber/60 hover:border-amber text-white font-bold px-8 py-4 rounded-full text-center transition-all hover:bg-amber/5">
+                  Free Site Audit
                 </Link>
               </div>
+              <p className="text-sm text-white/60 mb-12">
+                or call <a href="tel:03333356750" className="text-amber font-semibold hover:underline">0333 335 6750</a>
+              </p>
 
               {/* Trust Strip */}
               <div className="flex flex-wrap gap-x-6 gap-y-3 text-sm font-medium text-white/70">
@@ -276,11 +284,14 @@ export default function Home() {
               <div className="relative bg-navy-card border border-slate-blue/30 rounded-3xl p-10 shadow-2xl">
                 <div className="grid grid-cols-2 gap-8">
                   <div>
-                    <div className="text-4xl font-display font-extrabold text-white mb-1">£99</div>
-                    <div className="text-sm font-medium text-amber uppercase tracking-wider">Starting price /mo</div>
+                    <div className="flex items-baseline gap-2 mb-1">
+                      <span className="text-4xl font-display font-extrabold text-amber">£79</span>
+                      <span className="text-xl font-display line-through text-white/40">£99</span>
+                    </div>
+                    <div className="text-sm font-medium text-amber uppercase tracking-wider">Launch price /mo</div>
                   </div>
                   <div>
-                    <div className="text-4xl font-display font-extrabold text-white mb-1">2–3 wks</div>
+                    <div className="text-4xl font-display font-extrabold text-white mb-1">1–2 wks</div>
                     <div className="text-sm font-medium text-amber uppercase tracking-wider">Average build</div>
                   </div>
                   <div>
@@ -299,6 +310,9 @@ export default function Home() {
       </section>
 
       <TrustBar variant="home" />
+
+      <FounderPanel />
+      <DemoGallery />
 
       {/* Problem Block */}
       <section className="py-24 bg-white">
@@ -432,6 +446,8 @@ export default function Home() {
         </div>
       </section>
 
+      <WhyNewStudio />
+
       {/* FAQ */}
       <section className="py-24 bg-light-gray border-t border-slate-blue/10">
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -446,13 +462,18 @@ export default function Home() {
       <section className="py-24 bg-amber relative overflow-hidden">
         <div className="absolute inset-0 bg-[url('/images/hero_blueprint_dark.webp')] opacity-[0.05] bg-cover mix-blend-multiply"></div>
         <div className="relative z-10 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-4xl md:text-5xl font-display font-extrabold text-navy-dark mb-6">Ready to get more calls?</h2>
+          <h2 className="text-4xl md:text-5xl font-display font-extrabold text-navy-dark mb-6">Ready to win more jobs?</h2>
           <p className="text-xl text-navy-dark/80 font-medium mb-10 max-w-2xl mx-auto">
-            Tell us about your business today and we'll put together a free quote and strategy mapping for your local area.
+            Get a free quote, or send us your current site for a 10-minute audit.
           </p>
-          <Link href="/contact/" className="inline-block bg-navy-dark text-white font-bold text-lg px-10 py-5 rounded-full hover:bg-navy-card hover:-translate-y-1 hover:shadow-2xl transition-all duration-300">
-            Get a Free Quote →
-          </Link>
+          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+            <Link href="/contact/" className="inline-block bg-navy-dark text-white font-bold text-lg px-10 py-5 rounded-full hover:bg-navy-card hover:-translate-y-1 hover:shadow-2xl transition-all duration-300">
+              Get a Free Quote →
+            </Link>
+            <Link href="/free-audit/" className="inline-block bg-transparent border-2 border-navy-dark text-navy-dark font-bold text-lg px-10 py-5 rounded-full hover:bg-navy-dark hover:text-white transition-all duration-300">
+              Free Audit →
+            </Link>
+          </div>
         </div>
       </section>
     </>

@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Image from 'next/image';
 import SchemaScript from '@/components/SchemaScript';
 import Breadcrumbs from '@/components/Breadcrumbs';
 import AuthorBio, { AUTHOR, authorPersonSchema } from '@/components/AuthorBio';
@@ -61,9 +62,22 @@ export default function BlogPost() {
       <article className="py-16 max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="prose prose-lg prose-slate max-w-none space-y-6">
 
-          <p className="text-lg text-slate-blue leading-relaxed">
-            A decade ago, a plumber website just needed a phone number, an "About" page, and maybe a photo of a van. Those days are over. In 2026, your website competes against dozens of other plumbers in every local search result. If it doesn't convert visitors into calls within seconds, they move on. Here is what a modern plumber website actually needs.
-          </p>
+          <div className="relative w-full h-[400px] sm:h-[500px] mb-8 rounded-2xl overflow-hidden shadow-lg border border-slate-blue/10">
+            <Image
+              src="/images/blog/website_includes.webp"
+              alt="Architectural blueprint of a website wireframe with neon blue lines"
+              fill
+              className="object-cover"
+              priority
+              sizes="(max-width: 768px) 100vw, 800px"
+            />
+          </div>
+
+          <div className="bg-amber/10 border border-amber/30 rounded-2xl p-6 mb-4">
+            <p className="text-lg text-slate-blue leading-relaxed">
+              A decade ago, a plumber website just needed a phone number, an "About" page, and maybe a photo of a van. Those days are over. In 2026, your website competes against dozens of other plumbers in every local search result. If it doesn't convert visitors into calls within seconds, they move on. Here is what a modern plumber website actually needs.
+            </p>
+          </div>
 
           <h2 className="text-2xl font-display font-bold text-navy-dark">Click-to-call on every page</h2>
           <p className="text-slate-blue leading-relaxed">

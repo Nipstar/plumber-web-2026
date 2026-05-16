@@ -5,14 +5,14 @@ import Breadcrumbs from '@/components/Breadcrumbs';
 import RelatedLinks from '@/components/RelatedLinks';
 
 export const metadata = {
-  title: { absolute: 'Plumber Website Design Packages | Pricing from £99/month' },
-  description: 'Plumber website packages from £99/month. Apprentice 5-page, Journeyman 10-page, Master 20+ page. Hosting, SSL, domain and local SEO included. No setup fees.',
+  title: { absolute: 'Plumber Website Packages · £79/mo Launch Price UK' },
+  description: 'Three plumber website packages. Launch pricing: Apprentice £79, Journeyman £129, Master £199 locked-in for 12 months.',
   alternates: { canonical: 'https://www.plumberwebdesign.co.uk/plumber-website-design-packages/' },
 };
 
 const pricingPackages = [
   {
-    name: 'Apprentice',
+    name: 'Apprentice', launchPrice: '£79',
     price: '£99',
     period: '/month',
     tagline: 'Perfect for getting started.',
@@ -30,7 +30,7 @@ const pricingPackages = [
     ]
   },
   {
-    name: 'Journeyman',
+    name: 'Journeyman', launchPrice: '£129',
     price: '£169',
     period: '/month',
     tagline: 'Our most popular trades package.',
@@ -48,7 +48,7 @@ const pricingPackages = [
     ]
   },
   {
-    name: 'Master',
+    name: 'Master', launchPrice: '£199',
     price: '£249',
     period: '/month',
     tagline: 'Dominate your local area.',

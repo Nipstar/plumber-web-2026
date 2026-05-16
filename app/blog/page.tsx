@@ -14,70 +14,70 @@ const posts = [
     slug: 'plumber-seo-checklist-2026',
     excerpt: "37 ranked items across technical, on-page, local, and content SEO. Each tagged with impact and effort. Designed for UK plumbers serious about ranking on Google.",
     date: '15 May 2026',
-    image: '/images/blog_seo_ranking.webp'
+    image: '/images/blog/seo_checklist.webp'
   },
   {
     title: "What is Local SEO? A UK Plumber's Guide",
     slug: 'what-is-local-seo-plumber-guide',
     excerpt: "Plain-English guide to local SEO for UK plumbers. Map Pack vs blue links, NAP citations, review acquisition, and a six-month plan you can run yourself or outsource.",
     date: '15 May 2026',
-    image: '/images/blog_seo_ranking.webp'
+    image: '/images/blog/local_seo.webp'
   },
   {
     title: "How Much Should a Plumber Spend on Marketing?",
     slug: 'how-much-should-plumber-spend-on-marketing',
     excerpt: "UK plumber marketing benchmarks for 2026. Channel split, ROI by tactic, worked example for a £100k/year solo plumber. Real numbers, no fluff.",
     date: '15 May 2026',
-    image: '/images/blog_website_features.webp'
+    image: '/images/blog/marketing_budget.webp'
   },
   {
     title: "Google Ads for Plumbers UK — Cost, Keywords, ROAS",
     slug: 'google-ads-for-plumbers-uk',
     excerpt: "Typical UK plumber Google Ads CPCs, top-performing keyword clusters, LSA vs Search Ads, and the ROAS maths most plumbers get wrong.",
     date: '15 May 2026',
-    image: '/images/blog_seo_ranking.webp'
+    image: '/images/blog/google_ads.webp'
   },
   {
     title: "UK Plumber Website Examples — What Works in 2026",
     slug: 'plumber-website-examples-uk',
     excerpt: "Seven patterns the top-ranking UK plumber websites share — and the patterns the plumbers stuck on page 4 keep repeating. Use as a commissioning checklist.",
     date: '15 May 2026',
-    image: '/images/blog_website_features.webp'
+    image: '/images/blog/website_examples.webp'
   },
   {
     title: "Best Website Builder for UK Plumbers (2026 Comparison)",
     slug: 'best-website-builder-for-plumbers-uk',
     excerpt: "Wix vs Squarespace vs WordPress vs managed alternatives. 24-month total cost comparison including your time. No affiliate spin.",
     date: '15 May 2026',
-    image: '/images/blog_website_features.webp'
+    image: '/images/blog/website_builders.webp'
   },
   {
     title: "Do Plumbers Need Websites in 2026?",
     slug: 'do-plumbers-need-websites',
     excerpt: "Short answer: yes. Over 70% of plumbing searches happen on mobile and Google prioritises businesses with both a GBP listing and a proper website. A Google Business Profile alone is not enough.",
     date: '23 Apr 2026',
-    image: '/images/blog_seo_ranking.webp'
+    image: '/images/blog/need_websites.webp'
   },
   {
     title: "Google Business Profile for Plumbers: A Complete Setup Guide",
     slug: 'google-business-profile-plumbers-guide',
     excerpt: "Your GBP is arguably more important than your website for local map pack rankings. Follow our comprehensive tutorial to establish your profile correctly and dominate local search.",
     date: '1 Apr 2026',
-    image: '/images/blog_gbp_guide.webp'
+    image: '/images/blog/gbp_guide.webp'
   },
   {
     title: "What Should a Plumber Website Include in 2026?",
     slug: 'what-should-plumber-website-include',
     excerpt: "Having a contact form is no longer enough. From AI voice agents to Gas Safe verification loops, discover the features that turn standard websites into lead-generation machines.",
     date: '22 Mar 2026',
-    image: '/images/blog_website_features.webp'
+    image: '/images/blog/website_includes.webp'
   },
   {
     title: "Why Your Plumber Website Isn't Ranking on Google (And How to Fix It)",
     slug: 'plumber-website-not-ranking-google',
     excerpt: "Not seeing your website on page one? Learn the most common local SEO mistakes plumbers make — and the quick wins you can implement today to start generating organic traffic.",
     date: '15 Mar 2026',
-    image: '/images/blog_seo_ranking.webp'
+    image: '/images/blog/not_ranking.webp'
   }
 ];
 

@@ -4,14 +4,14 @@ import SchemaScript from '@/components/SchemaScript';
 import Breadcrumbs from '@/components/Breadcrumbs';
 
 export const metadata = {
-  title: { absolute: 'Plumber Web Design London | From £99/mo' },
-  description: 'Web design for plumbers in London. Borough-level landing pages across all 32 London boroughs, M25-wide local SEO, GBP management. From £99/month.',
+  title: { absolute: 'London Plumber Web Design · £79/mo Launch Pricing' },
+  description: 'London plumber websites from £79/mo locked-in for 12 months. Mobile-first, live in 1–2 weeks. UK-only agency.',
   alternates: { canonical: 'https://www.plumberwebdesign.co.uk/web-design-plumbers-london/' }
 };
 
 const pricingPackages = [
   {
-    name: 'Apprentice',
+    name: 'Apprentice', launchPrice: '£79',
     price: '£99',
     period: '/month',
     tagline: 'Perfect for getting started.',
@@ -26,7 +26,7 @@ const pricingPackages = [
     ]
   },
   {
-    name: 'Journeyman',
+    name: 'Journeyman', launchPrice: '£129',
     price: '£169',
     period: '/month',
     tagline: 'Our most popular trades package.',
@@ -42,7 +42,7 @@ const pricingPackages = [
     ]
   },
   {
-    name: 'Master',
+    name: 'Master', launchPrice: '£199',
     price: '£249',
     period: '/month',
     tagline: 'Dominate your local area.',

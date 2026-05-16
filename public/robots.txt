@@ -3,6 +3,7 @@
 
 User-agent: *
 Allow: /
+Disallow: /thank-you/
 Disallow: /portfolio/
 
 # Traditional search engines

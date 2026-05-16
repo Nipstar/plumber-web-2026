@@ -48,7 +48,7 @@ export default function TermsPage() {
           <section>
             <h2 className="text-2xl font-display font-bold text-navy-dark mb-4">4. Project Timeline</h2>
             <p className="text-slate-blue leading-relaxed">
-              We aim to deliver your initial website within 2-3 weeks of receiving all required content and sign-off on the design. Timelines may vary depending on project complexity and client responsiveness. Delays caused by late content or feedback from the client will not be our responsibility.
+              We aim to deliver your initial website within 1-2 weeks of receiving all required content and sign-off on the design. Timelines may vary depending on project complexity and client responsiveness. Delays caused by late content or feedback from the client will not be our responsibility.
             </p>
           </section>
 

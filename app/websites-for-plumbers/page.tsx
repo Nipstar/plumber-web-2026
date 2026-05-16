@@ -61,7 +61,7 @@ export default function WebsitesForPlumbersPage() {
         name: 'Why use a specialist instead of a generalist agency for a plumber website?',
         acceptedAnswer: {
           '@type': 'Answer',
-          text: 'A specialist agency already understands Gas Safe regulations, emergency call-out economics, local Map Pack ranking factors, and the search behaviour of UK plumbing customers. A generalist learns on your project. Specialists ship faster (2-3 weeks vs 8-12), charge less (£99/month vs £3,000+ one-off), and rank higher because the site is built on proven plumber-specific SEO patterns.',
+          text: 'A specialist agency already understands Gas Safe regulations, emergency call-out economics, local Map Pack ranking factors, and the search behaviour of UK plumbing customers. A generalist learns on your project. Specialists ship faster (1-2 weeks vs 8-12), charge less (£99/month vs £3,000+ one-off), and rank higher because the site is built on proven plumber-specific SEO patterns.',
         },
       },
       {
@@ -77,7 +77,7 @@ export default function WebsitesForPlumbersPage() {
         name: 'How long does it take to build a plumber website?',
         acceptedAnswer: {
           '@type': 'Answer',
-          text: 'Two to three weeks from sign-off. That covers design, content writing, schema markup, service and location pages, Google Business Profile integration, contact forms, and a staging review before launch.',
+          text: 'One to two weeks from sign-off. That covers design, content writing, schema markup, service and location pages, Google Business Profile integration, contact forms, and a staging review before launch.',
         },
       },
     ],

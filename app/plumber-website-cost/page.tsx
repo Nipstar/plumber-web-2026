@@ -5,14 +5,14 @@ import Breadcrumbs from '@/components/Breadcrumbs';
 import RelatedLinks from '@/components/RelatedLinks';
 
 export const metadata = {
-  title: { absolute: 'How Much Does a Plumber Website Cost in the UK? (2026)' },
-  description: 'How much does a plumber website cost in the UK in 2026? Monthly packages £99–£249 or one-off £1,500–£5,000. Full breakdown plus 5 hidden costs to watch for.',
+  title: { absolute: 'Plumber Website Cost UK 2026 · From £79/mo Launch Price' },
+  description: 'Real UK plumber website costs in 2026. Launch pricing £79/mo locked-in for 12 months. Three transparent tiers. No hidden fees.',
   alternates: { canonical: 'https://www.plumberwebdesign.co.uk/plumber-website-cost/' },
 };
 
 const pricingPackages = [
   {
-    name: 'Apprentice',
+    name: 'Apprentice', launchPrice: '£79',
     price: '£99',
     period: '/month',
     tagline: 'Perfect for getting started.',
@@ -27,7 +27,7 @@ const pricingPackages = [
     ]
   },
   {
-    name: 'Journeyman',
+    name: 'Journeyman', launchPrice: '£129',
     price: '£169',
     period: '/month',
     tagline: 'Our most popular trades package.',
@@ -43,7 +43,7 @@ const pricingPackages = [
     ]
   },
   {
-    name: 'Master',
+    name: 'Master', launchPrice: '£199',
     price: '£249',
     period: '/month',
     tagline: 'Dominate your local area.',

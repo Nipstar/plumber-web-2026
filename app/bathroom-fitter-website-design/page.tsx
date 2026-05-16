@@ -2,10 +2,11 @@ import Link from 'next/link';
 import SchemaScript from '@/components/SchemaScript';
 import Breadcrumbs from '@/components/Breadcrumbs';
 import RelatedLinks from '@/components/RelatedLinks';
+import VerticalConversionHero from '@/components/VerticalConversionHero';
 
 export const metadata = {
-  title: { absolute: 'Bathroom Fitter Website Design | Portfolio-Led UK Sites' },
-  description: 'Bathroom fitter website design from £99/month. Portfolio galleries, before/after sliders, quote forms, and local SEO for UK bathroom fitting businesses.',
+  title: { absolute: 'Bathroom Fitter Websites · Gallery-Led · £79/mo UK' },
+  description: 'Gallery-led websites for UK bathroom fitters. Capture the 4-12 week inspiration phase. Launch pricing £79/mo locked-in.',
   alternates: { canonical: 'https://www.plumberwebdesign.co.uk/bathroom-fitter-website-design/' },
 };
 
@@ -56,15 +57,19 @@ export default function BathroomFitterPage() {
       <SchemaScript schema={schema} />
       <SchemaScript schema={faqSchema} />
       <Breadcrumbs items={[{ label: 'Bathroom Fitter Website Design', href: '/bathroom-fitter-website-design/' }]} />
-       <div className="py-24 bg-navy-dark text-white border-b border-slate-blue/20">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <div className="inline-block bg-amber/20 text-amber px-4 py-1.5 rounded-full text-sm font-bold tracking-wider uppercase mb-6 border border-amber/30">Trade Speciality</div>
-          <h1 className="text-4xl md:text-5xl font-display font-bold mb-6">Bathroom Fitter Website Design</h1>
-          <p className="text-xl text-light-gray/80 leading-relaxed max-w-2xl mx-auto">
-            A picture is worth a thousand words. We build stunning, highly visual websites that let your beautiful bathroom installations sell themselves.
-          </p>
-        </div>
-      </div>
+      <VerticalConversionHero
+        vertical="Bathroom Fitter"
+        headline="Bathroom fitter websites that capture the inspiration phase"
+        subhead="Bathroom installations are considered purchases — homeowners research for 4-12 weeks before signing. Your website needs to win the inspiration phase with proper galleries, not just a 'contact us' form."
+        painPoints={[
+          'No before-and-after galleries = no proof of craftsmanship',
+          'Cost guidance hidden = bounce on the £/quote question',
+          'No materials sourcing detail = looks like a generalist',
+        ]}
+        demoUrl="https://bathrooms.plumberwebdesign.co.uk"
+        demoLabel="See our bathroom fitter demo →"
+        demoThumb="/portfolio/bathrooms.webp"
+      />
 
       <div className="py-24 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="prose prose-lg prose-slate max-w-none">

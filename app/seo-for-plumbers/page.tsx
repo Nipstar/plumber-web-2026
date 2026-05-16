@@ -2,10 +2,11 @@ import Link from 'next/link';
 import SchemaScript from '@/components/SchemaScript';
 import Breadcrumbs from '@/components/Breadcrumbs';
 import RelatedLinks from '@/components/RelatedLinks';
+import VerticalConversionHero from '@/components/VerticalConversionHero';
 
 export const metadata = {
-  title: { absolute: 'SEO for Plumbers UK | Local SEO for Plumbing Businesses' },
-  description: 'SEO for plumbers — local SEO, Google Business Profile management, postcode pages, and citation building. Designed exclusively for UK plumbing businesses.',
+  title: { absolute: 'Local SEO for UK Plumbers · Map Pack Focused' },
+  description: 'Local SEO built for UK plumbers. Google Business Profile, city pages, citations. Pairs with our £79/mo launch websites.',
   alternates: { canonical: 'https://www.plumberwebdesign.co.uk/seo-for-plumbers/' },
 };
 
@@ -46,15 +47,19 @@ export default function SeoPage() {
       <SchemaScript schema={schema} />
       <SchemaScript schema={faqSchema} />
       <Breadcrumbs items={[{ label: 'SEO for Plumbers', href: '/seo-for-plumbers/' }]} />
-       <div className="py-24 bg-navy-dark text-white border-b border-slate-blue/20">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <div className="inline-block bg-amber/20 text-amber px-4 py-1.5 rounded-full text-sm font-bold tracking-wider uppercase mb-6 border border-amber/30">Grow Your Traffic</div>
-          <h1 className="text-4xl md:text-5xl font-display font-bold mb-6">Local SEO for UK Plumbers</h1>
-          <p className="text-xl text-light-gray/80 leading-relaxed max-w-2xl mx-auto">
-            Get found when the people in your local area need you the most. We optimize your website and Google Business Profile to capture "near me" emergency searches.
-          </p>
-        </div>
-      </div>
+      <VerticalConversionHero
+        vertical="Local SEO"
+        headline="Local SEO that gets you found when boilers break"
+        subhead="Rankings are only useful if you rank where customers search. We focus on the Map Pack and 'emergency plumber [town]' queries that actually convert into booked jobs."
+        painPoints={[
+          "You're invisible in the Map Pack",
+          'Your service-area pages have thin content',
+          'Google Business Profile sitting at 60% complete',
+        ]}
+        demoUrl="https://emergency.plumberwebdesign.co.uk"
+        demoLabel="See our local SEO demo →"
+        demoThumb="/portfolio/emergency.webp"
+      />
 
       <div className="py-24">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">

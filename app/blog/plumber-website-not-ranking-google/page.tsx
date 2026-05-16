@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Image from 'next/image';
 import SchemaScript from '@/components/SchemaScript';
 import Breadcrumbs from '@/components/Breadcrumbs';
 import AuthorBio, { AUTHOR, authorPersonSchema } from '@/components/AuthorBio';
@@ -61,6 +62,17 @@ export default function BlogPost() {
 
       <article className="py-16 max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="prose prose-lg prose-slate max-w-none space-y-6">
+
+          <div className="relative w-full h-[400px] sm:h-[500px] mb-8 rounded-2xl overflow-hidden shadow-lg border border-slate-blue/10">
+            <Image
+              src="/images/blog/not_ranking.webp"
+              alt="Red and green trend line graph on a monitor with a wrench adjusting a gear"
+              fill
+              className="object-cover"
+              priority
+              sizes="(max-width: 768px) 100vw, 800px"
+            />
+          </div>
 
           <p className="text-lg text-slate-blue leading-relaxed">
             You have invested in a website, maybe even paid a general web designer a decent fee for it. But when you search "plumber near me" or "emergency plumber" followed by your town, you are nowhere to be found. Meanwhile, your competitor with the worse-looking site is sitting in the top three. What is going on?

@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Image from 'next/image';
 import SchemaScript from '@/components/SchemaScript';
 import Breadcrumbs from '@/components/Breadcrumbs';
 import AuthorBio, { AUTHOR, authorPersonSchema } from '@/components/AuthorBio';
@@ -62,21 +63,34 @@ export default function BlogPost() {
       <article className="py-16 max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="prose prose-lg prose-slate max-w-none space-y-6">
 
-          <p className="text-lg text-slate-blue leading-relaxed">
-            When someone searches "plumber near me," the first thing they see is the Google Map Pack — three
-            local businesses with reviews, phone numbers, and directions. If you are not in those three
-            slots, you are invisible to the majority of local searchers. Your Google Business Profile (GBP)
-            is the single most important factor in getting there. Google&apos;s own{' '}
-            <a
-              href="https://support.google.com/business/answer/7091"
-              rel="noopener"
-              className="text-amber hover:underline"
-            >
-              official ranking documentation
-            </a>{' '}
-            confirms that relevance, distance, and prominence determine Map Pack position — and your GBP is
-            where you control all three.
-          </p>
+          <div className="relative w-full h-[400px] sm:h-[500px] mb-8 rounded-2xl overflow-hidden shadow-lg border border-slate-blue/10">
+            <Image
+              src="/images/blog/gbp_guide.webp"
+              alt="Glowing digital storefront card with 5-star reviews above a sleek tablet"
+              fill
+              className="object-cover"
+              priority
+              sizes="(max-width: 768px) 100vw, 800px"
+            />
+          </div>
+
+          <div className="bg-amber/10 border border-amber/30 rounded-2xl p-6 mb-4">
+            <p className="text-lg text-slate-blue leading-relaxed">
+              When someone searches "plumber near me," the first thing they see is the Google Map Pack — three
+              local businesses with reviews, phone numbers, and directions. If you are not in those three
+              slots, you are invisible to the majority of local searchers. Your Google Business Profile (GBP)
+              is the single most important factor in getting there. Google&apos;s own{' '}
+              <a
+                href="https://support.google.com/business/answer/7091"
+                rel="noopener"
+                className="text-amber hover:underline"
+              >
+                official ranking documentation
+              </a>{' '}
+              confirms that relevance, distance, and prominence determine Map Pack position — and your GBP is
+              where you control all three.
+            </p>
+          </div>
 
           <h2 className="text-2xl font-display font-bold text-navy-dark">Step 1: Claim or create your profile</h2>
           <p className="text-slate-blue leading-relaxed">

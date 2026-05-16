@@ -2,10 +2,11 @@ import Link from 'next/link';
 import SchemaScript from '@/components/SchemaScript';
 import Breadcrumbs from '@/components/Breadcrumbs';
 import RelatedLinks from '@/components/RelatedLinks';
+import VerticalConversionHero from '@/components/VerticalConversionHero';
 
 export const metadata = {
-  title: { absolute: 'Heating Engineer Website Design | From £99/mo' },
-  description: 'Heating engineer website design from £99/month. Boiler installation, heat pump and underfloor heating landing pages. Local SEO and GBP included.',
+  title: { absolute: 'Heating Engineer Websites · £79/mo Launch Price' },
+  description: 'Websites for UK heating engineers. Heat pump and boiler upgrade scheme ready. Launch pricing £79/mo locked-in. Live in 1–2 weeks.',
   alternates: { canonical: 'https://www.plumberwebdesign.co.uk/heating-engineer-website-design/' },
 };
 
@@ -47,7 +48,7 @@ export default function HeatingEngineerPage() {
       { "@type": "Question", "name": "Do heating engineers need a different website to plumbers?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. A generic plumber website does not rank well for heat pump, MCS-accredited installer, or commercial heating searches. Heating engineers need dedicated landing pages for boiler installation, heat pump installation (with MCS certification display), underfloor heating, annual service contracts, and Gas Safe or OFTEC credentials. The customer journey is also different — heating jobs are considered purchases, so trust signals and case studies matter more than emergency call-out buttons." } },
       { "@type": "Question", "name": "Can a heating engineer website handle annual service bookings?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. Our Journeyman and Master packages include recurring booking forms for annual boiler service, landlord gas safety (CP12) certificates, and heat pump service checks. These flow into your existing diary or calendar system and let customers self-book without phoning." } },
       { "@type": "Question", "name": "Will the website display Gas Safe and OFTEC registration?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. Both registrations are displayed prominently in the header, footer, and on service pages, with verifying links back to gassaferegister.co.uk and oftec.org. We also include the registration number in JSON-LD schema so search engines can verify credentials." } },
-      { "@type": "Question", "name": "How long does a heating engineer website take to build?", "acceptedAnswer": { "@type": "Answer", "text": "Two to three weeks from sign-off. That includes design, content writing, service and location pages, schema markup, Google Business Profile integration, and a staging review before launch." } }
+      { "@type": "Question", "name": "How long does a heating engineer website take to build?", "acceptedAnswer": { "@type": "Answer", "text": "One to two weeks from sign-off. That includes design, content writing, service and location pages, schema markup, Google Business Profile integration, and a staging review before launch." } }
     ]
   };
 
@@ -56,15 +57,19 @@ export default function HeatingEngineerPage() {
       <SchemaScript schema={schema} />
       <SchemaScript schema={faqSchema} />
       <Breadcrumbs items={[{ label: 'Heating Engineer Website Design', href: '/heating-engineer-website-design/' }]} />
-       <div className="py-24 bg-navy-dark text-white border-b border-slate-blue/20">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <div className="inline-block bg-amber/20 text-amber px-4 py-1.5 rounded-full text-sm font-bold tracking-wider uppercase mb-6 border border-amber/30">Trade Speciality</div>
-          <h1 className="text-4xl md:text-5xl font-display font-bold mb-6">Heating Engineer Website Design</h1>
-          <p className="text-xl text-light-gray/80 leading-relaxed max-w-2xl mx-auto">
-            Win high-ticket heating jobs. From underfloor heating to air source heat pumps, we build sites that convert traffic into profitable projects.
-          </p>
-        </div>
-      </div>
+      <VerticalConversionHero
+        vertical="Heating Engineer"
+        headline="Heating engineer websites that win the high-ticket jobs"
+        subhead="Generic plumber websites don't rank for 'air source heat pump installer'. We build dedicated heating engineer sites that capture £8,000+ MCS-certified installations, not £150 leak callouts."
+        painPoints={[
+          'Your current site treats heating as a footnote, not a specialism',
+          "You're missing the £7,500 Boiler Upgrade Scheme search traffic",
+          'No annual service contract booking flow = recurring revenue lost',
+        ]}
+        demoUrl="https://biomass.plumberwebdesign.co.uk"
+        demoLabel="See our heating engineer demo →"
+        demoThumb="/portfolio/biomass.webp"
+      />
 
       <div className="py-24 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="prose prose-lg prose-slate max-w-none">

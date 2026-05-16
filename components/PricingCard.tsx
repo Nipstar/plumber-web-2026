@@ -9,6 +9,7 @@ interface PricingCardProps {
   ctaHref?: string; // Kept for backwards compatibility but we override it based on the name
   highlighted?: boolean;
   addOns?: string[];
+  launchPrice?: string;
 }
 
 export default function PricingCard({
@@ -18,14 +19,15 @@ export default function PricingCard({
   tagline,
   features,
   highlighted,
-  addOns
+  addOns,
+  launchPrice,
 }: PricingCardProps) {
   const contactUrl = `/contact/?package=${name.toLowerCase()}`;
 
   return (
     <div className={`relative flex flex-col rounded-2xl p-8 shadow-xl border ${
-      highlighted 
-        ? 'bg-navy-dark text-white border-amber/30 ring-1 ring-amber/50 shadow-amber/10' 
+      highlighted
+        ? 'bg-navy-dark text-white border-amber/30 ring-1 ring-amber/50 shadow-amber/10'
         : 'bg-white text-navy-card border-slate-blue/10'
     }`}>
       {highlighted && (
@@ -37,10 +39,25 @@ export default function PricingCard({
       <div className="mb-8">
         <h3 className="text-2xl font-display font-bold mb-2">{name}</h3>
         <p className={`text-sm mb-6 ${highlighted ? 'text-white/70' : 'text-slate-blue/80'}`}>{tagline}</p>
-        <div className="flex items-baseline gap-1">
-          <span className="text-4xl font-display font-bold">{price}</span>
-          <span className={`text-sm ${highlighted ? 'text-white/70' : 'text-slate-blue/80'}`}>{period}</span>
-        </div>
+        {launchPrice ? (
+          <>
+            <div className="flex items-baseline gap-2 mb-1">
+              <span className="text-4xl font-display font-bold text-amber">{launchPrice}</span>
+              <span className={`text-sm ${highlighted ? 'text-white/70' : 'text-slate-blue/80'}`}>{period}</span>
+              <span className={`text-2xl font-display line-through ${highlighted ? 'text-white/40' : 'text-slate-blue/40'}`}>{price}</span>
+            </div>
+            <div className={`inline-block text-xs font-bold uppercase tracking-wider px-2.5 py-1 rounded-full ${
+              highlighted ? 'bg-amber/20 text-amber border border-amber/30' : 'bg-amber/15 text-amber border border-amber/30'
+            }`}>
+              Launch price · locked-in 12 months
+            </div>
+          </>
+        ) : (
+          <div className="flex items-baseline gap-1">
+            <span className="text-4xl font-display font-bold">{price}</span>
+            <span className={`text-sm ${highlighted ? 'text-white/70' : 'text-slate-blue/80'}`}>{period}</span>
+          </div>
+        )}
       </div>
 
       <ul className="flex-1 space-y-4 mb-8">

@@ -11,7 +11,7 @@ export const metadata = {
 
 const pricingPackages = [
   {
-    name: 'Apprentice',
+    name: 'Apprentice', launchPrice: '£79',
     price: '£99',
     period: '/month',
     tagline: 'Perfect for getting started.',
@@ -26,7 +26,7 @@ const pricingPackages = [
     ]
   },
   {
-    name: 'Journeyman',
+    name: 'Journeyman', launchPrice: '£129',
     price: '£169',
     period: '/month',
     tagline: 'Our most popular trades package.',
@@ -42,7 +42,7 @@ const pricingPackages = [
     ]
   },
   {
-    name: 'Master',
+    name: 'Master', launchPrice: '£199',
     price: '£249',
     period: '/month',
     tagline: 'Dominate your local area.',

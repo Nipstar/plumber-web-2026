@@ -4,16 +4,17 @@ import FaqAccordion from '@/components/FaqAccordion';
 import SchemaScript from '@/components/SchemaScript';
 import Breadcrumbs from '@/components/Breadcrumbs';
 import RelatedLinks from '@/components/RelatedLinks';
+import VerticalConversionHero from '@/components/VerticalConversionHero';
 
 export const metadata = {
-  title: { absolute: 'Gas Engineer Website Design | Websites for Gas Engineers' },
-  description: 'Gas engineer website design from £99/month. Built for Gas Safe registered engineers — emergency call-out booking, postcode landing pages, GBP optimisation.',
+  title: { absolute: 'Gas Engineer Website Design · Gas Safe Ready · £79/mo' },
+  description: 'Gas Safe verified websites for UK engineers. CP12 booking flows, mobile-first emergency callout. £79/mo launch pricing.',
   alternates: { canonical: 'https://www.plumberwebdesign.co.uk/gas-engineer-website-design/' },
 };
 
 const pricingPackages = [
   {
-    name: 'Apprentice',
+    name: 'Apprentice', launchPrice: '£79',
     price: '£99',
     period: '/month',
     tagline: 'Perfect for getting started.',
@@ -28,7 +29,7 @@ const pricingPackages = [
     ]
   },
   {
-    name: 'Journeyman',
+    name: 'Journeyman', launchPrice: '£129',
     price: '£169',
     period: '/month',
     tagline: 'Our most popular trades package.',
@@ -44,7 +45,7 @@ const pricingPackages = [
     ]
   },
   {
-    name: 'Master',
+    name: 'Master', launchPrice: '£199',
     price: '£249',
     period: '/month',
     tagline: 'Dominate your local area.',
@@ -110,15 +111,19 @@ export default function GasEngineerPage() {
       <SchemaScript schema={schema} />
       <SchemaScript schema={faqSchema} />
       <Breadcrumbs items={[{ label: 'Gas Engineer Website Design', href: '/gas-engineer-website-design/' }]} />
-       <div className="py-24 bg-navy-dark text-white border-b border-slate-blue/20">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <div className="inline-block bg-amber/20 text-amber px-4 py-1.5 rounded-full text-sm font-bold tracking-wider uppercase mb-6 border border-amber/30">Trade Speciality</div>
-          <h1 className="text-4xl md:text-5xl font-display font-bold mb-6">Gas Engineer Website Design</h1>
-          <p className="text-xl text-light-gray/80 leading-relaxed max-w-2xl mx-auto">
-            Build trust instantly. We design websites specifically for Gas Safe registered engineers, focused on boiler installations, servicing, and emergency call-outs.
-          </p>
-        </div>
-      </div>
+      <VerticalConversionHero
+        vertical="Gas Engineer"
+        headline="Gas Safe websites built for trust, booked for jobs"
+        subhead="When customers are dealing with potentially dangerous gas work, they aren't searching for a 'handyman' — they need certified authority. Your website needs to lead with Gas Safe verification and CP12 credentials."
+        painPoints={[
+          "Customers can't find your Gas Safe number in 5 seconds",
+          'No CP12 / landlord certificate booking flow',
+          'Generic plumber sites lose trust on first impression',
+        ]}
+        demoUrl="https://boiler.plumberwebdesign.co.uk"
+        demoLabel="See our gas engineer demo →"
+        demoThumb="/portfolio/boiler.webp"
+      />
 
       <div className="py-24">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

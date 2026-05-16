@@ -4,14 +4,14 @@ import SchemaScript from '@/components/SchemaScript';
 import Breadcrumbs from '@/components/Breadcrumbs';
 
 export const metadata = {
-  title: { absolute: 'Plumber Web Design Andover | From £99/mo' },
-  description: 'Web design for plumbers in Andover. North Hampshire + Test Valley coverage including Whitchurch, Stockbridge, and Tidworth. Low competition, fast ranking. From £99/month.',
+  title: { absolute: 'Andover Plumber Web Design · Hampshire-Built · £79/mo' },
+  description: 'Andover and Hampshire plumber websites. Founder-led from Andover. Launch pricing £79/mo locked-in. Live in 1–2 weeks.',
   alternates: { canonical: 'https://www.plumberwebdesign.co.uk/web-design-plumbers-andover/' }
 };
 
 const pricingPackages = [
   {
-    name: 'Apprentice',
+    name: 'Apprentice', launchPrice: '£79',
     price: '£99',
     period: '/month',
     tagline: 'Perfect for getting started.',
@@ -26,7 +26,7 @@ const pricingPackages = [
     ]
   },
   {
-    name: 'Journeyman',
+    name: 'Journeyman', launchPrice: '£129',
     price: '£169',
     period: '/month',
     tagline: 'Our most popular trades package.',
@@ -42,7 +42,7 @@ const pricingPackages = [
     ]
   },
   {
-    name: 'Master',
+    name: 'Master', launchPrice: '£199',
     price: '£249',
     period: '/month',
     tagline: 'Dominate your local area.',

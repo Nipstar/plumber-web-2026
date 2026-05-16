@@ -3,8 +3,8 @@ import SchemaScript from '@/components/SchemaScript';
 import Breadcrumbs from '@/components/Breadcrumbs';
 
 export const metadata = {
-  title: { absolute: 'Get a Free Quote for Your Plumber Website | PlumberWebDesign' },
-  description: 'Get a free quote for your plumber website. Tell us about your business and we will come back to you within one working day. No hard sell, no hidden costs.',
+  title: { absolute: 'Get a Free Plumber Website Quote · UK Only' },
+  description: 'Tell Andy about your plumbing business. Free quote within one working day. Launch pricing £79/mo locked-in. No hard sell.',
   alternates: { canonical: 'https://www.plumberwebdesign.co.uk/contact/' },
 };
 

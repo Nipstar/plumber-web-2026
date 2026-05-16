@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Image from 'next/image';
 import SchemaScript from '@/components/SchemaScript';
 import Breadcrumbs from '@/components/Breadcrumbs';
 import AuthorBio, { AUTHOR, authorPersonSchema } from '@/components/AuthorBio';
@@ -62,7 +63,18 @@ export default function BlogPost() {
       <article className="py-16 max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="prose prose-lg prose-slate max-w-none space-y-6">
 
-          <div className="bg-amber/10 border border-amber/30 rounded-2xl p-8 mb-4">
+          <div className="relative w-full h-[400px] sm:h-[500px] mb-8 rounded-2xl overflow-hidden shadow-lg border border-slate-blue/10">
+            <Image
+              src="/images/blog/need_websites.webp"
+              alt="Smartphone displaying a premium plumbing service website in a modern bathroom"
+              fill
+              className="object-cover"
+              priority
+              sizes="(max-width: 768px) 100vw, 800px"
+            />
+          </div>
+
+          <div className="bg-amber/10 border border-amber/30 rounded-2xl p-6 mb-4">
             <p className="text-lg text-navy-dark font-bold mb-2">Short answer</p>
             <p className="text-slate-blue leading-relaxed">
               Yes. Over 70% of plumbing-related searches happen on mobile, and Google prioritises businesses that have both a Google Business Profile and a professional website. Plumbers without a website lose jobs to competitors who have one. A Google Business Profile alone is not enough in 2026.
