@@ -71,7 +71,8 @@ export default function RootLayout({
         {/*
           TODO_REPLACE: Demo subdomains noindex
           biomass.plumberwebdesign.co.uk, emergency.plumberwebdesign.co.uk,
-          bathrooms.plumberwebdesign.co.uk, boiler.plumberwebdesign.co.uk
+          bathrooms.plumberwebdesign.co.uk, boiler.plumberwebdesign.co.uk,
+          renewables.plumberwebdesign.co.uk
           must serve X-Robots-Tag: noindex, nofollow so they do not compete in search.
           If demos share this Vercel project: add a host-matched header in next.config.
           If demos are separate Vercel projects: add the header in each project's vercel.json.

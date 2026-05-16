@@ -34,6 +34,12 @@ const DEMOS: Demo[] = [
     subhead: 'Gas Safe verification · CP12 booking',
     url: 'https://boiler.plumberwebdesign.co.uk',
   },
+  {
+    thumb: '/portfolio/renewables.webp',
+    heading: 'Renewables & Heat Pumps',
+    subhead: 'MCS certified · BUS grant ready',
+    url: 'https://renewables.plumberwebdesign.co.uk',
+  },
 ];
 
 export default function DemoGallery() {
@@ -61,7 +67,7 @@ export default function DemoGallery() {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 lg:gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8">
           {DEMOS.map(d => (
             <a
               key={d.heading}
