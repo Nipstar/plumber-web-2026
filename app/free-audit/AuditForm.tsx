@@ -2,6 +2,7 @@
 
 import { useState } from 'react';
 import { useRouter } from 'next/navigation';
+import TradeTypeField, { TRADE_OPTIONS } from '@/components/TradeTypeField';
 
 const DEFAULT_WEBHOOK = 'https://antekauto.app.n8n.cloud/webhook-test/plumber-web';
 
@@ -9,8 +10,10 @@ export default function AuditForm() {
   const router = useRouter();
   const [status, setStatus] = useState<'idle' | 'loading' | 'error'>('idle');
   const [errorMessage, setErrorMessage] = useState('');
+  const [tradeError, setTradeError] = useState('');
   const [formData, setFormData] = useState({
     name: '',
+    tradeType: '',
     siteUrl: '',
     email: '',
     chatOptIn: false,
@@ -22,6 +25,11 @@ export default function AuditForm() {
     setFormData(prev => ({ ...prev, [name]: type === 'checkbox' ? checked : value }));
   };
 
+  const handleTradeChange = (v: string) => {
+    setFormData(prev => ({ ...prev, tradeType: v }));
+    if (tradeError) setTradeError('');
+  };
+
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
 
@@ -30,8 +38,16 @@ export default function AuditForm() {
       return;
     }
 
+    if (!TRADE_OPTIONS.includes(formData.tradeType as (typeof TRADE_OPTIONS)[number])) {
+      setTradeError('Please tell us your trade');
+      setStatus('error');
+      setErrorMessage('Please tell us your trade.');
+      return;
+    }
+
     setStatus('loading');
     setErrorMessage('');
+    setTradeError('');
 
     try {
       const webhookUrl = process.env.NEXT_PUBLIC_FORM_WEBHOOK || DEFAULT_WEBHOOK;
@@ -42,6 +58,7 @@ export default function AuditForm() {
         body: JSON.stringify({
           form_type: 'audit',
           name: formData.name,
+          trade_type: formData.tradeType,
           siteUrl: formData.siteUrl,
           email: formData.email,
           chatOptIn: formData.chatOptIn,
@@ -52,7 +69,11 @@ export default function AuditForm() {
 
       if (!res.ok) throw new Error('Failed to send. Please try again.');
 
-      window.dataLayer?.push({ event: 'lead_form_submit', form_name: 'audit' });
+      window.dataLayer?.push({
+        event: 'lead_form_submit',
+        form_name: 'audit',
+        trade_type: formData.tradeType,
+      });
       router.push('/thank-you/?type=audit');
     } catch (err: unknown) {
       setStatus('error');
@@ -80,6 +101,8 @@ export default function AuditForm() {
           <label htmlFor="name" className="block text-sm font-medium text-navy-card mb-1">Name</label>
           <input required type="text" id="name" name="name" value={formData.name} onChange={handleChange} className="w-full px-4 py-3 rounded-lg border border-slate-blue/20 bg-light-gray focus:outline-none focus:ring-2 focus:ring-amber focus:border-transparent transition-all" />
         </div>
+
+        <TradeTypeField value={formData.tradeType} onChange={handleTradeChange} error={tradeError} />
 
         <div>
           <label htmlFor="siteUrl" className="block text-sm font-medium text-navy-card mb-1">Current website URL</label>
