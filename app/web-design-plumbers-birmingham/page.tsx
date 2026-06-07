@@ -2,18 +2,13 @@ import Link from 'next/link';
 import PricingCard from '@/components/PricingCard';
 import SchemaScript from '@/components/SchemaScript';
 import Breadcrumbs from '@/components/Breadcrumbs';
-import { ogBase, twitterBase } from '@/app/shared-metadata';
+import { pageMeta } from '@/lib/seo';
 
-const TITLE = 'Web Design for Plumbers in Birmingham | Plumber Websites';
-const DESCRIPTION = 'Web design for plumbers in Birmingham. West Midlands coverage including Solihull, Sutton Coldfield and the Black Country, with local SEO built in.';
-
-export const metadata = {
-  title: { absolute: TITLE },
-  description: DESCRIPTION,
-  alternates: { canonical: 'https://www.plumberwebdesign.co.uk/web-design-plumbers-birmingham/' },
-  openGraph: { ...ogBase, title: TITLE, description: DESCRIPTION },
-  twitter: { ...twitterBase, title: TITLE, description: DESCRIPTION },
-};
+export const metadata = pageMeta({
+  title: 'Web Design for Plumbers in Birmingham | Plumber Websites',
+  description: 'Web design for plumbers in Birmingham. West Midlands coverage including Solihull, Sutton Coldfield and the Black Country, with local SEO built in.',
+  path: '/web-design-plumbers-birmingham/',
+});
 
 const pricingPackages = [
   {

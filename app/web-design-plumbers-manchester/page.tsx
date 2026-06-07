@@ -2,18 +2,13 @@ import Link from 'next/link';
 import PricingCard from '@/components/PricingCard';
 import SchemaScript from '@/components/SchemaScript';
 import Breadcrumbs from '@/components/Breadcrumbs';
-import { ogBase, twitterBase } from '@/app/shared-metadata';
+import { pageMeta } from '@/lib/seo';
 
-const TITLE = 'Web Design for Plumbers in Manchester | Plumber Websites';
-const DESCRIPTION = 'Web design for plumbers in Manchester. Landing pages for all 10 Greater Manchester boroughs, Didsbury to Salford, with local SEO and GBP setup.';
-
-export const metadata = {
-  title: { absolute: TITLE },
-  description: DESCRIPTION,
-  alternates: { canonical: 'https://www.plumberwebdesign.co.uk/web-design-plumbers-manchester/' },
-  openGraph: { ...ogBase, title: TITLE, description: DESCRIPTION },
-  twitter: { ...twitterBase, title: TITLE, description: DESCRIPTION },
-};
+export const metadata = pageMeta({
+  title: 'Web Design for Plumbers in Manchester | Plumber Websites',
+  description: 'Web design for plumbers in Manchester. Landing pages for all 10 Greater Manchester boroughs, Didsbury to Salford, with local SEO and GBP setup.',
+  path: '/web-design-plumbers-manchester/',
+});
 
 const pricingPackages = [
   {

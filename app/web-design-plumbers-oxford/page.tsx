@@ -2,18 +2,13 @@ import Link from 'next/link';
 import PricingCard from '@/components/PricingCard';
 import SchemaScript from '@/components/SchemaScript';
 import Breadcrumbs from '@/components/Breadcrumbs';
-import { ogBase, twitterBase } from '@/app/shared-metadata';
+import { pageMeta } from '@/lib/seo';
 
-const TITLE = 'Web Design for Plumbers in Oxford | Plumber Websites';
-const DESCRIPTION = 'Web design for plumbers in Oxford. Oxfordshire coverage from Cowley and Headington to Summertown and Abingdon, for the HMO and listed-property market.';
-
-export const metadata = {
-  title: { absolute: TITLE },
-  description: DESCRIPTION,
-  alternates: { canonical: 'https://www.plumberwebdesign.co.uk/web-design-plumbers-oxford/' },
-  openGraph: { ...ogBase, title: TITLE, description: DESCRIPTION },
-  twitter: { ...twitterBase, title: TITLE, description: DESCRIPTION },
-};
+export const metadata = pageMeta({
+  title: 'Web Design for Plumbers in Oxford | Plumber Websites',
+  description: 'Web design for plumbers in Oxford. Oxfordshire coverage from Cowley and Headington to Summertown and Abingdon, for the HMO and listed-property market.',
+  path: '/web-design-plumbers-oxford/',
+});
 
 const pricingPackages = [
   {

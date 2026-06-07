@@ -251,18 +251,13 @@ const template = (loc) => {
 import PricingCard from '@/components/PricingCard';
 import SchemaScript from '@/components/SchemaScript';
 import Breadcrumbs from '@/components/Breadcrumbs';
-import { ogBase, twitterBase } from '@/app/shared-metadata';
+import { pageMeta } from '@/lib/seo';
 
-const TITLE = 'Web Design for Plumbers in ${loc.city} | Plumber Websites';
-const DESCRIPTION = '${loc.metaDesc}';
-
-export const metadata = {
-  title: { absolute: TITLE },
-  description: DESCRIPTION,
-  alternates: { canonical: 'https://www.plumberwebdesign.co.uk/web-design-plumbers-${loc.slug}/' },
-  openGraph: { ...ogBase, title: TITLE, description: DESCRIPTION },
-  twitter: { ...twitterBase, title: TITLE, description: DESCRIPTION },
-};
+export const metadata = pageMeta({
+  title: 'Web Design for Plumbers in ${loc.city} | Plumber Websites',
+  description: '${loc.metaDesc}',
+  path: '/web-design-plumbers-${loc.slug}/',
+});
 
 const pricingPackages = [
   {

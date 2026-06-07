@@ -2,18 +2,13 @@ import Link from 'next/link';
 import PricingCard from '@/components/PricingCard';
 import SchemaScript from '@/components/SchemaScript';
 import Breadcrumbs from '@/components/Breadcrumbs';
-import { ogBase, twitterBase } from '@/app/shared-metadata';
+import { pageMeta } from '@/lib/seo';
 
-const TITLE = 'Web Design for Plumbers in Andover | Plumber Websites';
-const DESCRIPTION = 'Web design for plumbers in Andover. North Hampshire and Test Valley coverage including Whitchurch, Stockbridge and Tidworth. Rank fast locally.';
-
-export const metadata = {
-  title: { absolute: TITLE },
-  description: DESCRIPTION,
-  alternates: { canonical: 'https://www.plumberwebdesign.co.uk/web-design-plumbers-andover/' },
-  openGraph: { ...ogBase, title: TITLE, description: DESCRIPTION },
-  twitter: { ...twitterBase, title: TITLE, description: DESCRIPTION },
-};
+export const metadata = pageMeta({
+  title: 'Web Design for Plumbers in Andover | Plumber Websites',
+  description: 'Web design for plumbers in Andover. North Hampshire and Test Valley coverage including Whitchurch, Stockbridge and Tidworth. Rank fast locally.',
+  path: '/web-design-plumbers-andover/',
+});
 
 const pricingPackages = [
   {

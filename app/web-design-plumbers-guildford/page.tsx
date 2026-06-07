@@ -2,18 +2,13 @@ import Link from 'next/link';
 import PricingCard from '@/components/PricingCard';
 import SchemaScript from '@/components/SchemaScript';
 import Breadcrumbs from '@/components/Breadcrumbs';
-import { ogBase, twitterBase } from '@/app/shared-metadata';
+import { pageMeta } from '@/lib/seo';
 
-const TITLE = 'Web Design for Plumbers in Guildford | Plumber Websites';
-const DESCRIPTION = 'Web design for plumbers in Guildford. Affluent Surrey coverage including Godalming, Cranleigh and Woking, with premium-market local SEO.';
-
-export const metadata = {
-  title: { absolute: TITLE },
-  description: DESCRIPTION,
-  alternates: { canonical: 'https://www.plumberwebdesign.co.uk/web-design-plumbers-guildford/' },
-  openGraph: { ...ogBase, title: TITLE, description: DESCRIPTION },
-  twitter: { ...twitterBase, title: TITLE, description: DESCRIPTION },
-};
+export const metadata = pageMeta({
+  title: 'Web Design for Plumbers in Guildford | Plumber Websites',
+  description: 'Web design for plumbers in Guildford. Affluent Surrey coverage including Godalming, Cranleigh and Woking, with premium-market local SEO.',
+  path: '/web-design-plumbers-guildford/',
+});
 
 const pricingPackages = [
   {

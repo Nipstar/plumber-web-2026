@@ -2,18 +2,13 @@ import Link from 'next/link';
 import PricingCard from '@/components/PricingCard';
 import SchemaScript from '@/components/SchemaScript';
 import Breadcrumbs from '@/components/Breadcrumbs';
-import { ogBase, twitterBase } from '@/app/shared-metadata';
+import { pageMeta } from '@/lib/seo';
 
-const TITLE = 'Web Design for Plumbers in Portsmouth | Plumber Websites';
-const DESCRIPTION = 'Web design for plumbers in Portsmouth. South coast Hampshire coverage including Gosport, Fareham, Havant and Southsea, with local SEO and GBP.';
-
-export const metadata = {
-  title: { absolute: TITLE },
-  description: DESCRIPTION,
-  alternates: { canonical: 'https://www.plumberwebdesign.co.uk/web-design-plumbers-portsmouth/' },
-  openGraph: { ...ogBase, title: TITLE, description: DESCRIPTION },
-  twitter: { ...twitterBase, title: TITLE, description: DESCRIPTION },
-};
+export const metadata = pageMeta({
+  title: 'Web Design for Plumbers in Portsmouth | Plumber Websites',
+  description: 'Web design for plumbers in Portsmouth. South coast Hampshire coverage including Gosport, Fareham, Havant and Southsea, with local SEO and GBP.',
+  path: '/web-design-plumbers-portsmouth/',
+});
 
 const pricingPackages = [
   {
