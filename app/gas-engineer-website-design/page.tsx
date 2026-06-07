@@ -5,11 +5,17 @@ import SchemaScript from '@/components/SchemaScript';
 import Breadcrumbs from '@/components/Breadcrumbs';
 import RelatedLinks from '@/components/RelatedLinks';
 import VerticalConversionHero from '@/components/VerticalConversionHero';
+import { ogBase, twitterBase } from '@/app/shared-metadata';
+
+const TITLE = 'Gas Engineer Website Design UK | Gas Safe-Ready Sites';
+const DESCRIPTION = 'Website design for gas engineers and gas fitters across the UK. Gas Safe credentials, emergency booking and local SEO. Founder-led from Andover.';
 
 export const metadata = {
-  title: { absolute: 'Gas Engineer Website Design · Gas Safe Ready · £79/mo' },
-  description: 'Gas Safe verified websites for UK engineers. CP12 booking flows, mobile-first emergency callout. £79/mo launch pricing.',
+  title: { absolute: TITLE },
+  description: DESCRIPTION,
   alternates: { canonical: 'https://www.plumberwebdesign.co.uk/gas-engineer-website-design/' },
+  openGraph: { ...ogBase, title: TITLE, description: DESCRIPTION },
+  twitter: { ...twitterBase, title: TITLE, description: DESCRIPTION },
 };
 
 const pricingPackages = [
@@ -113,7 +119,7 @@ export default function GasEngineerPage() {
       <Breadcrumbs items={[{ label: 'Gas Engineer Website Design', href: '/gas-engineer-website-design/' }]} />
       <VerticalConversionHero
         vertical="Gas Engineer"
-        headline="Gas Safe websites built for trust, booked for jobs"
+        headline="Gas Engineer Website Design, Built Gas Safe-First"
         subhead="When customers are dealing with potentially dangerous gas work, they aren't searching for a 'handyman' — they need certified authority. Your website needs to lead with Gas Safe verification and CP12 credentials."
         painPoints={[
           "Customers can't find your Gas Safe number in 5 seconds",
