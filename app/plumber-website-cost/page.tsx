@@ -3,18 +3,13 @@ import SchemaScript from '@/components/SchemaScript';
 import PricingCard from '@/components/PricingCard';
 import Breadcrumbs from '@/components/Breadcrumbs';
 import RelatedLinks from '@/components/RelatedLinks';
-import { ogBase, twitterBase } from '@/app/shared-metadata';
+import { pageMeta } from '@/lib/seo';
 
-const TITLE = 'Plumber Website Cost UK | Transparent Pricing £79/mo';
-const DESCRIPTION = 'How much does a plumber website cost in the UK? Clear monthly pricing from £79/mo including hosting, SSL and local SEO. No hidden setup fees.';
-
-export const metadata = {
-  title: { absolute: TITLE },
-  description: DESCRIPTION,
-  alternates: { canonical: 'https://www.plumberwebdesign.co.uk/plumber-website-cost/' },
-  openGraph: { ...ogBase, title: TITLE, description: DESCRIPTION },
-  twitter: { ...twitterBase, title: TITLE, description: DESCRIPTION },
-};
+export const metadata = pageMeta({
+  title: 'Plumber Website Cost UK | Transparent Pricing £79/mo',
+  description: 'How much does a plumber website cost in the UK? Clear monthly pricing from £79/mo including hosting, SSL and local SEO. No hidden setup fees.',
+  path: '/plumber-website-cost/',
+});
 
 const pricingPackages = [
   {

@@ -3,18 +3,13 @@ import SchemaScript from '@/components/SchemaScript';
 import Breadcrumbs from '@/components/Breadcrumbs';
 import { AUTHOR, authorPersonSchema } from '@/components/AuthorBio';
 import RelatedLinks from '@/components/RelatedLinks';
-import { ogBase, twitterBase } from '@/app/shared-metadata';
+import { pageMeta } from '@/lib/seo';
 
-const TITLE = 'Plumber Web Design Agency UK | Founder-Led, Trade-Only';
-const DESCRIPTION = 'A UK plumber web design agency building only for plumbing and heating trades. Founder-led, no offshore handoffs. Free site audit and quote.';
-
-export const metadata = {
-  title: { absolute: TITLE },
-  description: DESCRIPTION,
-  alternates: { canonical: 'https://www.plumberwebdesign.co.uk/plumber-web-design-agency/' },
-  openGraph: { ...ogBase, title: TITLE, description: DESCRIPTION },
-  twitter: { ...twitterBase, title: TITLE, description: DESCRIPTION },
-};
+export const metadata = pageMeta({
+  title: 'Plumber Web Design Agency UK | Founder-Led, Trade-Only',
+  description: 'A UK plumber web design agency building only for plumbing and heating trades. Founder-led, no offshore handoffs. Free site audit and quote.',
+  path: '/plumber-web-design-agency/',
+});
 
 const schema = {
   "@context": "https://schema.org",
