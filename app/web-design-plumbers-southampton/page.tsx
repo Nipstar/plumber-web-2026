@@ -2,16 +2,23 @@ import Link from 'next/link';
 import PricingCard from '@/components/PricingCard';
 import SchemaScript from '@/components/SchemaScript';
 import Breadcrumbs from '@/components/Breadcrumbs';
+import { ogBase, twitterBase } from '@/app/shared-metadata';
+
+const TITLE = 'Web Design for Plumbers in Southampton | Plumber Websites';
+const DESCRIPTION = 'Specialist web design for plumbers in Southampton. Mobile-first, locally SEO-optimised websites built to win jobs across Southampton. Get a free quote.';
 
 export const metadata = {
-  title: { absolute: 'Plumber Web Design Southampton | From £99/mo' },
-  description: 'Web design for plumbers in Southampton. Solent-wide coverage including Woolston, Bitterne, Eastleigh, and the New Forest edge. Local SEO built in. From £99/month.',
-  alternates: { canonical: 'https://www.plumberwebdesign.co.uk/web-design-plumbers-southampton/' }
+  title: { absolute: TITLE },
+  description: DESCRIPTION,
+  alternates: { canonical: 'https://www.plumberwebdesign.co.uk/web-design-plumbers-southampton/' },
+  openGraph: { ...ogBase, title: TITLE, description: DESCRIPTION },
+  twitter: { ...twitterBase, title: TITLE, description: DESCRIPTION },
 };
 
 const pricingPackages = [
   {
-    name: 'Apprentice', launchPrice: '£79',
+    name: 'Apprentice',
+    launchPrice: '£79',
     price: '£99',
     period: '/month',
     tagline: 'Perfect for getting started.',
@@ -26,7 +33,8 @@ const pricingPackages = [
     ]
   },
   {
-    name: 'Journeyman', launchPrice: '£129',
+    name: 'Journeyman',
+    launchPrice: '£129',
     price: '£169',
     period: '/month',
     tagline: 'Our most popular trades package.',
@@ -42,7 +50,8 @@ const pricingPackages = [
     ]
   },
   {
-    name: 'Master', launchPrice: '£199',
+    name: 'Master',
+    launchPrice: '£199',
     price: '£249',
     period: '/month',
     tagline: 'Dominate your local area.',

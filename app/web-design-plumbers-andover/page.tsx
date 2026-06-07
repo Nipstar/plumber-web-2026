@@ -2,16 +2,23 @@ import Link from 'next/link';
 import PricingCard from '@/components/PricingCard';
 import SchemaScript from '@/components/SchemaScript';
 import Breadcrumbs from '@/components/Breadcrumbs';
+import { ogBase, twitterBase } from '@/app/shared-metadata';
+
+const TITLE = 'Web Design for Plumbers in Andover | Plumber Websites';
+const DESCRIPTION = 'Specialist web design for plumbers in Andover. Mobile-first, locally SEO-optimised websites built to win jobs across Andover. Get a free quote.';
 
 export const metadata = {
-  title: { absolute: 'Andover Plumber Web Design · Hampshire-Built · £79/mo' },
-  description: 'Andover and Hampshire plumber websites. Founder-led from Andover. Launch pricing £79/mo locked-in. Live in 1–2 weeks.',
-  alternates: { canonical: 'https://www.plumberwebdesign.co.uk/web-design-plumbers-andover/' }
+  title: { absolute: TITLE },
+  description: DESCRIPTION,
+  alternates: { canonical: 'https://www.plumberwebdesign.co.uk/web-design-plumbers-andover/' },
+  openGraph: { ...ogBase, title: TITLE, description: DESCRIPTION },
+  twitter: { ...twitterBase, title: TITLE, description: DESCRIPTION },
 };
 
 const pricingPackages = [
   {
-    name: 'Apprentice', launchPrice: '£79',
+    name: 'Apprentice',
+    launchPrice: '£79',
     price: '£99',
     period: '/month',
     tagline: 'Perfect for getting started.',
@@ -26,7 +33,8 @@ const pricingPackages = [
     ]
   },
   {
-    name: 'Journeyman', launchPrice: '£129',
+    name: 'Journeyman',
+    launchPrice: '£129',
     price: '£169',
     period: '/month',
     tagline: 'Our most popular trades package.',
@@ -42,7 +50,8 @@ const pricingPackages = [
     ]
   },
   {
-    name: 'Master', launchPrice: '£199',
+    name: 'Master',
+    launchPrice: '£199',
     price: '£249',
     period: '/month',
     tagline: 'Dominate your local area.',

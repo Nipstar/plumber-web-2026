@@ -251,16 +251,23 @@ const template = (loc) => {
 import PricingCard from '@/components/PricingCard';
 import SchemaScript from '@/components/SchemaScript';
 import Breadcrumbs from '@/components/Breadcrumbs';
+import { ogBase, twitterBase } from '@/app/shared-metadata';
+
+const TITLE = 'Web Design for Plumbers in ${loc.city} | Plumber Websites';
+const DESCRIPTION = 'Specialist web design for plumbers in ${loc.city}. Mobile-first, locally SEO-optimised websites built to win jobs across ${loc.city}. Get a free quote.';
 
 export const metadata = {
-  title: { absolute: 'Plumber Web Design ${loc.city} | From £99/mo' },
-  description: '${loc.metaDesc}',
-  alternates: { canonical: 'https://www.plumberwebdesign.co.uk/web-design-plumbers-${loc.slug}/' }
+  title: { absolute: TITLE },
+  description: DESCRIPTION,
+  alternates: { canonical: 'https://www.plumberwebdesign.co.uk/web-design-plumbers-${loc.slug}/' },
+  openGraph: { ...ogBase, title: TITLE, description: DESCRIPTION },
+  twitter: { ...twitterBase, title: TITLE, description: DESCRIPTION },
 };
 
 const pricingPackages = [
   {
     name: 'Apprentice',
+    launchPrice: '£79',
     price: '£99',
     period: '/month',
     tagline: 'Perfect for getting started.',
@@ -276,6 +283,7 @@ const pricingPackages = [
   },
   {
     name: 'Journeyman',
+    launchPrice: '£129',
     price: '£169',
     period: '/month',
     tagline: 'Our most popular trades package.',
@@ -292,6 +300,7 @@ const pricingPackages = [
   },
   {
     name: 'Master',
+    launchPrice: '£199',
     price: '£249',
     period: '/month',
     tagline: 'Dominate your local area.',
