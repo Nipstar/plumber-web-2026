@@ -3,18 +3,13 @@ import SchemaScript from '@/components/SchemaScript';
 import Breadcrumbs from '@/components/Breadcrumbs';
 import RelatedLinks from '@/components/RelatedLinks';
 import VerticalConversionHero from '@/components/VerticalConversionHero';
-import { ogBase, twitterBase } from '@/app/shared-metadata';
+import { pageMeta } from '@/lib/seo';
 
-const TITLE = 'Bathroom Fitter Website Design UK | Gallery-Led Sites';
-const DESCRIPTION = 'Website design for bathroom fitters across the UK. Before-and-after galleries, quote capture and local SEO. Founder-led, live in 1–2 weeks.';
-
-export const metadata = {
-  title: { absolute: TITLE },
-  description: DESCRIPTION,
-  alternates: { canonical: 'https://www.plumberwebdesign.co.uk/bathroom-fitter-website-design/' },
-  openGraph: { ...ogBase, title: TITLE, description: DESCRIPTION },
-  twitter: { ...twitterBase, title: TITLE, description: DESCRIPTION },
-};
+export const metadata = pageMeta({
+  title: 'Bathroom Fitter Website Design | Portfolio-Led UK Sites',
+  description: 'Website design for UK bathroom fitters. Before-and-after galleries, project case studies, and local SEO to win high-ticket refit work. From £99/month.',
+  path: '/bathroom-fitter-website-design/',
+});
 
 export default function BathroomFitterPage() {
   const schema = {

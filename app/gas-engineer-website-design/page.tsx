@@ -5,18 +5,13 @@ import SchemaScript from '@/components/SchemaScript';
 import Breadcrumbs from '@/components/Breadcrumbs';
 import RelatedLinks from '@/components/RelatedLinks';
 import VerticalConversionHero from '@/components/VerticalConversionHero';
-import { ogBase, twitterBase } from '@/app/shared-metadata';
+import { pageMeta } from '@/lib/seo';
 
-const TITLE = 'Gas Engineer Website Design UK | Gas Safe-Ready Sites';
-const DESCRIPTION = 'Website design for gas engineers and gas fitters across the UK. Gas Safe credentials, emergency booking and local SEO. Founder-led from Andover.';
-
-export const metadata = {
-  title: { absolute: TITLE },
-  description: DESCRIPTION,
-  alternates: { canonical: 'https://www.plumberwebdesign.co.uk/gas-engineer-website-design/' },
-  openGraph: { ...ogBase, title: TITLE, description: DESCRIPTION },
-  twitter: { ...twitterBase, title: TITLE, description: DESCRIPTION },
-};
+export const metadata = pageMeta({
+  title: 'Gas Engineer Website Design | Websites for Gas Engineers',
+  description: 'Specialist website design for Gas Safe registered engineers in the UK. Prominent Gas Safe display, emergency booking forms, and local SEO. From £99/month.',
+  path: '/gas-engineer-website-design/',
+});
 
 const pricingPackages = [
   {

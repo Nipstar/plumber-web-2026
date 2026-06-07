@@ -3,18 +3,13 @@ import SchemaScript from '@/components/SchemaScript';
 import Breadcrumbs from '@/components/Breadcrumbs';
 import RelatedLinks from '@/components/RelatedLinks';
 import VerticalConversionHero from '@/components/VerticalConversionHero';
-import { ogBase, twitterBase } from '@/app/shared-metadata';
+import { pageMeta } from '@/lib/seo';
 
-const TITLE = 'Heating Engineer Website Design UK | Boiler & Heat Pump';
-const DESCRIPTION = 'Website design for heating engineers across the UK. Boiler, heat pump and central heating landing pages with local SEO built in. Get a free quote.';
-
-export const metadata = {
-  title: { absolute: TITLE },
-  description: DESCRIPTION,
-  alternates: { canonical: 'https://www.plumberwebdesign.co.uk/heating-engineer-website-design/' },
-  openGraph: { ...ogBase, title: TITLE, description: DESCRIPTION },
-  twitter: { ...twitterBase, title: TITLE, description: DESCRIPTION },
-};
+export const metadata = pageMeta({
+  title: 'Heating Engineer Website Design | Boiler & Heat Pump Sites',
+  description: 'Website design for UK heating engineers. Boiler installation and heat pump landing pages, built-in local SEO, and annual service booking. From £99/month.',
+  path: '/heating-engineer-website-design/',
+});
 
 export default function HeatingEngineerPage() {
   const schema = {

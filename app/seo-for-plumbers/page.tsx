@@ -3,18 +3,13 @@ import SchemaScript from '@/components/SchemaScript';
 import Breadcrumbs from '@/components/Breadcrumbs';
 import RelatedLinks from '@/components/RelatedLinks';
 import VerticalConversionHero from '@/components/VerticalConversionHero';
-import { ogBase, twitterBase } from '@/app/shared-metadata';
+import { pageMeta } from '@/lib/seo';
 
-const TITLE = 'SEO for Plumbers UK | Rank in Local Google & Map Pack';
-const DESCRIPTION = 'Local SEO for plumbers and heating engineers across the UK. Get found in Google Maps and local search and win more calls. Built by a trade specialist.';
-
-export const metadata = {
-  title: { absolute: TITLE },
-  description: DESCRIPTION,
-  alternates: { canonical: 'https://www.plumberwebdesign.co.uk/seo-for-plumbers/' },
-  openGraph: { ...ogBase, title: TITLE, description: DESCRIPTION },
-  twitter: { ...twitterBase, title: TITLE, description: DESCRIPTION },
-};
+export const metadata = pageMeta({
+  title: 'SEO for Plumbers UK | Local SEO for Plumbing Businesses',
+  description: 'Local SEO for UK plumbers. Get found when customers search "plumber near me". Google Business Profile management, citations, and on-page optimisation.',
+  path: '/seo-for-plumbers/',
+});
 
 export default function SeoPage() {
   const schema = {
@@ -73,10 +68,10 @@ export default function SeoPage() {
           <div className="prose prose-lg prose-slate max-w-none">
             <h2 className="text-3xl font-display font-bold text-navy-dark mb-6">Why Local SEO matters for plumbers</h2>
             <p className="text-slate-blue mb-8">
-              When a pipe bursts or a boiler stops firing in the middle of winter, people don't ask their neighbors for a recommendation anymore. They pull out their phones and search for "plumber near me" or "emergency plumber [City]".
+              When a pipe bursts or a boiler stops firing in the middle of winter, people don't ask their neighbours for a recommendation anymore. They pull out their phones and search for "plumber near me" or "emergency plumber [City]".
             </p>
             <p className="text-slate-blue mb-12">
-              If your business isn't showing up in the top 3 spots of the Google Map Pack, or on the first page of organic results, you are invisble to your most urgent, high-paying customers. Local SEO is the process of proving to Google that you are the most relevant, reliable, and closest solution to the customer's problem.
+              If your business isn't showing up in the top 3 spots of the Google Map Pack, or on the first page of organic results, you are invisible to your most urgent, high-paying customers. Local SEO is the process of proving to Google that you are the most relevant, reliable, and closest solution to the customer's problem.
             </p>
 
             <div className="bg-white p-8 rounded-2xl shadow-xl border border-slate-blue/10 mb-12">
@@ -98,7 +93,7 @@ export default function SeoPage() {
                   <h3 className="font-bold text-navy-dark mb-2 flex items-center gap-2">
                     <span className="w-2 h-2 rounded-full bg-amber pb-1"></span> GBP Management
                   </h3>
-                  <p className="text-sm text-slate-blue">We fully optimize your Google Business Profile, uploading photos, answering Q&As, and utilizing weekly GBP posts to signal high activity to Google's local algorithm.</p>
+                  <p className="text-sm text-slate-blue">We fully optimise your Google Business Profile, uploading photos, answering Q&As, and utilising weekly GBP posts to signal high activity to Google's local algorithm.</p>
                 </div>
                 <div>
                   <h3 className="font-bold text-navy-dark mb-2 flex items-center gap-2">
@@ -120,7 +115,7 @@ export default function SeoPage() {
               </div>
               <div>
                 <h3 className="font-bold text-xl mb-1">UK Only, No Black-Hat Trash</h3>
-                <p className="text-sm text-white/70">We only serve UK trades. We don't use spammy private blog networks or black-hat tactics that will get your domain penalized. 100% white-hat, sustainable growth.</p>
+                <p className="text-sm text-white/70">We only serve UK trades. We don't use spammy private blog networks or black-hat tactics that will get your domain penalised. 100% white-hat, sustainable growth.</p>
               </div>
             </div>
 

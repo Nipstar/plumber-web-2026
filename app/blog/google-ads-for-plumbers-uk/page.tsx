@@ -4,20 +4,13 @@ import SchemaScript from '@/components/SchemaScript';
 import Breadcrumbs from '@/components/Breadcrumbs';
 import AuthorBio, { AUTHOR, authorPersonSchema } from '@/components/AuthorBio';
 import RelatedLinks from '@/components/RelatedLinks';
-import { ogBase, twitterBase } from '@/app/shared-metadata';
+import { pageMeta } from '@/lib/seo';
 
-const TITLE = 'Google Ads for Plumbers UK | Costs, Setup & Lead Tips';
-const DESCRIPTION = 'A practical guide to Google Ads for plumbers in the UK: what it costs, how to set up campaigns, and how to stop wasting budget on junk clicks.';
-
-export const metadata = {
-  title: { absolute: TITLE },
-  description: DESCRIPTION,
-  alternates: {
-    canonical: 'https://www.plumberwebdesign.co.uk/blog/google-ads-for-plumbers-uk/',
-  },
-  openGraph: { ...ogBase, title: TITLE, description: DESCRIPTION },
-  twitter: { ...twitterBase, title: TITLE, description: DESCRIPTION },
-};
+export const metadata = pageMeta({
+  title: 'Google Ads for Plumbers UK | Costs, Setup & Lead Tips',
+  description: 'A practical guide to Google Ads for plumbers in the UK: what it costs, how to set up campaigns, and how to stop wasting budget on junk clicks.',
+  path: '/blog/google-ads-for-plumbers-uk/',
+});
 
 export default function BlogPost() {
   const schema = {
