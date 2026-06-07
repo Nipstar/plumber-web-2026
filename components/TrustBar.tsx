@@ -5,7 +5,7 @@ interface TrustBarProps {
 const cells: Record<NonNullable<TrustBarProps['variant']>, Array<{ title: string; sub: string }>> = {
   home: [
     { title: 'UK-only agency', sub: 'Hampshire based, serving plumbers nationwide' },
-    { title: 'From £99/month', sub: 'No setup fee on website packages' },
+    { title: 'From £79/month', sub: 'No setup fee on website packages' },
     { title: 'Gas Safe aware', sub: 'Built for Gas Safe registered engineers' },
     { title: '6 cities covered', sub: 'London · Manchester · Birmingham · Liverpool · Portsmouth · Andover' },
   ],

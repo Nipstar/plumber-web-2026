@@ -72,7 +72,7 @@ const pricingPackages = [
 ];
 
 const faqItems = [
-  { question: 'What is web design for plumbers?', answer: 'Web design for plumbers is specialist website design built around the way UK plumbing customers actually search and convert. A proper plumber website is mobile-first, optimised for local Google searches like "boiler repair Manchester" and "emergency plumber near me", carries click-to-call on every page, displays Gas Safe credentials prominently, and integrates with Google Business Profile for Map Pack visibility. UK packages start from £99 per month including hosting, SSL, and local SEO.' },
+  { question: 'What is web design for plumbers?', answer: 'Web design for plumbers is specialist website design built around the way UK plumbing customers actually search and convert. A proper plumber website is mobile-first, optimised for local Google searches like "boiler repair Manchester" and "emergency plumber near me", carries click-to-call on every page, displays Gas Safe credentials prominently, and integrates with Google Business Profile for Map Pack visibility. UK packages start from £79 per month including hosting, SSL, and local SEO.' },
   { question: 'How much does a plumber website cost in the UK?', answer: 'Our plumber websites cost £99, £169, or £249 per month depending on the package. Each includes hosting, SSL, a free domain, and local SEO. No setup fees on website packages. One-off custom builds from other agencies typically cost £1,500–£5,000 with hosting and SEO billed separately on top.' },
   { question: 'Do plumbers need a website in 2026?', answer: 'Yes. Over 70% of plumbing searches happen on mobile, and Google ranks businesses with a proper website above those relying on Google Business Profile alone. Without a website you cannot rank for service-specific searches like "boiler repair Manchester" or capture jobs worth over £3,000.' },
   { question: 'How long does it take to build a plumber website?', answer: 'One to two weeks from sign-off. That includes design, content, local SEO setup, Google Business Profile integration, and domain configuration. You review a staging site before we go live — nothing gets published until you approve it.' },
@@ -247,7 +247,7 @@ export default function Home() {
               <div className="bg-navy-card/60 border border-amber/30 rounded-xl p-5 mb-10 max-w-xl">
                 <p className="text-sm text-amber font-bold uppercase tracking-wider mb-2">What is web design for plumbers?</p>
                 <p className="text-base text-white/80 leading-relaxed">
-                  Plumber web design is specialist website design for UK plumbing businesses. A proper plumber website is mobile-first, optimised for local Google searches, has click-to-call and emergency booking, and integrates with Google Business Profile. Prices start from £99 per month.
+                  Plumber web design is specialist website design for UK plumbing businesses. A proper plumber website is mobile-first, optimised for local Google searches, has click-to-call and emergency booking, and integrates with Google Business Profile. Prices start from £79 per month.
                 </p>
               </div>
               
@@ -271,7 +271,7 @@ export default function Home() {
                 </div>
                 <div className="flex items-center gap-2">
                   <svg className="w-5 h-5 text-amber" fill="currentColor" viewBox="0 0 20 20"><path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z" clipRule="evenodd" /></svg>
-                  From £99/month
+                  From £79/month
                 </div>
                 <div className="flex items-center gap-2">
                   <svg className="w-5 h-5 text-amber" fill="currentColor" viewBox="0 0 20 20"><path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z" clipRule="evenodd" /></svg>
