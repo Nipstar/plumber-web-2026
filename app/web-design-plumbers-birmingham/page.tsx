@@ -5,7 +5,7 @@ import Breadcrumbs from '@/components/Breadcrumbs';
 import { ogBase, twitterBase } from '@/app/shared-metadata';
 
 const TITLE = 'Web Design for Plumbers in Birmingham | Plumber Websites';
-const DESCRIPTION = 'Specialist web design for plumbers in Birmingham. Mobile-first, locally SEO-optimised websites built to win jobs across Birmingham. Get a free quote.';
+const DESCRIPTION = 'Web design for plumbers in Birmingham. West Midlands coverage including Solihull, Sutton Coldfield and the Black Country, with local SEO built in.';
 
 export const metadata = {
   title: { absolute: TITLE },

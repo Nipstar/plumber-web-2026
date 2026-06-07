@@ -5,7 +5,7 @@ import Breadcrumbs from '@/components/Breadcrumbs';
 import { ogBase, twitterBase } from '@/app/shared-metadata';
 
 const TITLE = 'Web Design for Plumbers in Portsmouth | Plumber Websites';
-const DESCRIPTION = 'Specialist web design for plumbers in Portsmouth. Mobile-first, locally SEO-optimised websites built to win jobs across Portsmouth. Get a free quote.';
+const DESCRIPTION = 'Web design for plumbers in Portsmouth. South coast Hampshire coverage including Gosport, Fareham, Havant and Southsea, with local SEO and GBP.';
 
 export const metadata = {
   title: { absolute: TITLE },

@@ -5,7 +5,7 @@ import Breadcrumbs from '@/components/Breadcrumbs';
 import { ogBase, twitterBase } from '@/app/shared-metadata';
 
 const TITLE = 'Web Design for Plumbers in Liverpool | Plumber Websites';
-const DESCRIPTION = 'Specialist web design for plumbers in Liverpool. Mobile-first, locally SEO-optimised websites built to win jobs across Liverpool. Get a free quote.';
+const DESCRIPTION = 'Web design for plumbers in Liverpool. Merseyside coverage across both sides of the Mersey, including the Wirral and Southport. Get a free quote.';
 
 export const metadata = {
   title: { absolute: TITLE },

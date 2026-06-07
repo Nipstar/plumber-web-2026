@@ -5,7 +5,7 @@ import Breadcrumbs from '@/components/Breadcrumbs';
 import { ogBase, twitterBase } from '@/app/shared-metadata';
 
 const TITLE = 'Web Design for Plumbers in Southampton | Plumber Websites';
-const DESCRIPTION = 'Specialist web design for plumbers in Southampton. Mobile-first, locally SEO-optimised websites built to win jobs across Southampton. Get a free quote.';
+const DESCRIPTION = 'Web design for plumbers in Southampton. Solent-wide coverage including Woolston, Bitterne, Eastleigh and the New Forest edge. Get a free quote.';
 
 export const metadata = {
   title: { absolute: TITLE },

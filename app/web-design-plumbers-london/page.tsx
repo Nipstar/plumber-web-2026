@@ -5,7 +5,7 @@ import Breadcrumbs from '@/components/Breadcrumbs';
 import { ogBase, twitterBase } from '@/app/shared-metadata';
 
 const TITLE = 'Web Design for Plumbers in London | Plumber Websites';
-const DESCRIPTION = 'Specialist web design for plumbers in London. Mobile-first, locally SEO-optimised websites built to win jobs across London. Get a free quote.';
+const DESCRIPTION = 'Web design for plumbers in London. Borough-level landing pages across all 32 boroughs, M25-wide local SEO and GBP management. Get a free quote.';
 
 export const metadata = {
   title: { absolute: TITLE },

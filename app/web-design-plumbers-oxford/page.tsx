@@ -5,7 +5,7 @@ import Breadcrumbs from '@/components/Breadcrumbs';
 import { ogBase, twitterBase } from '@/app/shared-metadata';
 
 const TITLE = 'Web Design for Plumbers in Oxford | Plumber Websites';
-const DESCRIPTION = 'Specialist web design for plumbers in Oxford. Mobile-first, locally SEO-optimised websites built to win jobs across Oxford. Get a free quote.';
+const DESCRIPTION = 'Web design for plumbers in Oxford. Oxfordshire coverage from Cowley and Headington to Summertown and Abingdon, for the HMO and listed-property market.';
 
 export const metadata = {
   title: { absolute: TITLE },

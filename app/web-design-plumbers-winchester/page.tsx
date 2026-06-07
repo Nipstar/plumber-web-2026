@@ -5,7 +5,7 @@ import Breadcrumbs from '@/components/Breadcrumbs';
 import { ogBase, twitterBase } from '@/app/shared-metadata';
 
 const TITLE = 'Web Design for Plumbers in Winchester | Plumber Websites';
-const DESCRIPTION = 'Specialist web design for plumbers in Winchester. Mobile-first, locally SEO-optimised websites built to win jobs across Winchester. Get a free quote.';
+const DESCRIPTION = 'Web design for plumbers in Winchester. Central Hampshire coverage including Alresford, Twyford and the Meon Valley, for the premium cathedral market.';
 
 export const metadata = {
   title: { absolute: TITLE },

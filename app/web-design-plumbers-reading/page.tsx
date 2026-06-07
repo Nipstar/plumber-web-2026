@@ -5,7 +5,7 @@ import Breadcrumbs from '@/components/Breadcrumbs';
 import { ogBase, twitterBase } from '@/app/shared-metadata';
 
 const TITLE = 'Web Design for Plumbers in Reading | Plumber Websites';
-const DESCRIPTION = 'Specialist web design for plumbers in Reading. Mobile-first, locally SEO-optimised websites built to win jobs across Reading. Get a free quote.';
+const DESCRIPTION = 'Web design for plumbers in Reading. M4 corridor coverage including Caversham, Lower Earley, Tilehurst and Woodley, built mobile-first to rank fast.';
 
 export const metadata = {
   title: { absolute: TITLE },

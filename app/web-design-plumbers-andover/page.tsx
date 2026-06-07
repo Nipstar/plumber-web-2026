@@ -5,7 +5,7 @@ import Breadcrumbs from '@/components/Breadcrumbs';
 import { ogBase, twitterBase } from '@/app/shared-metadata';
 
 const TITLE = 'Web Design for Plumbers in Andover | Plumber Websites';
-const DESCRIPTION = 'Specialist web design for plumbers in Andover. Mobile-first, locally SEO-optimised websites built to win jobs across Andover. Get a free quote.';
+const DESCRIPTION = 'Web design for plumbers in Andover. North Hampshire and Test Valley coverage including Whitchurch, Stockbridge and Tidworth. Rank fast locally.';
 
 export const metadata = {
   title: { absolute: TITLE },

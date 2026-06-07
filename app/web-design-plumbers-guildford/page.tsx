@@ -5,7 +5,7 @@ import Breadcrumbs from '@/components/Breadcrumbs';
 import { ogBase, twitterBase } from '@/app/shared-metadata';
 
 const TITLE = 'Web Design for Plumbers in Guildford | Plumber Websites';
-const DESCRIPTION = 'Specialist web design for plumbers in Guildford. Mobile-first, locally SEO-optimised websites built to win jobs across Guildford. Get a free quote.';
+const DESCRIPTION = 'Web design for plumbers in Guildford. Affluent Surrey coverage including Godalming, Cranleigh and Woking, with premium-market local SEO.';
 
 export const metadata = {
   title: { absolute: TITLE },

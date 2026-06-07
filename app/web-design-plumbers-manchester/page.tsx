@@ -5,7 +5,7 @@ import Breadcrumbs from '@/components/Breadcrumbs';
 import { ogBase, twitterBase } from '@/app/shared-metadata';
 
 const TITLE = 'Web Design for Plumbers in Manchester | Plumber Websites';
-const DESCRIPTION = 'Specialist web design for plumbers in Manchester. Mobile-first, locally SEO-optimised websites built to win jobs across Manchester. Get a free quote.';
+const DESCRIPTION = 'Web design for plumbers in Manchester. Landing pages for all 10 Greater Manchester boroughs, Didsbury to Salford, with local SEO and GBP setup.';
 
 export const metadata = {
   title: { absolute: TITLE },
