@@ -7,11 +7,17 @@ import SchemaScript from '@/components/SchemaScript';
 import FounderPanel from '@/components/FounderPanel';
 import DemoGallery from '@/components/DemoGallery';
 import WhyNewStudio from '@/components/WhyNewStudio';
+import { ogBase, twitterBase } from '@/app/shared-metadata';
+
+const TITLE = 'Web Design for Plumbers UK | Plumber Websites £79/mo';
+const DESCRIPTION = 'Specialist web design for plumbers across the UK. Mobile-first, SEO-ready websites built to win jobs. Founder-led from Andover. £79/mo launch price.';
 
 export const metadata = {
-  title: { absolute: 'UK Plumber Websites · Launch Pricing £79/mo Locked-In' },
-  description: 'Mobile-first plumber websites built in 1–2 weeks. Launch pricing £79/mo locked in until 30 November 2026. UK only. Founder-led from Andover.',
-  alternates: { canonical: 'https://www.plumberwebdesign.co.uk/' }
+  title: { absolute: TITLE },
+  description: DESCRIPTION,
+  alternates: { canonical: 'https://www.plumberwebdesign.co.uk/' },
+  openGraph: { ...ogBase, title: TITLE, description: DESCRIPTION },
+  twitter: { ...twitterBase, title: TITLE, description: DESCRIPTION },
 };
 
 const pricingPackages = [
