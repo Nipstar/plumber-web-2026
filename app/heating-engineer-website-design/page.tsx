@@ -3,11 +3,17 @@ import SchemaScript from '@/components/SchemaScript';
 import Breadcrumbs from '@/components/Breadcrumbs';
 import RelatedLinks from '@/components/RelatedLinks';
 import VerticalConversionHero from '@/components/VerticalConversionHero';
+import { ogBase, twitterBase } from '@/app/shared-metadata';
+
+const TITLE = 'Heating Engineer Website Design UK | Boiler & Heat Pump';
+const DESCRIPTION = 'Website design for heating engineers across the UK. Boiler, heat pump and central heating landing pages with local SEO built in. Get a free quote.';
 
 export const metadata = {
-  title: { absolute: 'Heating Engineer Websites · £79/mo Launch Price' },
-  description: 'Websites for UK heating engineers. Heat pump and boiler upgrade scheme ready. Launch pricing £79/mo locked-in. Live in 1–2 weeks.',
+  title: { absolute: TITLE },
+  description: DESCRIPTION,
   alternates: { canonical: 'https://www.plumberwebdesign.co.uk/heating-engineer-website-design/' },
+  openGraph: { ...ogBase, title: TITLE, description: DESCRIPTION },
+  twitter: { ...twitterBase, title: TITLE, description: DESCRIPTION },
 };
 
 export default function HeatingEngineerPage() {
@@ -59,7 +65,7 @@ export default function HeatingEngineerPage() {
       <Breadcrumbs items={[{ label: 'Heating Engineer Website Design', href: '/heating-engineer-website-design/' }]} />
       <VerticalConversionHero
         vertical="Heating Engineer"
-        headline="Heating engineer websites that win the high-ticket jobs"
+        headline="Heating Engineer Website Design for High-Ticket Jobs"
         subhead="Generic plumber websites don't rank for 'air source heat pump installer'. We build dedicated heating engineer sites that capture £8,000+ MCS-certified installations, not £150 leak callouts."
         painPoints={[
           'Your current site treats heating as a footnote, not a specialism',
