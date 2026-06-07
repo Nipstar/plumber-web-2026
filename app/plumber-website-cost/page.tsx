@@ -3,11 +3,17 @@ import SchemaScript from '@/components/SchemaScript';
 import PricingCard from '@/components/PricingCard';
 import Breadcrumbs from '@/components/Breadcrumbs';
 import RelatedLinks from '@/components/RelatedLinks';
+import { ogBase, twitterBase } from '@/app/shared-metadata';
+
+const TITLE = 'Plumber Website Cost UK | Transparent Pricing £79/mo';
+const DESCRIPTION = 'How much does a plumber website cost in the UK? Clear monthly pricing from £79/mo including hosting, SSL and local SEO. No hidden setup fees.';
 
 export const metadata = {
-  title: { absolute: 'Plumber Website Cost UK 2026 · From £79/mo Launch Price' },
-  description: 'Real UK plumber website costs in 2026. Launch pricing £79/mo locked-in for 12 months. Three transparent tiers. No hidden fees.',
+  title: { absolute: TITLE },
+  description: DESCRIPTION,
   alternates: { canonical: 'https://www.plumberwebdesign.co.uk/plumber-website-cost/' },
+  openGraph: { ...ogBase, title: TITLE, description: DESCRIPTION },
+  twitter: { ...twitterBase, title: TITLE, description: DESCRIPTION },
 };
 
 const pricingPackages = [
