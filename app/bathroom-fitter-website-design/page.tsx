@@ -3,11 +3,17 @@ import SchemaScript from '@/components/SchemaScript';
 import Breadcrumbs from '@/components/Breadcrumbs';
 import RelatedLinks from '@/components/RelatedLinks';
 import VerticalConversionHero from '@/components/VerticalConversionHero';
+import { ogBase, twitterBase } from '@/app/shared-metadata';
+
+const TITLE = 'Bathroom Fitter Website Design UK | Gallery-Led Sites';
+const DESCRIPTION = 'Website design for bathroom fitters across the UK. Before-and-after galleries, quote capture and local SEO. Founder-led, live in 1–2 weeks.';
 
 export const metadata = {
-  title: { absolute: 'Bathroom Fitter Websites · Gallery-Led · £79/mo UK' },
-  description: 'Gallery-led websites for UK bathroom fitters. Capture the 4-12 week inspiration phase. Launch pricing £79/mo locked-in.',
+  title: { absolute: TITLE },
+  description: DESCRIPTION,
   alternates: { canonical: 'https://www.plumberwebdesign.co.uk/bathroom-fitter-website-design/' },
+  openGraph: { ...ogBase, title: TITLE, description: DESCRIPTION },
+  twitter: { ...twitterBase, title: TITLE, description: DESCRIPTION },
 };
 
 export default function BathroomFitterPage() {
@@ -59,7 +65,7 @@ export default function BathroomFitterPage() {
       <Breadcrumbs items={[{ label: 'Bathroom Fitter Website Design', href: '/bathroom-fitter-website-design/' }]} />
       <VerticalConversionHero
         vertical="Bathroom Fitter"
-        headline="Bathroom fitter websites that capture the inspiration phase"
+        headline="Bathroom Fitter Website Design That Sells the Look"
         subhead="Bathroom installations are considered purchases — homeowners research for 4-12 weeks before signing. Your website needs to win the inspiration phase with proper galleries, not just a 'contact us' form."
         painPoints={[
           'No before-and-after galleries = no proof of craftsmanship',
