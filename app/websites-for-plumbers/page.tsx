@@ -3,12 +3,17 @@ import SchemaScript from '@/components/SchemaScript';
 import Breadcrumbs from '@/components/Breadcrumbs';
 import RelatedLinks from '@/components/RelatedLinks';
 import { AUTHOR, authorPersonSchema } from '@/components/AuthorBio';
+import { ogBase, twitterBase } from '@/app/shared-metadata';
+
+const TITLE = 'Websites for Plumbers | UK Plumbing Sites from £79/mo';
+const DESCRIPTION = 'Professional websites for plumbers built mobile-first with local SEO included. UK-only, founder-led, live in 1–2 weeks from £79/mo. Get a free quote.';
 
 export const metadata = {
-  title: { absolute: 'Websites for Plumbers | UK Specialist from £99/month' },
-  description:
-    'Websites for plumbers built exclusively for UK plumbing businesses. Mobile-first, local SEO ready, no setup fees on website packages. Pricing from £99/month.',
+  title: { absolute: TITLE },
+  description: DESCRIPTION,
   alternates: { canonical: 'https://www.plumberwebdesign.co.uk/websites-for-plumbers/' },
+  openGraph: { ...ogBase, title: TITLE, description: DESCRIPTION },
+  twitter: { ...twitterBase, title: TITLE, description: DESCRIPTION },
 };
 
 export default function WebsitesForPlumbersPage() {
