@@ -3,11 +3,17 @@ import SchemaScript from '@/components/SchemaScript';
 import Breadcrumbs from '@/components/Breadcrumbs';
 import RelatedLinks from '@/components/RelatedLinks';
 import VerticalConversionHero from '@/components/VerticalConversionHero';
+import { ogBase, twitterBase } from '@/app/shared-metadata';
+
+const TITLE = 'SEO for Plumbers UK | Rank in Local Google & Map Pack';
+const DESCRIPTION = 'Local SEO for plumbers and heating engineers across the UK. Get found in Google Maps and local search and win more calls. Built by a trade specialist.';
 
 export const metadata = {
-  title: { absolute: 'Local SEO for UK Plumbers · Map Pack Focused' },
-  description: 'Local SEO built for UK plumbers. Google Business Profile, city pages, citations. Pairs with our £79/mo launch websites.',
+  title: { absolute: TITLE },
+  description: DESCRIPTION,
   alternates: { canonical: 'https://www.plumberwebdesign.co.uk/seo-for-plumbers/' },
+  openGraph: { ...ogBase, title: TITLE, description: DESCRIPTION },
+  twitter: { ...twitterBase, title: TITLE, description: DESCRIPTION },
 };
 
 export default function SeoPage() {
@@ -49,7 +55,7 @@ export default function SeoPage() {
       <Breadcrumbs items={[{ label: 'SEO for Plumbers', href: '/seo-for-plumbers/' }]} />
       <VerticalConversionHero
         vertical="Local SEO"
-        headline="Local SEO that gets you found when boilers break"
+        headline="SEO for Plumbers That Wins the Local Map Pack"
         subhead="Rankings are only useful if you rank where customers search. We focus on the Map Pack and 'emergency plumber [town]' queries that actually convert into booked jobs."
         painPoints={[
           "You're invisible in the Map Pack",
