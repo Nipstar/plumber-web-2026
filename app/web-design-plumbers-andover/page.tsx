@@ -90,7 +90,7 @@ export default function LocationPage() {
     "logo": "https://www.plumberwebdesign.co.uk/images/logo.webp",
     "telephone": "03333356750",
     "email": "hello@plumberwebdesign.co.uk",
-    "description": "Specialist web design for plumbers in Andover, North Hampshire. Local SEO-optimised websites from £99/month.",
+    "description": "Specialist web design for plumbers in Andover, North Hampshire. Local SEO-optimised websites from £79/month.",
     "address": {
       "@type": "PostalAddress",
       "addressLocality": "Andover",
@@ -112,9 +112,9 @@ export default function LocationPage() {
       "@type": "OfferCatalog",
       "name": "Plumber Website Packages — Andover",
       "itemListElement": [
-        { "@type": "Offer", "name": "Apprentice", "price": "99", "priceCurrency": "GBP" },
-        { "@type": "Offer", "name": "Journeyman", "price": "169", "priceCurrency": "GBP" },
-        { "@type": "Offer", "name": "Master", "price": "249", "priceCurrency": "GBP" }
+        { "@type": "Offer", "name": "Apprentice", "price": "79", "priceCurrency": "GBP" },
+        { "@type": "Offer", "name": "Journeyman", "price": "129", "priceCurrency": "GBP" },
+        { "@type": "Offer", "name": "Master", "price": "199", "priceCurrency": "GBP" }
       ]
     }
   };
@@ -236,7 +236,7 @@ export default function LocationPage() {
             Andover's plumber SEO is significantly underdeveloped — most local plumbers rely entirely on Checkatrade, Rated People, or word-of-mouth without any real website. A properly built site can rank in the top three for "plumber Andover" within 3-4 months with no serious competition in the way. This is the easiest of our six markets to dominate quickly.
           </p>
           <p className="text-lg text-slate-blue leading-relaxed">
-            Andover and the Test Valley market operates on rural-Hampshire rates — broadly in line with national average for emergency work but with strong premium pricing available for specialist services like oil-to-heat-pump conversions and off-grid installations. From £99/month.
+            Andover and the Test Valley market operates on rural-Hampshire rates — broadly in line with national average for emergency work but with strong premium pricing available for specialist services like oil-to-heat-pump conversions and off-grid installations. From £79/month.
           </p>
         </div>
 
@@ -282,7 +282,7 @@ export default function LocationPage() {
           <h2 className="text-xl font-display font-bold text-navy-dark mb-4">Explore further</h2>
           <ul className="grid grid-cols-1 md:grid-cols-2 gap-3 text-slate-blue">
             <li>→ <Link href="/" className="text-amber hover:underline">Web design for plumbers</Link> — main UK service overview</li>
-            <li>→ <Link href="/plumber-website-design-packages/" className="text-amber hover:underline">Plumber website packages</Link> — pricing from £99/month</li>
+            <li>→ <Link href="/plumber-website-design-packages/" className="text-amber hover:underline">Plumber website packages</Link> — pricing from £79/month</li>
             <li>→ <Link href="/plumber-website-cost/" className="text-amber hover:underline">Plumber website cost guide</Link> — full UK breakdown</li>
             <li>→ <Link href="/seo-for-plumbers/" className="text-amber hover:underline">SEO for plumbers</Link> — local search optimisation</li>
             <li>→ <Link href="/gas-engineer-website-design/" className="text-amber hover:underline">Gas engineer websites</Link> — for Gas Safe registered engineers</li>

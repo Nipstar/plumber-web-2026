@@ -61,10 +61,10 @@ const pricingPackages = [
 ];
 
 const faqItems = [
-  { question: 'How much does a plumber website cost in the UK?', answer: 'A plumber website in the UK typically costs between £99 and £249 per month on a packaged plan, or £1,500 to £5,000+ as a one-off custom build. Monthly packages include hosting, SSL, local SEO, and ongoing support.' },
+  { question: 'How much does a plumber website cost in the UK?', answer: 'A plumber website in the UK typically costs between £79 and £199 per month on a packaged plan, or £1,500 to £5,000+ as a one-off custom build. Monthly packages include hosting, SSL, local SEO, and ongoing support.' },
   { question: 'Are there setup fees?', answer: 'No setup fee on our website packages. AI add-ons (chatbot or voice agent) have a one-off setup fee to cover bespoke training for your business.' },
-  { question: 'What is the cheapest plumber website?', answer: 'Our Apprentice package at £99 per month is the cheapest option that still delivers a professional, mobile-optimised website with local SEO, hosting, SSL, and a free domain. Cheaper DIY templates exist but lack local SEO and hosting.' },
-  { question: 'Is a £99/month website worth it compared to a one-off build?', answer: 'Yes for most plumbers. A monthly plan includes ongoing hosting, security, and SEO maintenance — costs that add up quickly on one-off builds. After 24 months our Apprentice package is still cheaper than most £3,000 custom builds once hosting and maintenance are factored in.' },
+  { question: 'What is the cheapest plumber website?', answer: 'Our Apprentice package at £79 per month is the cheapest option that still delivers a professional, mobile-optimised website with local SEO, hosting, SSL, and a free domain. Cheaper DIY templates exist but lack local SEO and hosting.' },
+  { question: 'Is a £79/month website worth it compared to a one-off build?', answer: 'Yes for most plumbers. A monthly plan includes ongoing hosting, security, and SEO maintenance — costs that add up quickly on one-off builds. After 24 months our Apprentice package is still cheaper than most £3,000 custom builds once hosting and maintenance are factored in.' },
   { question: 'What hidden costs should I watch for with other agencies?', answer: 'Common hidden costs include inflated hosting fees after year one, per-page editing charges, lock-in contracts that prevent migration, premium charges for SSL or backups, and hidden GBP management fees. Our pricing is transparent and fully inclusive.' },
   { question: 'Can I cancel my plumber website package?', answer: 'Yes. Give 30 days written notice. We will provide all website files and assist with migration. No long tie-ins.' }
 ];
@@ -74,7 +74,7 @@ export default function CostPage() {
     "@context": "https://schema.org",
     "@type": "Article",
     "headline": "How Much Does a Plumber Website Cost in the UK? (2026)",
-    "description": "Complete guide to plumber website costs in the UK. Monthly packages vs one-off builds, hidden costs to avoid, and transparent pricing from £99/month.",
+    "description": "Complete guide to plumber website costs in the UK. Monthly packages vs one-off builds, hidden costs to avoid, and transparent pricing from £79/month.",
     "author": { "@type": "Organization", "name": "PlumberWebDesign.co.uk", "url": "https://www.plumberwebdesign.co.uk" },
     "publisher": { "@type": "Organization", "name": "PlumberWebDesign.co.uk", "logo": { "@type": "ImageObject", "url": "https://www.plumberwebdesign.co.uk/images/logo.webp" } },
     "datePublished": "2026-04-12",
@@ -98,13 +98,13 @@ export default function CostPage() {
     "name": "Plumber Website Packages",
     "url": "https://www.plumberwebdesign.co.uk/plumber-website-cost/",
     "priceCurrency": "GBP",
-    "lowPrice": "99",
-    "highPrice": "249",
+    "lowPrice": "79",
+    "highPrice": "199",
     "offerCount": "3",
     "offers": [
-      { "@type": "Offer", "name": "Apprentice", "price": "99", "priceCurrency": "GBP" },
-      { "@type": "Offer", "name": "Journeyman", "price": "169", "priceCurrency": "GBP" },
-      { "@type": "Offer", "name": "Master", "price": "249", "priceCurrency": "GBP" }
+      { "@type": "Offer", "name": "Apprentice", "price": "79", "priceCurrency": "GBP" },
+      { "@type": "Offer", "name": "Journeyman", "price": "129", "priceCurrency": "GBP" },
+      { "@type": "Offer", "name": "Master", "price": "199", "priceCurrency": "GBP" }
     ]
   };
 
@@ -130,7 +130,7 @@ export default function CostPage() {
           <div className="inline-block bg-amber/20 text-amber px-4 py-1.5 rounded-full text-sm font-bold tracking-wider uppercase mb-6 border border-amber/30">Pricing Guide</div>
           <h1 className="text-4xl md:text-5xl font-display font-bold mb-6">How Much Does a Plumber Website Cost in the UK?</h1>
           <p className="text-xl text-light-gray/80 leading-relaxed max-w-3xl mx-auto">
-            A plumber website in the UK costs between £99 and £249 per month on a packaged plan, or £1,500 to £5,000+ as a one-off custom build. Monthly packages include hosting, local SEO, and ongoing support.
+            A plumber website in the UK costs between £79 and £199 per month on a packaged plan, or £1,500 to £5,000+ as a one-off custom build. Monthly packages include hosting, local SEO, and ongoing support.
           </p>
         </div>
       </div>
@@ -140,16 +140,16 @@ export default function CostPage() {
         <div className="bg-amber/10 border border-amber/30 rounded-2xl p-8 mb-12">
           <h2 className="text-2xl font-display font-bold text-navy-dark mb-4">Quick answer</h2>
           <ul className="space-y-2 text-slate-blue">
-            <li><strong>Entry-level plumber website:</strong> £99/month (5 pages, hosting, SSL, basic SEO)</li>
-            <li><strong>Most popular plumber website:</strong> £169/month (10 pages, advanced SEO, GBP posts)</li>
-            <li><strong>Premium plumber website:</strong> £249/month (20+ pages, blog posts, link building)</li>
+            <li><strong>Entry-level plumber website:</strong> £79/month (5 pages, hosting, SSL, basic SEO)</li>
+            <li><strong>Most popular plumber website:</strong> £129/month (10 pages, advanced SEO, GBP posts)</li>
+            <li><strong>Premium plumber website:</strong> £199/month (20+ pages, blog posts, link building)</li>
             <li><strong>One-off custom build:</strong> £1,500 — £5,000+ (no ongoing support)</li>
           </ul>
         </div>
 
         <h2 className="text-3xl font-display font-bold text-navy-dark mb-6">What you get at each price point</h2>
         <p className="text-lg text-slate-blue mb-6 leading-relaxed">
-          Price alone means nothing — what matters is what's included. Every UK plumber website costs should include hosting, SSL, a domain, mobile optimisation, and local SEO. If an agency quotes you £99/month but charges extra for hosting, the real cost is 2x what they advertised.
+          Price alone means nothing — what matters is what's included. Every UK plumber website costs should include hosting, SSL, a domain, mobile optimisation, and local SEO. If an agency quotes you £79/month but charges extra for hosting, the real cost is 2x what they advertised.
         </p>
         <p className="text-lg text-slate-blue mb-12 leading-relaxed">
           Here's what our three tiers include. Every feature, every month. No hidden add-ons.
@@ -171,7 +171,7 @@ export default function CostPage() {
             <thead>
               <tr className="bg-navy-dark text-white">
                 <th className="p-4 font-bold">Factor</th>
-                <th className="p-4 font-bold text-center">Monthly £99-£249</th>
+                <th className="p-4 font-bold text-center">Monthly £79-£199</th>
                 <th className="p-4 font-bold text-center">One-off £1,500-£5,000</th>
               </tr>
             </thead>
@@ -226,14 +226,14 @@ export default function CostPage() {
             <thead className="bg-navy-card text-white">
               <tr>
                 <th className="p-4">Factor</th>
-                <th className="p-4 text-center">Managed (£99-£249/mo)</th>
+                <th className="p-4 text-center">Managed (£79-£199/mo)</th>
                 <th className="p-4 text-center">DIY Wix / Squarespace / GoDaddy</th>
               </tr>
             </thead>
             <tbody>
               <tr className="bg-white">
                 <td className="p-4 border-b border-slate-blue/10 font-medium">Monthly software cost</td>
-                <td className="p-4 border-b border-slate-blue/10 text-center">£99-£249</td>
+                <td className="p-4 border-b border-slate-blue/10 text-center">£79-£199</td>
                 <td className="p-4 border-b border-slate-blue/10 text-center">£8-£40</td>
               </tr>
               <tr className="bg-light-gray/50">

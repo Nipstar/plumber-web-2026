@@ -90,7 +90,7 @@ export default function LocationPage() {
     "logo": "https://www.plumberwebdesign.co.uk/images/logo.webp",
     "telephone": "03333356750",
     "email": "hello@plumberwebdesign.co.uk",
-    "description": "Specialist web design for plumbers in Southampton, Hampshire. Local SEO-optimised websites from £99/month.",
+    "description": "Specialist web design for plumbers in Southampton, Hampshire. Local SEO-optimised websites from £79/month.",
     "address": {
       "@type": "PostalAddress",
       "addressLocality": "Southampton",
@@ -112,9 +112,9 @@ export default function LocationPage() {
       "@type": "OfferCatalog",
       "name": "Plumber Website Packages — Southampton",
       "itemListElement": [
-        { "@type": "Offer", "name": "Apprentice", "price": "99", "priceCurrency": "GBP" },
-        { "@type": "Offer", "name": "Journeyman", "price": "169", "priceCurrency": "GBP" },
-        { "@type": "Offer", "name": "Master", "price": "249", "priceCurrency": "GBP" }
+        { "@type": "Offer", "name": "Apprentice", "price": "79", "priceCurrency": "GBP" },
+        { "@type": "Offer", "name": "Journeyman", "price": "129", "priceCurrency": "GBP" },
+        { "@type": "Offer", "name": "Master", "price": "199", "priceCurrency": "GBP" }
       ]
     }
   };
@@ -236,7 +236,7 @@ export default function LocationPage() {
             The top-ranking Southampton plumber websites lean heavily on generic template builds with city-wide targeting and thin content. A purpose-built site with postcode-specific landing pages (SO14–SO19 especially) and a dedicated HMO and student-let compliance page can overtake them within 4–6 months. Eastleigh, Totton, and Romsey are even less contested than central Southampton.
           </p>
           <p className="text-lg text-slate-blue leading-relaxed">
-            Southampton plumbing rates sit just above the national average on labour, with strong premium pricing available in waterside postcodes (SO14, SO31) and affluent Hampshire commuter villages. Annual student HMO compliance contracts are recurring revenue most competitors ignore. From £99/month.
+            Southampton plumbing rates sit just above the national average on labour, with strong premium pricing available in waterside postcodes (SO14, SO31) and affluent Hampshire commuter villages. Annual student HMO compliance contracts are recurring revenue most competitors ignore. From £79/month.
           </p>
         </div>
 
@@ -282,7 +282,7 @@ export default function LocationPage() {
           <h2 className="text-xl font-display font-bold text-navy-dark mb-4">Explore further</h2>
           <ul className="grid grid-cols-1 md:grid-cols-2 gap-3 text-slate-blue">
             <li>→ <Link href="/" className="text-amber hover:underline">Web design for plumbers</Link> — main UK service overview</li>
-            <li>→ <Link href="/plumber-website-design-packages/" className="text-amber hover:underline">Plumber website packages</Link> — pricing from £99/month</li>
+            <li>→ <Link href="/plumber-website-design-packages/" className="text-amber hover:underline">Plumber website packages</Link> — pricing from £79/month</li>
             <li>→ <Link href="/plumber-website-cost/" className="text-amber hover:underline">Plumber website cost guide</Link> — full UK breakdown</li>
             <li>→ <Link href="/seo-for-plumbers/" className="text-amber hover:underline">SEO for plumbers</Link> — local search optimisation</li>
             <li>→ <Link href="/gas-engineer-website-design/" className="text-amber hover:underline">Gas engineer websites</Link> — for Gas Safe registered engineers</li>

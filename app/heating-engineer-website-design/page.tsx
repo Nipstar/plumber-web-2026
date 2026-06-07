@@ -7,7 +7,7 @@ import { pageMeta } from '@/lib/seo';
 
 export const metadata = pageMeta({
   title: 'Heating Engineer Website Design | Boiler & Heat Pump Sites',
-  description: 'Website design for UK heating engineers. Boiler installation and heat pump landing pages, built-in local SEO, and annual service booking. From £99/month.',
+  description: 'Website design for UK heating engineers. Boiler installation and heat pump landing pages, built-in local SEO, and annual service booking. From £79/month.',
   path: '/heating-engineer-website-design/',
 });
 
@@ -33,9 +33,9 @@ export default function HeatingEngineerPage() {
       "@type": "OfferCatalog",
       "name": "Heating Engineer Website Packages",
       "itemListElement": [
-        { "@type": "Offer", "name": "Apprentice", "price": "99", "priceCurrency": "GBP" },
-        { "@type": "Offer", "name": "Journeyman", "price": "169", "priceCurrency": "GBP" },
-        { "@type": "Offer", "name": "Master", "price": "249", "priceCurrency": "GBP" }
+        { "@type": "Offer", "name": "Apprentice", "price": "79", "priceCurrency": "GBP" },
+        { "@type": "Offer", "name": "Journeyman", "price": "129", "priceCurrency": "GBP" },
+        { "@type": "Offer", "name": "Master", "price": "199", "priceCurrency": "GBP" }
       ]
     }
   };
@@ -44,8 +44,8 @@ export default function HeatingEngineerPage() {
     "@context": "https://schema.org",
     "@type": "FAQPage",
     "mainEntity": [
-      { "@type": "Question", "name": "What is heating engineer website design?", "acceptedAnswer": { "@type": "Answer", "text": "Heating engineer website design is specialist website design for UK heating businesses — covering boiler installation, boiler repair, central heating, heat pump installation, and underfloor heating. A proper heating engineer website ranks for high-ticket service searches like 'boiler installation Manchester' or 'air source heat pump Reading' and includes booking flows for annual services. Pricing from £99/month." } },
-      { "@type": "Question", "name": "How much does a heating engineer website cost?", "acceptedAnswer": { "@type": "Answer", "text": "Heating engineer websites cost £99-£249 per month on a managed plan. The Apprentice tier (£99) covers a 5-page site with basic local SEO. Journeyman (£169) adds 10 pages with service-specific landing pages for boilers, heat pumps and underfloor heating. Master (£249) adds 20+ pages plus monthly blog posts. All packages include hosting, SSL, and a free domain." } },
+      { "@type": "Question", "name": "What is heating engineer website design?", "acceptedAnswer": { "@type": "Answer", "text": "Heating engineer website design is specialist website design for UK heating businesses — covering boiler installation, boiler repair, central heating, heat pump installation, and underfloor heating. A proper heating engineer website ranks for high-ticket service searches like 'boiler installation Manchester' or 'air source heat pump Reading' and includes booking flows for annual services. Pricing from £79/month." } },
+      { "@type": "Question", "name": "How much does a heating engineer website cost?", "acceptedAnswer": { "@type": "Answer", "text": "Heating engineer websites cost £79-£199 per month on a managed plan. The Apprentice tier (£79) covers a 5-page site with basic local SEO. Journeyman (£129) adds 10 pages with service-specific landing pages for boilers, heat pumps and underfloor heating. Master (£199) adds 20+ pages plus monthly blog posts. All packages include hosting, SSL, and a free domain." } },
       { "@type": "Question", "name": "Do heating engineers need a different website to plumbers?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. A generic plumber website does not rank well for heat pump, MCS-accredited installer, or commercial heating searches. Heating engineers need dedicated landing pages for boiler installation, heat pump installation (with MCS certification display), underfloor heating, annual service contracts, and Gas Safe or OFTEC credentials. The customer journey is also different — heating jobs are considered purchases, so trust signals and case studies matter more than emergency call-out buttons." } },
       { "@type": "Question", "name": "Can a heating engineer website handle annual service bookings?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. Our Journeyman and Master packages include recurring booking forms for annual boiler service, landlord gas safety (CP12) certificates, and heat pump service checks. These flow into your existing diary or calendar system and let customers self-book without phoning." } },
       { "@type": "Question", "name": "Will the website display Gas Safe and OFTEC registration?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. Both registrations are displayed prominently in the header, footer, and on service pages, with verifying links back to gassaferegister.co.uk and oftec.org. We also include the registration number in JSON-LD schema so search engines can verify credentials." } },
@@ -81,7 +81,7 @@ export default function HeatingEngineerPage() {
               Heating engineer website design is specialist website design for UK heating businesses
               covering boiler installation, repair, central heating, heat pump installation, and underfloor
               heating. Sites are built to rank locally for high-ticket service searches and include
-              recurring service-booking flows. From £99/month including hosting, SSL, and local SEO.
+              recurring service-booking flows. From £79/month including hosting, SSL, and local SEO.
             </p>
           </div>
 

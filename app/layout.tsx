@@ -23,21 +23,21 @@ const outfit = Outfit({
 export const metadata: Metadata = {
   metadataBase: new URL('https://www.plumberwebdesign.co.uk'),
   title: {
-    default: 'Plumber Web Design | Websites for Plumbers from £99/month',
+    default: 'Plumber Web Design | Websites for Plumbers from £79/month',
     template: '%s | PlumberWebDesign.co.uk'
   },
-  description: 'Specialist web design for plumbers across the UK. Mobile-first, SEO-optimised websites built to generate calls and win jobs. Packages from £99/month.',
+  description: 'Specialist web design for plumbers across the UK. Mobile-first, SEO-optimised websites built to generate calls and win jobs. Packages from £79/month.',
   openGraph: {
     type: 'website',
     locale: 'en_GB',
     siteName: 'PlumberWebDesign.co.uk',
-    title: 'Plumber Web Design | Websites for Plumbers from £99/month',
+    title: 'Plumber Web Design | Websites for Plumbers from £79/month',
     description: 'Specialist web design for plumbers across the UK. Mobile-first, SEO-optimised websites built to generate calls and win jobs.',
     images: [{ url: '/images/logo.webp', width: 400, height: 400, alt: 'PlumberWebDesign.co.uk' }],
   },
   twitter: {
     card: 'summary',
-    title: 'Plumber Web Design | Websites for Plumbers from £99/month',
+    title: 'Plumber Web Design | Websites for Plumbers from £79/month',
     description: 'Specialist web design for plumbers across the UK. Mobile-first, SEO-optimised websites built to generate calls and win jobs.',
   },
 }

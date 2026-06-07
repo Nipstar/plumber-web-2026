@@ -7,7 +7,7 @@ import { pageMeta } from '@/lib/seo';
 
 export const metadata = pageMeta({
   title: 'Bathroom Fitter Website Design | Portfolio-Led UK Sites',
-  description: 'Website design for UK bathroom fitters. Before-and-after galleries, project case studies, and local SEO to win high-ticket refit work. From £99/month.',
+  description: 'Website design for UK bathroom fitters. Before-and-after galleries, project case studies, and local SEO to win high-ticket refit work. From £79/month.',
   path: '/bathroom-fitter-website-design/',
 });
 
@@ -33,9 +33,9 @@ export default function BathroomFitterPage() {
       "@type": "OfferCatalog",
       "name": "Bathroom Fitter Website Packages",
       "itemListElement": [
-        { "@type": "Offer", "name": "Apprentice", "price": "99", "priceCurrency": "GBP" },
-        { "@type": "Offer", "name": "Journeyman", "price": "169", "priceCurrency": "GBP" },
-        { "@type": "Offer", "name": "Master", "price": "249", "priceCurrency": "GBP" }
+        { "@type": "Offer", "name": "Apprentice", "price": "79", "priceCurrency": "GBP" },
+        { "@type": "Offer", "name": "Journeyman", "price": "129", "priceCurrency": "GBP" },
+        { "@type": "Offer", "name": "Master", "price": "199", "priceCurrency": "GBP" }
       ]
     }
   };
@@ -44,8 +44,8 @@ export default function BathroomFitterPage() {
     "@context": "https://schema.org",
     "@type": "FAQPage",
     "mainEntity": [
-      { "@type": "Question", "name": "What is bathroom fitter website design?", "acceptedAnswer": { "@type": "Answer", "text": "Bathroom fitter website design is specialist website design for UK bathroom installation businesses. The job is to capture homeowners during the multi-week research phase before a £5,000-£15,000 refit using before/after galleries, project case studies, materials sourcing detail, and quote-request forms. Pricing from £99/month." } },
-      { "@type": "Question", "name": "How much does a bathroom fitter website cost?", "acceptedAnswer": { "@type": "Answer", "text": "Bathroom fitter websites cost £99-£249 per month. The Journeyman package (£169) is the most popular tier for bathroom fitters because it allows 10 pages — enough for separate landing pages for wetrooms, ensuites, family bathrooms, accessibility installations, and commercial work. Each package includes hosting, SSL, free domain, and local SEO." } },
+      { "@type": "Question", "name": "What is bathroom fitter website design?", "acceptedAnswer": { "@type": "Answer", "text": "Bathroom fitter website design is specialist website design for UK bathroom installation businesses. The job is to capture homeowners during the multi-week research phase before a £5,000-£15,000 refit using before/after galleries, project case studies, materials sourcing detail, and quote-request forms. Pricing from £79/month." } },
+      { "@type": "Question", "name": "How much does a bathroom fitter website cost?", "acceptedAnswer": { "@type": "Answer", "text": "Bathroom fitter websites cost £79-£199 per month. The Journeyman package (£129) is the most popular tier for bathroom fitters because it allows 10 pages — enough for separate landing pages for wetrooms, ensuites, family bathrooms, accessibility installations, and commercial work. Each package includes hosting, SSL, free domain, and local SEO." } },
       { "@type": "Question", "name": "Why do bathroom fitters need before-and-after galleries?", "acceptedAnswer": { "@type": "Answer", "text": "Bathroom installation is a considered purchase. Homeowners spend 4-12 weeks researching before signing a quote. Before/after galleries are the single highest-converting element on a bathroom fitter website — they prove craftsmanship in a way that words cannot. We build interactive slider galleries that load fast on mobile and rank in Google Image Search for queries like 'bathroom installation [city]'." } },
       { "@type": "Question", "name": "Can I show different bathroom styles on the site?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. Separate landing pages can be built for wetrooms, family bathrooms, ensuites, accessibility installations (level-access showers, grab rails), luxury bathrooms, and commercial work. Each gets its own gallery, FAQ section, pricing band, and SEO target." } },
       { "@type": "Question", "name": "Do you integrate with Houzz or Pinterest?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. We add Houzz and Pinterest integration on Journeyman and Master packages so your latest projects auto-sync to the site, plus Pinterest-style Open Graph metadata so your images surface when potential customers share inspiration boards. The site also exports image sitemaps to help individual project photos rank in Google Image Search." } },
@@ -81,7 +81,7 @@ export default function BathroomFitterPage() {
               Bathroom fitter website design is specialist website design for UK bathroom installation
               businesses. The job is to capture homeowners during the multi-week research phase before a
               £5,000-£15,000 refit using before/after galleries, project case studies, materials sourcing
-              detail, and quote-request forms. From £99/month including hosting, SSL, and local SEO.
+              detail, and quote-request forms. From £79/month including hosting, SSL, and local SEO.
             </p>
           </div>
 

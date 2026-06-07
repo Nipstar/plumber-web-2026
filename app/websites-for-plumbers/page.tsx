@@ -29,9 +29,9 @@ export default function WebsitesForPlumbersPage() {
       '@type': 'OfferCatalog',
       name: 'Plumber Website Packages',
       itemListElement: [
-        { '@type': 'Offer', name: 'Apprentice', price: '99', priceCurrency: 'GBP' },
-        { '@type': 'Offer', name: 'Journeyman', price: '169', priceCurrency: 'GBP' },
-        { '@type': 'Offer', name: 'Master', price: '249', priceCurrency: 'GBP' },
+        { '@type': 'Offer', name: 'Apprentice', price: '79', priceCurrency: 'GBP' },
+        { '@type': 'Offer', name: 'Journeyman', price: '129', priceCurrency: 'GBP' },
+        { '@type': 'Offer', name: 'Master', price: '199', priceCurrency: 'GBP' },
       ],
     },
   };
@@ -45,7 +45,7 @@ export default function WebsitesForPlumbersPage() {
         name: 'What are websites for plumbers?',
         acceptedAnswer: {
           '@type': 'Answer',
-          text: "Websites for plumbers are specialist business websites built around how UK plumbing customers actually search and convert. They include mobile-first design, click-to-call on every page, Gas Safe credential display, postcode landing pages, Google Business Profile integration, LocalBusiness schema, and emergency booking flows. UK monthly pricing starts at £99 with hosting, SSL, and local SEO included.",
+          text: "Websites for plumbers are specialist business websites built around how UK plumbing customers actually search and convert. They include mobile-first design, click-to-call on every page, Gas Safe credential display, postcode landing pages, Google Business Profile integration, LocalBusiness schema, and emergency booking flows. UK monthly pricing starts at £79 with hosting, SSL, and local SEO included.",
         },
       },
       {
@@ -53,7 +53,7 @@ export default function WebsitesForPlumbersPage() {
         name: 'How much do websites for plumbers cost?',
         acceptedAnswer: {
           '@type': 'Answer',
-          text: 'UK plumber websites cost £99-£249 per month on a managed plan, or £1,500-£5,000+ as a one-off custom build. Monthly plans include hosting, domain, SSL, and ongoing local SEO. One-off builds are billed separately for hosting and SEO on top of the upfront fee.',
+          text: 'UK plumber websites cost £79-£199 per month on a managed plan, or £1,500-£5,000+ as a one-off custom build. Monthly plans include hosting, domain, SSL, and ongoing local SEO. One-off builds are billed separately for hosting and SEO on top of the upfront fee.',
         },
       },
       {
@@ -61,7 +61,7 @@ export default function WebsitesForPlumbersPage() {
         name: 'Why use a specialist instead of a generalist agency for a plumber website?',
         acceptedAnswer: {
           '@type': 'Answer',
-          text: 'A specialist agency already understands Gas Safe regulations, emergency call-out economics, local Map Pack ranking factors, and the search behaviour of UK plumbing customers. A generalist learns on your project. Specialists ship faster (1-2 weeks vs 8-12), charge less (£99/month vs £3,000+ one-off), and rank higher because the site is built on proven plumber-specific SEO patterns.',
+          text: 'A specialist agency already understands Gas Safe regulations, emergency call-out economics, local Map Pack ranking factors, and the search behaviour of UK plumbing customers. A generalist learns on your project. Specialists ship faster (1-2 weeks vs 8-12), charge less (£79/month vs £3,000+ one-off), and rank higher because the site is built on proven plumber-specific SEO patterns.',
         },
       },
       {
@@ -97,7 +97,7 @@ export default function WebsitesForPlumbersPage() {
           <h1 className="text-4xl md:text-5xl font-display font-bold mb-6">Websites for Plumbers</h1>
           <p className="text-xl text-light-gray/80 leading-relaxed max-w-2xl mx-auto">
             Specialist websites for UK plumbers, gas engineers, heating engineers, and bathroom fitters.
-            Mobile-first, local SEO ready, built to generate calls. Pricing from £99/month.
+            Mobile-first, local SEO ready, built to generate calls. Pricing from £79/month.
           </p>
         </div>
       </div>
@@ -111,7 +111,7 @@ export default function WebsitesForPlumbersPage() {
               Websites for plumbers are specialist business websites built for UK plumbing businesses. They
               are mobile-first, optimised for local Google searches, integrate with Google Business
               Profile, display Gas Safe credentials, and include emergency booking flows. UK pricing from
-              £99/month including hosting, SSL, and local SEO.
+              £79/month including hosting, SSL, and local SEO.
             </p>
           </div>
 
@@ -188,7 +188,7 @@ export default function WebsitesForPlumbersPage() {
           <h2 className="text-2xl font-display font-bold text-navy-dark">What plumber websites cost in the UK</h2>
           <p className="text-slate-blue leading-relaxed">
             Plumber website pricing in the UK falls into three brackets. Monthly managed packages run
-            £99-£249 per month with everything included (hosting, SSL, domain, local SEO, ongoing
+            £79-£199 per month with everything included (hosting, SSL, domain, local SEO, ongoing
             support). One-off custom builds from generalist agencies are £1,500-£5,000+ with hosting and
             SEO billed separately. DIY template builders (Wix, Squarespace) cost £15-£40 per month but
             require you to do every part of SEO, content, and ongoing maintenance yourself.
@@ -237,15 +237,15 @@ export default function WebsitesForPlumbersPage() {
           <h2 className="text-2xl font-display font-bold text-navy-dark">Pricing at a glance</h2>
           <ul className="list-disc pl-6 space-y-2 text-slate-blue leading-relaxed">
             <li>
-              <strong>Apprentice £99/month</strong> — 5-page responsive site, basic local SEO, hosting +
+              <strong>Apprentice £79/month</strong> — 5-page responsive site, basic local SEO, hosting +
               SSL + free domain, Google Business Profile setup
             </li>
             <li>
-              <strong>Journeyman £169/month</strong> — 10-page site, service and location pages, advanced
+              <strong>Journeyman £129/month</strong> — 10-page site, service and location pages, advanced
               local SEO, GBP monthly posting, review management
             </li>
             <li>
-              <strong>Master £249/month</strong> — 20+ page site, 2 monthly blog posts, full GBP
+              <strong>Master £199/month</strong> — 20+ page site, 2 monthly blog posts, full GBP
               optimisation, optional link building
             </li>
           </ul>

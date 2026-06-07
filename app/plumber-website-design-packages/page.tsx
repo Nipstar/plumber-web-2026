@@ -98,15 +98,15 @@ export default function PackagesPage() {
     },
     "name": "Plumber Website Design Packages",
     "url": "https://www.plumberwebdesign.co.uk/plumber-website-design-packages/",
-    "description": "Transparent plumber website design pricing with three tiers from £99/month.",
+    "description": "Transparent plumber website design pricing with three tiers from £79/month.",
     "areaServed": { "@type": "Country", "name": "GB" },
     "hasOfferCatalog": {
       "@type": "OfferCatalog",
       "name": "Website Design Packages",
       "itemListElement": [
-        { "@type": "Offer", "name": "Apprentice", "price": "99", "priceCurrency": "GBP", "description": "5-page responsive website with basic local SEO" },
-        { "@type": "Offer", "name": "Journeyman", "price": "169", "priceCurrency": "GBP", "description": "10-page custom website with advanced local SEO" },
-        { "@type": "Offer", "name": "Master", "price": "249", "priceCurrency": "GBP", "description": "20+ page custom website with full SEO and content" }
+        { "@type": "Offer", "name": "Apprentice", "price": "79", "priceCurrency": "GBP", "description": "5-page responsive website with basic local SEO" },
+        { "@type": "Offer", "name": "Journeyman", "price": "129", "priceCurrency": "GBP", "description": "10-page custom website with advanced local SEO" },
+        { "@type": "Offer", "name": "Master", "price": "199", "priceCurrency": "GBP", "description": "20+ page custom website with full SEO and content" }
       ]
     }
   };

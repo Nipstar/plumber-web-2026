@@ -30,7 +30,7 @@ export default function BlogPost() {
     "mainEntity": [
       { "@type": "Question", "name": "Do plumbers need a website?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. Over 70% of plumbing-related searches happen on mobile, and Google prioritises businesses with both a Google Business Profile and a professional website. Plumbers without a website lose jobs to competitors who have one." } },
       { "@type": "Question", "name": "Is a Google Business Profile enough for a plumber?", "acceptedAnswer": { "@type": "Answer", "text": "No. A GBP listing alone shows basic contact info but cannot rank for service-specific or location-specific queries. A website lets you target searches like 'boiler repair Manchester' that GBP cannot reach." } },
-      { "@type": "Question", "name": "How much does a plumber website cost?", "acceptedAnswer": { "@type": "Answer", "text": "UK plumber websites typically cost £99-£249 per month on a managed plan, or £1,500-£5,000+ as a one-off build. Monthly plans include hosting, SSL, local SEO, and ongoing support." } }
+      { "@type": "Question", "name": "How much does a plumber website cost?", "acceptedAnswer": { "@type": "Answer", "text": "UK plumber websites typically cost £79-£199 per month on a managed plan, or £1,500-£5,000+ as a one-off build. Monthly plans include hosting, SSL, local SEO, and ongoing support." } }
     ]
   };
 
@@ -181,10 +181,10 @@ export default function BlogPost() {
             access to roughly 40-60% of the modern market without realising it.
           </p>
 
-          <h2 className="text-2xl font-display font-bold text-navy-dark">The ROI maths on a £99/month plumber website</h2>
+          <h2 className="text-2xl font-display font-bold text-navy-dark">The ROI maths on a £79/month plumber website</h2>
           <p className="text-slate-blue leading-relaxed">
             Plumbers regularly ask whether the website ROI actually stacks. The maths is simple. The
-            Apprentice tier is £99/month, £1,188/year. The average emergency call-out in the UK in 2026 is
+            Apprentice tier is £79/month, £948/year. The average emergency call-out in the UK in 2026 is
             £150-£250 plus parts. A single new booking per quarter that the website wins covers the entire
             annual cost. A boiler installation at £2,500-£3,500 in net margin pays for two years.
           </p>
@@ -215,7 +215,7 @@ export default function BlogPost() {
             Wix, Squarespace, GoDaddy templates. They work technically — the site loads, the pages exist. What they do not do is rank. Templates come with generic content, poor site structure, weak local SEO, and rarely include schema markup or proper heading hierarchy. The plumbers we see on page one of Google for competitive queries all have purpose-built websites. The plumbers on page five have templates.
           </p>
           <p className="text-slate-blue leading-relaxed">
-            If budget is tight, a £99/month managed plumber website beats a £150 template-plus-hosting set-up every time on ranking potential. The maths is also cleaner — a managed package includes local SEO setup, GBP management, and ongoing fixes. A template gives you the site and leaves the rest to you.
+            If budget is tight, a £79/month managed plumber website beats a £150 template-plus-hosting set-up every time on ranking potential. The maths is also cleaner — a managed package includes local SEO setup, GBP management, and ongoing fixes. A template gives you the site and leaves the rest to you.
           </p>
 
 

@@ -109,7 +109,7 @@ export default function BlogPost() {
             A balanced 2026 UK plumber marketing budget typically splits like this:
           </p>
           <ul className="list-disc pl-6 space-y-2 text-slate-blue leading-relaxed">
-            <li><strong>Website + hosting:</strong> 10-20%. A modern managed plumber website is £99-£249/month — see the{' '}
+            <li><strong>Website + hosting:</strong> 10-20%. A modern managed plumber website is £79-£199/month — see the{' '}
               <Link href="/plumber-website-cost/" className="text-amber hover:underline">plumber website cost guide</Link>{' '}
               for the full breakdown
             </li>
@@ -147,8 +147,8 @@ export default function BlogPost() {
             Annual marketing budget at 7% = £7,000. Sensible split:
           </p>
           <ul className="list-disc pl-6 space-y-2 text-slate-blue leading-relaxed">
-            <li>Website + hosting: £1,188 (£99/month Apprentice package — covers website, hosting, SSL, basic SEO)</li>
-            <li>Local SEO upgrade: £2,028 (move to £169/month Journeyman — adds advanced SEO and GBP monthly posts)</li>
+            <li>Website + hosting: £948 (£79/month Apprentice package — covers website, hosting, SSL, basic SEO)</li>
+            <li>Local SEO upgrade: £1,548 (move to £129/month Journeyman — adds advanced SEO and GBP monthly posts)</li>
             <li>Google Ads / LSA: £2,500-£3,000 (£200-£250/month — enough for 8-12 booked jobs per month on emergency-intent queries)</li>
             <li>Van branding refresh: £400 (every 3-4 years)</li>
             <li>Review acquisition tooling and reputation: £400 (subscriptions, SMS credits, time)</li>

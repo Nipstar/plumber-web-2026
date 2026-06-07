@@ -5,7 +5,7 @@ type LinkItem = { href: string; anchor: string; note: string };
 const ALL_LINKS: Record<string, LinkItem> = {
   home: { href: '/', anchor: 'Web design for plumbers', note: 'main UK service overview' },
   websites: { href: '/websites-for-plumbers/', anchor: 'Websites for plumbers', note: 'UK specialist agency overview' },
-  packages: { href: '/plumber-website-design-packages/', anchor: 'Plumber website packages', note: 'pricing from £99/month' },
+  packages: { href: '/plumber-website-design-packages/', anchor: 'Plumber website packages', note: 'pricing from £79/month' },
   cost: { href: '/plumber-website-cost/', anchor: 'Plumber website cost', note: 'full UK breakdown' },
   agency: { href: '/plumber-web-design-agency/', anchor: 'Plumber web design agency', note: 'about the specialist agency' },
   seo: { href: '/seo-for-plumbers/', anchor: 'SEO for plumbers', note: 'local search optimisation' },

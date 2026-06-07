@@ -11,7 +11,7 @@ const cells: Record<NonNullable<TrustBarProps['variant']>, Array<{ title: string
   ],
   service: [
     { title: 'UK-only agency', sub: 'Hampshire based' },
-    { title: 'From £99/month', sub: 'No setup fee' },
+    { title: 'From £79/month', sub: 'No setup fee' },
     { title: 'Fully transferable', sub: 'You own your site. No lock-in.' },
     { title: '30-day notice', sub: 'Cancel any time' },
   ],

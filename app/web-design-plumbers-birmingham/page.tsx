@@ -90,7 +90,7 @@ export default function LocationPage() {
     "logo": "https://www.plumberwebdesign.co.uk/images/logo.webp",
     "telephone": "03333356750",
     "email": "hello@plumberwebdesign.co.uk",
-    "description": "Specialist web design for plumbers in Birmingham, West Midlands. Local SEO-optimised websites from £99/month.",
+    "description": "Specialist web design for plumbers in Birmingham, West Midlands. Local SEO-optimised websites from £79/month.",
     "address": {
       "@type": "PostalAddress",
       "addressLocality": "Birmingham",
@@ -112,9 +112,9 @@ export default function LocationPage() {
       "@type": "OfferCatalog",
       "name": "Plumber Website Packages — Birmingham",
       "itemListElement": [
-        { "@type": "Offer", "name": "Apprentice", "price": "99", "priceCurrency": "GBP" },
-        { "@type": "Offer", "name": "Journeyman", "price": "169", "priceCurrency": "GBP" },
-        { "@type": "Offer", "name": "Master", "price": "249", "priceCurrency": "GBP" }
+        { "@type": "Offer", "name": "Apprentice", "price": "79", "priceCurrency": "GBP" },
+        { "@type": "Offer", "name": "Journeyman", "price": "129", "priceCurrency": "GBP" },
+        { "@type": "Offer", "name": "Master", "price": "199", "priceCurrency": "GBP" }
       ]
     }
   };
@@ -236,7 +236,7 @@ export default function LocationPage() {
             Birmingham's top-ranking plumber sites rely heavily on generic templates with thin local content. A properly built local SEO site with proper schema markup, postcode-specific landing pages, and GBP optimisation consistently outranks them within 6-9 months. The opportunity is real and less contested than comparable markets.
           </p>
           <p className="text-lg text-slate-blue leading-relaxed">
-            Birmingham pricing is broadly in line with the national average, with a clear premium available for work in Solihull, Edgbaston, and Sutton Coldfield. Positioning your website to capture those postcodes specifically raises your average ticket significantly. From £99/month.
+            Birmingham pricing is broadly in line with the national average, with a clear premium available for work in Solihull, Edgbaston, and Sutton Coldfield. Positioning your website to capture those postcodes specifically raises your average ticket significantly. From £79/month.
           </p>
         </div>
 
@@ -282,7 +282,7 @@ export default function LocationPage() {
           <h2 className="text-xl font-display font-bold text-navy-dark mb-4">Explore further</h2>
           <ul className="grid grid-cols-1 md:grid-cols-2 gap-3 text-slate-blue">
             <li>→ <Link href="/" className="text-amber hover:underline">Web design for plumbers</Link> — main UK service overview</li>
-            <li>→ <Link href="/plumber-website-design-packages/" className="text-amber hover:underline">Plumber website packages</Link> — pricing from £99/month</li>
+            <li>→ <Link href="/plumber-website-design-packages/" className="text-amber hover:underline">Plumber website packages</Link> — pricing from £79/month</li>
             <li>→ <Link href="/plumber-website-cost/" className="text-amber hover:underline">Plumber website cost guide</Link> — full UK breakdown</li>
             <li>→ <Link href="/seo-for-plumbers/" className="text-amber hover:underline">SEO for plumbers</Link> — local search optimisation</li>
             <li>→ <Link href="/gas-engineer-website-design/" className="text-amber hover:underline">Gas engineer websites</Link> — for Gas Safe registered engineers</li>

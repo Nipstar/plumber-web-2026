@@ -40,7 +40,7 @@ export default function BlogPost() {
     mainEntity: [
       { '@type': 'Question', name: 'What is the best website builder for UK plumbers?', acceptedAnswer: { '@type': 'Answer', text: 'For UK plumbers who want to rank locally on Google, a managed Next.js or WordPress site outperforms drag-and-drop builders like Wix and Squarespace. Drag-and-drop builders work technically but rarely rank because they ship with generic templates, weak local SEO, and limited schema support. Most growing UK plumbers move off Wix/Squarespace within 18 months.' } },
       { '@type': 'Question', name: 'Can a plumber rank on Google using Wix or Squarespace?', acceptedAnswer: { '@type': 'Answer', text: 'Possible but rare. Wix and Squarespace handle basic on-page SEO but ship with generic themes, slow mobile speed, weak schema markup, and limited customisation for trade-specific layouts. Most page-1 UK plumber sites use WordPress, custom-built Next.js, or specialist plumber-focused agencies — not drag-and-drop builders.' } },
-      { '@type': 'Question', name: 'What is the cheapest way to get a plumber website?', acceptedAnswer: { '@type': 'Answer', text: 'Cheapest entry: GoDaddy Website Builder at £8-£14/month. Realistically usable: Wix or Squarespace at £15-£40/month. Best value over 24 months including hosting, SEO, and updates: a managed plumber website package at £99-£249/month including everything. DIY templates look cheaper but cost more in time spent on SEO and updates.' } }
+      { '@type': 'Question', name: 'What is the cheapest way to get a plumber website?', acceptedAnswer: { '@type': 'Answer', text: 'Cheapest entry: GoDaddy Website Builder at £8-£14/month. Realistically usable: Wix or Squarespace at £15-£40/month. Best value over 24 months including hosting, SEO, and updates: a managed plumber website package at £79-£199/month including everything. DIY templates look cheaper but cost more in time spent on SEO and updates.' } }
     ]
   };
 
@@ -49,7 +49,7 @@ export default function BlogPost() {
     { name: 'Squarespace', price: '£15-£36/mo', seoScore: '5/10', speedScore: '6/10', proSkills: 'Low', verdict: 'Slightly nicer design defaults than Wix but identical SEO ceiling. Limited schema customisation. Templates feel premium but rank like everyone else using the same templates.' },
     { name: 'GoDaddy Website Builder', price: '£8-£14/mo', seoScore: '3/10', speedScore: '4/10', proSkills: 'Low', verdict: 'Cheapest entry but worst SEO foundation. Slow, limited customisation, ad-laden during trial. Avoid for a serious plumbing business.' },
     { name: 'WordPress + Astra/GeneratePress', price: '£100-£300/yr hosting + £0-£200 theme', seoScore: '8/10', speedScore: '7/10', proSkills: 'Medium', verdict: 'Massive flexibility, strong SEO if configured correctly. Requires plugin discipline (Yoast SEO + Schema Pro + WP Rocket). Best for plumbers who want full control and have technical patience.' },
-    { name: 'Custom Next.js / managed agency', price: '£99-£249/mo all-in', seoScore: '9/10', speedScore: '10/10', proSkills: 'None (managed)', verdict: 'Highest performance ceiling. Static export with Core Web Vitals consistently green, full schema control, dedicated location pages built from a template engine. Best for plumbers who want to focus on plumbing, not webmastering.' },
+    { name: 'Custom Next.js / managed agency', price: '£79-£199/mo all-in', seoScore: '9/10', speedScore: '10/10', proSkills: 'None (managed)', verdict: 'Highest performance ceiling. Static export with Core Web Vitals consistently green, full schema control, dedicated location pages built from a template engine. Best for plumbers who want to focus on plumbing, not webmastering.' },
     { name: 'Shopify', price: '£25-£300/mo', seoScore: '7/10', speedScore: '7/10', proSkills: 'Medium', verdict: 'E-commerce focused. Only relevant if you sell parts or installation kits direct to consumers. Overkill and over-priced for a pure-service plumbing business.' },
   ];
 
@@ -169,7 +169,7 @@ export default function BlogPost() {
           <h2 className="text-2xl font-display font-bold text-navy-dark">What to pick by stage</h2>
           <ul className="list-disc pl-6 space-y-2 text-slate-blue leading-relaxed">
             <li><strong>Brand-new solo plumber, sub-£40k revenue, technical patience:</strong> WordPress + GeneratePress + Yoast SEO. Cheap, learnable, future-proof.</li>
-            <li><strong>Brand-new solo plumber, no technical patience:</strong> managed Apprentice tier (£99/month all-in including hosting, SEO, GBP setup, support)</li>
+            <li><strong>Brand-new solo plumber, no technical patience:</strong> managed Apprentice tier (£79/month all-in including hosting, SEO, GBP setup, support)</li>
             <li><strong>Established plumber on a tired Wix or Squarespace site:</strong> migrate to managed Journeyman tier. The migration usually pays for itself within 6 months in extra bookings</li>
             <li><strong>Multi-van plumbing business with in-house marketing:</strong> WordPress with a developer on retainer, or custom Next.js if budget allows</li>
             <li><strong>Plumber who already ranks page 1 and just needs maintenance:</strong> stay on whatever you have. Do not break what works</li>
@@ -185,7 +185,7 @@ export default function BlogPost() {
             <li><strong>DIY Wix/Squarespace</strong> — £432-£960 software + £2,000-£5,000 of your time at hourly rates = £2,432-£5,960</li>
             <li><strong>WordPress with hosting + plugins</strong> — £400-£800 + £1,000-£3,000 of time = £1,400-£3,800</li>
             <li><strong>One-off custom build £3,000 + hosting/SEO</strong> — £3,000 build + £1,000-£2,000 hosting/SEO over 24 months = £4,000-£5,000</li>
-            <li><strong>Managed monthly £99-£249/month</strong> — £2,376-£5,976 over 24 months, everything included, zero of your time</li>
+            <li><strong>Managed monthly £79-£199/month</strong> — £1,896-£4,776 over 24 months, everything included, zero of your time</li>
           </ul>
           <p className="text-slate-blue leading-relaxed">
             The right pick depends on whether your hourly rate as a plumber is higher than your hourly

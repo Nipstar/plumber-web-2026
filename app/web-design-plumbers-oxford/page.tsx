@@ -90,7 +90,7 @@ export default function LocationPage() {
     "logo": "https://www.plumberwebdesign.co.uk/images/logo.webp",
     "telephone": "03333356750",
     "email": "hello@plumberwebdesign.co.uk",
-    "description": "Specialist web design for plumbers in Oxford, Oxfordshire. Local SEO-optimised websites from £99/month.",
+    "description": "Specialist web design for plumbers in Oxford, Oxfordshire. Local SEO-optimised websites from £79/month.",
     "address": {
       "@type": "PostalAddress",
       "addressLocality": "Oxford",
@@ -112,9 +112,9 @@ export default function LocationPage() {
       "@type": "OfferCatalog",
       "name": "Plumber Website Packages — Oxford",
       "itemListElement": [
-        { "@type": "Offer", "name": "Apprentice", "price": "99", "priceCurrency": "GBP" },
-        { "@type": "Offer", "name": "Journeyman", "price": "169", "priceCurrency": "GBP" },
-        { "@type": "Offer", "name": "Master", "price": "249", "priceCurrency": "GBP" }
+        { "@type": "Offer", "name": "Apprentice", "price": "79", "priceCurrency": "GBP" },
+        { "@type": "Offer", "name": "Journeyman", "price": "129", "priceCurrency": "GBP" },
+        { "@type": "Offer", "name": "Master", "price": "199", "priceCurrency": "GBP" }
       ]
     }
   };
@@ -236,7 +236,7 @@ export default function LocationPage() {
             Oxford plumber SEO is moderately developed but skewed heavily toward the emergency and central-city market. Specialists in HMO compliance, listed-property work, and the outer OX villages are underrepresented. A properly built site with dedicated HMO compliance pages, listed-property service content, and village landing pages (Wheatley, Kidlington, Abingdon, Witney) can reach top-three for its target terms within 4–6 months.
           </p>
           <p className="text-lg text-slate-blue leading-relaxed">
-            Oxford pricing is in line with Reading — 15–25% above the UK average in central OX1–OX4, premium pricing available in North Oxford, Summertown, and the listed-stock conservation areas. HMO compliance contracts are recurring revenue. From £99/month.
+            Oxford pricing is in line with Reading — 15–25% above the UK average in central OX1–OX4, premium pricing available in North Oxford, Summertown, and the listed-stock conservation areas. HMO compliance contracts are recurring revenue. From £79/month.
           </p>
         </div>
 
@@ -282,7 +282,7 @@ export default function LocationPage() {
           <h2 className="text-xl font-display font-bold text-navy-dark mb-4">Explore further</h2>
           <ul className="grid grid-cols-1 md:grid-cols-2 gap-3 text-slate-blue">
             <li>→ <Link href="/" className="text-amber hover:underline">Web design for plumbers</Link> — main UK service overview</li>
-            <li>→ <Link href="/plumber-website-design-packages/" className="text-amber hover:underline">Plumber website packages</Link> — pricing from £99/month</li>
+            <li>→ <Link href="/plumber-website-design-packages/" className="text-amber hover:underline">Plumber website packages</Link> — pricing from £79/month</li>
             <li>→ <Link href="/plumber-website-cost/" className="text-amber hover:underline">Plumber website cost guide</Link> — full UK breakdown</li>
             <li>→ <Link href="/seo-for-plumbers/" className="text-amber hover:underline">SEO for plumbers</Link> — local search optimisation</li>
             <li>→ <Link href="/gas-engineer-website-design/" className="text-amber hover:underline">Gas engineer websites</Link> — for Gas Safe registered engineers</li>

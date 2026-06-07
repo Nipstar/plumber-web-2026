@@ -90,7 +90,7 @@ export default function LocationPage() {
     "logo": "https://www.plumberwebdesign.co.uk/images/logo.webp",
     "telephone": "03333356750",
     "email": "hello@plumberwebdesign.co.uk",
-    "description": "Specialist web design for plumbers in Reading, Berkshire. Local SEO-optimised websites from £99/month.",
+    "description": "Specialist web design for plumbers in Reading, Berkshire. Local SEO-optimised websites from £79/month.",
     "address": {
       "@type": "PostalAddress",
       "addressLocality": "Reading",
@@ -112,9 +112,9 @@ export default function LocationPage() {
       "@type": "OfferCatalog",
       "name": "Plumber Website Packages — Reading",
       "itemListElement": [
-        { "@type": "Offer", "name": "Apprentice", "price": "99", "priceCurrency": "GBP" },
-        { "@type": "Offer", "name": "Journeyman", "price": "169", "priceCurrency": "GBP" },
-        { "@type": "Offer", "name": "Master", "price": "249", "priceCurrency": "GBP" }
+        { "@type": "Offer", "name": "Apprentice", "price": "79", "priceCurrency": "GBP" },
+        { "@type": "Offer", "name": "Journeyman", "price": "129", "priceCurrency": "GBP" },
+        { "@type": "Offer", "name": "Master", "price": "199", "priceCurrency": "GBP" }
       ]
     }
   };
@@ -236,7 +236,7 @@ export default function LocationPage() {
             The top-ranking Reading plumber websites are mostly generic tradesperson listing sites (Checkatrade front-pages) rather than proper agency-built plumber sites. A specialist plumbing site with proper schema, M4 corridor postcode targeting, and a clear premium-installation service page can overtake them within 3–5 months. Wokingham and Woodley have almost zero dedicated plumber SEO competition.
           </p>
           <p className="text-lg text-slate-blue leading-relaxed">
-            Reading plumbing rates are 15–25% above the national average due to the affluent commuter catchment, with premium pricing available in Sonning, Pangbourne, and Caversham Heights. Single-job average ticket is high — smart thermostat installations, heat pump consultations, and bathroom refits dominate. From £99/month.
+            Reading plumbing rates are 15–25% above the national average due to the affluent commuter catchment, with premium pricing available in Sonning, Pangbourne, and Caversham Heights. Single-job average ticket is high — smart thermostat installations, heat pump consultations, and bathroom refits dominate. From £79/month.
           </p>
         </div>
 
@@ -282,7 +282,7 @@ export default function LocationPage() {
           <h2 className="text-xl font-display font-bold text-navy-dark mb-4">Explore further</h2>
           <ul className="grid grid-cols-1 md:grid-cols-2 gap-3 text-slate-blue">
             <li>→ <Link href="/" className="text-amber hover:underline">Web design for plumbers</Link> — main UK service overview</li>
-            <li>→ <Link href="/plumber-website-design-packages/" className="text-amber hover:underline">Plumber website packages</Link> — pricing from £99/month</li>
+            <li>→ <Link href="/plumber-website-design-packages/" className="text-amber hover:underline">Plumber website packages</Link> — pricing from £79/month</li>
             <li>→ <Link href="/plumber-website-cost/" className="text-amber hover:underline">Plumber website cost guide</Link> — full UK breakdown</li>
             <li>→ <Link href="/seo-for-plumbers/" className="text-amber hover:underline">SEO for plumbers</Link> — local search optimisation</li>
             <li>→ <Link href="/gas-engineer-website-design/" className="text-amber hover:underline">Gas engineer websites</Link> — for Gas Safe registered engineers</li>

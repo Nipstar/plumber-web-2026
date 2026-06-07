@@ -9,7 +9,7 @@ import { pageMeta } from '@/lib/seo';
 
 export const metadata = pageMeta({
   title: 'Gas Engineer Website Design | Websites for Gas Engineers',
-  description: 'Specialist website design for Gas Safe registered engineers in the UK. Prominent Gas Safe display, emergency booking forms, and local SEO. From £99/month.',
+  description: 'Specialist website design for Gas Safe registered engineers in the UK. Prominent Gas Safe display, emergency booking forms, and local SEO. From £79/month.',
   path: '/gas-engineer-website-design/',
 });
 
@@ -100,9 +100,9 @@ export default function GasEngineerPage() {
       "@type": "OfferCatalog",
       "name": "Gas Engineer Website Packages",
       "itemListElement": [
-        { "@type": "Offer", "name": "Apprentice", "price": "99", "priceCurrency": "GBP" },
-        { "@type": "Offer", "name": "Journeyman", "price": "169", "priceCurrency": "GBP" },
-        { "@type": "Offer", "name": "Master", "price": "249", "priceCurrency": "GBP" }
+        { "@type": "Offer", "name": "Apprentice", "price": "79", "priceCurrency": "GBP" },
+        { "@type": "Offer", "name": "Journeyman", "price": "129", "priceCurrency": "GBP" },
+        { "@type": "Offer", "name": "Master", "price": "199", "priceCurrency": "GBP" }
       ]
     }
   };
