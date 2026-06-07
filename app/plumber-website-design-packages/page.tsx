@@ -3,11 +3,17 @@ import AddOnCard from '@/components/AddOnCard';
 import SchemaScript from '@/components/SchemaScript';
 import Breadcrumbs from '@/components/Breadcrumbs';
 import RelatedLinks from '@/components/RelatedLinks';
+import { ogBase, twitterBase } from '@/app/shared-metadata';
+
+const TITLE = 'Plumber Website Packages & Pricing UK | £79–£199/mo';
+const DESCRIPTION = 'Plumber website design packages from £79–£199/mo. Hosting, SSL, free domain and local SEO on every plan. No setup fees. Compare plans and choose.';
 
 export const metadata = {
-  title: { absolute: 'Plumber Website Packages · £79/mo Launch Price UK' },
-  description: 'Three plumber website packages. Launch pricing: Apprentice £79, Journeyman £129, Master £199 locked-in for 12 months.',
+  title: { absolute: TITLE },
+  description: DESCRIPTION,
   alternates: { canonical: 'https://www.plumberwebdesign.co.uk/plumber-website-design-packages/' },
+  openGraph: { ...ogBase, title: TITLE, description: DESCRIPTION },
+  twitter: { ...twitterBase, title: TITLE, description: DESCRIPTION },
 };
 
 const pricingPackages = [
