@@ -3,11 +3,17 @@ import SchemaScript from '@/components/SchemaScript';
 import Breadcrumbs from '@/components/Breadcrumbs';
 import { AUTHOR, authorPersonSchema } from '@/components/AuthorBio';
 import RelatedLinks from '@/components/RelatedLinks';
+import { ogBase, twitterBase } from '@/app/shared-metadata';
+
+const TITLE = 'Plumber Web Design Agency UK | Founder-Led, Trade-Only';
+const DESCRIPTION = 'A UK plumber web design agency building only for plumbing and heating trades. Founder-led, no offshore handoffs. Free site audit and quote.';
 
 export const metadata = {
-  title: { absolute: 'Plumber Web Design Agency | Specialist for UK Trades' },
-  description: 'Looking for a plumber web design agency? We build exclusively for UK plumbers and heating engineers. Trade-specific websites, local SEO, and ongoing support.',
+  title: { absolute: TITLE },
+  description: DESCRIPTION,
   alternates: { canonical: 'https://www.plumberwebdesign.co.uk/plumber-web-design-agency/' },
+  openGraph: { ...ogBase, title: TITLE, description: DESCRIPTION },
+  twitter: { ...twitterBase, title: TITLE, description: DESCRIPTION },
 };
 
 const schema = {
