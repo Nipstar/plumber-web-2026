@@ -1,0 +1,13 @@
+{
+  "generatedAt": "2026-06-12",
+  "country": "gb",
+  "keywords": [
+    { "keyword": "plumber website design", "vertical": "plumber", "gscClicks": 5, "gscImpressions": 120, "gscPosition": 8.4, "volume": 90, "difficulty": 12, "cpcGbp": 3.10 },
+    { "keyword": "websites for plumbers", "vertical": "plumber", "gscClicks": 2, "gscImpressions": 60, "gscPosition": 11.0, "volume": 70, "difficulty": 9, "cpcGbp": 2.80 },
+    { "keyword": "gas engineer website", "vertical": "gas", "gscClicks": 1, "gscImpressions": 40, "gscPosition": 14.2, "volume": 50, "difficulty": 8, "cpcGbp": null },
+    { "keyword": "boiler service website design", "vertical": "heating", "gscClicks": 0, "gscImpressions": 15, "gscPosition": 22.0, "volume": null, "difficulty": null, "cpcGbp": null },
+    { "keyword": "bathroom fitter web design", "vertical": "bathroom", "gscClicks": 0, "gscImpressions": 9, "gscPosition": 30.0, "volume": 20, "difficulty": 5, "cpcGbp": 1.90 },
+    { "keyword": "seo for plumbers", "vertical": "seo", "gscClicks": 3, "gscImpressions": 80, "gscPosition": 6.1, "volume": 110, "difficulty": 15, "cpcGbp": 4.20 },
+    { "keyword": "unrelated random query", "vertical": null, "gscClicks": 0, "gscImpressions": 3, "gscPosition": 55.0, "volume": null, "difficulty": null, "cpcGbp": null }
+  ]
+}
