@@ -17,7 +17,7 @@ const COLUMNS = [
 function csvField(v) {
   if (v === null || v === undefined) return '';
   const s = String(v);
-  return /[",\n]/.test(s) ? `"${s.replace(/"/g, '""')}"` : s;
+  return /[",\n\r]/.test(s) ? `"${s.replace(/"/g, '""')}"` : s;
 }
 
 function emptyRow() {
@@ -49,6 +49,9 @@ function validateConfig(campaign, verticals) {
         throw new Error(`Vertical "${key}" Path ${i + 1} is ${p.length} chars, max ${LIMITS.path}: "${p}"`);
       }
     });
+    if (v.paths && v.paths.length !== 2) {
+      throw new Error(`Vertical "${key}" must have exactly 2 paths, got ${v.paths.length}`);
+    }
     if (!v.finalUrl) throw new Error(`Vertical "${key}" missing finalUrl`);
   }
 }
@@ -78,13 +81,21 @@ function buildRows(enriched, campaign, verticals) {
     const kws = byVertical[key];
     if (!kws || kws.length === 0) continue;
 
+    const seen = new Set();
+    const deduped = kws.filter(k => {
+      const key2 = k.keyword.toLowerCase();
+      if (seen.has(key2)) return false;
+      seen.add(key2);
+      return true;
+    });
+
     const ag = emptyRow();
     ag.Campaign = campaign.name;
     ag['Ad Group'] = key;
     ag['Max CPC'] = campaign.maxCpc;
     rows.push(ag);
 
-    for (const k of kws) {
+    for (const k of deduped) {
       for (const mt of ['Exact', 'Phrase']) {
         const kr = emptyRow();
         kr.Campaign = campaign.name;
@@ -123,14 +134,20 @@ function main() {
     console.error(`Missing ${enrichedPath}. Run the enrichment step first (see README).`);
     process.exit(1);
   }
-  const enriched = JSON.parse(fs.readFileSync(enrichedPath, 'utf8'));
+  let enriched;
+  try {
+    enriched = JSON.parse(fs.readFileSync(enrichedPath, 'utf8'));
+  } catch (e) {
+    console.error(`Failed to parse ${enrichedPath}: ${e.message}`);
+    process.exit(1);
+  }
   const { rows, review } = buildRows(enriched, CAMPAIGN, VERTICALS);
 
   const outCsv = path.join(__dirname, 'output', 'google-ads-editor-import.csv');
   fs.writeFileSync(outCsv, rowsToCsv(rows) + '\n', 'utf8');
 
   const reviewCsv = path.join(__dirname, 'output', 'review-keywords.csv');
-  fs.writeFileSync(reviewCsv, ['Keyword', ...review].join('\n') + '\n', 'utf8');
+  fs.writeFileSync(reviewCsv, ['Keyword', ...review.map(csvField)].join('\n') + '\n', 'utf8');
 
   const adGroups = new Set(rows.filter(r => r['Ad Group']).map(r => r['Ad Group']));
   console.log(`Wrote ${outCsv}`);

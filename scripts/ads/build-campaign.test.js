@@ -16,6 +16,14 @@ test('csvField quotes and escapes', () => {
   assert.strictEqual(csvField(null), '');
 });
 
+test('csvField quotes carriage return', () => {
+  assert.strictEqual(csvField('a\rb'), '"a\rb"');
+});
+
+test('csvField(undefined) returns empty string', () => {
+  assert.strictEqual(csvField(undefined), '');
+});
+
 test('config passes validation', () => {
   assert.doesNotThrow(() => validateConfig(CAMPAIGN, VERTICALS));
 });
@@ -49,7 +57,9 @@ test('buildRows emits exact + phrase per classified keyword', () => {
 test('buildRows ad row has 15 headlines and correct final url', () => {
   const { rows } = buildRows(fixture, CAMPAIGN, VERTICALS);
   const ad = rows.find(r => r['Ad Type'] === 'Responsive search ad' && r['Ad Group'] === 'seo');
-  assert.strictEqual(ad['Headline 15'].length > 0, true);
+  for (let i = 1; i <= 15; i++) {
+    assert.strictEqual(ad[`Headline ${i}`], VERTICALS.seo.headlines[i - 1]);
+  }
   assert.strictEqual(ad['Final URL'], VERTICALS.seo.finalUrl);
 });
 
@@ -63,4 +73,25 @@ test('rowsToCsv header matches COLUMNS', () => {
   const { rows } = buildRows(fixture, CAMPAIGN, VERTICALS);
   const csv = rowsToCsv(rows);
   assert.strictEqual(csv.split('\n')[0], COLUMNS.join(','));
+});
+
+test('buildRows deduplicates keywords within a vertical', () => {
+  const dupEnriched = {
+    keywords: [
+      { keyword: 'plumber london', vertical: 'plumber' },
+      { keyword: 'plumber london', vertical: 'plumber' },
+    ],
+  };
+  const { rows } = buildRows(dupEnriched, CAMPAIGN, VERTICALS);
+  const kwRows = rows.filter(r => r.Keyword === 'plumber london');
+  assert.strictEqual(kwRows.length, 2); // one Exact, one Phrase
+  const matchTypes = kwRows.map(r => r['Match Type']).sort();
+  assert.deepStrictEqual(matchTypes, ['Exact', 'Phrase']);
+});
+
+test('validateConfig throws when paths length is not 2', () => {
+  const bad = JSON.parse(JSON.stringify(VERTICALS));
+  const firstKey = Object.keys(bad)[0];
+  bad[firstKey].paths = ['only-one'];
+  assert.throws(() => validateConfig(CAMPAIGN, bad), /exactly 2 paths/);
 });
