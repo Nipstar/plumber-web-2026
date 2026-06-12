@@ -27,6 +27,10 @@ test('classifies seo queries', () => {
   assert.strictEqual(classify('how to rank plumber on google'), 'seo');
 });
 
+test('bare "google" signal routes to seo', () => {
+  assert.strictEqual(classify('google my business plumber'), 'seo');
+});
+
 test('precedence: seo beats trade words', () => {
   assert.strictEqual(classify('plumber seo services'), 'seo');
 });

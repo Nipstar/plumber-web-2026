@@ -35,7 +35,7 @@ one ad group per trade vertical.
 ## Tests
 
 ```bash
-node --test scripts/ads/
+node --test scripts/ads/*.test.js
 ```
 
 ## Limits enforced (build fails loud)
