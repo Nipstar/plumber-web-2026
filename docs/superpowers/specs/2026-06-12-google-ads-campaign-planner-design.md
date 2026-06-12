@@ -90,7 +90,9 @@ Per vertical: **15 headlines** (≤30 chars), **4 descriptions** (≤90 chars). 
 
 Standard Editor bulk-import columns (exact headers confirmed against Google Ads Editor import spec before coding):
 
-`Campaign, Campaign Type, Campaign Daily Budget, Bid Strategy Type, Ad Group, Max CPC, Keyword, Criterion Type, Headline 1`…`Headline 15, Description 1`…`Description 4, Path 1, Path 2, Final URL`
+`Campaign, Campaign Type, Campaign Daily Budget, Bid Strategy Type, Ad Group, Max CPC, Keyword, Match Type, Ad Type, Headline 1`…`Headline 15, Description 1`…`Description 4, Path 1, Path 2, Final URL`
+
+(`Match Type` holds the keyword match — Exact/Phrase. This is the Editor keyword column; `Criterion Type` is a different field denoting criterion kind and is not used here.)
 
 Editor infers entity type per row from which columns are populated (campaign row, ad-group row, keyword row, ad row). Build emits rows in that order per vertical.
 

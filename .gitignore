@@ -46,3 +46,9 @@ next-env.d.ts
 # private working reports (not for public repo)
 SEO-AUDIT-REPORT.md
 EEAT-AND-CONTENT-PLAN.md
+
+# Google Ads planner — local inputs/outputs
+scripts/ads/input/*
+!scripts/ads/input/.gitkeep
+scripts/ads/output/*
+!scripts/ads/output/.gitkeep

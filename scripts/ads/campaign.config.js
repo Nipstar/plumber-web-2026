@@ -1,0 +1,152 @@
+// scripts/ads/campaign.config.js
+// Edit copy/budget here. Build fails loud if any limit is exceeded.
+const SITE = 'https://www.plumberwebdesign.co.uk';
+
+const CAMPAIGN = {
+  name: 'PlumberWebDesign — Search — UK',
+  type: 'Search',
+  dailyBudget: '15.00',            // GBP/day — edit before upload
+  bidStrategy: 'Maximize conversions',
+  maxCpc: '2.50',                  // ad-group default — edit before upload
+};
+
+// Each vertical: finalUrl, two display paths (≤15), 15 headlines (≤30), 4 descriptions (≤90).
+const VERTICALS = {
+  plumber: {
+    finalUrl: `${SITE}/websites-for-plumbers/`,
+    paths: ['Plumber', 'Websites'],
+    headlines: [
+      'Plumber Web Design',
+      'Websites For Plumbers',
+      'Get More Plumbing Jobs',
+      'Built To Convert Calls',
+      'UK Plumber Specialists',
+      'Mobile-First Plumber Site',
+      'Rank In Your Local Area',
+      'Free Website Audit',
+      'Fast Two-Second Load',
+      'Gas Safe Ready Design',
+      'Click-To-Call Built In',
+      'No Templates, Custom Built',
+      'From £499 To Launch',
+      'Book More Local Work',
+      'See Our Plumber Demos',
+    ],
+    descriptions: [
+      'Websites that turn searches into booked plumbing jobs. Built for UK plumbers.',
+      'Mobile-first, fast-loading plumber websites with click-to-call and local SEO.',
+      'Stop losing jobs to rivals. Get a website built to win local plumbing work.',
+      'Custom plumber web design from a UK studio. Free audit, clear fixed pricing.',
+    ],
+  },
+  gas: {
+    finalUrl: `${SITE}/gas-engineer-website-design/`,
+    paths: ['Gas-Engineer', 'Websites'],
+    headlines: [
+      'Gas Engineer Websites',
+      'Web Design Gas Safe',
+      'Win More Boiler Work',
+      'Gas Engineer Web Design',
+      'Show Your Gas Safe ID',
+      'Built To Convert Calls',
+      'UK Gas Engineer Sites',
+      'Mobile-First Design',
+      'Rank In Your Local Area',
+      'Free Website Audit',
+      'Fast Two-Second Load',
+      'Click-To-Call Built In',
+      'No Templates, Custom Built',
+      'From £499 To Launch',
+      'See Our Demos',
+    ],
+    descriptions: [
+      'Websites built for gas engineers. Show Gas Safe credentials, win more work.',
+      'Mobile-first gas engineer sites with click-to-call and strong local SEO.',
+      'Turn boiler searches into booked jobs with a site built to convert.',
+      'Custom gas engineer web design. Free audit and clear fixed pricing.',
+    ],
+  },
+  heating: {
+    finalUrl: `${SITE}/heating-engineer-website-design/`,
+    paths: ['Heating', 'Websites'],
+    headlines: [
+      'Heating Engineer Sites',
+      'Web Design For Heating',
+      'Win More Boiler Jobs',
+      'Heating Engineer Design',
+      'Built To Convert Calls',
+      'UK Heating Specialists',
+      'Mobile-First Design',
+      'Rank In Your Local Area',
+      'Free Website Audit',
+      'Fast Two-Second Load',
+      'Click-To-Call Built In',
+      'Show Your Credentials',
+      'No Templates, Custom Built',
+      'From £499 To Launch',
+      'See Our Demos',
+    ],
+    descriptions: [
+      'Websites for heating engineers built to turn searches into booked jobs.',
+      'Mobile-first heating engineer sites with click-to-call and local SEO.',
+      'Win more boiler and central heating work with a site built to convert.',
+      'Custom heating engineer web design. Free audit and clear fixed pricing.',
+    ],
+  },
+  bathroom: {
+    finalUrl: `${SITE}/bathroom-fitter-website-design/`,
+    paths: ['Bathroom', 'Websites'],
+    headlines: [
+      'Bathroom Fitter Sites',
+      'Web Design Bathrooms',
+      'Win More Bathroom Jobs',
+      'Bathroom Fitter Design',
+      'Show Off Your Best Work',
+      'Built To Convert Leads',
+      'UK Bathroom Specialists',
+      'Mobile-First Design',
+      'Rank In Your Local Area',
+      'Free Website Audit',
+      'Fast Two-Second Load',
+      'Gallery That Sells',
+      'No Templates, Custom Built',
+      'From £499 To Launch',
+      'See Our Demos',
+    ],
+    descriptions: [
+      'Websites for bathroom fitters with project galleries that win new work.',
+      'Mobile-first bathroom fitter sites with strong local SEO and clear quotes.',
+      'Turn bathroom searches into booked installs with a site built to convert.',
+      'Custom bathroom fitter web design. Free audit and clear fixed pricing.',
+    ],
+  },
+  seo: {
+    finalUrl: `${SITE}/seo-for-plumbers/`,
+    paths: ['SEO', 'For-Trades'],
+    headlines: [
+      'SEO For Plumbers',
+      'Rank Higher On Google',
+      'Get Found Locally',
+      'Plumber SEO Experts',
+      'More Calls From Search',
+      'Local Map Pack SEO',
+      'UK Trade SEO Studio',
+      'Free SEO Audit',
+      'Beat Local Rivals',
+      'Built For Conversions',
+      'Transparent Reporting',
+      'No Long Contracts',
+      'From £499 To Start',
+      'Win Organic Leads',
+      'See Our Results',
+    ],
+    descriptions: [
+      'SEO for plumbers and trades. Rank in the local map pack and win more calls.',
+      'Get found by local customers searching for your trade. Free SEO audit first.',
+      'Climb Google for your services with SEO built around booked jobs, not vanity.',
+      'Transparent trade SEO with no long contracts. Clear fixed monthly pricing.',
+    ],
+  },
+};
+
+module.exports = { CAMPAIGN, VERTICALS };
