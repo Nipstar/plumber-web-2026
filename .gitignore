@@ -47,8 +47,6 @@ next-env.d.ts
 SEO-AUDIT-REPORT.md
 EEAT-AND-CONTENT-PLAN.md
 
-# Google Ads planner — local inputs/outputs
-scripts/ads/input/*
-!scripts/ads/input/.gitkeep
-scripts/ads/output/*
-!scripts/ads/output/.gitkeep
+# working files — not needed for the website to build/deploy
+/docs/superpowers/
+/scripts/ads/
