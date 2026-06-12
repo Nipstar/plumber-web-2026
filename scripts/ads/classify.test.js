@@ -22,6 +22,10 @@ test('classifies bathroom queries', () => {
   assert.strictEqual(classify('bathroom fitter web design'), 'bathroom');
 });
 
+test('"gas fitter" is gas, not bathroom', () => {
+  assert.strictEqual(classify('gas fitter website design'), 'gas');
+});
+
 test('classifies seo queries', () => {
   assert.strictEqual(classify('seo for plumbers'), 'seo');
   assert.strictEqual(classify('how to rank plumber on google'), 'seo');
