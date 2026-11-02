@@ -15,6 +15,7 @@ export default function Footer() {
               <li><Link href="/heating-engineer-website-design/" className="transition-colors duration-150">Heating Engineer Web Design</Link></li>
               <li><Link href="/bathroom-fitter-website-design/" className="transition-colors duration-150">Bathroom Fitter Web Design</Link></li>
               <li><Link href="/seo-for-plumbers/" className="transition-colors duration-150">SEO for Plumbers</Link></li>
+              <li><Link href="/case-studies/" className="transition-colors duration-150">Case Studies</Link></li>
             </ul>
           </div>
 

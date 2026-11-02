@@ -14,16 +14,19 @@ export function pageMeta({
   title,
   description,
   path,
+  noindex = false,
 }: {
   title: string;
   description: string;
   path: string; // leading + trailing slash, e.g. "/seo-for-plumbers/"
+  noindex?: boolean; // keeps a page out of search until it is approved
 }): Metadata {
   const url = `${SITE}${path}`;
   return {
     title: { absolute: title },
     description,
     alternates: { canonical: url },
+    ...(noindex ? { robots: { index: false, follow: true } } : {}),
     openGraph: {
       title,
       description,
