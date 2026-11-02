@@ -6,6 +6,7 @@ import FaqAccordion from '@/components/FaqAccordion';
 import SchemaScript from '@/components/SchemaScript';
 import FounderPanel from '@/components/FounderPanel';
 import DemoGallery from '@/components/DemoGallery';
+import GoogleReviews from '@/components/GoogleReviews';
 import WhyNewStudio from '@/components/WhyNewStudio';
 import { pageMeta } from '@/lib/seo';
 
@@ -314,6 +315,7 @@ export default function Home() {
 
       <FounderPanel />
       <DemoGallery />
+      <GoogleReviews />
 
       {/* Problem Block */}
       <section className="py-24 bg-white">

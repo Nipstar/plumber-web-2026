@@ -1,0 +1,34 @@
+{
+  "updatedAt": "2026-08-28T05:59:28.098690Z",
+  "reviewCountTotal": 4,
+  "ratingAverageTotal": 5,
+  "reviews": [
+    {
+      "id": "Ci9DQUlRQUNvZENodHljRjlvT2pONGRtNXdOM1Z4WVhSZmRUSnpNMmhTZW5SZmJsRRAB",
+      "author": "Tanna C.",
+      "rating": 5,
+      "text": "Andy is very responsive, informed, and easy to work with! Adapts quickly and always willing to explain things further or revisit an idea. Excited to continue building out projects with his expertise!",
+      "date": "2026-08-24T13:46:38.200Z",
+      "location": null,
+      "source": "google"
+    },
+    {
+      "id": "Ci9DQUlRQUNvZENodHljRjlvT21od05UaHRVblJrZWpWeFJXdElTR1JWVDBnNFVIYxAB",
+      "author": "J H.",
+      "rating": 5,
+      "text": "After numerous meetings with other prospect companies, i was delighted to have found Antek. Speaking to Andy has been a pleasure, he explains things i don't understand in a way where i grasp how it works and what needs to be done to progess forward. He has also provided support, knowledge and hard work to help get my business up and running. 100% recommend",
+      "date": "2026-07-24T20:18:05.061Z",
+      "location": null,
+      "source": "google"
+    },
+    {
+      "id": "Ci9DQUlRQUNvZENodHljRjlvT2tsUFFWWXphakpWVjFscWRqaGlXbHBUVEV4M1UwRRAB",
+      "author": "Akhil M.",
+      "rating": 5,
+      "text": "We worked with Andy Norman from Antek Automation to integrate Retell voice agents with Shopify via n8n. He quickly resolved webhook and API issues, delivered a stable end-to-end automation, and communicated clearly throughout. His hands-on, practical approach made a real difference. Highly recommended.",
+      "date": "2026-05-13T11:10:58.222Z",
+      "location": null,
+      "source": "google"
+    }
+  ]
+}
