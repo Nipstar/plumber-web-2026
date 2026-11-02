@@ -40,7 +40,7 @@ export default function TermsPage() {
               <li>Monthly website packages are billed monthly at the rate agreed at sign-up.</li>
               <li>One-off website builds are charged at the fixed price in your quote. Unless your quote says otherwise, payment is split between a deposit before work starts and a final payment on launch.</li>
               <li>AI add-on services include a one-off setup fee plus a monthly recurring charge.</li>
-              <li>All prices are in GBP and inclusive of VAT where applicable.</li>
+              <li>All prices are in GBP.</li>
               <li>Payment is due on the date specified in your invoice. We accept bank transfer and major debit/credit cards.</li>
               <li>Late payments may incur a suspension of services after 14 days' written notice.</li>
             </ul>
