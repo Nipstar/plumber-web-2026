@@ -23,7 +23,7 @@ export default function PrivacyPolicyPage() {
           <section>
             <h2 className="text-2xl font-display font-bold text-navy-dark mb-4">1. Who We Are</h2>
             <p className="text-slate-blue leading-relaxed">
-              PlumberWebDesign.co.uk ("we", "us", "our") is a web design agency specialising in websites for UK plumbers, gas engineers, and heating engineers. Our contact email is hello@plumberwebdesign.co.uk and our telephone number is 0333 335 6750.
+              PlumberWebDesign.co.uk ("we", "us", "our") is a web design agency specialising in websites for UK plumbers, gas engineers, and heating engineers. Our contact email is hello@plumberwebdesign.co.uk and our telephone number is 0333 038 9960.
             </p>
           </section>
 

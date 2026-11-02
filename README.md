@@ -35,7 +35,7 @@ All optional. Set in `.env.local`:
 
 ```
 NEXT_PUBLIC_GA4_ID          # Google Analytics 4 ID (e.g. G-XXXXXXXXXX)
-NEXT_PUBLIC_PHONE           # Display phone number (default: 0333 335 6750)
+NEXT_PUBLIC_PHONE           # Display phone number (default: 0333 038 9960)
 NEXT_PUBLIC_EMAIL           # Contact email (default: hello@plumberwebdesign.co.uk)
 NEXT_PUBLIC_FORM_WEBHOOK    # Contact form POST endpoint
 NEXT_PUBLIC_SOCIAL_FB       # Facebook profile URL (shows social icon in footer if set)

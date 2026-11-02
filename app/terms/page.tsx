@@ -114,7 +114,7 @@ export default function TermsPage() {
           <section>
             <h2 className="text-2xl font-display font-bold text-navy-dark mb-4">11. Contact</h2>
             <p className="text-slate-blue leading-relaxed">
-              If you have questions about these terms, contact us at hello@plumberwebdesign.co.uk or call 0333 335 6750.
+              If you have questions about these terms, contact us at hello@plumberwebdesign.co.uk or call 0333 038 9960.
             </p>
           </section>
 

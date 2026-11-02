@@ -34,10 +34,10 @@ export default function Nav() {
           </div>
           <div className="hidden md:flex items-center">
             <a 
-              href="tel:03333356750"
+              href="tel:03330389960"
               className="bg-amber text-navy-dark px-6 py-2.5 rounded-full font-semibold uppercase tracking-wide text-sm hover:bg-white transition-colors duration-150 shadow-md"
             >
-              {process.env.NEXT_PUBLIC_PHONE || '0333 335 6750'}
+              {process.env.NEXT_PUBLIC_PHONE || '0333 038 9960'}
             </a>
           </div>
 
@@ -72,8 +72,8 @@ export default function Nav() {
                 <Link href="/blog/">Blog</Link>
                 <Link href="/free-audit/" className="text-amber">Free Audit</Link>
                 <Link href="/contact/">Contact</Link>
-                <a href="tel:03333356750" className="inline-block bg-amber text-navy-dark px-6 py-3 rounded-full font-semibold uppercase tracking-wide text-sm text-center mt-8">
-                  {process.env.NEXT_PUBLIC_PHONE || '0333 335 6750'}
+                <a href="tel:03330389960" className="inline-block bg-amber text-navy-dark px-6 py-3 rounded-full font-semibold uppercase tracking-wide text-sm text-center mt-8">
+                  {process.env.NEXT_PUBLIC_PHONE || '0333 038 9960'}
                 </a>
               </div>
             </div>

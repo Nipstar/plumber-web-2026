@@ -89,7 +89,7 @@ export default function LocationPage() {
     "name": "PlumberWebDesign.co.uk — Reading",
     "url": "https://www.plumberwebdesign.co.uk/web-design-plumbers-reading/",
     "logo": "https://www.plumberwebdesign.co.uk/images/logo.webp",
-    "telephone": "03333356750",
+    "telephone": "03330389960",
     "email": "hello@plumberwebdesign.co.uk",
     "description": "Specialist web design for plumbers in Reading, Berkshire. Local SEO-optimised websites from £79/month.",
     "address": {

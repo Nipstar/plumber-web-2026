@@ -56,8 +56,8 @@ export default function Footer() {
             <h3 className="font-display font-bold text-xl mb-6 text-white">Contact</h3>
             <ul className="space-y-4 text-sm text-white/70">
               <li>
-                <a href={`tel:${(process.env.NEXT_PUBLIC_PHONE || '03333356750').replace(/\s+/g, '')}`} className="hover:text-amber transition-colors duration-150">
-                  {process.env.NEXT_PUBLIC_PHONE || '0333 335 6750'}
+                <a href={`tel:${(process.env.NEXT_PUBLIC_PHONE || '03330389960').replace(/\s+/g, '')}`} className="hover:text-amber transition-colors duration-150">
+                  {process.env.NEXT_PUBLIC_PHONE || '0333 038 9960'}
                 </a>
               </li>
               <li>
