@@ -49,7 +49,7 @@ const organizationSchema = {
   alternateName: 'PlumberWebDesign.co.uk',
   url: 'https://www.plumberwebdesign.co.uk/',
   logo: 'https://www.plumberwebdesign.co.uk/images/logo.webp',
-  telephone: '+44 333 335 6750',
+  telephone: '+44 333 038 9960',
   email: 'hello@plumberwebdesign.co.uk',
   areaServed: 'GB',
   founder: { '@type': 'Person', name: 'Andrew Norman' },
