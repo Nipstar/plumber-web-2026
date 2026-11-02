@@ -241,6 +241,17 @@ export default function WePlumbItCaseStudy() {
         <p className={p}>
           The site went live on 31 October 2026, and Matt gave us a 5-star Google review two days later.
         </p>
+
+        <figure className="my-8 bg-white rounded-2xl border border-slate-blue/10 shadow-md p-6">
+          <Image
+            src="/case-studies/we-plumb-it-pagespeed.webp"
+            alt="Google PageSpeed Insights desktop result for weplumbit.co.uk: Performance 100, Accessibility 100, Best Practices 100, SEO 100"
+            width={942}
+            height={94}
+            className="w-full h-auto"
+          />
+          <figcaption className="text-sm text-slate-blue/70 mt-3 text-center">Google PageSpeed Insights, desktop, run on the live site.</figcaption>
+        </figure>
         <blockquote className={quote}>
           <p className="mb-3">&ldquo;Andy worked quickly to deliver a great final product. He was very helpful throughout the process of the website being built, would definitely recommend.&rdquo;</p>
           <footer className="text-sm text-slate-blue font-bold">Matt Reynolds, Director, We Plumb It Ltd</footer>
