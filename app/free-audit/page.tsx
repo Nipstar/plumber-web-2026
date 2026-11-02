@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import GoogleReviews from '@/components/GoogleReviews';
 import AuditForm from './AuditForm';
 import Breadcrumbs from '@/components/Breadcrumbs';
 import SchemaScript from '@/components/SchemaScript';
@@ -88,6 +89,7 @@ export default function FreeAuditPage() {
           </div>
         </div>
       </section>
+      <GoogleReviews />
     </>
   );
 }

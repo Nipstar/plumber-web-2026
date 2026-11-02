@@ -251,6 +251,7 @@ const template = (loc) => {
 import PricingCard from '@/components/PricingCard';
 import SchemaScript from '@/components/SchemaScript';
 import Breadcrumbs from '@/components/Breadcrumbs';
+import GoogleReviews from '@/components/GoogleReviews';
 import { pageMeta } from '@/lib/seo';
 
 export const metadata = pageMeta({
@@ -486,6 +487,7 @@ export default function LocationPage() {
         </nav>
 
       </div>
+      <GoogleReviews />
     </div>
   );
 }`;

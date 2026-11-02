@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import GoogleReviews from '@/components/GoogleReviews';
 import PricingCard from '@/components/PricingCard';
 import FaqAccordion from '@/components/FaqAccordion';
 import SchemaScript from '@/components/SchemaScript';
@@ -188,6 +189,7 @@ export default function GasEngineerPage() {
 
         </div>
       </div>
+      <GoogleReviews />
     </div>
   );
 }

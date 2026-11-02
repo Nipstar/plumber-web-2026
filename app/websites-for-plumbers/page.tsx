@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import GoogleReviews from '@/components/GoogleReviews';
 import SchemaScript from '@/components/SchemaScript';
 import Breadcrumbs from '@/components/Breadcrumbs';
 import RelatedLinks from '@/components/RelatedLinks';
@@ -273,6 +274,7 @@ export default function WebsitesForPlumbersPage() {
           />
         </div>
       </div>
+      <GoogleReviews />
     </div>
   );
 }

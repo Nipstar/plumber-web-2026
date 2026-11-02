@@ -32,7 +32,7 @@ function Stars({ rating }: { rating: number }) {
   );
 }
 
-export default function GoogleReviews({ limit = 3 }: { limit?: number }) {
+export default function GoogleReviews({ limit = 4 }: { limit?: number }) {
   const items = reviews.slice(0, limit);
   if (items.length === 0) return null;
 
@@ -49,7 +49,7 @@ export default function GoogleReviews({ limit = 3 }: { limit?: number }) {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 lg:gap-8 items-stretch">
+        <div className={`grid grid-cols-1 md:grid-cols-2 ${items.length === 4 ? 'lg:grid-cols-4' : 'lg:grid-cols-3'} gap-6 lg:gap-8 items-stretch`}>
           {items.map(r => (
             <article
               key={r.id || r.author + r.date}

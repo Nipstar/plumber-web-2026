@@ -1,4 +1,5 @@
 import Breadcrumbs from '@/components/Breadcrumbs';
+import GoogleReviews from '@/components/GoogleReviews';
 
 export const metadata = {
   title: { absolute: 'Plumber Website Portfolio | Examples of Our Work' },
@@ -64,6 +65,7 @@ export default function PortfolioPage() {
            ))}
         </div>
       </div>
+      <GoogleReviews />
     </div>
   );
 }
