@@ -157,7 +157,9 @@ export default function BathroomFitterPage() {
               </p>
             </div>
             <div className="bg-white p-8 rounded-2xl shadow-xl border border-slate-blue/10">
-              <h3 className="font-bold text-navy-dark text-xl mb-4 text-center">Project Case Studies</h3>
+              <h3 className="font-bold text-navy-dark text-xl mb-4 text-center">
+                <Link href="/case-studies/we-plumb-it/" className="hover:text-amber transition-colors">Project Case Studies</Link>
+              </h3>
               <p className="text-sm text-slate-blue mb-0 text-center">
                 Detailed breakdowns of wetroom installations or en-suite conversions, complete with the materials sourced and timelines achieved.
               </p>

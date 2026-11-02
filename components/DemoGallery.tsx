@@ -67,6 +67,9 @@ export default function DemoGallery() {
             A live client site plus five working demos covering the trades we specialise in. Click any to explore
             &mdash; they&rsquo;re live, fast, mobile-first.
           </p>
+          <p className="text-sm text-slate-blue/70 italic">
+            Our first client <a href="/case-studies/we-plumb-it/" className="text-amber hover:underline">case study</a> is below, alongside demo builds showing the design system.
+          </p>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8">
