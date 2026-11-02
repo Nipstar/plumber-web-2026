@@ -304,7 +304,7 @@ export default function WePlumbItCaseStudy() {
             </Link>
           </div>
           <p className="mt-6 text-white/70">
-            Call: <a href="tel:03333356750" className="text-amber font-bold hover:underline">0333 335 6750</a>
+            Call: <a href="tel:03330389960" className="text-amber font-bold hover:underline">0333 038 9960</a>
           </p>
         </div>
       </article>

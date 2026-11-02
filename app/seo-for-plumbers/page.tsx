@@ -19,7 +19,7 @@ export default function SeoPage() {
     "name": "PlumberWebDesign.co.uk — SEO for Plumbers",
     "url": "https://www.plumberwebdesign.co.uk/seo-for-plumbers/",
     "logo": "https://www.plumberwebdesign.co.uk/images/logo.webp",
-    "telephone": "03333356750",
+    "telephone": "03330389960",
     "email": "hello@plumberwebdesign.co.uk",
     "description": "Local SEO services for UK plumbers. Google Business Profile management, citation building, review strategy, and on-page optimisation.",
     "address": { "@type": "PostalAddress", "addressCountry": "GB" },

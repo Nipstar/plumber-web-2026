@@ -92,7 +92,7 @@ export default function Home() {
     "url": "https://www.plumberwebdesign.co.uk",
     "logo": "https://www.plumberwebdesign.co.uk/images/logo.webp",
     "image": "https://www.plumberwebdesign.co.uk/images/logo.webp",
-    "telephone": "03333356750",
+    "telephone": "03330389960",
     "email": "hello@plumberwebdesign.co.uk",
     "address": {
       "@type": "PostalAddress",
@@ -154,7 +154,7 @@ export default function Home() {
     "logo": "https://www.plumberwebdesign.co.uk/images/logo.webp",
     "contactPoint": {
       "@type": "ContactPoint",
-      "telephone": "+443333356750",
+      "telephone": "+443330389960",
       "contactType": "customer service",
       "areaServed": "GB",
       "availableLanguage": "English"
@@ -261,7 +261,7 @@ export default function Home() {
                 </Link>
               </div>
               <p className="text-sm text-white/60 mb-12">
-                or call <a href="tel:03333356750" className="text-amber font-semibold hover:underline">0333 335 6750</a>
+                or call <a href="tel:03330389960" className="text-amber font-semibold hover:underline">0333 038 9960</a>
               </p>
 
               {/* Trust Strip */}

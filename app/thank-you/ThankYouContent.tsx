@@ -4,7 +4,7 @@ import { useEffect } from 'react';
 import { useSearchParams } from 'next/navigation';
 import Link from 'next/link';
 
-const phone = '0333 335 6750';
+const phone = '0333 038 9960';
 const email = 'hello@plumberwebdesign.co.uk';
 
 const STEPS = {
@@ -36,8 +36,8 @@ export default function ThankYouContent() {
 
   const body =
     type === 'audit'
-      ? 'We will review your site, record a 10-minute walkthrough, and email it to you. No follow-up unless you ask. If you change your mind and want to chat sooner, ring 0333 335 6750.'
-      : 'Andy will personally review your enquiry and come back within one working day with a transparent quote. If it is urgent, ring 0333 335 6750 or email hello@plumberwebdesign.co.uk.';
+      ? 'We will review your site, record a 10-minute walkthrough, and email it to you. No follow-up unless you ask. If you change your mind and want to chat sooner, ring 0333 038 9960.'
+      : 'Andy will personally review your enquiry and come back within one working day with a transparent quote. If it is urgent, ring 0333 038 9960 or email hello@plumberwebdesign.co.uk.';
 
   const steps = STEPS[type];
 

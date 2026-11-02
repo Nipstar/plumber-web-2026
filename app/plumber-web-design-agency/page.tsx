@@ -17,7 +17,7 @@ const schema = {
   "@type": "ProfessionalService",
   "name": "PlumberWebDesign.co.uk",
   "url": "https://www.plumberwebdesign.co.uk/",
-  "telephone": "03333356750",
+  "telephone": "03330389960",
   "email": "hello@plumberwebdesign.co.uk",
   "description": "Specialist web design agency for UK plumbers, gas engineers, and heating engineers.",
   "areaServed": { "@type": "Country", "name": "GB" },

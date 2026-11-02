@@ -86,7 +86,7 @@ export default function GasEngineerPage() {
     "name": "PlumberWebDesign.co.uk — Gas Engineer Web Design",
     "url": "https://www.plumberwebdesign.co.uk/gas-engineer-website-design/",
     "logo": "https://www.plumberwebdesign.co.uk/images/logo.webp",
-    "telephone": "03333356750",
+    "telephone": "03330389960",
     "email": "hello@plumberwebdesign.co.uk",
     "description": "Specialist website design for Gas Safe registered engineers across the UK. Prominent Gas Safe display, emergency booking forms, and local SEO.",
     "address": { "@type": "PostalAddress", "addressCountry": "GB" },

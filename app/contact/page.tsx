@@ -15,7 +15,7 @@ const schema = {
   "@type": "LocalBusiness",
   "name": "PlumberWebDesign.co.uk",
   "url": "https://www.plumberwebdesign.co.uk/",
-  "telephone": "03333356750",
+  "telephone": "03330389960",
   "email": "hello@plumberwebdesign.co.uk",
   "areaServed": { "@type": "Country", "name": "GB" },
   "priceRange": "££"
@@ -53,8 +53,8 @@ export default function ContactPage() {
                   </div>
                   <div>
                     <div className="text-sm text-amber font-medium mb-1">Call Us</div>
-                    <a href={`tel:${(process.env.NEXT_PUBLIC_PHONE || '0333 335 6750').replace(/\s+/g, '')}`} className="text-lg hover:text-amber transition-colors font-bold tracking-wide">
-                      {process.env.NEXT_PUBLIC_PHONE || '0333 335 6750'}
+                    <a href={`tel:${(process.env.NEXT_PUBLIC_PHONE || '0333 038 9960').replace(/\s+/g, '')}`} className="text-lg hover:text-amber transition-colors font-bold tracking-wide">
+                      {process.env.NEXT_PUBLIC_PHONE || '0333 038 9960'}
                     </a>
                   </div>
                 </div>

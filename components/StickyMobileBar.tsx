@@ -3,7 +3,7 @@
 import { usePathname } from 'next/navigation';
 import Link from 'next/link';
 
-const PHONE_TEL = '03333356750';
+const PHONE_TEL = '03330389960';
 
 export default function StickyMobileBar() {
   const pathname = usePathname() || '';

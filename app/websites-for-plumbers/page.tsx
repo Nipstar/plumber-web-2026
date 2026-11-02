@@ -19,7 +19,7 @@ export default function WebsitesForPlumbersPage() {
     name: 'PlumberWebDesign.co.uk — Websites for Plumbers',
     url: 'https://www.plumberwebdesign.co.uk/websites-for-plumbers/',
     logo: 'https://www.plumberwebdesign.co.uk/images/logo.webp',
-    telephone: '03333356750',
+    telephone: '03330389960',
     email: 'hello@plumberwebdesign.co.uk',
     description:
       'Websites for plumbers built exclusively for UK plumbing businesses. Mobile-first, local SEO baked in, transparent monthly pricing.',

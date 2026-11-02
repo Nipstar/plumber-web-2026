@@ -104,7 +104,7 @@ export default function PackagesPage() {
       "@type": "ProfessionalService",
       "name": "PlumberWebDesign.co.uk",
       "url": "https://www.plumberwebdesign.co.uk/",
-      "telephone": "03333356750"
+      "telephone": "03330389960"
     },
     "name": "Plumber Website Design Packages",
     "url": "https://www.plumberwebdesign.co.uk/plumber-website-design-packages/",
