@@ -176,6 +176,16 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://www.plumberwebdesign.co.uk/case-studies/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.plumberwebdesign.co.uk/case-studies/we-plumb-it/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://www.plumberwebdesign.co.uk/privacy-policy/</loc>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>

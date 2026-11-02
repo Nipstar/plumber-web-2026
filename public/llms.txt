@@ -53,6 +53,8 @@ AI add-ons (combine with any package or one-off build):
 - [About the Agency](https://www.plumberwebdesign.co.uk/plumber-web-design-agency/): UK plumber web design agency. Specialist positioning, service stack, 4-step process, founder note.
 - [About Andrew Norman](https://www.plumberwebdesign.co.uk/about/andrew-norman/): Founder profile. Background, methodology, and editorial responsibility for blog content.
 - [Contact](https://www.plumberwebdesign.co.uk/contact/): Free quote form. Service area, package interest, AI add-on interest.
+- [Case Studies](https://www.plumberwebdesign.co.uk/case-studies/): Real client websites.
+- [We Plumb It case study](https://www.plumberwebdesign.co.uk/case-studies/we-plumb-it/): Five-page site for a new Cheltenham plumbing and heating company, first email to live in 16 days, £600 Starter Build, PageSpeed 100 on desktop at launch.
 - [Blog](https://www.plumberwebdesign.co.uk/blog/): SEO, GBP, and marketing advice for UK tradespeople.
 
 ## Service Pages
