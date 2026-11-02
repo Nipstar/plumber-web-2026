@@ -1,4 +1,5 @@
 import PricingCard from '@/components/PricingCard';
+import GoogleReviews from '@/components/GoogleReviews';
 import AddOnCard from '@/components/AddOnCard';
 import SchemaScript from '@/components/SchemaScript';
 import Breadcrumbs from '@/components/Breadcrumbs';
@@ -237,6 +238,7 @@ export default function PackagesPage() {
           <RelatedLinks keys={['home', 'cost', 'agency', 'seo', 'gas', 'heating']} />
         </div>
       </div>
+      <GoogleReviews />
     </div>
   );
 }

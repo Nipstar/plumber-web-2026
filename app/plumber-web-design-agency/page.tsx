@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import GoogleReviews from '@/components/GoogleReviews';
 import SchemaScript from '@/components/SchemaScript';
 import Breadcrumbs from '@/components/Breadcrumbs';
 import { AUTHOR, authorPersonSchema } from '@/components/AuthorBio';
@@ -178,6 +179,7 @@ export default function AgencyPage() {
           <RelatedLinks keys={['home', 'packages', 'cost', 'seo', 'gas', 'heating']} />
         </div>
       </div>
+      <GoogleReviews />
     </div>
   );
 }

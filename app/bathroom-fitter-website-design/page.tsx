@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import GoogleReviews from '@/components/GoogleReviews';
 import SchemaScript from '@/components/SchemaScript';
 import Breadcrumbs from '@/components/Breadcrumbs';
 import RelatedLinks from '@/components/RelatedLinks';
@@ -176,6 +177,7 @@ export default function BathroomFitterPage() {
           <RelatedLinks keys={['home', 'packages', 'cost', 'seo', 'gas', 'blogInclude']} />
         </div>
       </div>
+      <GoogleReviews />
     </div>
   );
 }

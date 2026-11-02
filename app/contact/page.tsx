@@ -1,4 +1,5 @@
 import ContactForm from '@/components/ContactForm';
+import GoogleReviews from '@/components/GoogleReviews';
 import SchemaScript from '@/components/SchemaScript';
 import Breadcrumbs from '@/components/Breadcrumbs';
 
@@ -98,6 +99,7 @@ export default function ContactPage() {
         </div>
       </div>
     </div>
+      <GoogleReviews />
     </>
   );
 }

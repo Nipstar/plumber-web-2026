@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import GoogleReviews from '@/components/GoogleReviews';
 import SchemaScript from '@/components/SchemaScript';
 import PricingCard from '@/components/PricingCard';
 import Breadcrumbs from '@/components/Breadcrumbs';
@@ -349,6 +350,7 @@ export default function CostPage() {
         <RelatedLinks keys={['home', 'packages', 'agency', 'seo', 'blogInclude', 'blogDo']} />
 
       </article>
+      <GoogleReviews />
     </div>
   );
 }

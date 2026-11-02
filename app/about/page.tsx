@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import GoogleReviews from '@/components/GoogleReviews';
 import Link from 'next/link';
 import Image from 'next/image';
 import Breadcrumbs from '@/components/Breadcrumbs';
@@ -177,6 +178,7 @@ export default function AboutPage() {
           </div>
         </div>
       </section>
+      <GoogleReviews />
     </>
   );
 }
