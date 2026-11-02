@@ -10,12 +10,10 @@ import { pageMeta } from '@/lib/seo';
 const PATH = '/case-studies/we-plumb-it/';
 const URL = `https://www.plumberwebdesign.co.uk${PATH}`;
 
-// noindex until Andy confirms Matt Reynolds has approved publication.
 export const metadata = pageMeta({
   title: 'Plumber Website Case Study: We Plumb It, Cheltenham',
   description: 'How we built a fast five-page website for We Plumb It Ltd, a new Cheltenham plumbing and heating company, and went live in 16 days.',
   path: PATH,
-  noindex: true,
 });
 
 const atAGlance = [

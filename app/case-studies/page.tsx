@@ -4,12 +4,10 @@ import Breadcrumbs from '@/components/Breadcrumbs';
 import GoogleReviews from '@/components/GoogleReviews';
 import { pageMeta } from '@/lib/seo';
 
-// noindex until Andy confirms the client has approved publication.
 export const metadata = pageMeta({
   title: 'Plumber Website Case Studies | PlumberWebDesign.co.uk',
   description: 'Real websites we have built for UK plumbing and heating businesses, with what was asked for, what we built and how it went.',
   path: '/case-studies/',
-  noindex: true,
 });
 
 export default function CaseStudiesPage() {
