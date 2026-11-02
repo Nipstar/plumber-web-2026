@@ -6,10 +6,11 @@ interface PricingCardProps {
   period: string;
   tagline: string;
   features: string[];
-  ctaHref?: string; // Kept for backwards compatibility but we override it based on the name
+  ctaHref?: string; // Defaults to /contact/?package=<name>
   highlighted?: boolean;
   addOns?: string[];
   launchPrice?: string;
+  notes?: string[]; // e.g. payment terms, timing — shown under the features
 }
 
 export default function PricingCard({
@@ -18,11 +19,13 @@ export default function PricingCard({
   period,
   tagline,
   features,
+  ctaHref,
   highlighted,
   addOns,
   launchPrice,
+  notes,
 }: PricingCardProps) {
-  const contactUrl = `/contact/?package=${name.toLowerCase()}`;
+  const contactUrl = ctaHref ?? `/contact/?package=${name.toLowerCase()}`;
 
   return (
     <div className={`relative flex flex-col rounded-2xl p-8 shadow-xl border ${
@@ -70,6 +73,12 @@ export default function PricingCard({
           </li>
         ))}
       </ul>
+
+      {notes && notes.length > 0 && (
+        <ul className={`mb-8 space-y-1 text-sm ${highlighted ? 'text-white/70' : 'text-slate-blue/80'}`}>
+          {notes.map(n => <li key={n}>{n}</li>)}
+        </ul>
+      )}
 
       {addOns && addOns.length > 0 && (
         <div className={`mb-8 p-4 rounded-xl border ${

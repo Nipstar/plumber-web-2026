@@ -1,3 +1,4 @@
+import { Suspense } from 'react';
 import ContactForm from '@/components/ContactForm';
 import GoogleReviews from '@/components/GoogleReviews';
 import SchemaScript from '@/components/SchemaScript';
@@ -35,7 +36,10 @@ export default function ContactPage() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16">
           {/* Left: Contact Form */}
           <div>
-            <ContactForm />
+            {/* useSearchParams needs a Suspense boundary under static export */}
+            <Suspense fallback={null}>
+              <ContactForm />
+            </Suspense>
           </div>
 
           {/* Right: Contact Block & Steps */}

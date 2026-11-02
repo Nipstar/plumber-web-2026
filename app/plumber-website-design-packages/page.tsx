@@ -5,10 +5,11 @@ import SchemaScript from '@/components/SchemaScript';
 import Breadcrumbs from '@/components/Breadcrumbs';
 import RelatedLinks from '@/components/RelatedLinks';
 import { pageMeta } from '@/lib/seo';
+import { ONE_OFF_BUILDS, ONE_OFF_EXTRAS } from '@/lib/pricing';
 
 export const metadata = pageMeta({
   title: 'Plumber Website Packages & Pricing UK | £79–£199/mo',
-  description: 'Plumber website design packages from £79–£199/mo. Hosting, SSL, free domain and local SEO on every plan. No setup fees. Compare plans and choose.',
+  description: 'Plumber website packages from £79/mo, or one-off builds from £600. Compare monthly and pay-once options, with local SEO built in.',
   path: '/plumber-website-design-packages/',
 });
 
@@ -69,12 +70,20 @@ const pricingPackages = [
 ];
 
 const packageFaqs = [
-  { q: 'Are there setup fees?', a: 'No setup fee on our website packages. AI Add-ons have a one-off setup fee to cover the bespoke training.' },
+  { q: 'Are there setup fees?', a: 'No setup fee on our monthly packages. One-off builds are a fixed price. AI add-ons have a one-off setup fee to cover the bespoke training.' },
   { q: 'Can I upgrade my package?', a: 'Yes, at any time. We can seamlessly scale you out of Apprentice into Journeyman or Master as you grow.' },
   { q: 'Is there a minimum term?', a: 'Yes, six months from launch. This covers our build costs and gives your local SEO time to start ranking. After six months you own the site and can cancel any time with 30 days notice.' },
   { q: 'What if I want to cancel?', a: 'Minimum term is six months. After that, give us 30 days written notice and we hand over the full website, domain, and files. No long tie-ins beyond the initial six-month period.' },
-  { q: 'Do you offer one-off builds?', a: 'Not currently. We partner long-term via our packages to ensure your site is maintained, secure, and ranking for the long haul.' },
+  { q: 'Do you offer one-off builds?', a: "Yes. Our Starter Build is £600 for 5 pages, and our Core Build is £995 for up to 8 pages. You pay once and own the site. You'll pay for your own hosting and domain, and ongoing SEO isn't included." },
   { q: 'What are the AI add-ons?', a: 'The AI Chatbot and AI Voice Agent are managed services. We train AI on your specific business rules to capture leads and book appointments automatically.' },
+];
+
+const oneOffComparison = [
+  { row: 'Price', monthly: 'From £79/month', oneOff: '£600 or £995, paid once' },
+  { row: 'Hosting and domain', monthly: 'Included', oneOff: 'You pay for these yourself' },
+  { row: 'Ongoing local SEO', monthly: 'Depends on package', oneOff: 'Not included' },
+  { row: 'Minimum term', monthly: '6 months', oneOff: 'None' },
+  { row: 'Ownership', monthly: 'Yours after 6 months', oneOff: 'Yours once the final payment clears' },
 ];
 
 export default function PackagesPage() {
@@ -107,7 +116,10 @@ export default function PackagesPage() {
       "itemListElement": [
         { "@type": "Offer", "name": "Apprentice", "price": "79", "priceCurrency": "GBP", "description": "5-page responsive website with basic local SEO" },
         { "@type": "Offer", "name": "Journeyman", "price": "129", "priceCurrency": "GBP", "description": "10-page custom website with advanced local SEO" },
-        { "@type": "Offer", "name": "Master", "price": "199", "priceCurrency": "GBP", "description": "20+ page custom website with full SEO and content" }
+        { "@type": "Offer", "name": "Master", "price": "199", "priceCurrency": "GBP", "description": "20+ page custom website with full SEO and content" },
+        ...ONE_OFF_BUILDS.map(b => ({
+          "@type": "Offer", "name": b.name, "price": b.priceNumber, "priceCurrency": "GBP", "description": `${b.summary} One-off build, paid once.`
+        }))
       ]
     }
   };
@@ -176,6 +188,56 @@ export default function PackagesPage() {
         </div>
       </div>
 
+      {/* One-off builds */}
+      <div id="one-off-builds" className="py-24 bg-light-gray border-b border-slate-blue/10 scroll-mt-24">
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center max-w-3xl mx-auto mb-16">
+            <h2 className="text-3xl font-display font-bold text-navy-dark mb-6">Prefer to pay once?</h2>
+            <p className="text-lg text-slate-blue">Monthly packages suit most plumbers, because hosting, local SEO and support are all included. If you&rsquo;d rather pay once and look after the running costs yourself, we do that too.</p>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto items-stretch mb-16">
+            {ONE_OFF_BUILDS.map(b => (
+              <PricingCard
+                key={b.slug}
+                name={b.name}
+                price={b.price}
+                period=" one-off"
+                tagline={b.summary}
+                features={b.features}
+                notes={[`Payment: ${b.payment}`, `Timing: ${b.timing}`]}
+                ctaHref={`/contact/?package=${b.slug}`}
+              />
+            ))}
+          </div>
+
+          <div className="overflow-x-auto rounded-xl border border-slate-blue/20 shadow-lg max-w-4xl mx-auto mb-8">
+            <table className="w-full text-left border-collapse">
+              <thead>
+                <tr className="bg-navy-dark text-white">
+                  <th className="p-4 border-b border-slate-blue/30 font-bold w-1/3"><span className="sr-only">Factor</span></th>
+                  <th className="p-4 border-b border-slate-blue/30 font-bold text-center">Monthly package</th>
+                  <th className="p-4 border-b border-slate-blue/30 font-bold text-center">One-off build</th>
+                </tr>
+              </thead>
+              <tbody className="text-navy-card">
+                {oneOffComparison.map((r, i) => (
+                  <tr key={r.row} className={i % 2 === 0 ? 'bg-light-gray/50' : 'bg-white'}>
+                    <td className="p-4 border-b border-slate-blue/10 font-medium">{r.row}</td>
+                    <td className="p-4 border-b border-slate-blue/10 text-center">{r.monthly}</td>
+                    <td className="p-4 border-b border-slate-blue/10 text-center">{r.oneOff}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+
+          <p className="text-slate-blue text-center max-w-3xl mx-auto">
+            You&rsquo;ll host a one-off build in your own account. Hosting is usually around £50 to £85 a year, plus your domain renewal. Extra pages and town pages are {ONE_OFF_EXTRAS[0].price} each. AI add-ons work with either option.
+          </p>
+        </div>
+      </div>
+
       {/* Add ons */}
       <div className="py-24 bg-navy-card text-white border-b border-slate-blue/20">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -220,14 +282,7 @@ export default function PackagesPage() {
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl font-display font-bold text-navy-dark mb-12 text-center">Package FAQs</h2>
           <div className="space-y-6">
-            {[
-              { q: 'Are there setup fees?', a: 'No setup fee on our website packages. AI Add-ons have a one-off setup fee to cover the bespoke training.' },
-              { q: 'Can I upgrade my package?', a: 'Yes, at any time. We can seamlessly scale you out of Apprentice into Journeyman or Master as you grow.' },
-              { q: 'Is there a minimum term?', a: 'Yes, six months from launch. This covers our build costs and gives your local SEO time to start ranking. After six months you own the site and can cancel any time with 30 days notice.' },
-              { q: 'What if I want to cancel?', a: 'Minimum term is six months. After that, give us 30 days written notice and we hand over the full website, domain, and files. No long tie-ins beyond the initial six-month period.' },
-              { q: 'Do you offer one-off builds?', a: 'Not currently. We partner long-term via our packages to ensure your site is maintained, secure, and ranking for the long haul.' },
-              { q: 'What are the AI add-ons?', a: 'The AI Chatbot and AI Voice Agent are managed services. We train AI on your specific business rules to capture leads and book appointments automatically.' },
-            ].map((faq, i) => (
+            {packageFaqs.map((faq, i) => (
               <div key={i} className="bg-white p-6 rounded-xl shadow-sm border border-slate-blue/10">
                 <h4 className="font-bold text-navy-dark mb-2 text-lg">{faq.q}</h4>
                 <p className="text-slate-blue leading-relaxed">{faq.a}</p>

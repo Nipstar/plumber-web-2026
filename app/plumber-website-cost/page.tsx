@@ -63,11 +63,11 @@ const pricingPackages = [
 
 const faqItems = [
   { question: 'How much does a plumber website cost in the UK?', answer: 'A plumber website in the UK typically costs between £79 and £199 per month on a packaged plan, or £1,500 to £5,000+ as a one-off custom build. Monthly packages include hosting, SSL, local SEO, and ongoing support.' },
-  { question: 'Are there setup fees?', answer: 'No setup fee on our website packages. AI add-ons (chatbot or voice agent) have a one-off setup fee to cover bespoke training for your business.' },
-  { question: 'What is the cheapest plumber website?', answer: 'Our Apprentice package at £79 per month is the cheapest option that still delivers a professional, mobile-optimised website with local SEO, hosting, SSL, and a free domain. Cheaper DIY templates exist but lack local SEO and hosting.' },
-  { question: 'Is a £79/month website worth it compared to a one-off build?', answer: 'Yes for most plumbers. A monthly plan includes ongoing hosting, security, and SEO maintenance — costs that add up quickly on one-off builds. After 24 months our Apprentice package is still cheaper than most £3,000 custom builds once hosting and maintenance are factored in.' },
+  { question: 'Are there setup fees?', answer: 'No setup fee on our monthly packages. One-off builds are a fixed price. AI add-ons have a one-off setup fee to cover the bespoke training.' },
+  { question: 'What is the cheapest plumber website?', answer: "Our cheapest monthly option is Apprentice at £79 per month, including hosting, SSL, local SEO and a free domain. If you'd rather pay once, our Starter Build is £600, and you pay for your own hosting and domain." },
+  { question: 'Is a £79/month website worth it compared to a one-off build?', answer: "For most plumbers, yes. A monthly plan includes hosting, security and SEO maintenance, and those costs add up on a one-off build. If you're happy to manage the running costs yourself, our one-off builds start at £600." },
   { question: 'What hidden costs should I watch for with other agencies?', answer: 'Common hidden costs include inflated hosting fees after year one, per-page editing charges, lock-in contracts that prevent migration, premium charges for SSL or backups, and hidden GBP management fees. Our pricing is transparent and fully inclusive.' },
-  { question: 'Can I cancel my plumber website package?', answer: 'Yes. Give 30 days written notice. We will provide all website files and assist with migration. No long tie-ins.' }
+  { question: 'Can I cancel my plumber website package?', answer: "Yes, after the six-month minimum term. Give us 30 days' written notice and we'll provide all the website files and help with migration." }
 ];
 
 export default function CostPage() {
@@ -131,7 +131,7 @@ export default function CostPage() {
           <div className="inline-block bg-amber/20 text-amber px-4 py-1.5 rounded-full text-sm font-bold tracking-wider uppercase mb-6 border border-amber/30">Pricing Guide</div>
           <h1 className="text-4xl md:text-5xl font-display font-bold mb-6">How Much Does a Plumber Website Cost in the UK?</h1>
           <p className="text-xl text-light-gray/80 leading-relaxed max-w-3xl mx-auto">
-            A plumber website in the UK costs between £79 and £199 per month on a packaged plan, or £1,500 to £5,000+ as a one-off custom build. Monthly packages include hosting, local SEO, and ongoing support.
+            A plumber website in the UK costs between £79 and £199 per month on our packaged plans. Our one-off builds are £600 or £995. Custom builds from other agencies typically cost £1,500 to £5,000 or more.
           </p>
         </div>
       </div>
@@ -144,7 +144,9 @@ export default function CostPage() {
             <li><strong>Entry-level plumber website:</strong> £79/month (5 pages, hosting, SSL, basic SEO)</li>
             <li><strong>Most popular plumber website:</strong> £129/month (10 pages, advanced SEO, GBP posts)</li>
             <li><strong>Premium plumber website:</strong> £199/month (20+ pages, blog posts, link building)</li>
-            <li><strong>One-off custom build:</strong> £1,500 — £5,000+ (no ongoing support)</li>
+            <li><strong>One-off Starter Build:</strong> £600 (5 pages, you pay for hosting)</li>
+            <li><strong>One-off Core Build:</strong> £995 (up to 8 pages, you pay for hosting)</li>
+            <li><strong>Custom build from other agencies:</strong> £1,500 to £5,000+</li>
           </ul>
         </div>
 
@@ -173,7 +175,7 @@ export default function CostPage() {
               <tr className="bg-navy-dark text-white">
                 <th className="p-4 font-bold">Factor</th>
                 <th className="p-4 font-bold text-center">Monthly £79-£199</th>
-                <th className="p-4 font-bold text-center">One-off £1,500-£5,000</th>
+                <th className="p-4 font-bold text-center">Typical agency one-off £1,500-£5,000</th>
               </tr>
             </thead>
             <tbody className="text-navy-card">
@@ -215,6 +217,9 @@ export default function CostPage() {
             </tbody>
           </table>
         </div>
+        <p className="text-lg text-slate-blue -mt-10 mb-16 leading-relaxed">
+          Our own one-off builds are £600 or £995. You&rsquo;d still pay separately for hosting, your domain and any ongoing SEO.
+        </p>
 
         <h2 className="text-3xl font-display font-bold text-navy-dark mb-6">Managed package vs DIY website builder (Wix, Squarespace, GoDaddy)</h2>
         <p className="text-lg text-slate-blue mb-6 leading-relaxed">
@@ -312,10 +317,16 @@ export default function CostPage() {
 
         <h2 className="text-3xl font-display font-bold text-navy-dark mb-6">Can I pay once and own the site?</h2>
         <p className="text-lg text-slate-blue mb-4 leading-relaxed">
-          We don't currently offer one-off builds. Reason: one-off builds without ongoing support stagnate fast. Google algorithm updates, new competitors, plugin security patches, and content refreshes all need attention. A £3,000 website with zero maintenance is often worth nothing after 18 months.
+          Yes. Our Starter Build is £600 and our Core Build is £995. On a one-off build, the site is yours once the final payment clears.
+        </p>
+        <p className="text-lg text-slate-blue mb-4 leading-relaxed">
+          Here&rsquo;s the honest trade-off. A website isn&rsquo;t finished on launch day. Hosting, security, updates and local SEO become your job, unless you pay for help when you need it. If you&rsquo;d rather not think about that, a monthly package is the better fit.
+        </p>
+        <p className="text-lg text-slate-blue mb-4 leading-relaxed">
+          On a monthly package, you own the site after the six-month minimum term. Give us 30 days&rsquo; notice after that and we&rsquo;ll hand over all the files.
         </p>
         <p className="text-lg text-slate-blue mb-16 leading-relaxed">
-          Every package on this page is still fully transferable. You own everything. If you want to leave after 12 months, give us 30 days notice and we hand over all files.
+          <Link href="/plumber-website-design-packages/#one-off-builds" className="text-amber font-bold hover:underline">See the one-off builds on our packages page →</Link>
         </p>
 
         <h2 className="text-3xl font-display font-bold text-navy-dark mb-6">Frequently asked questions</h2>
