@@ -1,8 +1,17 @@
 {
-  "updatedAt": "2026-08-28T05:59:28.098690Z",
-  "reviewCountTotal": 4,
-  "ratingAverageTotal": 5,
+  "updatedAt": "2026-11-02T19:30:00Z",
+  "reviewCountTotal": 5,
+  "ratingAverageTotal": 5.0,
   "reviews": [
+    {
+      "id": "manual-matt-reynolds-2026-11-02",
+      "author": "Matt R.",
+      "rating": 5,
+      "text": "Andy worked quickly to deliver a great final product. He was very helpful throughout the process of the website being built, would definitely recommend.",
+      "date": "2026-11-02T18:20:00.000Z",
+      "location": null,
+      "source": "google"
+    },
     {
       "id": "Ci9DQUlRQUNvZENodHljRjlvT2pONGRtNXdOM1Z4WVhSZmRUSnpNMmhTZW5SZmJsRRAB",
       "author": "Tanna C.",
