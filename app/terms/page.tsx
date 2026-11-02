@@ -13,7 +13,7 @@ export default function TermsPage() {
       <div className="py-24 bg-navy-dark text-white border-b border-slate-blue/20">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h1 className="text-4xl md:text-5xl font-display font-bold mb-6">Terms of Business</h1>
-          <p className="text-light-gray/80">Last updated: 12 April 2026</p>
+          <p className="text-light-gray/80">Last updated: 2 November 2026</p>
         </div>
       </div>
 
@@ -37,9 +37,10 @@ export default function TermsPage() {
           <section>
             <h2 className="text-2xl font-display font-bold text-navy-dark mb-4">3. Pricing and Payment</h2>
             <ul className="list-disc pl-6 space-y-2 text-slate-blue">
-              <li>Website packages are billed monthly at the rate agreed at sign-up.</li>
+              <li>Monthly website packages are billed monthly at the rate agreed at sign-up.</li>
+              <li>One-off website builds are charged at the fixed price in your quote. Unless your quote says otherwise, payment is split between a deposit before work starts and a final payment on launch.</li>
               <li>AI add-on services include a one-off setup fee plus a monthly recurring charge.</li>
-              <li>All prices are in GBP and inclusive of VAT where applicable.</li>
+              <li>All prices are in GBP.</li>
               <li>Payment is due on the date specified in your invoice. We accept bank transfer and major debit/credit cards.</li>
               <li>Late payments may incur a suspension of services after 14 days' written notice.</li>
             </ul>
@@ -66,21 +67,28 @@ export default function TermsPage() {
           <section>
             <h2 className="text-2xl font-display font-bold text-navy-dark mb-4">6. Intellectual Property</h2>
             <p className="text-slate-blue leading-relaxed">
-              After completion of the minimum six-month subscription term, you own the website design and content we create for you, fully transferable to any hosting provider with no lock-in. Before the six-month minimum, the website remains hosted and managed by us. We retain the right to display the work in our portfolio unless you request otherwise in writing. Third-party assets (stock images, fonts, plugins) remain subject to their respective licences.
+              For monthly packages, after completion of the minimum six-month subscription term, you own the website design and content we create for you, fully transferable to any hosting provider with no lock-in. Before the six-month minimum, the website remains hosted and managed by us. We retain the right to display the work in our portfolio unless you request otherwise in writing. Third-party assets (stock images, fonts, plugins) remain subject to their respective licences.
+            </p>
+            <p className="text-slate-blue leading-relaxed">
+              For one-off website builds, you own the website design and content we create for you once we have received your final payment.
             </p>
           </section>
 
           <section>
             <h2 className="text-2xl font-display font-bold text-navy-dark mb-4">7. Hosting and Maintenance</h2>
             <p className="text-slate-blue leading-relaxed">
-              All packages include hosting and SSL for the duration of your subscription. We perform routine maintenance, security updates, and platform upgrades as part of the monthly fee. We are not liable for downtime caused by third-party hosting infrastructure or force majeure events.
+              All monthly packages include hosting and SSL for the duration of your subscription. We perform routine maintenance, security updates, and platform upgrades as part of the monthly fee. We are not liable for downtime caused by third-party hosting infrastructure or force majeure events.
+            </p>
+            <p className="text-slate-blue leading-relaxed">
+              One-off builds do not include hosting, domain renewal, maintenance or updates after launch, unless agreed in writing.
             </p>
           </section>
 
           <section>
             <h2 className="text-2xl font-display font-bold text-navy-dark mb-4">8. Minimum Term and Cancellation</h2>
             <ul className="list-disc pl-6 space-y-2 text-slate-blue">
-              <li>All website packages have a minimum six-month subscription term from the date of launch.</li>
+              <li>All monthly website packages have a minimum six-month subscription term from the date of launch.</li>
+              <li>One-off builds have no minimum term.</li>
               <li>After the six-month minimum, you may cancel with 30 days' written notice at any time.</li>
               <li>Upon cancellation after the minimum term, ownership transfers to you and we provide all website files, domain, and assist with migration if requested.</li>
               <li>Cancellation during the first six months ends the service but ownership does not transfer; the site and domain remain with us.</li>

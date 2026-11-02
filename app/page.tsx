@@ -74,10 +74,10 @@ const pricingPackages = [
 
 const faqItems = [
   { question: 'What is web design for plumbers?', answer: 'Web design for plumbers is specialist website design built around the way UK plumbing customers actually search and convert. A proper plumber website is mobile-first, optimised for local Google searches like "boiler repair Manchester" and "emergency plumber near me", carries click-to-call on every page, displays Gas Safe credentials prominently, and integrates with Google Business Profile for Map Pack visibility. UK packages start from £79 per month including hosting, SSL, and local SEO.' },
-  { question: 'How much does a plumber website cost in the UK?', answer: 'Our plumber websites cost £79, £129, or £199 per month depending on the package. Each includes hosting, SSL, a free domain, and local SEO. No setup fees on website packages. One-off custom builds from other agencies typically cost £1,500–£5,000 with hosting and SEO billed separately on top.' },
+  { question: 'How much does a plumber website cost in the UK?', answer: 'Our monthly packages cost £79, £129 or £199 per month, including hosting, SSL, a free domain and local SEO, with no setup fees. Our one-off builds are £600 or £995, and you pay for your own hosting and domain. Custom builds from other agencies typically cost £1,500 to £5,000.' },
   { question: 'Do plumbers need a website in 2026?', answer: 'Yes. Over 70% of plumbing searches happen on mobile, and Google ranks businesses with a proper website above those relying on Google Business Profile alone. Without a website you cannot rank for service-specific searches like "boiler repair Manchester" or capture jobs worth over £3,000.' },
   { question: 'How long does it take to build a plumber website?', answer: 'One to two weeks from sign-off. That includes design, content, local SEO setup, Google Business Profile integration, and domain configuration. You review a staging site before we go live — nothing gets published until you approve it.' },
-  { question: 'Do I own the website?', answer: 'Yes, after a minimum six-month subscription you fully own the website and it is transferable to any host. We hand over all files, domain, and content. Before six months, the site remains hosted and managed by us to ensure we recoup build costs.' },
+  { question: 'Do I own the website?', answer: 'Yes, after a minimum six-month subscription you fully own the website and it is transferable to any host. We hand over all files, domain, and content. Before six months, the site remains hosted and managed by us to ensure we recoup build costs. On a one-off build, the site is yours once the final payment clears.' },
   { question: 'Is local SEO included in every package?', answer: 'Yes. Every package includes local SEO setup: on-page optimisation, schema markup, Google Business Profile integration, and citation building. The Journeyman and Master packages add ongoing GBP posting, review management, and for Master, monthly blog content and optional link building.' },
   { question: 'How long until my plumber website ranks on Google?', answer: 'Local rankings for specific neighbourhoods or towns typically take 3–6 months. Competitive city-wide terms like "plumber London" take 9–18 months. Smaller markets like Andover or Portsmouth rank faster due to lower competition. Ranking work is ongoing in Journeyman and Master packages.' },
   { question: 'Can I cancel my plumber website subscription?', answer: 'Yes. Give 30 days written notice after the minimum six-month term. We release all files, assist with migration, and transfer ownership. No long tie-ins after the six-month minimum. Cancelling within the first six months ends the service but ownership does not transfer.' },
@@ -440,11 +440,16 @@ export default function Home() {
             ))}
           </div>
           
-          <div className="mt-12 text-center">
+          <div className="mt-12 text-center space-y-4">
             <Link href="/plumber-website-design-packages/" className="inline-flex items-center gap-2 font-bold text-navy-dark hover:text-amber transition-colors">
-              See full package feature comparison 
+              See full package feature comparison
               <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
             </Link>
+            <p>
+              <Link href="/plumber-website-design-packages/#one-off-builds" className="text-slate-blue hover:text-amber transition-colors">
+                Prefer to pay once? One-off builds from £600 →
+              </Link>
+            </p>
           </div>
         </div>
       </section>

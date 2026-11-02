@@ -14,7 +14,8 @@
 - Specialisms: Plumber websites, gas engineer websites, heating engineer websites, bathroom fitter websites, local SEO for trades, AI chatbots, AI voice agents
 - Minimum term: 6 months from launch; ownership transfers to client after minimum term
 - Cancellation: 30 days written notice after the 6-month minimum
-- Setup fees: None on website packages; one-off setup fee on AI add-ons only
+- Setup fees: None on monthly website packages; one-off builds are a fixed price; one-off setup fee on AI add-ons only
+- One-off builds: Starter Build £600 (5 pages) or Core Build £995 (up to 8 pages), paid once, no minimum term; client pays own hosting and domain; ongoing SEO not included
 
 ## Pricing
 
@@ -24,7 +25,13 @@ Three transparent monthly packages (GBP, inclusive of hosting, SSL, and domain):
 - **Journeyman — £169/month (most popular).** 10-page custom website with service and location pages. Advanced local SEO. Hosting + SSL + domain included. Google Business Profile management with monthly posts. Google Review management.
 - **Master — £249/month.** 20+ page custom website. Advanced local SEO. Hosting + SSL + domain included. 2 monthly blog posts. Full Google Business Profile optimisation and monthly posting. Optional link building service.
 
-AI add-ons (combine with any package):
+One-off builds (pay once, own the site; you host it in your own account):
+
+- **Starter Build — £600 one-off.** 5-page WordPress website styled to your logo and colours. Mobile friendly. Gallery, contact form, click-to-call and WhatsApp. Basic local SEO setup. Google Search Console, Analytics and Business Profile guidance. Hosting setup and domain/email connection. One round of changes and full handover. Full ownership and admin access. Payment £300 to start, £300 on launch. Around 2 weeks.
+- **Core Build — £995 one-off.** Up to 8 pages. Bespoke WordPress design matched to your branding. Mobile friendly. Gallery, contact forms, click-to-call and WhatsApp. On-page local SEO foundation. Launch on your domain and email. Full ownership and admin access. Payment 50% to start, 50% on launch. Around 2 to 3 weeks.
+- Extras: extra page £125; town or service area page £125.
+
+AI add-ons (combine with any package or one-off build):
 
 - **AI Chatbot — from £49/month + £299 one-off setup.** 24/7 website chatbot that qualifies leads and captures contact details.
 - **AI Voice Agent — from £97/month + £497 one-off setup.** UK-voiced AI receptionist that answers inbound calls, qualifies jobs, and books appointments.
@@ -42,7 +49,7 @@ AI add-ons (combine with any package):
 - [Home](https://www.plumberwebdesign.co.uk/): Web design for plumbers from £99/month. Direct-answer explanation of plumber web design, packages overview, trade specialisms.
 - [Websites for Plumbers](https://www.plumberwebdesign.co.uk/websites-for-plumbers/): Specialist plumber website overview. Mobile-first, local-SEO-ready, Gas Safe credentials, postcode landing pages.
 - [Plumber Website Cost Guide](https://www.plumberwebdesign.co.uk/plumber-website-cost/): Complete UK pricing guide. Monthly packages vs one-off builds. Hidden costs to watch for. 24-month total cost comparison.
-- [Packages and Pricing](https://www.plumberwebdesign.co.uk/plumber-website-design-packages/): Apprentice £99, Journeyman £169, Master £249. Feature comparison table. AI add-on details.
+- [Packages and Pricing](https://www.plumberwebdesign.co.uk/plumber-website-design-packages/): Apprentice £99, Journeyman £169, Master £249. Feature comparison table. One-off builds (Starter £600, Core £995). AI add-on details.
 - [About the Agency](https://www.plumberwebdesign.co.uk/plumber-web-design-agency/): UK plumber web design agency. Specialist positioning, service stack, 4-step process, founder note.
 - [About Andrew Norman](https://www.plumberwebdesign.co.uk/about/andrew-norman/): Founder profile. Background, methodology, and editorial responsibility for blog content.
 - [Contact](https://www.plumberwebdesign.co.uk/contact/): Free quote form. Service area, package interest, AI add-on interest.
@@ -86,10 +93,10 @@ Each city page includes unique market analysis, postcode coverage, neighbourhood
 
 ## Common Questions (Quick Answers)
 
-- **How much does a plumber website cost in the UK?** £99–£249 per month on a managed plan, or £1,500–£5,000+ as a one-off custom build. Monthly plans include hosting, SSL, and local SEO; one-off builds typically do not.
+- **How much does a plumber website cost in the UK?** £99–£249 per month on a managed plan, or £600 (Starter Build) / £995 (Core Build) as a one-off build from us. Custom builds from other agencies are typically £1,500–£5,000+. Monthly plans include hosting, SSL, and local SEO; one-off builds do not.
 - **Do plumbers need a website in 2026?** Yes. Over 70% of plumbing searches happen on mobile. A Google Business Profile alone cannot rank for service-specific or location-specific queries.
 - **How long does it take to build?** 1–2 weeks from sign-off.
-- **Do I own the website?** Yes, after a minimum six-month subscription. Fully transferable with no lock-in after the minimum term.
+- **Do I own the website?** Yes, after a minimum six-month subscription on a monthly package. On a one-off build, the site is yours once the final payment clears.
 - **How long until I rank on Google?** 3–6 months for neighbourhood rankings, 9–18 months for competitive city-wide terms. Faster in smaller markets like Andover or Portsmouth.
 - **Is local SEO included?** Yes, in every package. Journeyman and Master add ongoing GBP management and content.
 - **Can I cancel?** Yes, with 30 days written notice after the six-month minimum.

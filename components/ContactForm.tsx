@@ -1,13 +1,19 @@
 'use client';
 
 import { useState } from 'react';
-import { useRouter } from 'next/navigation';
+import { useRouter, useSearchParams } from 'next/navigation';
 import TradeTypeField, { TRADE_OPTIONS } from '@/components/TradeTypeField';
+import { PACKAGE_LABELS } from '@/lib/pricing';
 
 const DEFAULT_WEBHOOK = 'https://antekauto.app.n8n.cloud/webhook-test/plumber-web';
 
 export default function ContactForm() {
   const router = useRouter();
+  const searchParams = useSearchParams();
+  // Only known slugs are accepted; anything else is treated as no package.
+  const packageParam = searchParams.get('package') ?? '';
+  const packageSlug = packageParam in PACKAGE_LABELS ? packageParam : '';
+  const packageLabel = packageSlug ? PACKAGE_LABELS[packageSlug] : '';
   const [status, setStatus] = useState<'idle' | 'loading' | 'error'>('idle');
   const [errorMessage, setErrorMessage] = useState('');
   const [tradeError, setTradeError] = useState('');
@@ -61,6 +67,8 @@ export default function ContactForm() {
           business_name: formData.businessName,
           phone: formData.phone,
           email: formData.email,
+          package: packageSlug || null,
+          package_label: packageLabel || null,
           source: typeof window !== 'undefined' ? window.location.href : '',
           referrer: typeof document !== 'undefined' ? document.referrer || null : null,
         }),
@@ -104,6 +112,12 @@ export default function ContactForm() {
       </div>
 
       <div className="space-y-6">
+        {packageLabel && (
+          <p className="text-sm font-medium text-navy-card bg-amber/10 border border-amber/30 rounded-lg px-4 py-3">
+            Package: <span className="font-bold">{packageLabel}</span>
+          </p>
+        )}
+
         <div>
           <label htmlFor="name" className="block text-sm font-medium text-navy-card mb-1">Name</label>
           <input required type="text" id="name" name="name" value={formData.name} onChange={handleChange} className="w-full px-4 py-3 rounded-lg border border-slate-blue/20 bg-light-gray focus:outline-none focus:ring-2 focus:ring-amber focus:border-transparent transition-all" />
