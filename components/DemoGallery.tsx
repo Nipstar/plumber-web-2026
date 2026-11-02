@@ -11,6 +11,12 @@ type Demo = {
 
 const DEMOS: Demo[] = [
   {
+    thumb: '/portfolio/weplumbit.webp',
+    heading: 'We Plumb It',
+    subhead: 'Live client site · Plumbing, bathrooms & heating · Cheltenham',
+    url: 'https://weplumbit.co.uk',
+  },
+  {
     thumb: '/portfolio/biomass.webp',
     heading: 'Heating & Biomass',
     subhead: 'Heat pump installer · MCS angle',
@@ -58,12 +64,8 @@ export default function DemoGallery() {
             See real plumber websites we&rsquo;ve built
           </h2>
           <p className="text-lg text-slate-blue mb-3">
-            Four working demos covering the trades we specialise in. Click any to explore &mdash; they&rsquo;re live, fast,
-            mobile-first.
-          </p>
-          <p className="text-sm text-slate-blue/70 italic">
-            These are demo builds we&rsquo;ve created to showcase the design system. Real client sites coming soon &mdash;
-            founding clients get featured here.
+            A live client site plus five working demos covering the trades we specialise in. Click any to explore
+            &mdash; they&rsquo;re live, fast, mobile-first.
           </p>
         </div>
 
@@ -94,7 +96,7 @@ export default function DemoGallery() {
                   <p className="text-sm text-slate-blue/70">{d.subhead}</p>
                 </div>
                 <span className="flex-shrink-0 inline-flex items-center gap-1 text-sm font-bold text-amber group-hover:gap-2 transition-all">
-                  View demo <span aria-hidden="true">→</span>
+                  {d.subhead.startsWith('Live') ? 'View site' : 'View demo'} <span aria-hidden="true">→</span>
                 </span>
               </div>
             </a>
